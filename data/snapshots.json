@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-19T17:18:44.277464+00:00",
-  "source": "Yahoo Finance via yfinance",
+  "generated_at": "2026-05-19T17:52:34.747965+00:00",
+  "source": "Yahoo Finance via yfinance + Finnhub",
   "disclaimer": "Educational snapshot only. Not financial advice.",
   "companies": [
     {
@@ -12,17 +12,17 @@
       "sector": "Technology",
       "industry": "Consumer Electronics",
       "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
-      "price": 298.58,
+      "price": 298.3099,
       "currency": "USD",
-      "market_cap": 4385350615040.0,
+      "market_cap": 4381238099968.0,
       "enterprise_value": 4390686031872.0,
       "dividend_yield": 0.36,
       "beta": 1.065,
-      "trailing_pe": 36.191513,
-      "forward_pe": 31.147182,
+      "trailing_pe": 36.157574,
+      "forward_pe": 31.117973,
       "peg_ratio": 2.59,
-      "price_to_sales": 9.714095,
-      "price_to_book": 41.12672,
+      "price_to_sales": 9.705308,
+      "price_to_book": 41.08815,
       "profit_margin": 27.15,
       "operating_margin": 32.27,
       "gross_margin": 47.86,
@@ -35,10 +35,10 @@
       "analyst_target_mean": 308.06512,
       "number_of_analyst_opinions": 43,
       "performance": {
-        "one_month": 10.59,
-        "six_months": 9.81,
-        "one_year": 41.89,
-        "five_years": 145.66
+        "one_month": 10.49,
+        "six_months": 9.71,
+        "one_year": 41.76,
+        "five_years": 145.43
       },
       "chart_points": [
         {
@@ -341,6 +341,22 @@
           "revenue_growth": null
         }
       ],
+      "sentiment": {
+        "available": false,
+        "score": null,
+        "label": "Unavailable",
+        "bullish_percent": null,
+        "bearish_percent": null,
+        "articles_last_week": null,
+        "source": "Finnhub",
+        "delta": null,
+        "history": []
+      },
+      "latest_news": [],
+      "earnings": {
+        "available": false,
+        "source": "Finnhub"
+      },
       "rating": "Buy",
       "score": 87,
       "rating_reasons": [
@@ -359,17 +375,17 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "summary": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics products and cloud services, such as dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services comprising Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; server products, including SQL and windows server, visual studio and system center related client access licenses, and other on-premises offerings; enterprise and partner services, such as enterprise support and nuance professional services, industry solutions, Microsoft partner network, and learning experience. The Personal Computing segment provides windows and devices, such as Windows OEM licensing and devices and surface and PC accessories; gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox game pass, subscriptions, and cloud gaming, advertising, and other cloud services; search and news advertising services that includes Bing and Copilot, Microsoft News and Edge, and third-party affiliates. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.",
-      "price": 417.51,
+      "price": 418.97,
       "currency": "USD",
-      "market_cap": 3101445849088.0,
+      "market_cap": 3112291270656.0,
       "enterprise_value": 3193443188736.0,
       "dividend_yield": 0.86,
       "beta": 1.093,
-      "trailing_pe": 24.896244,
-      "forward_pe": 21.55332,
+      "trailing_pe": 24.983303,
+      "forward_pe": 21.628689,
       "peg_ratio": 1.31,
-      "price_to_sales": 9.744609,
-      "price_to_book": 7.4853435,
+      "price_to_sales": 9.778685,
+      "price_to_book": 7.511519,
       "profit_margin": 39.34,
       "operating_margin": 46.33,
       "gross_margin": 68.31,
@@ -382,10 +398,10 @@
       "analyst_target_mean": 560.6302,
       "number_of_analyst_opinions": 54,
       "performance": {
-        "one_month": -1.25,
-        "six_months": -17.82,
-        "one_year": -7.56,
-        "five_years": 78.56
+        "one_month": -0.9,
+        "six_months": -17.54,
+        "one_year": -7.23,
+        "five_years": 79.18
       },
       "chart_points": [
         {
@@ -679,6 +695,22 @@
           "revenue_growth": null
         }
       ],
+      "sentiment": {
+        "available": false,
+        "score": null,
+        "label": "Unavailable",
+        "bullish_percent": null,
+        "bearish_percent": null,
+        "articles_last_week": null,
+        "source": "Finnhub",
+        "delta": null,
+        "history": []
+      },
+      "latest_news": [],
+      "earnings": {
+        "available": false,
+        "source": "Finnhub"
+      },
       "rating": "Buy",
       "score": 100,
       "rating_reasons": [
@@ -697,17 +729,17 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. The company sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants worldwide. It has a collaboration with Tech Mahindra Limited to develop artificial intelligence powered telco network operations reasoning agent. The company has a strategic partnership with Lumentum Holdings Inc. to develop optics technologies for AI and data centers. It also has a strategic partnership with Nebius Group N.V. to develop and deploy hyperscale cloud for the artificial intelligence market; and has a strategic partnership with IREN Limited to accelerate deployment of up to 5 gigawatts of infrastructure. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-      "price": 224.157,
+      "price": 222.7,
       "currency": "USD",
-      "market_cap": 5429199896576.0,
+      "market_cap": 5394637258752.0,
       "enterprise_value": 5351231979520.0,
       "dividend_yield": 0.02,
       "beta": 2.244,
-      "trailing_pe": 45.839878,
-      "forward_pe": 19.280348,
+      "trailing_pe": 45.548058,
+      "forward_pe": 19.157608,
       "peg_ratio": 0.71,
-      "price_to_sales": 25.1424,
-      "price_to_book": 34.634888,
+      "price_to_sales": 24.978977,
+      "price_to_book": 34.4144,
       "profit_margin": 55.6,
       "operating_margin": 65.02,
       "gross_margin": 71.07,
@@ -720,10 +752,10 @@
       "analyst_target_mean": 275.3058,
       "number_of_analyst_opinions": 57,
       "performance": {
-        "one_month": 11.14,
-        "six_months": 17.88,
-        "one_year": 65.59,
-        "five_years": 1497.65
+        "one_month": 10.44,
+        "six_months": 17.13,
+        "one_year": 64.54,
+        "five_years": 1487.48
       },
       "chart_points": [
         {
@@ -1026,6 +1058,22 @@
           "revenue_growth": null
         }
       ],
+      "sentiment": {
+        "available": false,
+        "score": null,
+        "label": "Unavailable",
+        "bullish_percent": null,
+        "bearish_percent": null,
+        "articles_last_week": null,
+        "source": "Finnhub",
+        "delta": null,
+        "history": []
+      },
+      "latest_news": [],
+      "earnings": {
+        "available": false,
+        "source": "Finnhub"
+      },
       "rating": "Buy",
       "score": 100,
       "rating_reasons": [

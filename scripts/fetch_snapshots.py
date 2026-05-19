@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import json
 import math
-from datetime import datetime, timezone
+import os
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+import requests
 import yfinance as yf
 
 
@@ -28,6 +30,8 @@ COMPANIES = {
 }
 TICKERS = list(COMPANIES)
 OUT = Path(__file__).resolve().parents[1] / "data" / "snapshots.json"
+SENTIMENT_HISTORY_OUT = Path(__file__).resolve().parents[1] / "data" / "sentiment_history.json"
+FINNHUB_API_KEY = os.environ.get("FINNHUB_API_KEY", "").strip()
 
 
 def safe_float(value: Any) -> float | None:
@@ -52,6 +56,171 @@ def fmt_yield(value: float | None) -> float | None:
     if value is None:
         return None
     return round(value, 2)
+
+
+def finnhub_get(path: str, params: dict[str, Any]) -> dict[str, Any] | list[Any] | None:
+    if not FINNHUB_API_KEY:
+        return None
+
+    url = f"https://finnhub.io/api/v1/{path.lstrip('/')}"
+    try:
+        response = requests.get(
+            url,
+            params={**params, "token": FINNHUB_API_KEY},
+            timeout=15,
+        )
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as error:
+        print(f"Finnhub request failed for {path}: {error}")
+        return None
+
+
+def sentiment_label(score: float | None) -> str:
+    if score is None:
+        return "Unavailable"
+    if score >= 0.25:
+        return "Positive"
+    if score <= -0.25:
+        return "Negative"
+    return "Neutral"
+
+
+def fetch_finnhub_sentiment(ticker: str) -> dict[str, Any]:
+    payload = finnhub_get("news-sentiment", {"symbol": ticker})
+    if not isinstance(payload, dict):
+        return {
+            "available": False,
+            "score": None,
+            "label": "Unavailable",
+            "bullish_percent": None,
+            "bearish_percent": None,
+            "articles_last_week": None,
+            "source": "Finnhub",
+        }
+
+    bullish = safe_float(payload.get("bullishPercent"))
+    bearish = safe_float(payload.get("bearishPercent"))
+    company_score = safe_float(payload.get("companyNewsScore"))
+    if bullish is not None and bearish is not None:
+        score = bullish - bearish
+    else:
+        score = company_score
+        if score is not None and score > 1:
+            score = score / 100
+
+    if score is not None:
+        score = max(-1, min(1, score))
+
+    buzz = payload.get("buzz") if isinstance(payload.get("buzz"), dict) else {}
+    articles_last_week = safe_float(buzz.get("articlesInLastWeek"))
+
+    return {
+        "available": score is not None,
+        "score": round(score, 3) if score is not None else None,
+        "label": sentiment_label(score),
+        "bullish_percent": round(bullish * 100, 1) if bullish is not None else None,
+        "bearish_percent": round(bearish * 100, 1) if bearish is not None else None,
+        "articles_last_week": int(articles_last_week) if articles_last_week is not None else None,
+        "source": "Finnhub",
+    }
+
+
+def fetch_company_news(ticker: str) -> list[dict[str, Any]]:
+    today = date.today()
+    payload = finnhub_get(
+        "company-news",
+        {
+            "symbol": ticker,
+            "from": (today - timedelta(days=14)).isoformat(),
+            "to": today.isoformat(),
+        },
+    )
+    if not isinstance(payload, list):
+        return []
+
+    news = []
+    for item in payload[:5]:
+        if not isinstance(item, dict):
+            continue
+        timestamp = safe_float(item.get("datetime"))
+        published_at = datetime.fromtimestamp(timestamp, timezone.utc).isoformat() if timestamp else None
+        news.append(
+            {
+                "headline": item.get("headline"),
+                "source": item.get("source"),
+                "url": item.get("url"),
+                "published_at": published_at,
+                "summary": item.get("summary"),
+            }
+        )
+    return news
+
+
+def fetch_earnings(ticker: str) -> dict[str, Any]:
+    today = date.today()
+    payload = finnhub_get(
+        "calendar/earnings",
+        {
+            "symbol": ticker,
+            "from": today.isoformat(),
+            "to": (today + timedelta(days=180)).isoformat(),
+        },
+    )
+    rows = payload.get("earningsCalendar") if isinstance(payload, dict) else None
+    if not rows:
+        return {"available": False, "source": "Finnhub"}
+
+    upcoming = sorted(rows, key=lambda row: row.get("date") or "")[0]
+    return {
+        "available": True,
+        "source": "Finnhub",
+        "date": upcoming.get("date"),
+        "hour": upcoming.get("hour"),
+        "quarter": upcoming.get("quarter"),
+        "year": upcoming.get("year"),
+        "eps_estimate": safe_float(upcoming.get("epsEstimate")),
+        "eps_actual": safe_float(upcoming.get("epsActual")),
+        "revenue_estimate": safe_float(upcoming.get("revenueEstimate")),
+        "revenue_actual": safe_float(upcoming.get("revenueActual")),
+    }
+
+
+def load_sentiment_history() -> dict[str, Any]:
+    if not SENTIMENT_HISTORY_OUT.exists():
+        return {"history": {}}
+    try:
+        return json.loads(SENTIMENT_HISTORY_OUT.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {"history": {}}
+
+
+def update_sentiment_history(history_doc: dict[str, Any], timestamp: str, ticker: str, sentiment: dict[str, Any]) -> list[dict[str, Any]]:
+    history = history_doc.setdefault("history", {})
+    rows = history.setdefault(ticker, [])
+    if sentiment.get("available"):
+        rows.append(
+            {
+                "timestamp": timestamp,
+                "score": sentiment.get("score"),
+                "label": sentiment.get("label"),
+                "bullish_percent": sentiment.get("bullish_percent"),
+                "bearish_percent": sentiment.get("bearish_percent"),
+                "articles_last_week": sentiment.get("articles_last_week"),
+            }
+        )
+    history[ticker] = rows[-90:]
+    return history[ticker][-30:]
+
+
+def sentiment_delta(rows: list[dict[str, Any]]) -> float | None:
+    if len(rows) < 2:
+        return None
+    current = safe_float(rows[-1].get("score"))
+    previous = safe_float(rows[-2].get("score"))
+    if current is None or previous is None:
+        return None
+    return round(current - previous, 3)
 
 
 def get_return(history, start_index: int, end_index: int = -1) -> float | None:
@@ -133,7 +302,7 @@ def valuation_history(stock: yf.Ticker, history) -> list[dict[str, float | int |
     return list(reversed(rows))
 
 
-def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -> tuple[str, int, list[str]]:
+def score_snapshot(info: dict[str, Any], performance: dict[str, float | None], sentiment: dict[str, Any]) -> tuple[str, int, list[str]]:
     score = 50
     reasons: list[str] = []
 
@@ -211,6 +380,21 @@ def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -
             score -= 8
             reasons.append("analyst target below current price")
 
+    sentiment_score = safe_float(sentiment.get("score"))
+    if sentiment_score is not None:
+        if sentiment_score >= 0.3:
+            score += 8
+            reasons.append("strong positive news sentiment")
+        elif sentiment_score >= 0.1:
+            score += 4
+            reasons.append("mild positive news sentiment")
+        elif sentiment_score <= -0.3:
+            score -= 8
+            reasons.append("strong negative news sentiment")
+        elif sentiment_score <= -0.1:
+            score -= 4
+            reasons.append("mild negative news sentiment")
+
     score = max(0, min(100, score))
     if score >= 68:
         rating = "Buy"
@@ -222,7 +406,7 @@ def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -
     return rating, score, reasons[:4]
 
 
-def snapshot(ticker: str) -> dict[str, Any]:
+def snapshot(ticker: str, history_doc: dict[str, Any], generated_at: str) -> dict[str, Any]:
     stock = yf.Ticker(ticker)
     info = stock.info
     hist = stock.history(period="5y", auto_adjust=True)
@@ -235,7 +419,15 @@ def snapshot(ticker: str) -> dict[str, Any]:
         "five_years": get_return(hist, 0) if len(hist) >= 2 else None,
     }
 
-    rating, score, reasons = score_snapshot(info, performance)
+    sentiment = fetch_finnhub_sentiment(ticker)
+    sentiment_history_rows = update_sentiment_history(history_doc, generated_at, ticker, sentiment)
+    sentiment["delta"] = sentiment_delta(sentiment_history_rows)
+    sentiment["history"] = sentiment_history_rows
+
+    latest_news = fetch_company_news(ticker)
+    earnings = fetch_earnings(ticker)
+
+    rating, score, reasons = score_snapshot(info, performance, sentiment)
 
     return {
         "ticker": ticker,
@@ -271,6 +463,9 @@ def snapshot(ticker: str) -> dict[str, Any]:
         "performance": {key: fmt_percent(value) for key, value in performance.items()},
         "chart_points": chart_points(hist),
         "valuation_history": valuation_history(stock, hist),
+        "sentiment": sentiment,
+        "latest_news": latest_news,
+        "earnings": earnings,
         "rating": rating,
         "score": score,
         "rating_reasons": reasons,
@@ -278,14 +473,20 @@ def snapshot(ticker: str) -> dict[str, Any]:
 
 
 def main() -> None:
+    generated_at = datetime.now(timezone.utc).isoformat()
+    sentiment_history_doc = load_sentiment_history()
     data = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "Yahoo Finance via yfinance",
+        "generated_at": generated_at,
+        "source": "Yahoo Finance via yfinance + Finnhub",
         "disclaimer": "Educational snapshot only. Not financial advice.",
-        "companies": [snapshot(ticker) for ticker in TICKERS],
+        "companies": [snapshot(ticker, sentiment_history_doc, generated_at) for ticker in TICKERS],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False, allow_nan=False), encoding="utf-8")
+    SENTIMENT_HISTORY_OUT.write_text(
+        json.dumps({"updated_at": generated_at, "history": sentiment_history_doc.get("history", {})}, indent=2, ensure_ascii=False, allow_nan=False),
+        encoding="utf-8",
+    )
     print(f"Wrote {OUT}")
 
 

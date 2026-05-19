@@ -42,6 +42,7 @@ const helpText = {
     "Valuation: 20 pts",
     "Financial strength: 15 pts",
     "Momentum + analysts: 15 pts",
+    "News sentiment overlay: +/-8 pts",
     "Reading:",
     "80+ very attractive",
     "65-79 Buy",
@@ -63,6 +64,9 @@ const helpText = {
   eps: "EPS: earnings per share. Growth in EPS means the company earns more per share, often from growth or buybacks.",
   revenue: "Revenue: annual sales. Revenue growth shows business expansion, but does not by itself prove profitability.",
   quickRead: "Short explanation of the factors that influenced the score: growth, profitability, valuation, momentum or analyst targets depending on available data.",
+  sentiment: "News sentiment comes from Finnhub when FINNHUB_API_KEY is configured. It can add up to +8 points or subtract up to -8 points from the score.",
+  earnings: "Next earnings announcement from Finnhub. EPS estimate is expected earnings per share; revenue estimate is expected sales for the quarter.",
+  news: "Latest company news from Finnhub. Use it to understand what may have moved sentiment since the previous refresh.",
 };
 
 function help(key) {
@@ -198,6 +202,48 @@ function logo(company) {
   `;
 }
 
+function sentimentTone(sentiment) {
+  if (!sentiment?.available) return "neutral";
+  if (sentiment.score >= 0.25) return "positive";
+  if (sentiment.score <= -0.25) return "negative";
+  return "neutral";
+}
+
+function sentimentDelta(sentiment) {
+  if (!sentiment || sentiment.delta === null || sentiment.delta === undefined) return "no prior refresh";
+  const sign = Number(sentiment.delta) > 0 ? "+" : "";
+  return `${sign}${Number(sentiment.delta).toFixed(3)} since last refresh`;
+}
+
+function formatDate(value) {
+  if (!value) return "n/a";
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return value;
+  return parsed.toLocaleDateString("en-US", { month: "short", day: "2-digit", year: "numeric" });
+}
+
+function newsRows(news) {
+  if (!news?.length) return "<li>No recent Finnhub news available.</li>";
+  return news.slice(0, 3).map((item) => `
+    <li>
+      <a href="${escapeHtml(item.url || "#")}" target="_blank" rel="noreferrer">${escapeHtml(item.headline || "Untitled news")}</a>
+      <span>${escapeHtml(item.source || "Source n/a")} / ${formatDate(item.published_at)}</span>
+    </li>
+  `).join("");
+}
+
+function earningsText(earnings, currency) {
+  if (!earnings?.available) return "No upcoming earnings date available.";
+  const quarter = earnings.quarter && earnings.year ? `Q${earnings.quarter} ${earnings.year}` : "Next report";
+  const hour = earnings.hour ? ` / ${earnings.hour}` : "";
+  return `
+    <strong>${quarter}</strong>
+    <span>${formatDate(earnings.date)}${hour}</span>
+    <span>EPS est.: ${number(earnings.eps_estimate)}</span>
+    <span>Revenue est.: ${large(earnings.revenue_estimate, currency)}</span>
+  `;
+}
+
 function valuationRows(company) {
   return [...(company.valuation_history || [])]
     .sort((a, b) => b.year - a.year)
@@ -241,9 +287,26 @@ function companyTemplate(company) {
         <div><span>Price ${help("price")}</span><strong>${number(company.price)} ${company.currency || ""}</strong></div>
         <div><span>Market cap ${help("marketCap")}</span><strong>${large(company.market_cap, company.currency)}</strong></div>
         <div><span>Forward P/E ${help("forwardPe")}</span><strong>${number(company.forward_pe)}x</strong></div>
-        <div><span>Net margin ${help("margin")}</span><strong>${number(company.profit_margin, "%")}</strong></div>
+        <div><span>Sentiment ${help("sentiment")}</span><strong class="${sentimentTone(company.sentiment)}">${company.sentiment?.available ? `${company.sentiment.label} ${number(company.sentiment.score)}` : "Unavailable"}</strong></div>
         <div><span>1Y return ${help("oneYear")}</span><strong class="${Number(company.performance.one_year) >= 0 ? "positive" : "negative"}">${percent(company.performance.one_year)}</strong></div>
       </section>
+
+      <div class="event-grid">
+        <section class="event-panel">
+          <h3>News sentiment ${help("sentiment")}</h3>
+          <p class="event-score ${sentimentTone(company.sentiment)}">${company.sentiment?.available ? company.sentiment.label : "Unavailable"}</p>
+          <p>${company.sentiment?.available ? `Score ${number(company.sentiment.score)} / Bullish ${number(company.sentiment.bullish_percent, "%")} / Bearish ${number(company.sentiment.bearish_percent, "%")}` : "Add FINNHUB_API_KEY to GitHub Secrets to enable this."}</p>
+          <p>${sentimentDelta(company.sentiment)}</p>
+        </section>
+        <section class="event-panel">
+          <h3>Next earnings ${help("earnings")}</h3>
+          <p>${earningsText(company.earnings, company.currency)}</p>
+        </section>
+        <section class="event-panel news-panel">
+          <h3>Latest news ${help("news")}</h3>
+          <ul>${newsRows(company.latest_news)}</ul>
+        </section>
+      </div>
 
       <div class="snapshot-grid">
         <section class="chart-panel">
