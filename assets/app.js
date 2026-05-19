@@ -32,6 +32,33 @@ const escapeHtml = (value) => String(value ?? "")
 
 let latestCompanies = [];
 
+const helpText = {
+  score: "Score maison sur 100. Il part de 50 puis ajoute ou retire des points selon croissance, marges, dette, valorisation, momentum et objectif analystes. 68+ = Acheter, 45-67 = Garder, sous 45 = Eviter.",
+  price: "Dernier cours de l'action fourni par Yahoo Finance. Il sert aussi a comparer le prix actuel avec les objectifs analystes et certaines valorisations.",
+  marketCap: "Capitalisation boursiere: prix de l'action multiplie par le nombre d'actions. C'est la taille de marche de l'entreprise.",
+  forwardPe: "Forward P/E: prix actuel divise par le benefice attendu par action. Plus il est haut, plus le marche paie cher la croissance future.",
+  margin: "Marge nette: part du chiffre d'affaires qui reste en benefice apres les couts, impots et charges. Une marge haute indique souvent un business plus rentable.",
+  oneYear: "Performance du cours sur un an. C'est un indicateur de momentum, pas une preuve que la tendance va continuer.",
+  priceChart: "Evolution du cours sur environ un an. Le graphique montre la direction et la volatilite, pas la valeur intrinseque.",
+  peChart: "P/E annuel: prix de fin d'annee divise par EPS annuel. Il aide a voir si le marche paie l'entreprise plus ou moins cher au fil du temps.",
+  psChart: "Price/Sales annuel: capitalisation approximee divisee par revenus. Utile quand les profits varient beaucoup, mais il ignore les marges.",
+  table: "Table historique de valorisation. Compare P/E, P/S, EPS et revenus par an pour voir si le prix evolue avec les fondamentaux.",
+  pe: "P/E: prix divise par benefice par action. Un P/E bas peut etre attractif ou signaler un risque; un P/E haut suppose souvent une forte croissance.",
+  ps: "P/S: prix compare aux ventes. A comparer surtout entre entreprises du meme secteur, car les marges changent beaucoup d'un secteur a l'autre.",
+  eps: "EPS: benefice par action. Sa progression indique que l'entreprise gagne plus par action, souvent grace a la croissance ou aux rachats d'actions.",
+  revenue: "Revenus: chiffre d'affaires annuel. La croissance des revenus montre l'expansion commerciale, mais ne dit pas seule si l'entreprise est rentable.",
+  quickRead: "Lecture courte des facteurs qui ont influence le score: croissance, rentabilite, valorisation, momentum ou objectif analystes selon les donnees disponibles.",
+};
+
+function help(key) {
+  return `
+    <button class="help" type="button" aria-label="${escapeHtml(helpText[key])}" title="${escapeHtml(helpText[key])}">
+      ?
+      <span role="tooltip">${escapeHtml(helpText[key])}</span>
+    </button>
+  `;
+}
+
 function drawLineChart(canvas, points, key, color) {
   const ctx = canvas.getContext("2d");
   const ratio = window.devicePixelRatio || 1;
@@ -138,45 +165,45 @@ function companyTemplate(company) {
         <div class="actions">
           <button class="small-btn" type="button" data-print="${company.ticker}">PDF A4</button>
           <div class="rating ${ratingClass(company.rating)}">
-            <span>${company.rating}</span>
+            <span>${company.rating} ${help("score")}</span>
             <strong>${company.score}/100</strong>
           </div>
         </div>
       </div>
 
       <section class="summary-strip">
-        <div><span>Cours</span><strong>${number(company.price)} ${company.currency || ""}</strong></div>
-        <div><span>Cap.</span><strong>${large(company.market_cap, company.currency)}</strong></div>
-        <div><span>P/E fwd</span><strong>${number(company.forward_pe)}x</strong></div>
-        <div><span>Marge nette</span><strong>${number(company.profit_margin, "%")}</strong></div>
-        <div><span>1 an</span><strong class="${Number(company.performance.one_year) >= 0 ? "positive" : "negative"}">${percent(company.performance.one_year)}</strong></div>
+        <div><span>Cours ${help("price")}</span><strong>${number(company.price)} ${company.currency || ""}</strong></div>
+        <div><span>Cap. ${help("marketCap")}</span><strong>${large(company.market_cap, company.currency)}</strong></div>
+        <div><span>P/E fwd ${help("forwardPe")}</span><strong>${number(company.forward_pe)}x</strong></div>
+        <div><span>Marge nette ${help("margin")}</span><strong>${number(company.profit_margin, "%")}</strong></div>
+        <div><span>1 an ${help("oneYear")}</span><strong class="${Number(company.performance.one_year) >= 0 ? "positive" : "negative"}">${percent(company.performance.one_year)}</strong></div>
       </section>
 
       <div class="snapshot-grid">
         <section class="chart-panel">
-          <h3>Prix 1 an</h3>
+          <h3>Prix 1 an ${help("priceChart")}</h3>
           <canvas class="price-chart" data-chart="${company.ticker}"></canvas>
         </section>
         <section class="chart-panel">
-          <h3>P/E par an</h3>
+          <h3>P/E par an ${help("peChart")}</h3>
           <canvas class="pe-chart" data-pe="${company.ticker}"></canvas>
         </section>
         <section class="chart-panel">
-          <h3>Price / Sales par an</h3>
+          <h3>Price / Sales par an ${help("psChart")}</h3>
           <canvas class="ps-chart" data-ps="${company.ticker}"></canvas>
         </section>
       </div>
 
       <section class="table-section">
-        <h3>Table ${company.ticker}</h3>
+        <h3>Table ${company.ticker} ${help("table")}</h3>
         <table>
           <thead>
             <tr>
               <th>Annee</th>
-              <th>P/E</th>
-              <th>P/S</th>
-              <th>EPS</th>
-              <th>Revenus</th>
+              <th>P/E ${help("pe")}</th>
+              <th>P/S ${help("ps")}</th>
+              <th>EPS ${help("eps")}</th>
+              <th>Revenus ${help("revenue")}</th>
             </tr>
           </thead>
           <tbody>${valuationRows(company)}</tbody>
@@ -184,7 +211,7 @@ function companyTemplate(company) {
       </section>
 
       <section class="takeaway">
-        <h3>Lecture rapide</h3>
+        <h3>Lecture rapide ${help("quickRead")}</h3>
         <ul>${reasons}</ul>
       </section>
     </article>
