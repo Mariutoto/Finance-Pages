@@ -261,6 +261,37 @@ canvas {
   height: 150px;
 }
 
+.chart-tooltip {
+  position: fixed;
+  z-index: 20;
+  display: none;
+  min-width: 118px;
+  padding: 8px 10px;
+  transform: translate(-50%, calc(-100% - 12px));
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #111827;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.25;
+  pointer-events: none;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.2);
+}
+
+.chart-tooltip.visible {
+  display: block;
+}
+
+.chart-tooltip strong,
+.chart-tooltip span {
+  display: block;
+}
+
+.chart-tooltip span {
+  margin-top: 3px;
+  color: #d7e2ee;
+}
+
 .table-section {
   margin-top: 8px;
 }
@@ -425,6 +456,7 @@ footer {
   .topbar,
   .overview,
   .help,
+  .chart-tooltip,
   .small-btn,
   footer {
     display: none;

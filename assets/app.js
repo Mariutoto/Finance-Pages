@@ -31,6 +31,7 @@ const escapeHtml = (value) => String(value ?? "")
   .replaceAll("'", "&#039;");
 
 let latestCompanies = [];
+let chartTooltip;
 
 const helpText = {
   score: "Score maison sur 100. Pondération cible: croissance 25 pts, rentabilité 25 pts, valorisation 20 pts, solidité financière 15 pts, momentum et analystes 15 pts. Lecture: 80+ très attractif, 65-79 Acheter, 50-64 Garder, 35-49 Prudence, sous 35 Eviter.",
@@ -59,6 +60,50 @@ function help(key) {
   `;
 }
 
+function validPoints(points, key) {
+  return (points || [])
+    .map((point) => ({ ...point, value: Number(point[key]) }))
+    .filter((point) => Number.isFinite(point.value));
+}
+
+function getChartTooltip() {
+  if (!chartTooltip) {
+    chartTooltip = document.createElement("div");
+    chartTooltip.className = "chart-tooltip";
+    document.body.appendChild(chartTooltip);
+  }
+  return chartTooltip;
+}
+
+function formatDateLabel(dateText) {
+  if (!dateText) return "";
+  const date = new Date(dateText);
+  if (Number.isNaN(date.getTime())) return String(dateText);
+  return date.toLocaleDateString("fr-CH", { day: "2-digit", month: "2-digit", year: "numeric" });
+}
+
+function attachChartTooltip(canvas, points, key, label, formatter) {
+  const plotted = validPoints(points, key);
+  if (!plotted.length) return;
+
+  canvas.onmousemove = (event) => {
+    const rect = canvas.getBoundingClientRect();
+    const relativeX = Math.min(Math.max(event.clientX - rect.left, 0), rect.width);
+    const index = Math.round((relativeX / Math.max(1, rect.width)) * (plotted.length - 1));
+    const point = plotted[Math.min(Math.max(index, 0), plotted.length - 1)];
+    const dateOrYear = point.year || formatDateLabel(point.date);
+    const tooltip = getChartTooltip();
+    tooltip.innerHTML = `<strong>${escapeHtml(String(dateOrYear))}</strong><span>${escapeHtml(label)}: ${escapeHtml(formatter(point.value))}</span>`;
+    tooltip.style.left = `${event.clientX}px`;
+    tooltip.style.top = `${event.clientY}px`;
+    tooltip.classList.add("visible");
+  };
+
+  canvas.onmouseleave = () => {
+    getChartTooltip().classList.remove("visible");
+  };
+}
+
 function drawLineChart(canvas, points, key, color) {
   const ctx = canvas.getContext("2d");
   const ratio = window.devicePixelRatio || 1;
@@ -68,7 +113,7 @@ function drawLineChart(canvas, points, key, color) {
   canvas.height = height;
   ctx.clearRect(0, 0, width, height);
 
-  const values = (points || []).map((point) => Number(point[key])).filter(Number.isFinite);
+  const values = validPoints(points, key).map((point) => point.value);
   if (values.length < 2) return;
 
   const min = Math.min(...values);
@@ -109,7 +154,7 @@ function drawBarChart(canvas, points) {
   canvas.height = height;
   ctx.clearRect(0, 0, width, height);
 
-  const values = (points || []).map((point) => Number(point.price_to_sales)).filter(Number.isFinite);
+  const values = validPoints(points, "price_to_sales").map((point) => point.value);
   if (!values.length) return;
 
   const max = Math.max(...values, 1);
@@ -223,9 +268,18 @@ function drawCharts(companies) {
     const price = document.querySelector(`[data-chart="${company.ticker}"]`);
     const pe = document.querySelector(`[data-pe="${company.ticker}"]`);
     const ps = document.querySelector(`[data-ps="${company.ticker}"]`);
-    if (price) drawLineChart(price, company.chart_points, "close", company.brand_color || "#245c9c");
-    if (pe) drawLineChart(pe, company.valuation_history, "pe", "#13795b");
-    if (ps) drawBarChart(ps, company.valuation_history);
+    if (price) {
+      drawLineChart(price, company.chart_points, "close", company.brand_color || "#245c9c");
+      attachChartTooltip(price, company.chart_points, "close", "Cours", (value) => `${number(value)} ${company.currency || ""}`.trim());
+    }
+    if (pe) {
+      drawLineChart(pe, company.valuation_history, "pe", "#13795b");
+      attachChartTooltip(pe, company.valuation_history, "pe", "P/E", (value) => `${number(value)}x`);
+    }
+    if (ps) {
+      drawBarChart(ps, company.valuation_history);
+      attachChartTooltip(ps, company.valuation_history, "price_to_sales", "P/S", (value) => `${number(value)}x`);
+    }
   });
 }
 
