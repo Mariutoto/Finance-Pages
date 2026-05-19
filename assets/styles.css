@@ -1,0 +1,296 @@
+:root {
+  color-scheme: light;
+  --ink: #17202a;
+  --muted: #647184;
+  --line: #d9e1ea;
+  --panel: #ffffff;
+  --soft: #f3f7fb;
+  --green: #13795b;
+  --amber: #9a6700;
+  --red: #b42318;
+  --blue: #245c9c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--soft);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.45;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px clamp(18px, 4vw, 56px);
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow,
+.ticker,
+.label {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: clamp(30px, 5vw, 54px);
+  line-height: 1;
+}
+
+h2 {
+  margin-bottom: 6px;
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 1.1;
+}
+
+h3 {
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+button {
+  min-width: 72px;
+  height: 42px;
+  border: 1px solid var(--ink);
+  border-radius: 6px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+main {
+  width: min(1180px, calc(100% - 32px));
+  margin: 28px auto 42px;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-bottom: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.overview > div {
+  min-height: 82px;
+  padding: 18px;
+  background: #fff;
+}
+
+.overview strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.companies {
+  display: grid;
+  gap: 22px;
+}
+
+.company {
+  padding: clamp(18px, 3vw, 30px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.company-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.meta,
+.price-line span,
+.takeaway p,
+footer {
+  color: var(--muted);
+}
+
+.rating {
+  min-width: 118px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.rating span,
+.rating strong {
+  display: block;
+}
+
+.rating span {
+  font-weight: 800;
+}
+
+.rating strong {
+  margin-top: 3px;
+  font-size: 22px;
+}
+
+.rating.buy {
+  background: #e6f4ef;
+  color: var(--green);
+}
+
+.rating.hold {
+  background: #fff3d7;
+  color: var(--amber);
+}
+
+.rating.avoid {
+  background: #fee4e2;
+  color: var(--red);
+}
+
+.price-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 18px 0 20px;
+}
+
+.price-line strong {
+  font-size: 26px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.metrics,
+.perf-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.metric,
+.perf {
+  min-height: 64px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfdff;
+}
+
+.metric span,
+.perf span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.metric strong,
+.perf strong {
+  display: block;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.positive {
+  color: var(--green);
+}
+
+.negative {
+  color: var(--red);
+}
+
+.performance,
+.takeaway {
+  margin-top: 22px;
+}
+
+.takeaway ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 20px;
+  margin: 0 0 14px;
+  padding-left: 18px;
+}
+
+.error {
+  padding: 20px;
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--red);
+}
+
+footer {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto 36px;
+  font-size: 13px;
+}
+
+@media (max-width: 760px) {
+  .topbar,
+  .company-head,
+  .price-line {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .overview,
+  .grid,
+  .metrics,
+  .perf-grid,
+  .takeaway ul {
+    grid-template-columns: 1fr;
+  }
+
+  .rating {
+    width: 100%;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .topbar button,
+  footer {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .company {
+    break-inside: avoid;
+    margin-bottom: 14px;
+  }
+}

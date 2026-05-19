@@ -1,0 +1,27 @@
+# Finance Snapshots
+
+Static GitHub Pages dashboard that turns Yahoo Finance data into compact company snapshots with past performance, fundamentals, key metrics, and a simple valuation-style rating.
+
+The first version tracks:
+
+- Apple (`AAPL`)
+- Microsoft (`MSFT`)
+- NVIDIA (`NVDA`)
+
+## Local refresh
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python -m pip install -r requirements.txt
+.\.venv\Scripts\python scripts\fetch_snapshots.py
+```
+
+Then open `index.html` in a browser.
+
+## GitHub Pages
+
+Publish the repository with GitHub Pages using the `main` branch and the repository root as the Pages source. The included workflow refreshes `data/snapshots.json` every weekday and can also be run manually.
+
+## Notes
+
+This is an educational snapshot tool, not investment advice. The generated `rating` is a transparent heuristic based on growth, profitability, leverage, valuation, momentum, and analyst sentiment when available from Yahoo Finance.

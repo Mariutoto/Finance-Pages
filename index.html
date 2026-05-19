@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Finance Snapshots</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Yahoo Finance snapshots</p>
+        <h1>Finance Snapshots</h1>
+      </div>
+      <button id="printBtn" type="button" aria-label="Exporter en PDF">PDF</button>
+    </header>
+
+    <main>
+      <section class="overview" aria-label="Vue d'ensemble">
+        <div>
+          <span class="label">Source</span>
+          <strong id="source">Yahoo Finance</strong>
+        </div>
+        <div>
+          <span class="label">Derniere mise a jour</span>
+          <strong id="updated">Chargement...</strong>
+        </div>
+        <div>
+          <span class="label">Univers</span>
+          <strong>AAPL, MSFT, NVDA</strong>
+        </div>
+      </section>
+
+      <section id="companies" class="companies" aria-live="polite"></section>
+    </main>
+
+    <footer>
+      Donnees fournies via Yahoo Finance / yfinance. Analyse educative, pas un conseil financier.
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
