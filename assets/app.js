@@ -33,7 +33,7 @@ const escapeHtml = (value) => String(value ?? "")
 let latestCompanies = [];
 
 const helpText = {
-  score: "Score maison sur 100. Il part de 50 puis ajoute ou retire des points selon croissance, marges, dette, valorisation, momentum et objectif analystes. 68+ = Acheter, 45-67 = Garder, sous 45 = Eviter.",
+  score: "Score maison sur 100. Pondération cible: croissance 25 pts, rentabilité 25 pts, valorisation 20 pts, solidité financière 15 pts, momentum et analystes 15 pts. Lecture: 80+ très attractif, 65-79 Acheter, 50-64 Garder, 35-49 Prudence, sous 35 Eviter.",
   price: "Dernier cours de l'action fourni par Yahoo Finance. Il sert aussi a comparer le prix actuel avec les objectifs analystes et certaines valorisations.",
   marketCap: "Capitalisation boursiere: prix de l'action multiplie par le nombre d'actions. C'est la taille de marche de l'entreprise.",
   forwardPe: "Forward P/E: prix actuel divise par le benefice attendu par action. Plus il est haut, plus le marche paie cher la croissance future.",
