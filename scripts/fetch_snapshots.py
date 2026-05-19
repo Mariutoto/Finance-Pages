@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -33,7 +34,10 @@ def safe_float(value: Any) -> float | None:
     try:
         if value is None:
             return None
-        return float(value)
+        number = float(value)
+        if not math.isfinite(number):
+            return None
+        return number
     except (TypeError, ValueError):
         return None
 
@@ -281,7 +285,7 @@ def main() -> None:
         "companies": [snapshot(ticker) for ticker in TICKERS],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False, allow_nan=False), encoding="utf-8")
     print(f"Wrote {OUT}")
 
 
