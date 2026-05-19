@@ -10,15 +10,18 @@ import yfinance as yf
 
 COMPANIES = {
     "AAPL": {
-        "logo_url": "https://logo.clearbit.com/apple.com",
+        "logo_text": "A",
+        "brand_color": "#111111",
         "brand_domain": "apple.com",
     },
     "MSFT": {
-        "logo_url": "https://logo.clearbit.com/microsoft.com",
+        "logo_text": "MS",
+        "brand_color": "#2563eb",
         "brand_domain": "microsoft.com",
     },
     "NVDA": {
-        "logo_url": "https://logo.clearbit.com/nvidia.com",
+        "logo_text": "NV",
+        "brand_color": "#76b900",
         "brand_domain": "nvidia.com",
     },
 }
@@ -80,6 +83,50 @@ def chart_points(history) -> list[dict[str, float | str]]:
         }
         for index, value in sampled.items()
     ]
+
+
+def valuation_history(stock: yf.Ticker, history) -> list[dict[str, float | int | None]]:
+    financials = stock.financials
+    if financials.empty:
+        return []
+
+    rows = []
+    previous_revenue = None
+    for column in list(financials.columns)[:5]:
+        year = int(column.year)
+        revenue = safe_float(financials.at["Total Revenue", column]) if "Total Revenue" in financials.index else None
+        eps = safe_float(financials.at["Diluted EPS", column]) if "Diluted EPS" in financials.index else None
+        shares = safe_float(financials.at["Diluted Average Shares", column]) if "Diluted Average Shares" in financials.index else None
+        price = None
+
+        if not history.empty:
+            fiscal_date = column
+            if history.index.tz is not None and fiscal_date.tzinfo is None:
+                fiscal_date = fiscal_date.tz_localize(history.index.tz)
+            sliced = history.loc[:fiscal_date]
+            if not sliced.empty:
+                price = safe_float(sliced["Close"].iloc[-1])
+
+        pe = round(price / eps, 2) if price and eps and eps > 0 else None
+        ps = round((price * shares) / revenue, 2) if price and shares and revenue else None
+        revenue_growth = None
+        if revenue and previous_revenue:
+            revenue_growth = round(((previous_revenue / revenue) - 1) * 100, 2)
+
+        rows.append(
+            {
+                "year": year,
+                "price": round(price, 2) if price else None,
+                "pe": pe,
+                "price_to_sales": ps,
+                "eps": round(eps, 2) if eps else None,
+                "revenue": round(revenue, 0) if revenue else None,
+                "revenue_growth": revenue_growth,
+            }
+        )
+        previous_revenue = revenue
+
+    return list(reversed(rows))
 
 
 def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -> tuple[str, int, list[str]]:
@@ -189,7 +236,8 @@ def snapshot(ticker: str) -> dict[str, Any]:
     return {
         "ticker": ticker,
         "name": info.get("longName") or info.get("shortName") or ticker,
-        "logo_url": meta["logo_url"],
+        "logo_text": meta["logo_text"],
+        "brand_color": meta["brand_color"],
         "brand_domain": meta["brand_domain"],
         "sector": info.get("sector"),
         "industry": info.get("industry"),
@@ -218,6 +266,7 @@ def snapshot(ticker: str) -> dict[str, Any]:
         "number_of_analyst_opinions": info.get("numberOfAnalystOpinions"),
         "performance": {key: fmt_percent(value) for key, value in performance.items()},
         "chart_points": chart_points(hist),
+        "valuation_history": valuation_history(stock, hist),
         "rating": rating,
         "score": score,
         "rating_reasons": reasons,

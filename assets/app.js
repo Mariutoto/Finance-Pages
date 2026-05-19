@@ -1,16 +1,10 @@
-const money = new Intl.NumberFormat("fr-CH", {
-  maximumFractionDigits: 2,
-});
-
-const compact = new Intl.NumberFormat("fr-CH", {
-  notation: "compact",
-  maximumFractionDigits: 2,
-});
+const money = new Intl.NumberFormat("fr-CH", { maximumFractionDigits: 2 });
+const compact = new Intl.NumberFormat("fr-CH", { notation: "compact", maximumFractionDigits: 2 });
 
 const percent = (value) => {
   if (value === null || value === undefined || Number.isNaN(Number(value))) return "n/a";
   const sign = Number(value) > 0 ? "+" : "";
-  return `${sign}${Number(value).toFixed(2)}%`;
+  return `${sign}${Number(value).toFixed(1)}%`;
 };
 
 const number = (value, suffix = "") => {
@@ -29,8 +23,6 @@ const ratingClass = (rating) => {
   return "hold";
 };
 
-let latestCompanies = [];
-
 const escapeHtml = (value) => String(value ?? "")
   .replaceAll("&", "&amp;")
   .replaceAll("<", "&lt;")
@@ -38,54 +30,39 @@ const escapeHtml = (value) => String(value ?? "")
   .replaceAll('"', "&quot;")
   .replaceAll("'", "&#039;");
 
-const metric = (label, value) => `
-  <div class="metric">
-    <span>${label}</span>
-    <strong>${value}</strong>
-  </div>
-`;
+let latestCompanies = [];
 
-const performanceCell = (label, value) => `
-  <div class="perf">
-    <span>${label}</span>
-    <strong class="${Number(value) >= 0 ? "positive" : "negative"}">${percent(value)}</strong>
-  </div>
-`;
-
-const barMetric = (label, value) => `
-  <div class="bar-row">
-    <span>${label}</span>
-    <strong>${percent(value)}</strong>
-  </div>
-`;
-
-function drawSparkline(canvas, points) {
+function drawLineChart(canvas, points, key, color) {
   const ctx = canvas.getContext("2d");
   const ratio = window.devicePixelRatio || 1;
   const width = canvas.clientWidth * ratio;
   const height = canvas.clientHeight * ratio;
   canvas.width = width;
   canvas.height = height;
-
   ctx.clearRect(0, 0, width, height);
-  if (!points?.length) return;
 
-  const values = points.map((point) => Number(point.close)).filter(Number.isFinite);
+  const values = (points || []).map((point) => Number(point[key])).filter(Number.isFinite);
+  if (values.length < 2) return;
+
   const min = Math.min(...values);
   const max = Math.max(...values);
   const spread = max - min || 1;
-  const pad = 14 * ratio;
+  const pad = 18 * ratio;
 
+  ctx.strokeStyle = "#d9e1ea";
+  ctx.lineWidth = 1 * ratio;
+  for (let i = 0; i < 3; i += 1) {
+    const y = pad + (i / 2) * (height - pad * 2);
+    ctx.beginPath();
+    ctx.moveTo(pad, y);
+    ctx.lineTo(width - pad, y);
+    ctx.stroke();
+  }
+
+  ctx.strokeStyle = color;
   ctx.lineWidth = 3 * ratio;
   ctx.lineCap = "round";
   ctx.lineJoin = "round";
-  ctx.strokeStyle = "rgba(36, 92, 156, 0.18)";
-  ctx.beginPath();
-  ctx.moveTo(pad, height - pad);
-  ctx.lineTo(width - pad, height - pad);
-  ctx.stroke();
-
-  ctx.strokeStyle = values.at(-1) >= values[0] ? "#13795b" : "#b42318";
   ctx.beginPath();
   values.forEach((value, index) => {
     const x = pad + (index / Math.max(1, values.length - 1)) * (width - pad * 2);
@@ -96,46 +73,62 @@ function drawSparkline(canvas, points) {
   ctx.stroke();
 }
 
-function drawScoreGauge(canvas, score) {
+function drawBarChart(canvas, points) {
   const ctx = canvas.getContext("2d");
   const ratio = window.devicePixelRatio || 1;
   const width = canvas.clientWidth * ratio;
   const height = canvas.clientHeight * ratio;
   canvas.width = width;
   canvas.height = height;
-
-  const centerX = width / 2;
-  const centerY = height * 0.9;
-  const radius = Math.min(width * 0.42, height * 0.78);
-  const start = Math.PI;
-  const end = Math.PI * 2;
-  const value = Math.max(0, Math.min(100, Number(score) || 0));
-  const valueEnd = start + (value / 100) * Math.PI;
-
   ctx.clearRect(0, 0, width, height);
-  ctx.lineWidth = 14 * ratio;
-  ctx.lineCap = "round";
-  ctx.strokeStyle = "#d9e1ea";
-  ctx.beginPath();
-  ctx.arc(centerX, centerY, radius, start, end);
-  ctx.stroke();
 
-  ctx.strokeStyle = value >= 68 ? "#13795b" : value >= 45 ? "#9a6700" : "#b42318";
-  ctx.beginPath();
-  ctx.arc(centerX, centerY, radius, start, valueEnd);
-  ctx.stroke();
+  const values = (points || []).map((point) => Number(point.price_to_sales)).filter(Number.isFinite);
+  if (!values.length) return;
+
+  const max = Math.max(...values, 1);
+  const gap = 8 * ratio;
+  const pad = 18 * ratio;
+  const barWidth = (width - pad * 2 - gap * (values.length - 1)) / values.length;
+
+  values.forEach((value, index) => {
+    const h = (value / max) * (height - pad * 2);
+    const x = pad + index * (barWidth + gap);
+    const y = height - pad - h;
+    ctx.fillStyle = index === values.length - 1 ? "#0f7187" : "#b7cadc";
+    ctx.fillRect(x, y, barWidth, h);
+  });
+}
+
+function logo(company) {
+  return `
+    <div class="logo" style="--brand:${company.brand_color}">
+      <span>${escapeHtml(company.logo_text || company.ticker.slice(0, 2))}</span>
+    </div>
+  `;
+}
+
+function valuationRows(company) {
+  return (company.valuation_history || []).map((row) => `
+    <tr>
+      <td>${row.year}</td>
+      <td>${number(row.pe)}x</td>
+      <td>${number(row.price_to_sales)}x</td>
+      <td>${number(row.eps)}</td>
+      <td>${large(row.revenue, company.currency)}</td>
+    </tr>
+  `).join("");
 }
 
 function companyTemplate(company) {
   const reasons = company.rating_reasons?.length
     ? company.rating_reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")
-    : "<li>donnees insuffisantes pour isoler les facteurs principaux</li>";
+    : "<li>donnees insuffisantes</li>";
 
   return `
     <article class="company" id="snapshot-${company.ticker}">
       <div class="company-head">
         <div class="identity">
-          <img class="logo" src="${company.logo_url}" alt="">
+          ${logo(company)}
           <div>
             <p class="ticker">${company.ticker}</p>
             <h2>${escapeHtml(company.name)}</h2>
@@ -143,7 +136,7 @@ function companyTemplate(company) {
           </div>
         </div>
         <div class="actions">
-          <button class="small-btn" type="button" data-print="${company.ticker}">PDF</button>
+          <button class="small-btn" type="button" data-print="${company.ticker}">PDF A4</button>
           <div class="rating ${ratingClass(company.rating)}">
             <span>${company.rating}</span>
             <strong>${company.score}/100</strong>
@@ -151,81 +144,48 @@ function companyTemplate(company) {
         </div>
       </div>
 
-      <div class="snapshot-layout">
-        <section class="chart-panel">
-          <div class="price-line">
-            <div>
-              <span class="label">Cours</span>
-              <strong>${number(company.price)} ${company.currency || ""}</strong>
-            </div>
-            <div>
-              <span class="label">Objectif analystes</span>
-              <strong>${number(company.analyst_target_mean)} ${company.currency || ""}</strong>
-            </div>
-          </div>
-          <canvas class="sparkline" data-chart="${company.ticker}" aria-label="Graphique du cours sur un an"></canvas>
-        </section>
-
-        <section class="gauge-panel">
-          <canvas class="gauge" data-gauge="${company.ticker}" aria-label="Score du snapshot"></canvas>
-          <p class="gauge-score">${company.score}<span>/100</span></p>
-        </section>
-      </div>
-
-      <div class="grid">
-        <section>
-          <h3>Fondamentaux</h3>
-          <div class="metrics">
-            ${metric("Capitalisation", large(company.market_cap, company.currency))}
-            ${metric("Enterprise value", large(company.enterprise_value, company.currency))}
-            ${metric("Marge nette", number(company.profit_margin, "%"))}
-            ${metric("Marge operationnelle", number(company.operating_margin, "%"))}
-            ${metric("Croissance CA", percent(company.revenue_growth))}
-            ${metric("Croissance BPA", percent(company.earnings_growth))}
-            ${metric("ROE", number(company.return_on_equity, "%"))}
-            ${metric("Dette / fonds propres", number(company.debt_to_equity))}
-          </div>
-        </section>
-
-        <section>
-          <h3>Key metrics</h3>
-          <div class="metrics">
-            ${metric("P/E trailing", number(company.trailing_pe))}
-            ${metric("P/E forward", number(company.forward_pe))}
-            ${metric("PEG", number(company.peg_ratio))}
-            ${metric("Price / Sales", number(company.price_to_sales))}
-            ${metric("Price / Book", number(company.price_to_book))}
-            ${metric("Beta", number(company.beta))}
-            ${metric("Free cashflow", large(company.free_cashflow, company.currency))}
-            ${metric("Dividende", number(company.dividend_yield, "%"))}
-          </div>
-        </section>
-      </div>
-
-      <section class="performance">
-        <h3>Past performance</h3>
-        <div class="perf-grid">
-          ${performanceCell("1 mois", company.performance.one_month)}
-          ${performanceCell("6 mois", company.performance.six_months)}
-          ${performanceCell("1 an", company.performance.one_year)}
-          ${performanceCell("5 ans", company.performance.five_years)}
-        </div>
+      <section class="summary-strip">
+        <div><span>Cours</span><strong>${number(company.price)} ${company.currency || ""}</strong></div>
+        <div><span>Cap.</span><strong>${large(company.market_cap, company.currency)}</strong></div>
+        <div><span>P/E fwd</span><strong>${number(company.forward_pe)}x</strong></div>
+        <div><span>Marge nette</span><strong>${number(company.profit_margin, "%")}</strong></div>
+        <div><span>1 an</span><strong class="${Number(company.performance.one_year) >= 0 ? "positive" : "negative"}">${percent(company.performance.one_year)}</strong></div>
       </section>
 
-      <section class="visual-metrics">
-        <h3>Graphique fondamentaux</h3>
-        <div class="bar-list">
-          ${barMetric("Marge brute", company.gross_margin)}
-          ${barMetric("Marge nette", company.profit_margin)}
-          ${barMetric("Croissance CA", company.revenue_growth)}
-          ${barMetric("Croissance BPA", company.earnings_growth)}
-        </div>
+      <div class="snapshot-grid">
+        <section class="chart-panel">
+          <h3>Prix 1 an</h3>
+          <canvas class="price-chart" data-chart="${company.ticker}"></canvas>
+        </section>
+        <section class="chart-panel">
+          <h3>P/E par an</h3>
+          <canvas class="pe-chart" data-pe="${company.ticker}"></canvas>
+        </section>
+        <section class="chart-panel">
+          <h3>Price / Sales par an</h3>
+          <canvas class="ps-chart" data-ps="${company.ticker}"></canvas>
+        </section>
+      </div>
+
+      <section class="table-section">
+        <h3>Table ${company.ticker}</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Annee</th>
+              <th>P/E</th>
+              <th>P/S</th>
+              <th>EPS</th>
+              <th>Revenus</th>
+            </tr>
+          </thead>
+          <tbody>${valuationRows(company)}</tbody>
+        </table>
       </section>
 
       <section class="takeaway">
         <h3>Lecture rapide</h3>
         <ul>${reasons}</ul>
-        <p>${escapeHtml(company.summary ? company.summary.slice(0, 390) : "Description non disponible.")}${company.summary && company.summary.length > 390 ? "..." : ""}</p>
       </section>
     </article>
   `;
@@ -233,10 +193,12 @@ function companyTemplate(company) {
 
 function drawCharts(companies) {
   companies.forEach((company) => {
-    const chart = document.querySelector(`[data-chart="${company.ticker}"]`);
-    const gauge = document.querySelector(`[data-gauge="${company.ticker}"]`);
-    if (chart) drawSparkline(chart, company.chart_points);
-    if (gauge) drawScoreGauge(gauge, company.score);
+    const price = document.querySelector(`[data-chart="${company.ticker}"]`);
+    const pe = document.querySelector(`[data-pe="${company.ticker}"]`);
+    const ps = document.querySelector(`[data-ps="${company.ticker}"]`);
+    if (price) drawLineChart(price, company.chart_points, "close", company.brand_color || "#245c9c");
+    if (pe) drawLineChart(pe, company.valuation_history, "pe", "#13795b");
+    if (ps) drawBarChart(ps, company.valuation_history);
   });
 }
 
@@ -248,18 +210,30 @@ function printSnapshot(ticker) {
   window.print();
 }
 
+function selectPrintTarget(ticker) {
+  document.querySelectorAll(".company").forEach((node) => {
+    node.classList.toggle("print-target", node.id === `snapshot-${ticker}`);
+  });
+  document.body.classList.add("print-single");
+}
+
 async function load() {
   const response = await fetch("data/snapshots.json", { cache: "no-store" });
   const data = await response.json();
+  latestCompanies = data.companies;
   document.getElementById("source").textContent = data.source;
   document.getElementById("updated").textContent = new Date(data.generated_at).toLocaleString("fr-CH");
-  latestCompanies = data.companies;
-  document.getElementById("companies").innerHTML = data.companies.map(companyTemplate).join("");
-  drawCharts(data.companies);
+  document.getElementById("companies").innerHTML = latestCompanies.map(companyTemplate).join("");
+  drawCharts(latestCompanies);
 
   document.querySelectorAll("[data-print]").forEach((button) => {
     button.addEventListener("click", () => printSnapshot(button.dataset.print));
   });
+
+  const printTicker = new URLSearchParams(window.location.search).get("print");
+  if (printTicker) {
+    selectPrintTarget(printTicker.toUpperCase());
+  }
 }
 
 document.getElementById("printBtn").addEventListener("click", () => {
@@ -276,9 +250,7 @@ window.addEventListener("afterprint", () => {
 let resizeTimer;
 window.addEventListener("resize", () => {
   clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(() => {
-    drawCharts(latestCompanies);
-  }, 150);
+  resizeTimer = setTimeout(() => drawCharts(latestCompanies), 150);
 });
 
 load().catch((error) => {

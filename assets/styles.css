@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
   --ink: #17202a;
-  --muted: #647184;
+  --muted: #657386;
   --line: #d9e1ea;
   --panel: #ffffff;
   --soft: #f3f7fb;
@@ -9,7 +9,6 @@
   --amber: #9a6700;
   --red: #b42318;
   --blue: #245c9c;
-  --cyan: #0f7187;
 }
 
 * {
@@ -21,7 +20,7 @@ body {
   background: var(--soft);
   color: var(--ink);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.45;
+  line-height: 1.35;
 }
 
 .topbar {
@@ -29,7 +28,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 28px clamp(18px, 4vw, 56px);
+  padding: 24px clamp(18px, 4vw, 56px);
   background: #fff;
   border-bottom: 1px solid var(--line);
 }
@@ -40,7 +39,7 @@ body {
   margin: 0;
   color: var(--muted);
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 750;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -54,24 +53,24 @@ p {
 
 h1 {
   margin-bottom: 0;
-  font-size: clamp(30px, 5vw, 54px);
+  font-size: clamp(30px, 5vw, 52px);
   line-height: 1;
 }
 
 h2 {
-  margin-bottom: 6px;
-  font-size: clamp(22px, 3vw, 34px);
-  line-height: 1.1;
+  margin-bottom: 4px;
+  font-size: clamp(22px, 3vw, 32px);
+  line-height: 1.08;
 }
 
 h3 {
-  margin-bottom: 14px;
-  font-size: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 button {
-  min-width: 86px;
-  height: 42px;
+  min-width: 90px;
+  height: 40px;
   border: 1px solid var(--ink);
   border-radius: 6px;
   background: var(--ink);
@@ -81,8 +80,8 @@ button {
 }
 
 .small-btn {
-  min-width: 64px;
-  height: 38px;
+  min-width: 76px;
+  height: 36px;
   border-color: var(--blue);
   background: #fff;
   color: var(--blue);
@@ -90,7 +89,7 @@ button {
 
 main {
   width: min(1180px, calc(100% - 32px));
-  margin: 28px auto 42px;
+  margin: 24px auto 38px;
 }
 
 .overview {
@@ -98,31 +97,31 @@ main {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
   overflow: hidden;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--line);
 }
 
 .overview > div {
-  min-height: 82px;
-  padding: 18px;
+  min-height: 72px;
+  padding: 16px;
   background: #fff;
 }
 
 .overview strong {
   display: block;
-  margin-top: 8px;
-  font-size: 18px;
+  margin-top: 7px;
+  font-size: 17px;
 }
 
 .companies {
   display: grid;
-  gap: 22px;
+  gap: 20px;
 }
 
 .company {
-  padding: clamp(18px, 3vw, 30px);
+  padding: 22px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -133,7 +132,7 @@ main {
   align-items: flex-start;
   justify-content: space-between;
   gap: 18px;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -149,25 +148,28 @@ main {
 }
 
 .logo {
+  display: grid;
   width: 58px;
   height: 58px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #fff;
-  object-fit: contain;
-  padding: 8px;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 900;
+}
+
+.logo span {
+  font-size: 19px;
 }
 
 .meta,
-.price-line span,
-.takeaway p,
 footer {
   color: var(--muted);
 }
 
 .rating {
-  min-width: 118px;
-  padding: 10px 12px;
+  min-width: 116px;
+  padding: 9px 12px;
   border-radius: 8px;
   text-align: center;
 }
@@ -182,8 +184,8 @@ footer {
 }
 
 .rating strong {
-  margin-top: 3px;
-  font-size: 22px;
+  margin-top: 2px;
+  font-size: 21px;
 }
 
 .rating.buy {
@@ -201,99 +203,102 @@ footer {
   color: var(--red);
 }
 
-.snapshot-layout {
+.summary-strip {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
-  gap: 18px;
-  margin: 18px 0 22px;
-}
-
-.chart-panel,
-.gauge-panel {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin: 14px 0;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fbfdff;
-  padding: 16px;
+  background: var(--line);
 }
 
-.price-line {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  margin: 0 0 12px;
-}
-
-.price-line strong {
-  display: block;
-  font-size: 26px;
-}
-
-.sparkline {
-  display: block;
-  width: 100%;
-  height: 180px;
-}
-
-.gauge-panel {
-  position: relative;
-  min-height: 224px;
-  text-align: center;
-}
-
-.gauge {
-  width: 100%;
-  height: 150px;
-}
-
-.gauge-score {
-  position: absolute;
-  right: 0;
-  bottom: 28px;
-  left: 0;
-  margin: 0;
-  font-size: 38px;
-  font-weight: 900;
-}
-
-.gauge-score span {
-  color: var(--muted);
-  font-size: 15px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-}
-
-.metrics,
-.perf-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.metric,
-.perf {
-  min-height: 64px;
+.summary-strip > div {
+  min-height: 70px;
   padding: 12px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
   background: #fbfdff;
 }
 
-.metric span,
-.perf span {
+.summary-strip span {
   display: block;
   color: var(--muted);
   font-size: 12px;
 }
 
-.metric strong,
-.perf strong {
+.summary-strip strong {
   display: block;
   margin-top: 5px;
   font-size: 18px;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.chart-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdff;
+  padding: 12px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+.table-section {
+  margin-top: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+th,
+td {
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: right;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+th {
+  background: #eef4fa;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+.takeaway {
+  margin-top: 12px;
+}
+
+.takeaway ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 20px;
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
 }
 
 .positive {
@@ -302,49 +307,6 @@ footer {
 
 .negative {
   color: var(--red);
-}
-
-.performance,
-.visual-metrics,
-.takeaway {
-  margin-top: 22px;
-}
-
-.bar-list {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.bar-row {
-  min-height: 66px;
-  padding: 12px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: linear-gradient(90deg, #e6f4ef, #fbfdff);
-}
-
-.bar-row span,
-.bar-row strong {
-  display: block;
-}
-
-.bar-row span {
-  color: var(--muted);
-  font-size: 12px;
-}
-
-.bar-row strong {
-  margin-top: 6px;
-  font-size: 18px;
-}
-
-.takeaway ul {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px 20px;
-  margin: 0 0 14px;
-  padding-left: 18px;
 }
 
 .error {
@@ -357,14 +319,13 @@ footer {
 
 footer {
   width: min(1180px, calc(100% - 32px));
-  margin: 0 auto 36px;
+  margin: 0 auto 34px;
   font-size: 13px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 850px) {
   .topbar,
   .company-head,
-  .price-line,
   .identity,
   .actions {
     flex-direction: column;
@@ -372,24 +333,17 @@ footer {
   }
 
   .overview,
-  .grid,
-  .snapshot-layout,
-  .metrics,
-  .perf-grid,
-  .bar-list,
+  .summary-strip,
+  .snapshot-grid,
   .takeaway ul {
     grid-template-columns: 1fr;
-  }
-
-  .rating {
-    width: 100%;
   }
 }
 
 @media print {
   @page {
-    size: A4;
-    margin: 10mm;
+    size: A4 portrait;
+    margin: 8mm;
   }
 
   * {
@@ -397,7 +351,10 @@ footer {
     -webkit-print-color-adjust: exact;
   }
 
+  html,
   body {
+    width: 210mm;
+    min-height: 297mm;
     background: #fff;
   }
 
@@ -413,12 +370,6 @@ footer {
     margin: 0;
   }
 
-  .company {
-    break-inside: avoid;
-    margin-bottom: 14px;
-    padding: 14px;
-  }
-
   body.print-single .company {
     display: none;
   }
@@ -427,48 +378,103 @@ footer {
     display: block;
   }
 
+  .companies {
+    display: block;
+  }
+
+  .company {
+    width: 100%;
+    height: 276mm;
+    overflow: hidden;
+    break-after: page;
+    break-inside: avoid;
+    padding: 8mm;
+    border: 1px solid var(--line);
+    border-radius: 0;
+  }
+
   .company-head {
-    padding-bottom: 10px;
+    padding-bottom: 7px;
+  }
+
+  .logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+  }
+
+  .logo span {
+    font-size: 15px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   h3 {
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+
+  .meta,
+  .ticker {
+    font-size: 10px;
+  }
+
+  .rating {
+    min-width: 98px;
+    padding: 6px 8px;
+  }
+
+  .rating strong {
+    font-size: 17px;
+  }
+
+  .summary-strip {
+    margin: 8px 0;
+  }
+
+  .summary-strip > div {
+    min-height: 48px;
+    padding: 7px;
+  }
+
+  .summary-strip span {
+    font-size: 9px;
+  }
+
+  .summary-strip strong {
+    font-size: 13px;
+  }
+
+  .snapshot-grid {
+    gap: 7px;
     margin-bottom: 8px;
   }
 
-  .snapshot-layout,
-  .grid {
-    gap: 10px;
+  .chart-panel {
+    padding: 7px;
   }
 
-  .metric,
-  .perf,
-  .bar-row {
-    min-height: 48px;
-    padding: 8px;
+  canvas {
+    height: 82px;
   }
 
-  .sparkline {
-    height: 125px;
+  table {
+    font-size: 10px;
   }
 
-  .gauge-panel {
-    min-height: 160px;
+  th,
+  td {
+    padding: 5px 6px;
   }
 
-  .gauge {
-    height: 100px;
+  .takeaway {
+    margin-top: 8px;
   }
 
-  .gauge-score {
-    bottom: 20px;
-    font-size: 28px;
-  }
-
-  .takeaway p {
-    font-size: 12px;
+  .takeaway ul {
+    gap: 4px 16px;
+    font-size: 10px;
   }
 }

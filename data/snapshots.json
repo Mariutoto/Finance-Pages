@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-05-19T11:44:55.581863+00:00",
+  "generated_at": "2026-05-19T12:05:08.678955+00:00",
   "source": "Yahoo Finance via yfinance",
   "disclaimer": "Educational snapshot only. Not financial advice.",
   "companies": [
     {
       "ticker": "AAPL",
       "name": "Apple Inc.",
-      "logo_url": "https://logo.clearbit.com/apple.com",
+      "logo_text": "A",
+      "brand_color": "#111111",
       "brand_domain": "apple.com",
       "sector": "Technology",
       "industry": "Consumer Electronics",
@@ -293,6 +294,53 @@
           "close": 298.87
         }
       ],
+      "valuation_history": [
+        {
+          "year": 2021,
+          "price": 138.13,
+          "pe": null,
+          "price_to_sales": NaN,
+          "eps": NaN,
+          "revenue": NaN,
+          "revenue_growth": NaN
+        },
+        {
+          "year": 2022,
+          "price": 135.67,
+          "pe": 22.2,
+          "price_to_sales": 5.62,
+          "eps": 6.11,
+          "revenue": 394328000000.0,
+          "revenue_growth": -2.8
+        },
+        {
+          "year": 2023,
+          "price": 169.07,
+          "pe": 27.58,
+          "price_to_sales": 6.98,
+          "eps": 6.13,
+          "revenue": 383285000000.0,
+          "revenue_growth": 2.02
+        },
+        {
+          "year": 2024,
+          "price": 231.27,
+          "pe": 38.04,
+          "price_to_sales": 9.11,
+          "eps": 6.08,
+          "revenue": 391035000000.0,
+          "revenue_growth": 6.43
+        },
+        {
+          "year": 2025,
+          "price": 253.91,
+          "pe": 34.04,
+          "price_to_sales": 9.15,
+          "eps": 7.46,
+          "revenue": 416161000000.0,
+          "revenue_growth": null
+        }
+      ],
       "rating": "Acheter",
       "score": 87,
       "rating_reasons": [
@@ -305,7 +353,8 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "logo_url": "https://logo.clearbit.com/microsoft.com",
+      "logo_text": "MS",
+      "brand_color": "#2563eb",
       "brand_domain": "microsoft.com",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
@@ -592,6 +641,44 @@
           "close": 405.21
         }
       ],
+      "valuation_history": [
+        {
+          "year": 2022,
+          "price": 249.03,
+          "pe": 25.81,
+          "price_to_sales": 9.47,
+          "eps": 9.65,
+          "revenue": 198270000000.0,
+          "revenue_growth": 6.88
+        },
+        {
+          "year": 2023,
+          "price": 333.39,
+          "pe": 34.44,
+          "price_to_sales": 11.76,
+          "eps": 9.68,
+          "revenue": 211915000000.0,
+          "revenue_growth": 15.67
+        },
+        {
+          "year": 2024,
+          "price": 440.99,
+          "pe": 37.37,
+          "price_to_sales": 13.44,
+          "eps": 11.8,
+          "revenue": 245122000000.0,
+          "revenue_growth": 14.93
+        },
+        {
+          "year": 2025,
+          "price": 494.54,
+          "pe": 36.26,
+          "price_to_sales": 13.1,
+          "eps": 13.64,
+          "revenue": 281724000000.0,
+          "revenue_growth": null
+        }
+      ],
       "rating": "Acheter",
       "score": 100,
       "rating_reasons": [
@@ -604,7 +691,8 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "logo_url": "https://logo.clearbit.com/nvidia.com",
+      "logo_text": "NV",
+      "brand_color": "#76b900",
       "brand_domain": "nvidia.com",
       "sector": "Technology",
       "industry": "Semiconductors",
@@ -889,6 +977,53 @@
         {
           "date": "2026-05-13",
           "close": 225.83
+        }
+      ],
+      "valuation_history": [
+        {
+          "year": 2022,
+          "price": 24.44,
+          "pe": null,
+          "price_to_sales": NaN,
+          "eps": NaN,
+          "revenue": NaN,
+          "revenue_growth": NaN
+        },
+        {
+          "year": 2023,
+          "price": 19.52,
+          "pe": 112.16,
+          "price_to_sales": 18.14,
+          "eps": 0.17,
+          "revenue": 26974000000.0,
+          "revenue_growth": 125.85
+        },
+        {
+          "year": 2024,
+          "price": 61.49,
+          "pe": 51.67,
+          "price_to_sales": 25.17,
+          "eps": 1.19,
+          "revenue": 60922000000.0,
+          "revenue_growth": 114.2
+        },
+        {
+          "year": 2025,
+          "price": 120.03,
+          "pe": 40.83,
+          "price_to_sales": 22.81,
+          "eps": 2.94,
+          "revenue": 130497000000.0,
+          "revenue_growth": 65.47
+        },
+        {
+          "year": 2026,
+          "price": 191.12,
+          "pe": 39.0,
+          "price_to_sales": 21.7,
+          "eps": 4.9,
+          "revenue": 215938000000.0,
+          "revenue_growth": null
         }
       ],
       "rating": "Acheter",
