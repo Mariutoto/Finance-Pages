@@ -9,6 +9,7 @@
   --amber: #9a6700;
   --red: #b42318;
   --blue: #245c9c;
+  --cyan: #0f7187;
 }
 
 * {
@@ -69,7 +70,7 @@ h3 {
 }
 
 button {
-  min-width: 72px;
+  min-width: 86px;
   height: 42px;
   border: 1px solid var(--ink);
   border-radius: 6px;
@@ -77,6 +78,14 @@ button {
   color: #fff;
   font-weight: 800;
   cursor: pointer;
+}
+
+.small-btn {
+  min-width: 64px;
+  height: 38px;
+  border-color: var(--blue);
+  background: #fff;
+  color: var(--blue);
 }
 
 main {
@@ -128,6 +137,27 @@ main {
   border-bottom: 1px solid var(--line);
 }
 
+.identity,
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.actions {
+  align-items: flex-start;
+}
+
+.logo {
+  width: 58px;
+  height: 58px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  object-fit: contain;
+  padding: 8px;
+}
+
 .meta,
 .price-line span,
 .takeaway p,
@@ -171,15 +201,63 @@ footer {
   color: var(--red);
 }
 
+.snapshot-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 18px;
+  margin: 18px 0 22px;
+}
+
+.chart-panel,
+.gauge-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfdff;
+  padding: 16px;
+}
+
 .price-line {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  margin: 18px 0 20px;
+  margin: 0 0 12px;
 }
 
 .price-line strong {
+  display: block;
   font-size: 26px;
+}
+
+.sparkline {
+  display: block;
+  width: 100%;
+  height: 180px;
+}
+
+.gauge-panel {
+  position: relative;
+  min-height: 224px;
+  text-align: center;
+}
+
+.gauge {
+  width: 100%;
+  height: 150px;
+}
+
+.gauge-score {
+  position: absolute;
+  right: 0;
+  bottom: 28px;
+  left: 0;
+  margin: 0;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.gauge-score span {
+  color: var(--muted);
+  font-size: 15px;
 }
 
 .grid {
@@ -227,8 +305,38 @@ footer {
 }
 
 .performance,
+.visual-metrics,
 .takeaway {
   margin-top: 22px;
+}
+
+.bar-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.bar-row {
+  min-height: 66px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: linear-gradient(90deg, #e6f4ef, #fbfdff);
+}
+
+.bar-row span,
+.bar-row strong {
+  display: block;
+}
+
+.bar-row span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.bar-row strong {
+  margin-top: 6px;
+  font-size: 18px;
 }
 
 .takeaway ul {
@@ -256,15 +364,19 @@ footer {
 @media (max-width: 760px) {
   .topbar,
   .company-head,
-  .price-line {
+  .price-line,
+  .identity,
+  .actions {
     flex-direction: column;
     align-items: stretch;
   }
 
   .overview,
   .grid,
+  .snapshot-layout,
   .metrics,
   .perf-grid,
+  .bar-list,
   .takeaway ul {
     grid-template-columns: 1fr;
   }
@@ -275,11 +387,23 @@ footer {
 }
 
 @media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
   body {
     background: #fff;
   }
 
-  .topbar button,
+  .topbar,
+  .overview,
+  .small-btn,
   footer {
     display: none;
   }
@@ -292,5 +416,59 @@ footer {
   .company {
     break-inside: avoid;
     margin-bottom: 14px;
+    padding: 14px;
+  }
+
+  body.print-single .company {
+    display: none;
+  }
+
+  body.print-single .company.print-target {
+    display: block;
+  }
+
+  .company-head {
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    margin-bottom: 8px;
+  }
+
+  .snapshot-layout,
+  .grid {
+    gap: 10px;
+  }
+
+  .metric,
+  .perf,
+  .bar-row {
+    min-height: 48px;
+    padding: 8px;
+  }
+
+  .sparkline {
+    height: 125px;
+  }
+
+  .gauge-panel {
+    min-height: 160px;
+  }
+
+  .gauge {
+    height: 100px;
+  }
+
+  .gauge-score {
+    bottom: 20px;
+    font-size: 28px;
+  }
+
+  .takeaway p {
+    font-size: 12px;
   }
 }

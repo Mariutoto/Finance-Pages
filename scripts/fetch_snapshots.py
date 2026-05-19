@@ -8,7 +8,21 @@ from typing import Any
 import yfinance as yf
 
 
-TICKERS = ["AAPL", "MSFT", "NVDA"]
+COMPANIES = {
+    "AAPL": {
+        "logo_url": "https://logo.clearbit.com/apple.com",
+        "brand_domain": "apple.com",
+    },
+    "MSFT": {
+        "logo_url": "https://logo.clearbit.com/microsoft.com",
+        "brand_domain": "microsoft.com",
+    },
+    "NVDA": {
+        "logo_url": "https://logo.clearbit.com/nvidia.com",
+        "brand_domain": "nvidia.com",
+    },
+}
+TICKERS = list(COMPANIES)
 OUT = Path(__file__).resolve().parents[1] / "data" / "snapshots.json"
 
 
@@ -44,6 +58,28 @@ def get_return(history, start_index: int, end_index: int = -1) -> float | None:
         return (end / start) - 1
     except Exception:
         return None
+
+
+def chart_points(history) -> list[dict[str, float | str]]:
+    if history.empty:
+        return []
+
+    closes = history["Close"].dropna()
+    if closes.empty:
+        return []
+
+    sampled = closes.tail(252)
+    if len(sampled) > 70:
+        step = max(1, (len(sampled) + 69) // 70)
+        sampled = sampled.iloc[::step]
+
+    return [
+        {
+            "date": index.strftime("%Y-%m-%d"),
+            "close": round(float(value), 2),
+        }
+        for index, value in sampled.items()
+    ]
 
 
 def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -> tuple[str, int, list[str]]:
@@ -139,6 +175,7 @@ def snapshot(ticker: str) -> dict[str, Any]:
     stock = yf.Ticker(ticker)
     info = stock.info
     hist = stock.history(period="5y", auto_adjust=True)
+    meta = COMPANIES[ticker]
 
     performance = {
         "one_month": get_return(hist.tail(23), 0) if len(hist) >= 23 else None,
@@ -152,6 +189,8 @@ def snapshot(ticker: str) -> dict[str, Any]:
     return {
         "ticker": ticker,
         "name": info.get("longName") or info.get("shortName") or ticker,
+        "logo_url": meta["logo_url"],
+        "brand_domain": meta["brand_domain"],
         "sector": info.get("sector"),
         "industry": info.get("industry"),
         "summary": info.get("longBusinessSummary"),
@@ -178,6 +217,7 @@ def snapshot(ticker: str) -> dict[str, Any]:
         "analyst_target_mean": safe_float(info.get("targetMeanPrice")),
         "number_of_analyst_opinions": info.get("numberOfAnalystOpinions"),
         "performance": {key: fmt_percent(value) for key, value in performance.items()},
+        "chart_points": chart_points(hist),
         "rating": rating,
         "score": score,
         "rating_reasons": reasons,

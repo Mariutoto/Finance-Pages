@@ -1,6 +1,6 @@
 # Finance Snapshots
 
-Static GitHub Pages dashboard that turns Yahoo Finance data into compact company snapshots with past performance, fundamentals, key metrics, and a simple valuation-style rating.
+Static GitHub Pages dashboard that turns Yahoo Finance data into compact company snapshots with past performance, fundamentals, key metrics, logos, charts, and a simple valuation-style rating.
 
 The first version tracks:
 
@@ -16,7 +16,17 @@ python -m venv .venv
 .\.venv\Scripts\python scripts\fetch_snapshots.py
 ```
 
-Then open `index.html` in a browser.
+Then open `index.html` in a browser, or run a local static server:
+
+```powershell
+.\.venv\Scripts\python -m http.server 4173
+```
+
+Open `http://127.0.0.1:4173`.
+
+## PDF snapshots
+
+Use the `PDF` button on a company card to print that company as a one-page snapshot. Use `PDF all` to print the whole dashboard.
 
 ## GitHub Pages
 

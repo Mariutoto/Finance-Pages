@@ -29,6 +29,15 @@ const ratingClass = (rating) => {
   return "hold";
 };
 
+let latestCompanies = [];
+
+const escapeHtml = (value) => String(value ?? "")
+  .replaceAll("&", "&amp;")
+  .replaceAll("<", "&lt;")
+  .replaceAll(">", "&gt;")
+  .replaceAll('"', "&quot;")
+  .replaceAll("'", "&#039;");
+
 const metric = (label, value) => `
   <div class="metric">
     <span>${label}</span>
@@ -43,28 +52,124 @@ const performanceCell = (label, value) => `
   </div>
 `;
 
+const barMetric = (label, value) => `
+  <div class="bar-row">
+    <span>${label}</span>
+    <strong>${percent(value)}</strong>
+  </div>
+`;
+
+function drawSparkline(canvas, points) {
+  const ctx = canvas.getContext("2d");
+  const ratio = window.devicePixelRatio || 1;
+  const width = canvas.clientWidth * ratio;
+  const height = canvas.clientHeight * ratio;
+  canvas.width = width;
+  canvas.height = height;
+
+  ctx.clearRect(0, 0, width, height);
+  if (!points?.length) return;
+
+  const values = points.map((point) => Number(point.close)).filter(Number.isFinite);
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const spread = max - min || 1;
+  const pad = 14 * ratio;
+
+  ctx.lineWidth = 3 * ratio;
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+  ctx.strokeStyle = "rgba(36, 92, 156, 0.18)";
+  ctx.beginPath();
+  ctx.moveTo(pad, height - pad);
+  ctx.lineTo(width - pad, height - pad);
+  ctx.stroke();
+
+  ctx.strokeStyle = values.at(-1) >= values[0] ? "#13795b" : "#b42318";
+  ctx.beginPath();
+  values.forEach((value, index) => {
+    const x = pad + (index / Math.max(1, values.length - 1)) * (width - pad * 2);
+    const y = height - pad - ((value - min) / spread) * (height - pad * 2);
+    if (index === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+}
+
+function drawScoreGauge(canvas, score) {
+  const ctx = canvas.getContext("2d");
+  const ratio = window.devicePixelRatio || 1;
+  const width = canvas.clientWidth * ratio;
+  const height = canvas.clientHeight * ratio;
+  canvas.width = width;
+  canvas.height = height;
+
+  const centerX = width / 2;
+  const centerY = height * 0.9;
+  const radius = Math.min(width * 0.42, height * 0.78);
+  const start = Math.PI;
+  const end = Math.PI * 2;
+  const value = Math.max(0, Math.min(100, Number(score) || 0));
+  const valueEnd = start + (value / 100) * Math.PI;
+
+  ctx.clearRect(0, 0, width, height);
+  ctx.lineWidth = 14 * ratio;
+  ctx.lineCap = "round";
+  ctx.strokeStyle = "#d9e1ea";
+  ctx.beginPath();
+  ctx.arc(centerX, centerY, radius, start, end);
+  ctx.stroke();
+
+  ctx.strokeStyle = value >= 68 ? "#13795b" : value >= 45 ? "#9a6700" : "#b42318";
+  ctx.beginPath();
+  ctx.arc(centerX, centerY, radius, start, valueEnd);
+  ctx.stroke();
+}
+
 function companyTemplate(company) {
   const reasons = company.rating_reasons?.length
-    ? company.rating_reasons.map((reason) => `<li>${reason}</li>`).join("")
+    ? company.rating_reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")
     : "<li>donnees insuffisantes pour isoler les facteurs principaux</li>";
 
   return `
-    <article class="company">
+    <article class="company" id="snapshot-${company.ticker}">
       <div class="company-head">
-        <div>
-          <p class="ticker">${company.ticker}</p>
-          <h2>${company.name}</h2>
-          <p class="meta">${company.sector || "Secteur n/a"} · ${company.industry || "Industrie n/a"}</p>
+        <div class="identity">
+          <img class="logo" src="${company.logo_url}" alt="">
+          <div>
+            <p class="ticker">${company.ticker}</p>
+            <h2>${escapeHtml(company.name)}</h2>
+            <p class="meta">${escapeHtml(company.sector || "Secteur n/a")} / ${escapeHtml(company.industry || "Industrie n/a")}</p>
+          </div>
         </div>
-        <div class="rating ${ratingClass(company.rating)}">
-          <span>${company.rating}</span>
-          <strong>${company.score}/100</strong>
+        <div class="actions">
+          <button class="small-btn" type="button" data-print="${company.ticker}">PDF</button>
+          <div class="rating ${ratingClass(company.rating)}">
+            <span>${company.rating}</span>
+            <strong>${company.score}/100</strong>
+          </div>
         </div>
       </div>
 
-      <div class="price-line">
-        <strong>${number(company.price)} ${company.currency || ""}</strong>
-        <span>Objectif moyen analystes: ${number(company.analyst_target_mean)} ${company.currency || ""}</span>
+      <div class="snapshot-layout">
+        <section class="chart-panel">
+          <div class="price-line">
+            <div>
+              <span class="label">Cours</span>
+              <strong>${number(company.price)} ${company.currency || ""}</strong>
+            </div>
+            <div>
+              <span class="label">Objectif analystes</span>
+              <strong>${number(company.analyst_target_mean)} ${company.currency || ""}</strong>
+            </div>
+          </div>
+          <canvas class="sparkline" data-chart="${company.ticker}" aria-label="Graphique du cours sur un an"></canvas>
+        </section>
+
+        <section class="gauge-panel">
+          <canvas class="gauge" data-gauge="${company.ticker}" aria-label="Score du snapshot"></canvas>
+          <p class="gauge-score">${company.score}<span>/100</span></p>
+        </section>
       </div>
 
       <div class="grid">
@@ -107,13 +212,40 @@ function companyTemplate(company) {
         </div>
       </section>
 
+      <section class="visual-metrics">
+        <h3>Graphique fondamentaux</h3>
+        <div class="bar-list">
+          ${barMetric("Marge brute", company.gross_margin)}
+          ${barMetric("Marge nette", company.profit_margin)}
+          ${barMetric("Croissance CA", company.revenue_growth)}
+          ${barMetric("Croissance BPA", company.earnings_growth)}
+        </div>
+      </section>
+
       <section class="takeaway">
         <h3>Lecture rapide</h3>
         <ul>${reasons}</ul>
-        <p>${company.summary ? company.summary.slice(0, 430) : "Description non disponible."}${company.summary && company.summary.length > 430 ? "..." : ""}</p>
+        <p>${escapeHtml(company.summary ? company.summary.slice(0, 390) : "Description non disponible.")}${company.summary && company.summary.length > 390 ? "..." : ""}</p>
       </section>
     </article>
   `;
+}
+
+function drawCharts(companies) {
+  companies.forEach((company) => {
+    const chart = document.querySelector(`[data-chart="${company.ticker}"]`);
+    const gauge = document.querySelector(`[data-gauge="${company.ticker}"]`);
+    if (chart) drawSparkline(chart, company.chart_points);
+    if (gauge) drawScoreGauge(gauge, company.score);
+  });
+}
+
+function printSnapshot(ticker) {
+  document.querySelectorAll(".company").forEach((node) => {
+    node.classList.toggle("print-target", node.id === `snapshot-${ticker}`);
+  });
+  document.body.classList.add("print-single");
+  window.print();
 }
 
 async function load() {
@@ -121,10 +253,33 @@ async function load() {
   const data = await response.json();
   document.getElementById("source").textContent = data.source;
   document.getElementById("updated").textContent = new Date(data.generated_at).toLocaleString("fr-CH");
+  latestCompanies = data.companies;
   document.getElementById("companies").innerHTML = data.companies.map(companyTemplate).join("");
+  drawCharts(data.companies);
+
+  document.querySelectorAll("[data-print]").forEach((button) => {
+    button.addEventListener("click", () => printSnapshot(button.dataset.print));
+  });
 }
 
-document.getElementById("printBtn").addEventListener("click", () => window.print());
+document.getElementById("printBtn").addEventListener("click", () => {
+  document.body.classList.remove("print-single");
+  document.querySelectorAll(".company").forEach((node) => node.classList.remove("print-target"));
+  window.print();
+});
+
+window.addEventListener("afterprint", () => {
+  document.body.classList.remove("print-single");
+  document.querySelectorAll(".company").forEach((node) => node.classList.remove("print-target"));
+});
+
+let resizeTimer;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    drawCharts(latestCompanies);
+  }, 150);
+});
 
 load().catch((error) => {
   document.getElementById("companies").innerHTML = `<p class="error">Impossible de charger le snapshot: ${error.message}</p>`;
