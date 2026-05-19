@@ -34,7 +34,21 @@ let latestCompanies = [];
 let chartTooltip;
 
 const helpText = {
-  score: "House score out of 100. Target weighting: growth 25 pts, profitability 25 pts, valuation 20 pts, financial strength 15 pts, momentum and analysts 15 pts. Reading: 80+ very attractive, 65-79 Buy, 50-64 Hold, 35-49 Caution, below 35 Avoid.",
+  score: [
+    "House score out of 100.",
+    "Target weighting:",
+    "Growth: 25 pts",
+    "Profitability: 25 pts",
+    "Valuation: 20 pts",
+    "Financial strength: 15 pts",
+    "Momentum + analysts: 15 pts",
+    "Reading:",
+    "80+ very attractive",
+    "65-79 Buy",
+    "50-64 Hold",
+    "35-49 Caution",
+    "Below 35 Avoid",
+  ],
   price: "Latest share price from Yahoo Finance. It is used to compare the current price with analyst targets and valuation ratios.",
   marketCap: "Market capitalization: share price multiplied by shares outstanding. It represents the market size of the company.",
   forwardPe: "Forward P/E: current price divided by expected earnings per share. The higher it is, the more the market is paying for future growth.",
@@ -52,10 +66,15 @@ const helpText = {
 };
 
 function help(key) {
+  const text = Array.isArray(helpText[key]) ? helpText[key].join(" ") : helpText[key];
+  const body = Array.isArray(helpText[key])
+    ? `<span role="tooltip"><strong>${escapeHtml(helpText[key][0])}</strong><ul>${helpText[key].slice(1).map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul></span>`
+    : `<span role="tooltip">${escapeHtml(helpText[key])}</span>`;
+
   return `
-    <button class="help" type="button" aria-label="${escapeHtml(helpText[key])}" title="${escapeHtml(helpText[key])}">
+    <button class="help" type="button" aria-label="${escapeHtml(text)}" title="${escapeHtml(text)}">
       ?
-      <span role="tooltip">${escapeHtml(helpText[key])}</span>
+      ${body}
     </button>
   `;
 }

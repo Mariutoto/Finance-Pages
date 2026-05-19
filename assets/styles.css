@@ -362,6 +362,23 @@ th {
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
 }
 
+.help span strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.help span ul {
+  display: grid;
+  gap: 3px;
+  margin: 0;
+  padding-left: 16px;
+}
+
+.help span li {
+  color: #d7e2ee;
+}
+
 .help span::after {
   position: absolute;
   top: 100%;
