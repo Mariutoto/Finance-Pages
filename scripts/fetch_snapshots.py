@@ -153,23 +153,23 @@ def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -
     if revenue_growth is not None:
         if revenue_growth > 0.12:
             score += 12
-            reasons.append("croissance du chiffre d'affaires solide")
+            reasons.append("solid revenue growth")
         elif revenue_growth < 0:
             score -= 10
-            reasons.append("croissance du chiffre d'affaires negative")
+            reasons.append("negative revenue growth")
 
     if profit_margin is not None:
         if profit_margin > 0.18:
             score += 10
-            reasons.append("marges nettes elevees")
+            reasons.append("high net margins")
         elif profit_margin < 0.05:
             score -= 8
-            reasons.append("marges faibles")
+            reasons.append("weak margins")
 
     if roe is not None:
         if roe > 0.2:
             score += 8
-            reasons.append("rentabilite des fonds propres forte")
+            reasons.append("strong return on equity")
         elif roe < 0.08:
             score -= 6
 
@@ -178,15 +178,15 @@ def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -
             score += 5
         elif debt_to_equity > 180:
             score -= 8
-            reasons.append("levier financier eleve")
+            reasons.append("high financial leverage")
 
     if forward_pe is not None:
         if forward_pe < 22:
             score += 8
-            reasons.append("valorisation raisonnable en forward P/E")
+            reasons.append("reasonable forward P/E valuation")
         elif forward_pe > 45:
             score -= 10
-            reasons.append("valorisation exigeante")
+            reasons.append("demanding valuation")
 
     if peg is not None:
         if 0 < peg < 1.5:
@@ -198,26 +198,26 @@ def score_snapshot(info: dict[str, Any], performance: dict[str, float | None]) -
     if one_year is not None:
         if one_year > 0.15:
             score += 8
-            reasons.append("momentum annuel positif")
+            reasons.append("positive one-year momentum")
         elif one_year < -0.15:
             score -= 8
-            reasons.append("momentum annuel negatif")
+            reasons.append("negative one-year momentum")
 
     if target_upside is not None:
         if target_upside > 0.12:
             score += 8
-            reasons.append("objectif moyen des analystes au-dessus du cours")
+            reasons.append("analyst target above current price")
         elif target_upside < -0.08:
             score -= 8
-            reasons.append("objectif moyen des analystes sous le cours")
+            reasons.append("analyst target below current price")
 
     score = max(0, min(100, score))
     if score >= 68:
-        rating = "Acheter"
+        rating = "Buy"
     elif score >= 45:
-        rating = "Garder"
+        rating = "Hold"
     else:
-        rating = "Eviter"
+        rating = "Avoid"
 
     return rating, score, reasons[:4]
 
