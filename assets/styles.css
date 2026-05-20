@@ -118,9 +118,75 @@ main {
   font-size: 17px;
 }
 
+.universe-controls {
+  display: grid;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.universe-controls select {
+  width: 100%;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.asset-rail {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.asset-chip {
+  flex: 0 0 auto;
+  min-width: 72px;
+  height: 34px;
+  padding: 0 12px;
+  border-color: var(--line);
+  background: #fff;
+  color: var(--ink);
+}
+
+.asset-chip:hover,
+.asset-chip.selected {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: #fff;
+}
+
+.asset-groups,
 .companies {
   display: grid;
   gap: 20px;
+}
+
+.asset-groups {
+  margin-bottom: 20px;
+}
+
+.asset-group {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.asset-group-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+
+.asset-group h2 {
+  margin-bottom: 0;
+  font-size: clamp(18px, 2vw, 24px);
 }
 
 .company {
@@ -163,6 +229,53 @@ main {
 
 .logo span {
   font-size: 19px;
+}
+
+.asset-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 210px;
+}
+
+.asset-cell .logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+}
+
+.asset-cell .logo span {
+  font-size: 12px;
+}
+
+.asset-cell strong,
+.asset-cell span {
+  display: block;
+}
+
+.asset-cell span {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.asset-row {
+  cursor: pointer;
+}
+
+.asset-row:hover td,
+.asset-row:focus td {
+  background: #f8fbff;
+}
+
+.asset-row.selected td {
+  background: #eef4fa;
+}
+
+.asset-row:focus {
+  outline: 2px solid var(--blue);
+  outline-offset: -2px;
 }
 
 .meta,
@@ -246,6 +359,10 @@ footer {
   grid-template-columns: 1.2fr 1fr 1fr;
   gap: 12px;
   margin-bottom: 14px;
+}
+
+.snapshot-grid.single-chart {
+  grid-template-columns: 1fr;
 }
 
 .event-grid {
@@ -379,6 +496,35 @@ th {
   text-transform: uppercase;
 }
 
+.table-scroll {
+  overflow-x: auto;
+}
+
+.mini-rating {
+  display: inline-block;
+  min-width: 94px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 850;
+  text-align: center;
+}
+
+.mini-rating.buy {
+  background: #e6f4ef;
+  color: var(--green);
+}
+
+.mini-rating.hold {
+  background: #fff3d7;
+  color: var(--amber);
+}
+
+.mini-rating.avoid {
+  background: #fee4e2;
+  color: var(--red);
+}
+
 .help {
   position: relative;
   display: inline-grid;
@@ -492,6 +638,7 @@ footer {
 
 @media (max-width: 850px) {
   .topbar,
+  .asset-group-head,
   .company-head,
   .identity,
   .actions {
@@ -528,6 +675,7 @@ footer {
 
   .topbar,
   .overview,
+  .asset-groups,
   .help,
   .chart-tooltip,
   .small-btn,
