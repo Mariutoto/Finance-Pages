@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -85,6 +86,70 @@ OUT = Path(__file__).resolve().parents[1] / "data" / "snapshots.json"
 SENTIMENT_HISTORY_OUT = Path(__file__).resolve().parents[1] / "data" / "sentiment_history.json"
 FINNHUB_API_KEY = os.environ.get("FINNHUB_API_KEY", "").strip()
 
+POSITIVE_TERMS = {
+    "advance",
+    "beat",
+    "beats",
+    "bullish",
+    "climb",
+    "climbs",
+    "gain",
+    "gains",
+    "green",
+    "growth",
+    "higher",
+    "improve",
+    "improves",
+    "jump",
+    "jumps",
+    "outperform",
+    "positive",
+    "rally",
+    "rebound",
+    "record",
+    "rise",
+    "rises",
+    "rose",
+    "strong",
+    "surge",
+    "surges",
+    "up",
+    "upgrade",
+}
+
+NEGATIVE_TERMS = {
+    "bearish",
+    "concern",
+    "concerns",
+    "decline",
+    "declines",
+    "down",
+    "downgrade",
+    "drop",
+    "drops",
+    "fall",
+    "falls",
+    "fell",
+    "lawsuit",
+    "loss",
+    "losses",
+    "lower",
+    "miss",
+    "misses",
+    "negative",
+    "pressure",
+    "red",
+    "risk",
+    "risks",
+    "selloff",
+    "slump",
+    "slumps",
+    "tariff",
+    "tariffs",
+    "weak",
+    "weakness",
+}
+
 
 def safe_float(value: Any) -> float | None:
     try:
@@ -136,6 +201,97 @@ def sentiment_label(score: float | None) -> str:
     if score <= -0.25:
         return "Negative"
     return "Neutral"
+
+
+def strip_html(value: Any) -> str:
+    return re.sub(r"<[^>]+>", " ", str(value or "")).strip()
+
+
+def yahoo_url(content: dict[str, Any]) -> str | None:
+    for key in ("clickThroughUrl", "canonicalUrl"):
+        node = content.get(key)
+        if isinstance(node, dict) and node.get("url"):
+            return node.get("url")
+    return content.get("previewUrl")
+
+
+def normalize_yahoo_news_item(item: dict[str, Any]) -> dict[str, Any] | None:
+    content = item.get("content") if isinstance(item.get("content"), dict) else item
+    if not isinstance(content, dict):
+        return None
+
+    published_at = content.get("pubDate") or content.get("displayTime")
+    timestamp = safe_float(content.get("providerPublishTime") or item.get("providerPublishTime"))
+    if not published_at and timestamp:
+        published_at = datetime.fromtimestamp(timestamp, timezone.utc).isoformat()
+
+    provider = content.get("provider") if isinstance(content.get("provider"), dict) else {}
+    headline = content.get("title") or item.get("title")
+    if not headline:
+        return None
+
+    return {
+        "headline": strip_html(headline),
+        "source": provider.get("displayName") or item.get("publisher") or "Yahoo Finance",
+        "url": yahoo_url(content) or item.get("link"),
+        "published_at": published_at,
+        "summary": strip_html(content.get("summary") or content.get("description")),
+    }
+
+
+def fetch_yahoo_news(stock: yf.Ticker) -> list[dict[str, Any]]:
+    try:
+        payload = stock.news or []
+    except Exception as error:
+        print(f"Yahoo Finance news failed for {stock.ticker}: {error}")
+        return []
+
+    news = []
+    for item in payload[:8]:
+        if not isinstance(item, dict):
+            continue
+        normalized = normalize_yahoo_news_item(item)
+        if normalized:
+            news.append(normalized)
+    return news
+
+
+def article_sentiment_score(item: dict[str, Any]) -> float:
+    text = f"{item.get('headline') or ''} {item.get('summary') or ''}".lower()
+    tokens = re.findall(r"[a-z]+", text)
+    positive = sum(1 for token in tokens if token in POSITIVE_TERMS)
+    negative = sum(1 for token in tokens if token in NEGATIVE_TERMS)
+    if not positive and not negative:
+        return 0.0
+    return max(-1.0, min(1.0, (positive - negative) / max(3, positive + negative)))
+
+
+def sentiment_from_news(news: list[dict[str, Any]], source: str = "Yahoo Finance") -> dict[str, Any]:
+    if not news:
+        return {
+            "available": False,
+            "score": None,
+            "label": "Unavailable",
+            "bullish_percent": None,
+            "bearish_percent": None,
+            "articles_last_week": None,
+            "source": source,
+        }
+
+    scores = [article_sentiment_score(item) for item in news]
+    bullish = [score for score in scores if score > 0.05]
+    bearish = [score for score in scores if score < -0.05]
+    score = sum(scores) / len(scores)
+
+    return {
+        "available": True,
+        "score": round(max(-1, min(1, score)), 3),
+        "label": sentiment_label(score),
+        "bullish_percent": round((len(bullish) / len(scores)) * 100, 1),
+        "bearish_percent": round((len(bearish) / len(scores)) * 100, 1),
+        "articles_last_week": len(news),
+        "source": source,
+    }
 
 
 def fetch_finnhub_sentiment(ticker: str) -> dict[str, Any]:
@@ -458,7 +614,7 @@ def score_snapshot(info: dict[str, Any], performance: dict[str, float | None], s
     return rating, score, reasons[:4]
 
 
-def score_market_asset(performance: dict[str, float | None]) -> tuple[str, int, list[str]]:
+def score_market_asset(performance: dict[str, float | None], sentiment: dict[str, Any]) -> tuple[str, int, list[str]]:
     score = 50
     reasons: list[str] = []
 
@@ -494,6 +650,21 @@ def score_market_asset(performance: dict[str, float | None]) -> tuple[str, int, 
         elif one_month < -0.04:
             score -= 5
 
+    sentiment_score = safe_float(sentiment.get("score"))
+    if sentiment_score is not None:
+        if sentiment_score >= 0.25:
+            score += 8
+            reasons.append("positive news tone")
+        elif sentiment_score >= 0.1:
+            score += 4
+            reasons.append("mildly positive news tone")
+        elif sentiment_score <= -0.25:
+            score -= 8
+            reasons.append("negative news tone")
+        elif sentiment_score <= -0.1:
+            score -= 4
+            reasons.append("mildly negative news tone")
+
     score = max(0, min(100, score))
     if score >= 68:
         rating = "Buy"
@@ -512,6 +683,7 @@ def snapshot(ticker: str, history_doc: dict[str, Any], generated_at: str) -> dic
     stock = yf.Ticker(ticker)
     info = stock.info
     hist = stock.history(period="5y", auto_adjust=True)
+    yahoo_news = fetch_yahoo_news(stock)
     meta = ASSETS[ticker]
     asset_type = meta["asset_type"]
 
@@ -524,25 +696,23 @@ def snapshot(ticker: str, history_doc: dict[str, Any], generated_at: str) -> dic
 
     if asset_type == "equity":
         sentiment = fetch_finnhub_sentiment(ticker)
+        if not sentiment.get("available"):
+            sentiment = sentiment_from_news(yahoo_news)
         sentiment_history_rows = update_sentiment_history(history_doc, generated_at, ticker, sentiment)
         sentiment["delta"] = sentiment_delta(sentiment_history_rows)
         sentiment["history"] = sentiment_history_rows
-        latest_news = fetch_company_news(ticker)
+        latest_news = fetch_company_news(ticker) or yahoo_news
         earnings = fetch_earnings(ticker)
         rating, score, reasons = score_snapshot(info, performance, sentiment)
         valuations = valuation_history(stock, hist)
     else:
-        sentiment = {
-            "available": False,
-            "score": None,
-            "label": "Unavailable",
-            "delta": None,
-            "history": [],
-            "source": "Finnhub",
-        }
-        latest_news = []
+        sentiment = sentiment_from_news(yahoo_news)
+        sentiment_history_rows = update_sentiment_history(history_doc, generated_at, ticker, sentiment)
+        sentiment["delta"] = sentiment_delta(sentiment_history_rows)
+        sentiment["history"] = sentiment_history_rows
+        latest_news = yahoo_news
         earnings = {"available": False, "source": "Finnhub"}
-        rating, score, reasons = score_market_asset(performance)
+        rating, score, reasons = score_market_asset(performance, sentiment)
         valuations = []
 
     return {
@@ -604,7 +774,7 @@ def main() -> None:
     ]
     data = {
         "generated_at": generated_at,
-        "source": "Yahoo Finance via yfinance + Finnhub",
+        "source": "Yahoo Finance via yfinance + Finnhub when configured",
         "disclaimer": "Educational snapshot only. Not financial advice.",
         "asset_groups": asset_groups,
         "companies": [snapshots[ticker] for ticker in COMPANIES],

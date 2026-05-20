@@ -68,9 +68,9 @@ const helpText = {
   eps: "EPS: earnings per share. Growth in EPS means the company earns more per share, often from growth or buybacks.",
   revenue: "Revenue: annual sales. Revenue growth shows business expansion, but does not by itself prove profitability.",
   quickRead: "Short explanation of the factors that influenced the score: growth, profitability, valuation, momentum or analyst targets depending on available data.",
-  sentiment: "News sentiment comes from Finnhub when FINNHUB_API_KEY is configured. It can add up to +8 points or subtract up to -8 points from the score.",
+  sentiment: "News sentiment comes from Finnhub when FINNHUB_API_KEY is configured for equities, otherwise from Yahoo Finance headlines. It can add or subtract points from the score.",
   earnings: "Next earnings announcement from Finnhub. EPS estimate is expected earnings per share; revenue estimate is expected sales for the quarter.",
-  news: "Latest company news from Finnhub. Use it to understand what may have moved sentiment since the previous refresh.",
+  news: "Latest news from Finnhub or Yahoo Finance. Use it to understand what may have moved sentiment since the previous refresh.",
   assetTable: "Cross-asset table. The score is a simple directional snapshot based on recent performance for non-equity assets and fundamentals for equities.",
 };
 
@@ -228,7 +228,7 @@ function formatDate(value) {
 }
 
 function newsRows(news) {
-  if (!news?.length) return "<li>No recent Finnhub news available.</li>";
+  if (!news?.length) return "<li>No recent news available.</li>";
   return news.slice(0, 3).map((item) => `
     <li>
       <a href="${escapeHtml(item.url || "#")}" target="_blank" rel="noreferrer">${escapeHtml(item.headline || "Untitled news")}</a>
@@ -365,10 +365,24 @@ function marketAssetTemplate(asset) {
       <section class="summary-strip">
         <div><span>Price ${help("price")}</span><strong>${number(asset.price)} ${asset.currency || ""}</strong></div>
         <div><span>Type</span><strong>${escapeHtml(asset.asset_type || "Asset")}</strong></div>
-        <div><span>1M return</span><strong class="${Number(asset.performance?.one_month) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.one_month)}</strong></div>
+        <div><span>Sentiment ${help("sentiment")}</span><strong class="${sentimentTone(asset.sentiment)}">${asset.sentiment?.available ? `${asset.sentiment.label} ${number(asset.sentiment.score)}` : "Unavailable"}</strong></div>
         <div><span>6M return</span><strong class="${Number(asset.performance?.six_months) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.six_months)}</strong></div>
         <div><span>1Y return ${help("oneYear")}</span><strong class="${Number(asset.performance?.one_year) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.one_year)}</strong></div>
       </section>
+
+      <div class="event-grid market-events">
+        <section class="event-panel">
+          <h3>News sentiment ${help("sentiment")}</h3>
+          <p class="event-score ${sentimentTone(asset.sentiment)}">${asset.sentiment?.available ? asset.sentiment.label : "Unavailable"}</p>
+          <p>${asset.sentiment?.available ? `Score ${number(asset.sentiment.score)} / Bullish ${number(asset.sentiment.bullish_percent, "%")} / Bearish ${number(asset.sentiment.bearish_percent, "%")}` : "No recent Yahoo Finance headlines available."}</p>
+          <p>${asset.sentiment?.source ? `Source: ${escapeHtml(asset.sentiment.source)}` : ""}</p>
+          <p>${sentimentDelta(asset.sentiment)}</p>
+        </section>
+        <section class="event-panel news-panel">
+          <h3>Latest news ${help("news")}</h3>
+          <ul>${newsRows(asset.latest_news)}</ul>
+        </section>
+      </div>
 
       <div class="snapshot-grid single-chart">
         <section class="chart-panel">
