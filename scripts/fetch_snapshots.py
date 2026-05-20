@@ -11,24 +11,76 @@ import requests
 import yfinance as yf
 
 
-COMPANIES = {
-    "AAPL": {
-        "logo_text": "A",
-        "brand_color": "#111111",
-        "brand_domain": "apple.com",
+ASSET_GROUPS = [
+    {
+        "id": "tech-stocks",
+        "name": "Tech stocks",
+        "description": "Large-cap technology equities.",
+        "assets": {
+            "AAPL": {
+                "asset_type": "equity",
+                "logo_text": "A",
+                "brand_color": "#111111",
+                "brand_domain": "apple.com",
+            },
+            "MSFT": {
+                "asset_type": "equity",
+                "logo_text": "MS",
+                "brand_color": "#2563eb",
+                "brand_domain": "microsoft.com",
+            },
+            "NVDA": {
+                "asset_type": "equity",
+                "logo_text": "NV",
+                "brand_color": "#76b900",
+                "brand_domain": "nvidia.com",
+            },
+        },
     },
-    "MSFT": {
-        "logo_text": "MS",
-        "brand_color": "#2563eb",
-        "brand_domain": "microsoft.com",
+    {
+        "id": "commodities",
+        "name": "Commodities",
+        "description": "Liquid commodity futures used as macro underlyings.",
+        "assets": {
+            "GC=F": {"asset_type": "commodity", "logo_text": "AU", "brand_color": "#b7791f"},
+            "SI=F": {"asset_type": "commodity", "logo_text": "AG", "brand_color": "#64748b"},
+            "CL=F": {"asset_type": "commodity", "logo_text": "OIL", "brand_color": "#111827"},
+        },
     },
-    "NVDA": {
-        "logo_text": "NV",
-        "brand_color": "#76b900",
-        "brand_domain": "nvidia.com",
+    {
+        "id": "crypto",
+        "name": "Crypto",
+        "description": "Major crypto spot pairs quoted in USD.",
+        "assets": {
+            "BTC-USD": {"asset_type": "crypto", "logo_text": "BTC", "brand_color": "#f7931a"},
+            "ETH-USD": {"asset_type": "crypto", "logo_text": "ETH", "brand_color": "#627eea"},
+            "SOL-USD": {"asset_type": "crypto", "logo_text": "SOL", "brand_color": "#14f195"},
+        },
     },
-}
-TICKERS = list(COMPANIES)
+    {
+        "id": "indices",
+        "name": "Indices",
+        "description": "Broad US equity index benchmarks.",
+        "assets": {
+            "^GSPC": {"asset_type": "index", "logo_text": "SPX", "brand_color": "#0f7187"},
+            "^IXIC": {"asset_type": "index", "logo_text": "NDX", "brand_color": "#7c3aed"},
+            "^DJI": {"asset_type": "index", "logo_text": "DJI", "brand_color": "#2563eb"},
+        },
+    },
+    {
+        "id": "fixed-income",
+        "name": "Fixed income",
+        "description": "Treasury bond ETFs across short, intermediate, and long duration.",
+        "assets": {
+            "SHY": {"asset_type": "fixed income", "logo_text": "SHY", "brand_color": "#475569"},
+            "IEF": {"asset_type": "fixed income", "logo_text": "IEF", "brand_color": "#0f766e"},
+            "TLT": {"asset_type": "fixed income", "logo_text": "TLT", "brand_color": "#1d4ed8"},
+        },
+    },
+]
+
+ASSETS = {ticker: meta for group in ASSET_GROUPS for ticker, meta in group["assets"].items()}
+COMPANIES = {ticker: meta for ticker, meta in ASSETS.items() if meta["asset_type"] == "equity"}
 OUT = Path(__file__).resolve().parents[1] / "data" / "snapshots.json"
 SENTIMENT_HISTORY_OUT = Path(__file__).resolve().parents[1] / "data" / "sentiment_history.json"
 FINNHUB_API_KEY = os.environ.get("FINNHUB_API_KEY", "").strip()
@@ -406,11 +458,62 @@ def score_snapshot(info: dict[str, Any], performance: dict[str, float | None], s
     return rating, score, reasons[:4]
 
 
+def score_market_asset(performance: dict[str, float | None]) -> tuple[str, int, list[str]]:
+    score = 50
+    reasons: list[str] = []
+
+    one_month = performance.get("one_month")
+    six_months = performance.get("six_months")
+    one_year = performance.get("one_year")
+
+    if one_year is not None:
+        if one_year > 0.15:
+            score += 16
+            reasons.append("strong one-year trend")
+        elif one_year > 0.04:
+            score += 8
+            reasons.append("positive one-year trend")
+        elif one_year < -0.15:
+            score -= 16
+            reasons.append("weak one-year trend")
+        elif one_year < -0.04:
+            score -= 8
+            reasons.append("negative one-year trend")
+
+    if six_months is not None:
+        if six_months > 0.08:
+            score += 9
+            reasons.append("six-month momentum is supportive")
+        elif six_months < -0.08:
+            score -= 9
+            reasons.append("six-month momentum is under pressure")
+
+    if one_month is not None:
+        if one_month > 0.04:
+            score += 5
+        elif one_month < -0.04:
+            score -= 5
+
+    score = max(0, min(100, score))
+    if score >= 68:
+        rating = "Buy"
+    elif score >= 45:
+        rating = "Hold"
+    else:
+        rating = "Avoid"
+
+    if not reasons:
+        reasons.append("limited directional signal")
+
+    return rating, score, reasons[:4]
+
+
 def snapshot(ticker: str, history_doc: dict[str, Any], generated_at: str) -> dict[str, Any]:
     stock = yf.Ticker(ticker)
     info = stock.info
     hist = stock.history(period="5y", auto_adjust=True)
-    meta = COMPANIES[ticker]
+    meta = ASSETS[ticker]
+    asset_type = meta["asset_type"]
 
     performance = {
         "one_month": get_return(hist.tail(23), 0) if len(hist) >= 23 else None,
@@ -419,26 +522,40 @@ def snapshot(ticker: str, history_doc: dict[str, Any], generated_at: str) -> dic
         "five_years": get_return(hist, 0) if len(hist) >= 2 else None,
     }
 
-    sentiment = fetch_finnhub_sentiment(ticker)
-    sentiment_history_rows = update_sentiment_history(history_doc, generated_at, ticker, sentiment)
-    sentiment["delta"] = sentiment_delta(sentiment_history_rows)
-    sentiment["history"] = sentiment_history_rows
-
-    latest_news = fetch_company_news(ticker)
-    earnings = fetch_earnings(ticker)
-
-    rating, score, reasons = score_snapshot(info, performance, sentiment)
+    if asset_type == "equity":
+        sentiment = fetch_finnhub_sentiment(ticker)
+        sentiment_history_rows = update_sentiment_history(history_doc, generated_at, ticker, sentiment)
+        sentiment["delta"] = sentiment_delta(sentiment_history_rows)
+        sentiment["history"] = sentiment_history_rows
+        latest_news = fetch_company_news(ticker)
+        earnings = fetch_earnings(ticker)
+        rating, score, reasons = score_snapshot(info, performance, sentiment)
+        valuations = valuation_history(stock, hist)
+    else:
+        sentiment = {
+            "available": False,
+            "score": None,
+            "label": "Unavailable",
+            "delta": None,
+            "history": [],
+            "source": "Finnhub",
+        }
+        latest_news = []
+        earnings = {"available": False, "source": "Finnhub"}
+        rating, score, reasons = score_market_asset(performance)
+        valuations = []
 
     return {
         "ticker": ticker,
         "name": info.get("longName") or info.get("shortName") or ticker,
+        "asset_type": asset_type,
         "logo_text": meta["logo_text"],
         "brand_color": meta["brand_color"],
-        "brand_domain": meta["brand_domain"],
+        "brand_domain": meta.get("brand_domain"),
         "sector": info.get("sector"),
         "industry": info.get("industry"),
         "summary": info.get("longBusinessSummary"),
-        "price": safe_float(info.get("currentPrice") or info.get("regularMarketPrice")),
+        "price": safe_float(info.get("currentPrice") or info.get("regularMarketPrice") or info.get("previousClose")),
         "currency": info.get("currency"),
         "market_cap": safe_float(info.get("marketCap")),
         "enterprise_value": safe_float(info.get("enterpriseValue")),
@@ -462,7 +579,7 @@ def snapshot(ticker: str, history_doc: dict[str, Any], generated_at: str) -> dic
         "number_of_analyst_opinions": info.get("numberOfAnalystOpinions"),
         "performance": {key: fmt_percent(value) for key, value in performance.items()},
         "chart_points": chart_points(hist),
-        "valuation_history": valuation_history(stock, hist),
+        "valuation_history": valuations,
         "sentiment": sentiment,
         "latest_news": latest_news,
         "earnings": earnings,
@@ -475,11 +592,22 @@ def snapshot(ticker: str, history_doc: dict[str, Any], generated_at: str) -> dic
 def main() -> None:
     generated_at = datetime.now(timezone.utc).isoformat()
     sentiment_history_doc = load_sentiment_history()
+    snapshots = {ticker: snapshot(ticker, sentiment_history_doc, generated_at) for ticker in ASSETS}
+    asset_groups = [
+        {
+            "id": group["id"],
+            "name": group["name"],
+            "description": group["description"],
+            "assets": [snapshots[ticker] for ticker in group["assets"]],
+        }
+        for group in ASSET_GROUPS
+    ]
     data = {
         "generated_at": generated_at,
         "source": "Yahoo Finance via yfinance + Finnhub",
         "disclaimer": "Educational snapshot only. Not financial advice.",
-        "companies": [snapshot(ticker, sentiment_history_doc, generated_at) for ticker in TICKERS],
+        "asset_groups": asset_groups,
+        "companies": [snapshots[ticker] for ticker in COMPANIES],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False, allow_nan=False), encoding="utf-8")

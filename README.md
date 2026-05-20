@@ -1,12 +1,26 @@
 # Finance Snapshots
 
-Static GitHub Pages dashboard that turns Yahoo Finance data into compact company snapshots with past performance, fundamentals, key metrics, logos, charts, and a simple valuation-style rating.
+Static GitHub Pages dashboard that turns Yahoo Finance data into compact market snapshots with past performance, fundamentals where available, key metrics, logos, charts, and simple rating signals.
 
-The first version tracks:
+The dashboard tracks four tables of three underlyings each:
 
 - Apple (`AAPL`)
 - Microsoft (`MSFT`)
 - NVIDIA (`NVDA`)
+- Gold futures (`GC=F`)
+- Silver futures (`SI=F`)
+- Crude oil futures (`CL=F`)
+- Bitcoin (`BTC-USD`)
+- Ethereum (`ETH-USD`)
+- Solana (`SOL-USD`)
+- S&P 500 (`^GSPC`)
+- Nasdaq Composite (`^IXIC`)
+- Dow Jones Industrial Average (`^DJI`)
+- iShares 1-3 Year Treasury Bond ETF (`SHY`)
+- iShares 7-10 Year Treasury Bond ETF (`IEF`)
+- iShares 20+ Year Treasury Bond ETF (`TLT`)
+
+Use the Universe dropdown to switch sub-categories. The horizontal ticker rail lets you show all three underlyings in that category or isolate one asset. Rows in the table also filter the snapshot area to the clicked underlying.
 
 ## Local refresh
 
@@ -26,7 +40,7 @@ Open `http://127.0.0.1:4173`.
 
 ## PDF snapshots
 
-Use the `PDF` button on a company card to print that company as a one-page snapshot. Use `PDF all` to print the whole dashboard.
+Use the `PDF` button on a company card to print that company as a one-page snapshot. Use `PDF all` to print the detailed company snapshots.
 
 ## Finnhub news, sentiment, and earnings
 
@@ -52,4 +66,4 @@ Publish the repository with GitHub Pages using the `main` branch and the reposit
 
 ## Notes
 
-This is an educational snapshot tool, not investment advice. The generated `rating` is a transparent heuristic based on growth, profitability, leverage, valuation, momentum, and analyst sentiment when available from Yahoo Finance.
+This is an educational snapshot tool, not investment advice. Equity ratings use a transparent heuristic based on growth, profitability, leverage, valuation, momentum, and analyst sentiment when available from Yahoo Finance. Non-equity signals are directional snapshots based on recent performance.

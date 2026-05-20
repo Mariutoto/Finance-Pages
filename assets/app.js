@@ -31,6 +31,10 @@ const escapeHtml = (value) => String(value ?? "")
   .replaceAll("'", "&#039;");
 
 let latestCompanies = [];
+let latestAssetGroups = [];
+let selectedGroupId = "";
+let selectedTicker = "all";
+let latestVisibleAssets = [];
 let chartTooltip;
 
 const helpText = {
@@ -67,6 +71,7 @@ const helpText = {
   sentiment: "News sentiment comes from Finnhub when FINNHUB_API_KEY is configured. It can add up to +8 points or subtract up to -8 points from the score.",
   earnings: "Next earnings announcement from Finnhub. EPS estimate is expected earnings per share; revenue estimate is expected sales for the quarter.",
   news: "Latest company news from Finnhub. Use it to understand what may have moved sentiment since the previous refresh.",
+  assetTable: "Cross-asset table. The score is a simple directional snapshot based on recent performance for non-equity assets and fundamentals for equities.",
 };
 
 function help(key) {
@@ -245,7 +250,7 @@ function earningsText(earnings, currency) {
 }
 
 function valuationRows(company) {
-  return [...(company.valuation_history || [])]
+  const rows = [...(company.valuation_history || [])]
     .sort((a, b) => b.year - a.year)
     .map((row) => `
       <tr>
@@ -256,6 +261,132 @@ function valuationRows(company) {
         <td>${large(row.revenue, company.currency)}</td>
       </tr>
     `).join("");
+  return rows || `<tr><td colspan="5">No valuation history available.</td></tr>`;
+}
+
+function activeGroup() {
+  return latestAssetGroups.find((group) => group.id === selectedGroupId) || latestAssetGroups[0];
+}
+
+function assetRows(assets) {
+  return (assets || []).map((asset) => `
+    <tr class="asset-row ${selectedTicker === asset.ticker ? "selected" : ""}" data-asset-ticker="${escapeHtml(asset.ticker)}" tabindex="0" role="button" aria-label="Show ${escapeHtml(asset.ticker)}">
+      <td>
+        <div class="asset-cell">
+          ${logo(asset)}
+          <div>
+            <strong>${escapeHtml(asset.ticker)}</strong>
+            <span>${escapeHtml(asset.name || asset.ticker)}</span>
+          </div>
+        </div>
+      </td>
+      <td>${escapeHtml(asset.asset_type || "asset")}</td>
+      <td>${number(asset.price)} ${asset.currency || ""}</td>
+      <td class="${Number(asset.performance?.one_month) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.one_month)}</td>
+      <td class="${Number(asset.performance?.six_months) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.six_months)}</td>
+      <td class="${Number(asset.performance?.one_year) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.one_year)}</td>
+      <td>
+        <span class="mini-rating ${ratingClass(asset.rating)}">${escapeHtml(asset.rating)} ${asset.score}/100</span>
+      </td>
+    </tr>
+  `).join("");
+}
+
+function assetGroupTemplate(group) {
+  return `
+    <section class="asset-group" id="group-${escapeHtml(group.id)}">
+      <div class="asset-group-head">
+        <div>
+          <p class="eyebrow">${escapeHtml(group.name)}</p>
+          <h2>${escapeHtml(group.description || group.name)}</h2>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Underlying ${help("assetTable")}</th>
+              <th>Type</th>
+              <th>Price</th>
+              <th>1M</th>
+              <th>6M</th>
+              <th>1Y</th>
+              <th>Signal</th>
+            </tr>
+          </thead>
+          <tbody>${assetRows(group.assets)}</tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+function universeControlsTemplate(group) {
+  const options = latestAssetGroups.map((item) => `
+    <option value="${escapeHtml(item.id)}" ${item.id === group.id ? "selected" : ""}>${escapeHtml(item.name)}</option>
+  `).join("");
+  const chips = [
+    `<button class="asset-chip ${selectedTicker === "all" ? "selected" : ""}" type="button" data-picker-ticker="all">All 3</button>`,
+    ...(group.assets || []).map((asset) => `
+      <button class="asset-chip ${selectedTicker === asset.ticker ? "selected" : ""}" type="button" data-picker-ticker="${escapeHtml(asset.ticker)}">
+        ${escapeHtml(asset.ticker)}
+      </button>
+    `),
+  ].join("");
+
+  return `
+    <select id="universeSelect" aria-label="Universe category">${options}</select>
+    <div class="asset-rail" aria-label="Underlyings">${chips}</div>
+  `;
+}
+
+function marketAssetTemplate(asset) {
+  const reasons = asset.rating_reasons?.length
+    ? asset.rating_reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")
+    : "<li>limited directional signal</li>";
+
+  return `
+    <article class="company market-snapshot" id="snapshot-${escapeHtml(asset.ticker)}">
+      <div class="company-head">
+        <div class="identity">
+          ${logo(asset)}
+          <div>
+            <p class="ticker">${escapeHtml(asset.ticker)}</p>
+            <h2>${escapeHtml(asset.name || asset.ticker)}</h2>
+            <p class="meta">${escapeHtml(asset.asset_type || "Asset")} / ${escapeHtml(asset.currency || "Currency n/a")}</p>
+          </div>
+        </div>
+        <div class="rating ${ratingClass(asset.rating)}">
+          <span>${escapeHtml(asset.rating)} ${help("score")}</span>
+          <strong>${asset.score}/100</strong>
+        </div>
+      </div>
+
+      <section class="summary-strip">
+        <div><span>Price ${help("price")}</span><strong>${number(asset.price)} ${asset.currency || ""}</strong></div>
+        <div><span>Type</span><strong>${escapeHtml(asset.asset_type || "Asset")}</strong></div>
+        <div><span>1M return</span><strong class="${Number(asset.performance?.one_month) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.one_month)}</strong></div>
+        <div><span>6M return</span><strong class="${Number(asset.performance?.six_months) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.six_months)}</strong></div>
+        <div><span>1Y return ${help("oneYear")}</span><strong class="${Number(asset.performance?.one_year) >= 0 ? "positive" : "negative"}">${percent(asset.performance?.one_year)}</strong></div>
+      </section>
+
+      <div class="snapshot-grid single-chart">
+        <section class="chart-panel">
+          <h3>1Y price ${help("priceChart")}</h3>
+          <canvas class="price-chart" data-chart="${escapeHtml(asset.ticker)}"></canvas>
+        </section>
+      </div>
+
+      <section class="takeaway">
+        <h3>Quick read ${help("quickRead")}</h3>
+        <ul>${reasons}</ul>
+      </section>
+    </article>
+  `;
+}
+
+function assetTemplate(asset) {
+  return asset.asset_type === "equity" ? companyTemplate(asset) : marketAssetTemplate(asset);
 }
 
 function companyTemplate(company) {
@@ -376,24 +507,73 @@ function printSnapshot(ticker) {
 }
 
 function selectPrintTarget(ticker) {
+  selectAsset(ticker);
   document.querySelectorAll(".company").forEach((node) => {
     node.classList.toggle("print-target", node.id === `snapshot-${ticker}`);
   });
   document.body.classList.add("print-single");
 }
 
-async function load() {
-  const response = await fetch("data/snapshots.json", { cache: "no-store" });
-  const data = await response.json();
-  latestCompanies = data.companies;
-  document.getElementById("source").textContent = data.source;
-  document.getElementById("updated").textContent = new Date(data.generated_at).toLocaleString("en-US");
-  document.getElementById("companies").innerHTML = latestCompanies.map(companyTemplate).join("");
-  drawCharts(latestCompanies);
+function selectAsset(ticker) {
+  selectedTicker = ticker || "all";
+  const owningGroup = latestAssetGroups.find((group) => (group.assets || []).some((asset) => asset.ticker === selectedTicker));
+  if (owningGroup) selectedGroupId = owningGroup.id;
+  renderSelection();
+}
+
+function bindSelectionEvents() {
+  document.getElementById("universeSelect")?.addEventListener("change", (event) => {
+    selectedGroupId = event.target.value;
+    selectedTicker = "all";
+    renderSelection();
+  });
+
+  document.querySelectorAll("[data-picker-ticker]").forEach((button) => {
+    button.addEventListener("click", () => selectAsset(button.dataset.pickerTicker));
+  });
+
+  document.querySelectorAll("[data-asset-ticker]").forEach((row) => {
+    row.addEventListener("click", () => selectAsset(row.dataset.assetTicker));
+    row.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        selectAsset(row.dataset.assetTicker);
+      }
+    });
+  });
 
   document.querySelectorAll("[data-print]").forEach((button) => {
     button.addEventListener("click", () => printSnapshot(button.dataset.print));
   });
+}
+
+function renderSelection() {
+  const group = activeGroup();
+  if (!group) return;
+
+  const assets = selectedTicker === "all"
+    ? group.assets || []
+    : (group.assets || []).filter((asset) => asset.ticker === selectedTicker);
+
+  latestVisibleAssets = assets;
+  latestCompanies = assets.filter((asset) => asset.asset_type === "equity");
+  document.getElementById("universeControls").innerHTML = universeControlsTemplate(group);
+  document.getElementById("assetGroups").innerHTML = assetGroupTemplate(group);
+  document.getElementById("companies").innerHTML = assets.map(assetTemplate).join("");
+  drawCharts(assets);
+  bindSelectionEvents();
+}
+
+async function load() {
+  const response = await fetch("data/snapshots.json", { cache: "no-store" });
+  const data = await response.json();
+  latestCompanies = data.companies;
+  latestAssetGroups = data.asset_groups || [{ id: "tech-stocks", name: "Tech stocks", description: "Large-cap technology equities.", assets: latestCompanies }];
+  selectedGroupId = latestAssetGroups[0]?.id || "";
+  selectedTicker = "all";
+  document.getElementById("source").textContent = data.source;
+  document.getElementById("updated").textContent = new Date(data.generated_at).toLocaleString("en-US");
+  renderSelection();
 
   const printTicker = new URLSearchParams(window.location.search).get("print");
   if (printTicker) {
@@ -415,7 +595,7 @@ window.addEventListener("afterprint", () => {
 let resizeTimer;
 window.addEventListener("resize", () => {
   clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(() => drawCharts(latestCompanies), 150);
+  resizeTimer = setTimeout(() => drawCharts(latestVisibleAssets), 150);
 });
 
 load().catch((error) => {

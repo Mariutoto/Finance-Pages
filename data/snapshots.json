@@ -1,28 +1,4901 @@
 {
-  "generated_at": "2026-05-19T17:52:34.747965+00:00",
+  "generated_at": "2026-05-20T12:29:03.563807+00:00",
   "source": "Yahoo Finance via yfinance + Finnhub",
   "disclaimer": "Educational snapshot only. Not financial advice.",
+  "asset_groups": [
+    {
+      "id": "tech-stocks",
+      "name": "Tech stocks",
+      "description": "Large-cap technology equities.",
+      "assets": [
+        {
+          "ticker": "AAPL",
+          "name": "Apple Inc.",
+          "asset_type": "equity",
+          "logo_text": "A",
+          "brand_color": "#111111",
+          "brand_domain": "apple.com",
+          "sector": "Technology",
+          "industry": "Consumer Electronics",
+          "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+          "price": 298.97,
+          "currency": "USD",
+          "market_cap": 4391078723584.0,
+          "enterprise_value": 4407282892800.0,
+          "dividend_yield": 0.36,
+          "beta": 1.065,
+          "trailing_pe": 36.23879,
+          "forward_pe": 31.187866,
+          "peg_ratio": 2.59,
+          "price_to_sales": 9.726784,
+          "price_to_book": 41.18044,
+          "profit_margin": 27.15,
+          "operating_margin": 32.27,
+          "gross_margin": 47.86,
+          "revenue_growth": 16.6,
+          "earnings_growth": 21.8,
+          "return_on_equity": 141.47,
+          "debt_to_equity": 79.548,
+          "free_cashflow": 101090746368.0,
+          "recommendation_key": "buy",
+          "analyst_target_mean": 308.06512,
+          "number_of_analyst_opinions": 43,
+          "performance": {
+            "one_month": 10.74,
+            "six_months": 9.95,
+            "one_year": 42.08,
+            "five_years": 140.92
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 207.95
+            },
+            {
+              "date": "2025-05-23",
+              "close": 194.5
+            },
+            {
+              "date": "2025-05-30",
+              "close": 200.06
+            },
+            {
+              "date": "2025-06-05",
+              "close": 199.84
+            },
+            {
+              "date": "2025-06-11",
+              "close": 197.99
+            },
+            {
+              "date": "2025-06-17",
+              "close": 194.87
+            },
+            {
+              "date": "2025-06-24",
+              "close": 199.51
+            },
+            {
+              "date": "2025-06-30",
+              "close": 204.36
+            },
+            {
+              "date": "2025-07-07",
+              "close": 209.12
+            },
+            {
+              "date": "2025-07-11",
+              "close": 210.33
+            },
+            {
+              "date": "2025-07-17",
+              "close": 209.19
+            },
+            {
+              "date": "2025-07-23",
+              "close": 213.3
+            },
+            {
+              "date": "2025-07-29",
+              "close": 210.44
+            },
+            {
+              "date": "2025-08-04",
+              "close": 202.55
+            },
+            {
+              "date": "2025-08-08",
+              "close": 228.44
+            },
+            {
+              "date": "2025-08-14",
+              "close": 232.12
+            },
+            {
+              "date": "2025-08-20",
+              "close": 225.37
+            },
+            {
+              "date": "2025-08-26",
+              "close": 228.66
+            },
+            {
+              "date": "2025-09-02",
+              "close": 229.07
+            },
+            {
+              "date": "2025-09-08",
+              "close": 237.21
+            },
+            {
+              "date": "2025-09-12",
+              "close": 233.41
+            },
+            {
+              "date": "2025-09-18",
+              "close": 237.21
+            },
+            {
+              "date": "2025-09-24",
+              "close": 251.6
+            },
+            {
+              "date": "2025-09-30",
+              "close": 253.91
+            },
+            {
+              "date": "2025-10-06",
+              "close": 255.97
+            },
+            {
+              "date": "2025-10-10",
+              "close": 244.58
+            },
+            {
+              "date": "2025-10-16",
+              "close": 246.75
+            },
+            {
+              "date": "2025-10-22",
+              "close": 257.72
+            },
+            {
+              "date": "2025-10-28",
+              "close": 268.24
+            },
+            {
+              "date": "2025-11-03",
+              "close": 268.29
+            },
+            {
+              "date": "2025-11-07",
+              "close": 267.71
+            },
+            {
+              "date": "2025-11-13",
+              "close": 272.44
+            },
+            {
+              "date": "2025-11-19",
+              "close": 268.06
+            },
+            {
+              "date": "2025-11-25",
+              "close": 276.46
+            },
+            {
+              "date": "2025-12-02",
+              "close": 285.66
+            },
+            {
+              "date": "2025-12-08",
+              "close": 277.37
+            },
+            {
+              "date": "2025-12-12",
+              "close": 277.76
+            },
+            {
+              "date": "2025-12-18",
+              "close": 271.69
+            },
+            {
+              "date": "2025-12-24",
+              "close": 273.3
+            },
+            {
+              "date": "2025-12-31",
+              "close": 271.36
+            },
+            {
+              "date": "2026-01-07",
+              "close": 259.85
+            },
+            {
+              "date": "2026-01-13",
+              "close": 260.57
+            },
+            {
+              "date": "2026-01-20",
+              "close": 246.24
+            },
+            {
+              "date": "2026-01-26",
+              "close": 254.94
+            },
+            {
+              "date": "2026-01-30",
+              "close": 259.0
+            },
+            {
+              "date": "2026-02-05",
+              "close": 275.4
+            },
+            {
+              "date": "2026-02-11",
+              "close": 275.25
+            },
+            {
+              "date": "2026-02-18",
+              "close": 264.11
+            },
+            {
+              "date": "2026-02-24",
+              "close": 271.89
+            },
+            {
+              "date": "2026-03-02",
+              "close": 264.48
+            },
+            {
+              "date": "2026-03-06",
+              "close": 257.22
+            },
+            {
+              "date": "2026-03-12",
+              "close": 255.52
+            },
+            {
+              "date": "2026-03-18",
+              "close": 249.71
+            },
+            {
+              "date": "2026-03-24",
+              "close": 251.41
+            },
+            {
+              "date": "2026-03-30",
+              "close": 246.4
+            },
+            {
+              "date": "2026-04-06",
+              "close": 258.62
+            },
+            {
+              "date": "2026-04-10",
+              "close": 260.24
+            },
+            {
+              "date": "2026-04-16",
+              "close": 263.16
+            },
+            {
+              "date": "2026-04-22",
+              "close": 272.92
+            },
+            {
+              "date": "2026-04-28",
+              "close": 270.46
+            },
+            {
+              "date": "2026-05-04",
+              "close": 276.58
+            },
+            {
+              "date": "2026-05-08",
+              "close": 293.05
+            },
+            {
+              "date": "2026-05-14",
+              "close": 298.21
+            }
+          ],
+          "valuation_history": [
+            {
+              "year": 2021,
+              "price": 138.13,
+              "pe": null,
+              "price_to_sales": null,
+              "eps": null,
+              "revenue": null,
+              "revenue_growth": null
+            },
+            {
+              "year": 2022,
+              "price": 135.67,
+              "pe": 22.2,
+              "price_to_sales": 5.62,
+              "eps": 6.11,
+              "revenue": 394328000000.0,
+              "revenue_growth": -2.8
+            },
+            {
+              "year": 2023,
+              "price": 169.07,
+              "pe": 27.58,
+              "price_to_sales": 6.98,
+              "eps": 6.13,
+              "revenue": 383285000000.0,
+              "revenue_growth": 2.02
+            },
+            {
+              "year": 2024,
+              "price": 231.27,
+              "pe": 38.04,
+              "price_to_sales": 9.11,
+              "eps": 6.08,
+              "revenue": 391035000000.0,
+              "revenue_growth": 6.43
+            },
+            {
+              "year": 2025,
+              "price": 253.91,
+              "pe": 34.04,
+              "price_to_sales": 9.15,
+              "eps": 7.46,
+              "revenue": 416161000000.0,
+              "revenue_growth": null
+            }
+          ],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "bullish_percent": null,
+            "bearish_percent": null,
+            "articles_last_week": null,
+            "source": "Finnhub",
+            "delta": null,
+            "history": []
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 87,
+          "rating_reasons": [
+            "solid revenue growth",
+            "high net margins",
+            "strong return on equity",
+            "positive one-year momentum"
+          ]
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft Corporation",
+          "asset_type": "equity",
+          "logo_text": "MS",
+          "brand_color": "#2563eb",
+          "brand_domain": "microsoft.com",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "summary": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics products and cloud services, such as dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services comprising Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; server products, including SQL and windows server, visual studio and system center related client access licenses, and other on-premises offerings; enterprise and partner services, such as enterprise support and nuance professional services, industry solutions, Microsoft partner network, and learning experience. The Personal Computing segment provides windows and devices, such as Windows OEM licensing and devices and surface and PC accessories; gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox game pass, subscriptions, and cloud gaming, advertising, and other cloud services; search and news advertising services that includes Bing and Copilot, Microsoft News and Edge, and third-party affiliates. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+          "price": 417.42,
+          "currency": "USD",
+          "market_cap": 3100777381888.0,
+          "enterprise_value": 3147981127680.0,
+          "dividend_yield": 0.87,
+          "beta": 1.093,
+          "trailing_pe": 24.876043,
+          "forward_pe": 21.548674,
+          "peg_ratio": 1.31,
+          "price_to_sales": 9.742509,
+          "price_to_book": 7.48373,
+          "profit_margin": 39.34,
+          "operating_margin": 46.33,
+          "gross_margin": 68.31,
+          "revenue_growth": 18.3,
+          "earnings_growth": 23.4,
+          "return_on_equity": 34.01,
+          "debt_to_equity": 30.271,
+          "free_cashflow": 37011251200.0,
+          "recommendation_key": "strong_buy",
+          "analyst_target_mean": 560.6302,
+          "number_of_analyst_opinions": 54,
+          "performance": {
+            "one_month": -1.27,
+            "six_months": -17.84,
+            "one_year": -7.58,
+            "five_years": null
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 456.22
+            },
+            {
+              "date": "2025-05-23",
+              "close": 447.58
+            },
+            {
+              "date": "2025-05-30",
+              "close": 457.7
+            },
+            {
+              "date": "2025-06-05",
+              "close": 464.98
+            },
+            {
+              "date": "2025-06-11",
+              "close": 469.89
+            },
+            {
+              "date": "2025-06-17",
+              "close": 475.28
+            },
+            {
+              "date": "2025-06-24",
+              "close": 487.28
+            },
+            {
+              "date": "2025-06-30",
+              "close": 494.54
+            },
+            {
+              "date": "2025-07-07",
+              "close": 494.85
+            },
+            {
+              "date": "2025-07-11",
+              "close": 500.41
+            },
+            {
+              "date": "2025-07-17",
+              "close": 508.74
+            },
+            {
+              "date": "2025-07-23",
+              "close": 502.95
+            },
+            {
+              "date": "2025-07-29",
+              "close": 509.61
+            },
+            {
+              "date": "2025-08-04",
+              "close": 532.55
+            },
+            {
+              "date": "2025-08-08",
+              "close": 519.02
+            },
+            {
+              "date": "2025-08-14",
+              "close": 519.46
+            },
+            {
+              "date": "2025-08-20",
+              "close": 502.8
+            },
+            {
+              "date": "2025-08-26",
+              "close": 499.96
+            },
+            {
+              "date": "2025-09-02",
+              "close": 503.03
+            },
+            {
+              "date": "2025-09-08",
+              "close": 496.14
+            },
+            {
+              "date": "2025-09-12",
+              "close": 507.79
+            },
+            {
+              "date": "2025-09-18",
+              "close": 506.34
+            },
+            {
+              "date": "2025-09-24",
+              "close": 508.04
+            },
+            {
+              "date": "2025-09-30",
+              "close": 515.81
+            },
+            {
+              "date": "2025-10-06",
+              "close": 526.38
+            },
+            {
+              "date": "2025-10-10",
+              "close": 508.84
+            },
+            {
+              "date": "2025-10-16",
+              "close": 509.49
+            },
+            {
+              "date": "2025-10-22",
+              "close": 518.38
+            },
+            {
+              "date": "2025-10-28",
+              "close": 539.83
+            },
+            {
+              "date": "2025-11-03",
+              "close": 514.89
+            },
+            {
+              "date": "2025-11-07",
+              "close": 494.76
+            },
+            {
+              "date": "2025-11-13",
+              "close": 501.21
+            },
+            {
+              "date": "2025-11-19",
+              "close": 485.1
+            },
+            {
+              "date": "2025-11-25",
+              "close": 475.9
+            },
+            {
+              "date": "2025-12-02",
+              "close": 488.88
+            },
+            {
+              "date": "2025-12-08",
+              "close": 489.9
+            },
+            {
+              "date": "2025-12-12",
+              "close": 477.44
+            },
+            {
+              "date": "2025-12-18",
+              "close": 482.88
+            },
+            {
+              "date": "2025-12-24",
+              "close": 486.91
+            },
+            {
+              "date": "2025-12-31",
+              "close": 482.52
+            },
+            {
+              "date": "2026-01-07",
+              "close": 482.37
+            },
+            {
+              "date": "2026-01-13",
+              "close": 469.6
+            },
+            {
+              "date": "2026-01-20",
+              "close": 453.48
+            },
+            {
+              "date": "2026-01-26",
+              "close": 469.21
+            },
+            {
+              "date": "2026-01-30",
+              "close": 429.31
+            },
+            {
+              "date": "2026-02-05",
+              "close": 392.77
+            },
+            {
+              "date": "2026-02-11",
+              "close": 403.45
+            },
+            {
+              "date": "2026-02-18",
+              "close": 398.69
+            },
+            {
+              "date": "2026-02-24",
+              "close": 389.0
+            },
+            {
+              "date": "2026-03-02",
+              "close": 398.55
+            },
+            {
+              "date": "2026-03-06",
+              "close": 408.96
+            },
+            {
+              "date": "2026-03-12",
+              "close": 401.86
+            },
+            {
+              "date": "2026-03-18",
+              "close": 391.79
+            },
+            {
+              "date": "2026-03-24",
+              "close": 372.74
+            },
+            {
+              "date": "2026-03-30",
+              "close": 358.96
+            },
+            {
+              "date": "2026-04-06",
+              "close": 372.88
+            },
+            {
+              "date": "2026-04-10",
+              "close": 370.87
+            },
+            {
+              "date": "2026-04-16",
+              "close": 420.26
+            },
+            {
+              "date": "2026-04-22",
+              "close": 432.92
+            },
+            {
+              "date": "2026-04-28",
+              "close": 429.25
+            },
+            {
+              "date": "2026-05-04",
+              "close": 413.62
+            },
+            {
+              "date": "2026-05-08",
+              "close": 415.12
+            },
+            {
+              "date": "2026-05-14",
+              "close": 409.43
+            }
+          ],
+          "valuation_history": [
+            {
+              "year": 2022,
+              "price": 249.03,
+              "pe": 25.81,
+              "price_to_sales": 9.47,
+              "eps": 9.65,
+              "revenue": 198270000000.0,
+              "revenue_growth": 6.88
+            },
+            {
+              "year": 2023,
+              "price": 333.39,
+              "pe": 34.44,
+              "price_to_sales": 11.76,
+              "eps": 9.68,
+              "revenue": 211915000000.0,
+              "revenue_growth": 15.67
+            },
+            {
+              "year": 2024,
+              "price": 440.99,
+              "pe": 37.37,
+              "price_to_sales": 13.44,
+              "eps": 11.8,
+              "revenue": 245122000000.0,
+              "revenue_growth": 14.93
+            },
+            {
+              "year": 2025,
+              "price": 494.54,
+              "pe": 36.26,
+              "price_to_sales": 13.1,
+              "eps": 13.64,
+              "revenue": 281724000000.0,
+              "revenue_growth": null
+            }
+          ],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "bullish_percent": null,
+            "bearish_percent": null,
+            "articles_last_week": null,
+            "source": "Finnhub",
+            "delta": null,
+            "history": []
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 100,
+          "rating_reasons": [
+            "solid revenue growth",
+            "high net margins",
+            "strong return on equity",
+            "reasonable forward P/E valuation"
+          ]
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA Corporation",
+          "asset_type": "equity",
+          "logo_text": "NV",
+          "brand_color": "#76b900",
+          "brand_domain": "nvidia.com",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. The company sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants worldwide. It has a collaboration with Tech Mahindra Limited to develop artificial intelligence powered telco network operations reasoning agent. The company has a strategic partnership with Lumentum Holdings Inc. to develop optics technologies for AI and data centers. It also has a strategic partnership with Nebius Group N.V. to develop and deploy hyperscale cloud for the artificial intelligence market; and has a strategic partnership with IREN Limited to accelerate deployment of up to 5 gigawatts of infrastructure. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+          "price": 220.61,
+          "currency": "USD",
+          "market_cap": 5343290064896.0,
+          "enterprise_value": 5309679009792.0,
+          "dividend_yield": 0.02,
+          "beta": 2.244,
+          "trailing_pe": 45.02245,
+          "forward_pe": 18.975262,
+          "peg_ratio": 0.71,
+          "price_to_sales": 24.744556,
+          "price_to_book": 34.086834,
+          "profit_margin": 55.6,
+          "operating_margin": 65.02,
+          "gross_margin": 71.07,
+          "revenue_growth": 73.2,
+          "earnings_growth": 95.6,
+          "return_on_equity": 101.48,
+          "debt_to_equity": 7.255,
+          "free_cashflow": 58128998400.0,
+          "recommendation_key": "strong_buy",
+          "analyst_target_mean": 275.3058,
+          "number_of_analyst_opinions": 57,
+          "performance": {
+            "one_month": 9.39,
+            "six_months": 16.02,
+            "one_year": 62.97,
+            "five_years": 1413.54
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 135.54
+            },
+            {
+              "date": "2025-05-23",
+              "close": 131.26
+            },
+            {
+              "date": "2025-05-30",
+              "close": 135.1
+            },
+            {
+              "date": "2025-06-05",
+              "close": 139.96
+            },
+            {
+              "date": "2025-06-11",
+              "close": 142.81
+            },
+            {
+              "date": "2025-06-17",
+              "close": 144.1
+            },
+            {
+              "date": "2025-06-24",
+              "close": 147.88
+            },
+            {
+              "date": "2025-06-30",
+              "close": 157.96
+            },
+            {
+              "date": "2025-07-07",
+              "close": 158.21
+            },
+            {
+              "date": "2025-07-11",
+              "close": 164.89
+            },
+            {
+              "date": "2025-07-17",
+              "close": 172.97
+            },
+            {
+              "date": "2025-07-23",
+              "close": 170.75
+            },
+            {
+              "date": "2025-07-29",
+              "close": 175.48
+            },
+            {
+              "date": "2025-08-04",
+              "close": 179.97
+            },
+            {
+              "date": "2025-08-08",
+              "close": 182.67
+            },
+            {
+              "date": "2025-08-14",
+              "close": 181.99
+            },
+            {
+              "date": "2025-08-20",
+              "close": 175.37
+            },
+            {
+              "date": "2025-08-26",
+              "close": 181.74
+            },
+            {
+              "date": "2025-09-02",
+              "close": 170.75
+            },
+            {
+              "date": "2025-09-08",
+              "close": 168.28
+            },
+            {
+              "date": "2025-09-12",
+              "close": 177.8
+            },
+            {
+              "date": "2025-09-18",
+              "close": 176.22
+            },
+            {
+              "date": "2025-09-24",
+              "close": 176.95
+            },
+            {
+              "date": "2025-09-30",
+              "close": 186.56
+            },
+            {
+              "date": "2025-10-06",
+              "close": 185.52
+            },
+            {
+              "date": "2025-10-10",
+              "close": 183.14
+            },
+            {
+              "date": "2025-10-16",
+              "close": 181.79
+            },
+            {
+              "date": "2025-10-22",
+              "close": 180.26
+            },
+            {
+              "date": "2025-10-28",
+              "close": 201.01
+            },
+            {
+              "date": "2025-11-03",
+              "close": 206.86
+            },
+            {
+              "date": "2025-11-07",
+              "close": 188.13
+            },
+            {
+              "date": "2025-11-13",
+              "close": 186.84
+            },
+            {
+              "date": "2025-11-19",
+              "close": 186.5
+            },
+            {
+              "date": "2025-11-25",
+              "close": 177.8
+            },
+            {
+              "date": "2025-12-02",
+              "close": 181.44
+            },
+            {
+              "date": "2025-12-08",
+              "close": 185.54
+            },
+            {
+              "date": "2025-12-12",
+              "close": 175.01
+            },
+            {
+              "date": "2025-12-18",
+              "close": 174.13
+            },
+            {
+              "date": "2025-12-24",
+              "close": 188.6
+            },
+            {
+              "date": "2025-12-31",
+              "close": 186.49
+            },
+            {
+              "date": "2026-01-07",
+              "close": 189.1
+            },
+            {
+              "date": "2026-01-13",
+              "close": 185.8
+            },
+            {
+              "date": "2026-01-20",
+              "close": 178.06
+            },
+            {
+              "date": "2026-01-26",
+              "close": 186.46
+            },
+            {
+              "date": "2026-01-30",
+              "close": 191.12
+            },
+            {
+              "date": "2026-02-05",
+              "close": 171.87
+            },
+            {
+              "date": "2026-02-11",
+              "close": 190.04
+            },
+            {
+              "date": "2026-02-18",
+              "close": 187.97
+            },
+            {
+              "date": "2026-02-24",
+              "close": 192.84
+            },
+            {
+              "date": "2026-03-02",
+              "close": 182.47
+            },
+            {
+              "date": "2026-03-06",
+              "close": 177.81
+            },
+            {
+              "date": "2026-03-12",
+              "close": 183.14
+            },
+            {
+              "date": "2026-03-18",
+              "close": 180.4
+            },
+            {
+              "date": "2026-03-24",
+              "close": 175.2
+            },
+            {
+              "date": "2026-03-30",
+              "close": 165.17
+            },
+            {
+              "date": "2026-04-06",
+              "close": 177.64
+            },
+            {
+              "date": "2026-04-10",
+              "close": 188.63
+            },
+            {
+              "date": "2026-04-16",
+              "close": 198.35
+            },
+            {
+              "date": "2026-04-22",
+              "close": 202.5
+            },
+            {
+              "date": "2026-04-28",
+              "close": 213.17
+            },
+            {
+              "date": "2026-05-04",
+              "close": 198.48
+            },
+            {
+              "date": "2026-05-08",
+              "close": 215.2
+            },
+            {
+              "date": "2026-05-14",
+              "close": 235.74
+            }
+          ],
+          "valuation_history": [
+            {
+              "year": 2022,
+              "price": 24.44,
+              "pe": null,
+              "price_to_sales": null,
+              "eps": null,
+              "revenue": null,
+              "revenue_growth": null
+            },
+            {
+              "year": 2023,
+              "price": 19.52,
+              "pe": 112.16,
+              "price_to_sales": 18.14,
+              "eps": 0.17,
+              "revenue": 26974000000.0,
+              "revenue_growth": 125.85
+            },
+            {
+              "year": 2024,
+              "price": 61.49,
+              "pe": 51.67,
+              "price_to_sales": 25.17,
+              "eps": 1.19,
+              "revenue": 60922000000.0,
+              "revenue_growth": 114.2
+            },
+            {
+              "year": 2025,
+              "price": 120.03,
+              "pe": 40.83,
+              "price_to_sales": 22.81,
+              "eps": 2.94,
+              "revenue": 130497000000.0,
+              "revenue_growth": 65.47
+            },
+            {
+              "year": 2026,
+              "price": 191.12,
+              "pe": 39.0,
+              "price_to_sales": 21.7,
+              "eps": 4.9,
+              "revenue": 215938000000.0,
+              "revenue_growth": null
+            }
+          ],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "bullish_percent": null,
+            "bearish_percent": null,
+            "articles_last_week": null,
+            "source": "Finnhub",
+            "delta": null,
+            "history": []
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 100,
+          "rating_reasons": [
+            "solid revenue growth",
+            "high net margins",
+            "strong return on equity",
+            "reasonable forward P/E valuation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "name": "Commodities",
+      "description": "Liquid commodity futures used as macro underlyings.",
+      "assets": [
+        {
+          "ticker": "GC=F",
+          "name": "Gold Jun 26",
+          "asset_type": "commodity",
+          "logo_text": "AU",
+          "brand_color": "#b7791f",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 4498.3,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": -6.41,
+            "six_months": 10.57,
+            "one_year": 37.13,
+            "five_years": 139.04
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-21",
+              "close": 3309.3
+            },
+            {
+              "date": "2025-05-28",
+              "close": 3293.6
+            },
+            {
+              "date": "2025-06-03",
+              "close": 3350.2
+            },
+            {
+              "date": "2025-06-09",
+              "close": 3332.1
+            },
+            {
+              "date": "2025-06-13",
+              "close": 3431.2
+            },
+            {
+              "date": "2025-06-20",
+              "close": 3368.1
+            },
+            {
+              "date": "2025-06-26",
+              "close": 3333.5
+            },
+            {
+              "date": "2025-07-02",
+              "close": 3348.0
+            },
+            {
+              "date": "2025-07-08",
+              "close": 3307.0
+            },
+            {
+              "date": "2025-07-14",
+              "close": 3351.5
+            },
+            {
+              "date": "2025-07-18",
+              "close": 3353.0
+            },
+            {
+              "date": "2025-07-24",
+              "close": 3371.0
+            },
+            {
+              "date": "2025-07-30",
+              "close": 3295.8
+            },
+            {
+              "date": "2025-08-05",
+              "close": 3381.9
+            },
+            {
+              "date": "2025-08-11",
+              "close": 3353.1
+            },
+            {
+              "date": "2025-08-15",
+              "close": 3336.0
+            },
+            {
+              "date": "2025-08-21",
+              "close": 3336.9
+            },
+            {
+              "date": "2025-08-27",
+              "close": 3404.6
+            },
+            {
+              "date": "2025-09-03",
+              "close": 3593.2
+            },
+            {
+              "date": "2025-09-09",
+              "close": 3643.3
+            },
+            {
+              "date": "2025-09-15",
+              "close": 3682.2
+            },
+            {
+              "date": "2025-09-19",
+              "close": 3671.5
+            },
+            {
+              "date": "2025-09-25",
+              "close": 3736.9
+            },
+            {
+              "date": "2025-10-01",
+              "close": 3867.5
+            },
+            {
+              "date": "2025-10-07",
+              "close": 3976.6
+            },
+            {
+              "date": "2025-10-13",
+              "close": 4108.6
+            },
+            {
+              "date": "2025-10-17",
+              "close": 4189.9
+            },
+            {
+              "date": "2025-10-23",
+              "close": 4125.5
+            },
+            {
+              "date": "2025-10-29",
+              "close": 3983.7
+            },
+            {
+              "date": "2025-11-04",
+              "close": 3947.7
+            },
+            {
+              "date": "2025-11-10",
+              "close": 4111.8
+            },
+            {
+              "date": "2025-11-14",
+              "close": 4087.6
+            },
+            {
+              "date": "2025-11-20",
+              "close": 4056.5
+            },
+            {
+              "date": "2025-11-26",
+              "close": 4165.2
+            },
+            {
+              "date": "2025-12-03",
+              "close": 4199.3
+            },
+            {
+              "date": "2025-12-09",
+              "close": 4206.7
+            },
+            {
+              "date": "2025-12-15",
+              "close": 4306.7
+            },
+            {
+              "date": "2025-12-19",
+              "close": 4361.4
+            },
+            {
+              "date": "2025-12-26",
+              "close": 4529.1
+            },
+            {
+              "date": "2026-01-02",
+              "close": 4314.4
+            },
+            {
+              "date": "2026-01-08",
+              "close": 4449.7
+            },
+            {
+              "date": "2026-01-14",
+              "close": 4626.3
+            },
+            {
+              "date": "2026-01-21",
+              "close": 4831.8
+            },
+            {
+              "date": "2026-01-27",
+              "close": 5079.9
+            },
+            {
+              "date": "2026-02-02",
+              "close": 4622.5
+            },
+            {
+              "date": "2026-02-06",
+              "close": 4951.2
+            },
+            {
+              "date": "2026-02-12",
+              "close": 4923.7
+            },
+            {
+              "date": "2026-02-19",
+              "close": 4975.9
+            },
+            {
+              "date": "2026-02-25",
+              "close": 5206.4
+            },
+            {
+              "date": "2026-03-03",
+              "close": 5107.4
+            },
+            {
+              "date": "2026-03-09",
+              "close": 5091.5
+            },
+            {
+              "date": "2026-03-13",
+              "close": 5052.5
+            },
+            {
+              "date": "2026-03-19",
+              "close": 4600.7
+            },
+            {
+              "date": "2026-03-25",
+              "close": 4549.8
+            },
+            {
+              "date": "2026-03-31",
+              "close": 4647.6
+            },
+            {
+              "date": "2026-04-07",
+              "close": 4657.1
+            },
+            {
+              "date": "2026-04-13",
+              "close": 4742.4
+            },
+            {
+              "date": "2026-04-17",
+              "close": 4857.6
+            },
+            {
+              "date": "2026-04-23",
+              "close": 4705.1
+            },
+            {
+              "date": "2026-04-29",
+              "close": 4545.2
+            },
+            {
+              "date": "2026-05-05",
+              "close": 4555.8
+            },
+            {
+              "date": "2026-05-11",
+              "close": 4718.7
+            },
+            {
+              "date": "2026-05-15",
+              "close": 4555.8
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 70,
+          "rating_reasons": [
+            "strong one-year trend",
+            "six-month momentum is supportive"
+          ]
+        },
+        {
+          "ticker": "SI=F",
+          "name": "Silver Jul 26",
+          "asset_type": "commodity",
+          "logo_text": "AG",
+          "brand_color": "#64748b",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 75.795,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": -5.2,
+            "six_months": 49.72,
+            "one_year": 129.82,
+            "five_years": 170.19
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-21",
+              "close": 33.46
+            },
+            {
+              "date": "2025-05-28",
+              "close": 33.0
+            },
+            {
+              "date": "2025-06-03",
+              "close": 34.5
+            },
+            {
+              "date": "2025-06-09",
+              "close": 36.69
+            },
+            {
+              "date": "2025-06-13",
+              "close": 36.28
+            },
+            {
+              "date": "2025-06-20",
+              "close": 35.98
+            },
+            {
+              "date": "2025-06-26",
+              "close": 36.59
+            },
+            {
+              "date": "2025-07-02",
+              "close": 36.43
+            },
+            {
+              "date": "2025-07-08",
+              "close": 36.47
+            },
+            {
+              "date": "2025-07-14",
+              "close": 38.46
+            },
+            {
+              "date": "2025-07-18",
+              "close": 38.22
+            },
+            {
+              "date": "2025-07-24",
+              "close": 39.02
+            },
+            {
+              "date": "2025-07-30",
+              "close": 37.57
+            },
+            {
+              "date": "2025-08-05",
+              "close": 37.69
+            },
+            {
+              "date": "2025-08-11",
+              "close": 37.66
+            },
+            {
+              "date": "2025-08-15",
+              "close": 37.89
+            },
+            {
+              "date": "2025-08-21",
+              "close": 38.03
+            },
+            {
+              "date": "2025-08-27",
+              "close": 38.69
+            },
+            {
+              "date": "2025-09-03",
+              "close": 41.54
+            },
+            {
+              "date": "2025-09-09",
+              "close": 40.88
+            },
+            {
+              "date": "2025-09-15",
+              "close": 42.52
+            },
+            {
+              "date": "2025-09-19",
+              "close": 42.54
+            },
+            {
+              "date": "2025-09-25",
+              "close": 44.7
+            },
+            {
+              "date": "2025-10-01",
+              "close": 47.29
+            },
+            {
+              "date": "2025-10-07",
+              "close": 47.18
+            },
+            {
+              "date": "2025-10-13",
+              "close": 50.13
+            },
+            {
+              "date": "2025-10-17",
+              "close": 49.86
+            },
+            {
+              "date": "2025-10-23",
+              "close": 48.48
+            },
+            {
+              "date": "2025-10-29",
+              "close": 47.72
+            },
+            {
+              "date": "2025-11-04",
+              "close": 47.13
+            },
+            {
+              "date": "2025-11-10",
+              "close": 50.18
+            },
+            {
+              "date": "2025-11-14",
+              "close": 50.59
+            },
+            {
+              "date": "2025-11-20",
+              "close": 50.25
+            },
+            {
+              "date": "2025-11-26",
+              "close": 52.92
+            },
+            {
+              "date": "2025-12-03",
+              "close": 57.92
+            },
+            {
+              "date": "2025-12-09",
+              "close": 60.17
+            },
+            {
+              "date": "2025-12-15",
+              "close": 62.94
+            },
+            {
+              "date": "2025-12-19",
+              "close": 66.85
+            },
+            {
+              "date": "2025-12-26",
+              "close": 76.49
+            },
+            {
+              "date": "2026-01-02",
+              "close": 70.56
+            },
+            {
+              "date": "2026-01-08",
+              "close": 74.72
+            },
+            {
+              "date": "2026-01-14",
+              "close": 90.87
+            },
+            {
+              "date": "2026-01-21",
+              "close": 92.21
+            },
+            {
+              "date": "2026-01-27",
+              "close": 105.52
+            },
+            {
+              "date": "2026-02-02",
+              "close": 76.78
+            },
+            {
+              "date": "2026-02-06",
+              "close": 76.74
+            },
+            {
+              "date": "2026-02-12",
+              "close": 75.55
+            },
+            {
+              "date": "2026-02-19",
+              "close": 77.57
+            },
+            {
+              "date": "2026-02-25",
+              "close": 90.94
+            },
+            {
+              "date": "2026-03-03",
+              "close": 82.92
+            },
+            {
+              "date": "2026-03-09",
+              "close": 84.03
+            },
+            {
+              "date": "2026-03-13",
+              "close": 80.91
+            },
+            {
+              "date": "2026-03-19",
+              "close": 70.9
+            },
+            {
+              "date": "2026-03-25",
+              "close": 72.36
+            },
+            {
+              "date": "2026-03-31",
+              "close": 74.69
+            },
+            {
+              "date": "2026-04-07",
+              "close": 71.83
+            },
+            {
+              "date": "2026-04-13",
+              "close": 75.52
+            },
+            {
+              "date": "2026-04-17",
+              "close": 81.74
+            },
+            {
+              "date": "2026-04-23",
+              "close": 75.46
+            },
+            {
+              "date": "2026-04-29",
+              "close": 71.57
+            },
+            {
+              "date": "2026-05-05",
+              "close": 73.11
+            },
+            {
+              "date": "2026-05-11",
+              "close": 85.49
+            },
+            {
+              "date": "2026-05-15",
+              "close": 77.16
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 70,
+          "rating_reasons": [
+            "strong one-year trend",
+            "six-month momentum is supportive"
+          ]
+        },
+        {
+          "ticker": "CL=F",
+          "name": "Crude Oil Jul 26",
+          "asset_type": "commodity",
+          "logo_text": "OIL",
+          "brand_color": "#111827",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 101.77,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": 13.57,
+            "six_months": 69.87,
+            "one_year": 62.68,
+            "five_years": 64.01
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-21",
+              "close": 61.57
+            },
+            {
+              "date": "2025-05-28",
+              "close": 61.84
+            },
+            {
+              "date": "2025-06-03",
+              "close": 63.41
+            },
+            {
+              "date": "2025-06-09",
+              "close": 65.29
+            },
+            {
+              "date": "2025-06-13",
+              "close": 72.98
+            },
+            {
+              "date": "2025-06-20",
+              "close": 74.93
+            },
+            {
+              "date": "2025-06-26",
+              "close": 65.24
+            },
+            {
+              "date": "2025-07-02",
+              "close": 67.45
+            },
+            {
+              "date": "2025-07-08",
+              "close": 68.33
+            },
+            {
+              "date": "2025-07-14",
+              "close": 66.98
+            },
+            {
+              "date": "2025-07-18",
+              "close": 67.34
+            },
+            {
+              "date": "2025-07-24",
+              "close": 66.03
+            },
+            {
+              "date": "2025-07-30",
+              "close": 70.0
+            },
+            {
+              "date": "2025-08-05",
+              "close": 65.16
+            },
+            {
+              "date": "2025-08-11",
+              "close": 63.96
+            },
+            {
+              "date": "2025-08-15",
+              "close": 62.8
+            },
+            {
+              "date": "2025-08-21",
+              "close": 63.52
+            },
+            {
+              "date": "2025-08-27",
+              "close": 64.15
+            },
+            {
+              "date": "2025-09-03",
+              "close": 63.97
+            },
+            {
+              "date": "2025-09-09",
+              "close": 62.63
+            },
+            {
+              "date": "2025-09-15",
+              "close": 63.3
+            },
+            {
+              "date": "2025-09-19",
+              "close": 62.68
+            },
+            {
+              "date": "2025-09-25",
+              "close": 64.98
+            },
+            {
+              "date": "2025-10-01",
+              "close": 61.78
+            },
+            {
+              "date": "2025-10-07",
+              "close": 61.73
+            },
+            {
+              "date": "2025-10-13",
+              "close": 59.49
+            },
+            {
+              "date": "2025-10-17",
+              "close": 57.54
+            },
+            {
+              "date": "2025-10-23",
+              "close": 61.79
+            },
+            {
+              "date": "2025-10-29",
+              "close": 60.48
+            },
+            {
+              "date": "2025-11-04",
+              "close": 60.56
+            },
+            {
+              "date": "2025-11-10",
+              "close": 60.13
+            },
+            {
+              "date": "2025-11-14",
+              "close": 60.09
+            },
+            {
+              "date": "2025-11-20",
+              "close": 59.14
+            },
+            {
+              "date": "2025-11-26",
+              "close": 58.65
+            },
+            {
+              "date": "2025-12-03",
+              "close": 58.95
+            },
+            {
+              "date": "2025-12-09",
+              "close": 58.25
+            },
+            {
+              "date": "2025-12-15",
+              "close": 56.82
+            },
+            {
+              "date": "2025-12-19",
+              "close": 56.66
+            },
+            {
+              "date": "2025-12-26",
+              "close": 56.74
+            },
+            {
+              "date": "2026-01-02",
+              "close": 57.32
+            },
+            {
+              "date": "2026-01-08",
+              "close": 57.76
+            },
+            {
+              "date": "2026-01-14",
+              "close": 62.02
+            },
+            {
+              "date": "2026-01-21",
+              "close": 60.62
+            },
+            {
+              "date": "2026-01-27",
+              "close": 62.39
+            },
+            {
+              "date": "2026-02-02",
+              "close": 62.14
+            },
+            {
+              "date": "2026-02-06",
+              "close": 63.55
+            },
+            {
+              "date": "2026-02-12",
+              "close": 62.84
+            },
+            {
+              "date": "2026-02-19",
+              "close": 66.43
+            },
+            {
+              "date": "2026-02-25",
+              "close": 65.42
+            },
+            {
+              "date": "2026-03-03",
+              "close": 74.56
+            },
+            {
+              "date": "2026-03-09",
+              "close": 94.77
+            },
+            {
+              "date": "2026-03-13",
+              "close": 98.71
+            },
+            {
+              "date": "2026-03-19",
+              "close": 96.14
+            },
+            {
+              "date": "2026-03-25",
+              "close": 90.32
+            },
+            {
+              "date": "2026-03-31",
+              "close": 101.38
+            },
+            {
+              "date": "2026-04-07",
+              "close": 112.95
+            },
+            {
+              "date": "2026-04-13",
+              "close": 99.08
+            },
+            {
+              "date": "2026-04-17",
+              "close": 83.85
+            },
+            {
+              "date": "2026-04-23",
+              "close": 95.85
+            },
+            {
+              "date": "2026-04-29",
+              "close": 106.88
+            },
+            {
+              "date": "2026-05-05",
+              "close": 102.27
+            },
+            {
+              "date": "2026-05-11",
+              "close": 98.07
+            },
+            {
+              "date": "2026-05-15",
+              "close": 105.42
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 80,
+          "rating_reasons": [
+            "strong one-year trend",
+            "six-month momentum is supportive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "name": "Crypto",
+      "description": "Major crypto spot pairs quoted in USD.",
+      "assets": [
+        {
+          "ticker": "BTC-USD",
+          "name": "Bitcoin USD",
+          "asset_type": "crypto",
+          "logo_text": "BTC",
+          "brand_color": "#f7931a",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 77420.91,
+          "currency": "USD",
+          "market_cap": 1550981922816.0,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": 1.4,
+            "six_months": -20.13,
+            "one_year": -32.06,
+            "five_years": 89.84
+          },
+          "chart_points": [
+            {
+              "date": "2025-09-11",
+              "close": 115507.54
+            },
+            {
+              "date": "2025-09-15",
+              "close": 115444.88
+            },
+            {
+              "date": "2025-09-19",
+              "close": 115688.86
+            },
+            {
+              "date": "2025-09-23",
+              "close": 112014.5
+            },
+            {
+              "date": "2025-09-27",
+              "close": 109681.95
+            },
+            {
+              "date": "2025-10-01",
+              "close": 118648.93
+            },
+            {
+              "date": "2025-10-05",
+              "close": 123513.48
+            },
+            {
+              "date": "2025-10-09",
+              "close": 121705.59
+            },
+            {
+              "date": "2025-10-13",
+              "close": 115271.08
+            },
+            {
+              "date": "2025-10-17",
+              "close": 106467.79
+            },
+            {
+              "date": "2025-10-21",
+              "close": 108476.89
+            },
+            {
+              "date": "2025-10-25",
+              "close": 111641.73
+            },
+            {
+              "date": "2025-10-29",
+              "close": 110055.3
+            },
+            {
+              "date": "2025-11-02",
+              "close": 110639.62
+            },
+            {
+              "date": "2025-11-06",
+              "close": 101301.29
+            },
+            {
+              "date": "2025-11-10",
+              "close": 105996.59
+            },
+            {
+              "date": "2025-11-14",
+              "close": 94397.79
+            },
+            {
+              "date": "2025-11-18",
+              "close": 92948.88
+            },
+            {
+              "date": "2025-11-22",
+              "close": 84648.36
+            },
+            {
+              "date": "2025-11-26",
+              "close": 90518.37
+            },
+            {
+              "date": "2025-11-30",
+              "close": 90394.31
+            },
+            {
+              "date": "2025-12-04",
+              "close": 92141.62
+            },
+            {
+              "date": "2025-12-08",
+              "close": 90640.2
+            },
+            {
+              "date": "2025-12-12",
+              "close": 90270.41
+            },
+            {
+              "date": "2025-12-16",
+              "close": 87843.98
+            },
+            {
+              "date": "2025-12-20",
+              "close": 88344.0
+            },
+            {
+              "date": "2025-12-24",
+              "close": 87611.96
+            },
+            {
+              "date": "2025-12-28",
+              "close": 87835.84
+            },
+            {
+              "date": "2026-01-01",
+              "close": 88731.98
+            },
+            {
+              "date": "2026-01-05",
+              "close": 93882.55
+            },
+            {
+              "date": "2026-01-09",
+              "close": 90513.1
+            },
+            {
+              "date": "2026-01-13",
+              "close": 95321.78
+            },
+            {
+              "date": "2026-01-17",
+              "close": 95099.92
+            },
+            {
+              "date": "2026-01-21",
+              "close": 89376.96
+            },
+            {
+              "date": "2026-01-25",
+              "close": 86572.22
+            },
+            {
+              "date": "2026-01-29",
+              "close": 84561.59
+            },
+            {
+              "date": "2026-02-02",
+              "close": 78688.77
+            },
+            {
+              "date": "2026-02-06",
+              "close": 70555.39
+            },
+            {
+              "date": "2026-02-10",
+              "close": 68793.96
+            },
+            {
+              "date": "2026-02-14",
+              "close": 69767.62
+            },
+            {
+              "date": "2026-02-18",
+              "close": 66425.32
+            },
+            {
+              "date": "2026-02-22",
+              "close": 67659.39
+            },
+            {
+              "date": "2026-02-26",
+              "close": 67453.77
+            },
+            {
+              "date": "2026-03-02",
+              "close": 68775.85
+            },
+            {
+              "date": "2026-03-06",
+              "close": 68136.49
+            },
+            {
+              "date": "2026-03-10",
+              "close": 69926.92
+            },
+            {
+              "date": "2026-03-14",
+              "close": 71214.62
+            },
+            {
+              "date": "2026-03-18",
+              "close": 71245.58
+            },
+            {
+              "date": "2026-03-22",
+              "close": 67845.21
+            },
+            {
+              "date": "2026-03-26",
+              "close": 68791.62
+            },
+            {
+              "date": "2026-03-30",
+              "close": 66691.45
+            },
+            {
+              "date": "2026-04-03",
+              "close": 66931.1
+            },
+            {
+              "date": "2026-04-07",
+              "close": 71940.7
+            },
+            {
+              "date": "2026-04-11",
+              "close": 73054.27
+            },
+            {
+              "date": "2026-04-15",
+              "close": 74805.08
+            },
+            {
+              "date": "2026-04-19",
+              "close": 73856.35
+            },
+            {
+              "date": "2026-04-23",
+              "close": 78268.95
+            },
+            {
+              "date": "2026-04-27",
+              "close": 77366.62
+            },
+            {
+              "date": "2026-05-01",
+              "close": 78179.0
+            },
+            {
+              "date": "2026-05-05",
+              "close": 80927.05
+            },
+            {
+              "date": "2026-05-09",
+              "close": 80664.37
+            },
+            {
+              "date": "2026-05-13",
+              "close": 79277.12
+            },
+            {
+              "date": "2026-05-17",
+              "close": 77429.35
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Avoid",
+          "score": 25,
+          "rating_reasons": [
+            "weak one-year trend",
+            "six-month momentum is under pressure"
+          ]
+        },
+        {
+          "ticker": "ETH-USD",
+          "name": "Ethereum USD",
+          "asset_type": "crypto",
+          "logo_text": "ETH",
+          "brand_color": "#627eea",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 2128.59,
+          "currency": "USD",
+          "market_cap": 257009008640.0,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": -7.02,
+            "six_months": -36.55,
+            "one_year": -51.06,
+            "five_years": -23.55
+          },
+          "chart_points": [
+            {
+              "date": "2025-09-11",
+              "close": 4461.23
+            },
+            {
+              "date": "2025-09-15",
+              "close": 4526.82
+            },
+            {
+              "date": "2025-09-19",
+              "close": 4470.92
+            },
+            {
+              "date": "2025-09-23",
+              "close": 4165.5
+            },
+            {
+              "date": "2025-09-27",
+              "close": 4018.66
+            },
+            {
+              "date": "2025-10-01",
+              "close": 4351.11
+            },
+            {
+              "date": "2025-10-05",
+              "close": 4515.42
+            },
+            {
+              "date": "2025-10-09",
+              "close": 4369.14
+            },
+            {
+              "date": "2025-10-13",
+              "close": 4245.47
+            },
+            {
+              "date": "2025-10-17",
+              "close": 3832.56
+            },
+            {
+              "date": "2025-10-21",
+              "close": 3876.76
+            },
+            {
+              "date": "2025-10-25",
+              "close": 3953.47
+            },
+            {
+              "date": "2025-10-29",
+              "close": 3903.35
+            },
+            {
+              "date": "2025-11-02",
+              "close": 3911.06
+            },
+            {
+              "date": "2025-11-06",
+              "close": 3312.26
+            },
+            {
+              "date": "2025-11-10",
+              "close": 3568.46
+            },
+            {
+              "date": "2025-11-14",
+              "close": 3103.79
+            },
+            {
+              "date": "2025-11-18",
+              "close": 3122.98
+            },
+            {
+              "date": "2025-11-22",
+              "close": 2767.61
+            },
+            {
+              "date": "2025-11-26",
+              "close": 3027.81
+            },
+            {
+              "date": "2025-11-30",
+              "close": 2992.11
+            },
+            {
+              "date": "2025-12-04",
+              "close": 3134.32
+            },
+            {
+              "date": "2025-12-08",
+              "close": 3125.2
+            },
+            {
+              "date": "2025-12-12",
+              "close": 3084.17
+            },
+            {
+              "date": "2025-12-16",
+              "close": 2964.18
+            },
+            {
+              "date": "2025-12-20",
+              "close": 2977.58
+            },
+            {
+              "date": "2025-12-24",
+              "close": 2945.59
+            },
+            {
+              "date": "2025-12-28",
+              "close": 2948.57
+            },
+            {
+              "date": "2026-01-01",
+              "close": 3000.39
+            },
+            {
+              "date": "2026-01-05",
+              "close": 3226.13
+            },
+            {
+              "date": "2026-01-09",
+              "close": 3083.05
+            },
+            {
+              "date": "2026-01-13",
+              "close": 3322.1
+            },
+            {
+              "date": "2026-01-17",
+              "close": 3308.86
+            },
+            {
+              "date": "2026-01-21",
+              "close": 2978.9
+            },
+            {
+              "date": "2026-01-25",
+              "close": 2815.9
+            },
+            {
+              "date": "2026-01-29",
+              "close": 2818.23
+            },
+            {
+              "date": "2026-02-02",
+              "close": 2344.36
+            },
+            {
+              "date": "2026-02-06",
+              "close": 2063.39
+            },
+            {
+              "date": "2026-02-10",
+              "close": 2019.5
+            },
+            {
+              "date": "2026-02-14",
+              "close": 2086.01
+            },
+            {
+              "date": "2026-02-18",
+              "close": 1953.97
+            },
+            {
+              "date": "2026-02-22",
+              "close": 1957.81
+            },
+            {
+              "date": "2026-02-26",
+              "close": 2026.79
+            },
+            {
+              "date": "2026-03-02",
+              "close": 2027.27
+            },
+            {
+              "date": "2026-03-06",
+              "close": 1978.75
+            },
+            {
+              "date": "2026-03-10",
+              "close": 2037.12
+            },
+            {
+              "date": "2026-03-14",
+              "close": 2097.09
+            },
+            {
+              "date": "2026-03-18",
+              "close": 2203.67
+            },
+            {
+              "date": "2026-03-22",
+              "close": 2053.05
+            },
+            {
+              "date": "2026-03-26",
+              "close": 2059.58
+            },
+            {
+              "date": "2026-03-30",
+              "close": 2023.51
+            },
+            {
+              "date": "2026-04-03",
+              "close": 2053.39
+            },
+            {
+              "date": "2026-04-07",
+              "close": 2241.81
+            },
+            {
+              "date": "2026-04-11",
+              "close": 2285.39
+            },
+            {
+              "date": "2026-04-15",
+              "close": 2359.44
+            },
+            {
+              "date": "2026-04-19",
+              "close": 2264.92
+            },
+            {
+              "date": "2026-04-23",
+              "close": 2331.51
+            },
+            {
+              "date": "2026-04-27",
+              "close": 2303.06
+            },
+            {
+              "date": "2026-05-01",
+              "close": 2295.09
+            },
+            {
+              "date": "2026-05-05",
+              "close": 2361.18
+            },
+            {
+              "date": "2026-05-09",
+              "close": 2326.73
+            },
+            {
+              "date": "2026-05-13",
+              "close": 2257.58
+            },
+            {
+              "date": "2026-05-17",
+              "close": 2127.65
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Avoid",
+          "score": 20,
+          "rating_reasons": [
+            "weak one-year trend",
+            "six-month momentum is under pressure"
+          ]
+        },
+        {
+          "ticker": "SOL-USD",
+          "name": "Solana USD",
+          "asset_type": "crypto",
+          "logo_text": "SOL",
+          "brand_color": "#14f195",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 84.76,
+          "currency": "USD",
+          "market_cap": 48911552512.0,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": 0.86,
+            "six_months": -42.24,
+            "one_year": -62.16,
+            "five_years": 89.44
+          },
+          "chart_points": [
+            {
+              "date": "2025-09-11",
+              "close": 228.76
+            },
+            {
+              "date": "2025-09-15",
+              "close": 234.36
+            },
+            {
+              "date": "2025-09-19",
+              "close": 238.55
+            },
+            {
+              "date": "2025-09-23",
+              "close": 213.72
+            },
+            {
+              "date": "2025-09-27",
+              "close": 203.58
+            },
+            {
+              "date": "2025-10-01",
+              "close": 221.68
+            },
+            {
+              "date": "2025-10-05",
+              "close": 228.6
+            },
+            {
+              "date": "2025-10-09",
+              "close": 220.99
+            },
+            {
+              "date": "2025-10-13",
+              "close": 208.37
+            },
+            {
+              "date": "2025-10-17",
+              "close": 182.03
+            },
+            {
+              "date": "2025-10-21",
+              "close": 185.67
+            },
+            {
+              "date": "2025-10-25",
+              "close": 194.04
+            },
+            {
+              "date": "2025-10-29",
+              "close": 194.41
+            },
+            {
+              "date": "2025-11-02",
+              "close": 187.83
+            },
+            {
+              "date": "2025-11-06",
+              "close": 155.07
+            },
+            {
+              "date": "2025-11-10",
+              "close": 167.37
+            },
+            {
+              "date": "2025-11-14",
+              "close": 138.68
+            },
+            {
+              "date": "2025-11-18",
+              "close": 140.71
+            },
+            {
+              "date": "2025-11-22",
+              "close": 127.55
+            },
+            {
+              "date": "2025-11-26",
+              "close": 143.01
+            },
+            {
+              "date": "2025-11-30",
+              "close": 133.56
+            },
+            {
+              "date": "2025-12-04",
+              "close": 139.01
+            },
+            {
+              "date": "2025-12-08",
+              "close": 133.28
+            },
+            {
+              "date": "2025-12-12",
+              "close": 132.32
+            },
+            {
+              "date": "2025-12-16",
+              "close": 129.25
+            },
+            {
+              "date": "2025-12-20",
+              "close": 125.81
+            },
+            {
+              "date": "2025-12-24",
+              "close": 122.46
+            },
+            {
+              "date": "2025-12-28",
+              "close": 125.2
+            },
+            {
+              "date": "2026-01-01",
+              "close": 126.76
+            },
+            {
+              "date": "2026-01-05",
+              "close": 137.99
+            },
+            {
+              "date": "2026-01-09",
+              "close": 135.76
+            },
+            {
+              "date": "2026-01-13",
+              "close": 145.36
+            },
+            {
+              "date": "2026-01-17",
+              "close": 143.73
+            },
+            {
+              "date": "2026-01-21",
+              "close": 129.38
+            },
+            {
+              "date": "2026-01-25",
+              "close": 118.77
+            },
+            {
+              "date": "2026-01-29",
+              "close": 117.61
+            },
+            {
+              "date": "2026-02-02",
+              "close": 104.47
+            },
+            {
+              "date": "2026-02-06",
+              "close": 87.46
+            },
+            {
+              "date": "2026-02-10",
+              "close": 82.92
+            },
+            {
+              "date": "2026-02-14",
+              "close": 88.16
+            },
+            {
+              "date": "2026-02-18",
+              "close": 81.57
+            },
+            {
+              "date": "2026-02-22",
+              "close": 82.79
+            },
+            {
+              "date": "2026-02-26",
+              "close": 85.91
+            },
+            {
+              "date": "2026-03-02",
+              "close": 86.63
+            },
+            {
+              "date": "2026-03-06",
+              "close": 84.68
+            },
+            {
+              "date": "2026-03-10",
+              "close": 85.84
+            },
+            {
+              "date": "2026-03-14",
+              "close": 88.07
+            },
+            {
+              "date": "2026-03-18",
+              "close": 90.07
+            },
+            {
+              "date": "2026-03-22",
+              "close": 86.13
+            },
+            {
+              "date": "2026-03-26",
+              "close": 86.44
+            },
+            {
+              "date": "2026-03-30",
+              "close": 82.44
+            },
+            {
+              "date": "2026-04-03",
+              "close": 80.37
+            },
+            {
+              "date": "2026-04-07",
+              "close": 85.65
+            },
+            {
+              "date": "2026-04-11",
+              "close": 84.95
+            },
+            {
+              "date": "2026-04-15",
+              "close": 84.92
+            },
+            {
+              "date": "2026-04-19",
+              "close": 83.58
+            },
+            {
+              "date": "2026-04-23",
+              "close": 86.14
+            },
+            {
+              "date": "2026-04-27",
+              "close": 84.82
+            },
+            {
+              "date": "2026-05-01",
+              "close": 83.72
+            },
+            {
+              "date": "2026-05-05",
+              "close": 86.32
+            },
+            {
+              "date": "2026-05-09",
+              "close": 93.15
+            },
+            {
+              "date": "2026-05-13",
+              "close": 91.09
+            },
+            {
+              "date": "2026-05-17",
+              "close": 85.17
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Avoid",
+          "score": 25,
+          "rating_reasons": [
+            "weak one-year trend",
+            "six-month momentum is under pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indices",
+      "name": "Indices",
+      "description": "Broad US equity index benchmarks.",
+      "assets": [
+        {
+          "ticker": "^GSPC",
+          "name": "S&P 500",
+          "asset_type": "index",
+          "logo_text": "SPX",
+          "brand_color": "#0f7187",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 7353.61,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": 3.19,
+            "six_months": 9.2,
+            "one_year": 23.42,
+            "five_years": 76.81
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 5963.6
+            },
+            {
+              "date": "2025-05-23",
+              "close": 5802.82
+            },
+            {
+              "date": "2025-05-30",
+              "close": 5911.69
+            },
+            {
+              "date": "2025-06-05",
+              "close": 5939.3
+            },
+            {
+              "date": "2025-06-11",
+              "close": 6022.24
+            },
+            {
+              "date": "2025-06-17",
+              "close": 5982.72
+            },
+            {
+              "date": "2025-06-24",
+              "close": 6092.18
+            },
+            {
+              "date": "2025-06-30",
+              "close": 6204.95
+            },
+            {
+              "date": "2025-07-07",
+              "close": 6229.98
+            },
+            {
+              "date": "2025-07-11",
+              "close": 6259.75
+            },
+            {
+              "date": "2025-07-17",
+              "close": 6297.36
+            },
+            {
+              "date": "2025-07-23",
+              "close": 6358.91
+            },
+            {
+              "date": "2025-07-29",
+              "close": 6370.86
+            },
+            {
+              "date": "2025-08-04",
+              "close": 6329.94
+            },
+            {
+              "date": "2025-08-08",
+              "close": 6389.45
+            },
+            {
+              "date": "2025-08-14",
+              "close": 6468.54
+            },
+            {
+              "date": "2025-08-20",
+              "close": 6395.78
+            },
+            {
+              "date": "2025-08-26",
+              "close": 6465.94
+            },
+            {
+              "date": "2025-09-02",
+              "close": 6415.54
+            },
+            {
+              "date": "2025-09-08",
+              "close": 6495.15
+            },
+            {
+              "date": "2025-09-12",
+              "close": 6584.29
+            },
+            {
+              "date": "2025-09-18",
+              "close": 6631.96
+            },
+            {
+              "date": "2025-09-24",
+              "close": 6637.97
+            },
+            {
+              "date": "2025-09-30",
+              "close": 6688.46
+            },
+            {
+              "date": "2025-10-06",
+              "close": 6740.28
+            },
+            {
+              "date": "2025-10-10",
+              "close": 6552.51
+            },
+            {
+              "date": "2025-10-16",
+              "close": 6629.07
+            },
+            {
+              "date": "2025-10-22",
+              "close": 6699.4
+            },
+            {
+              "date": "2025-10-28",
+              "close": 6890.89
+            },
+            {
+              "date": "2025-11-03",
+              "close": 6851.97
+            },
+            {
+              "date": "2025-11-07",
+              "close": 6728.8
+            },
+            {
+              "date": "2025-11-13",
+              "close": 6737.49
+            },
+            {
+              "date": "2025-11-19",
+              "close": 6642.16
+            },
+            {
+              "date": "2025-11-25",
+              "close": 6765.88
+            },
+            {
+              "date": "2025-12-02",
+              "close": 6829.37
+            },
+            {
+              "date": "2025-12-08",
+              "close": 6846.51
+            },
+            {
+              "date": "2025-12-12",
+              "close": 6827.41
+            },
+            {
+              "date": "2025-12-18",
+              "close": 6774.76
+            },
+            {
+              "date": "2025-12-24",
+              "close": 6932.05
+            },
+            {
+              "date": "2025-12-31",
+              "close": 6845.5
+            },
+            {
+              "date": "2026-01-07",
+              "close": 6920.93
+            },
+            {
+              "date": "2026-01-13",
+              "close": 6963.74
+            },
+            {
+              "date": "2026-01-20",
+              "close": 6796.86
+            },
+            {
+              "date": "2026-01-26",
+              "close": 6950.23
+            },
+            {
+              "date": "2026-01-30",
+              "close": 6939.03
+            },
+            {
+              "date": "2026-02-05",
+              "close": 6798.4
+            },
+            {
+              "date": "2026-02-11",
+              "close": 6941.47
+            },
+            {
+              "date": "2026-02-18",
+              "close": 6881.31
+            },
+            {
+              "date": "2026-02-24",
+              "close": 6890.07
+            },
+            {
+              "date": "2026-03-02",
+              "close": 6881.62
+            },
+            {
+              "date": "2026-03-06",
+              "close": 6740.02
+            },
+            {
+              "date": "2026-03-12",
+              "close": 6672.62
+            },
+            {
+              "date": "2026-03-18",
+              "close": 6624.7
+            },
+            {
+              "date": "2026-03-24",
+              "close": 6556.37
+            },
+            {
+              "date": "2026-03-30",
+              "close": 6343.72
+            },
+            {
+              "date": "2026-04-06",
+              "close": 6611.83
+            },
+            {
+              "date": "2026-04-10",
+              "close": 6816.89
+            },
+            {
+              "date": "2026-04-16",
+              "close": 7041.28
+            },
+            {
+              "date": "2026-04-22",
+              "close": 7137.9
+            },
+            {
+              "date": "2026-04-28",
+              "close": 7138.8
+            },
+            {
+              "date": "2026-05-04",
+              "close": 7200.75
+            },
+            {
+              "date": "2026-05-08",
+              "close": 7398.93
+            },
+            {
+              "date": "2026-05-14",
+              "close": 7501.24
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 75,
+          "rating_reasons": [
+            "strong one-year trend",
+            "six-month momentum is supportive"
+          ]
+        },
+        {
+          "ticker": "^IXIC",
+          "name": "NASDAQ Composite",
+          "asset_type": "index",
+          "logo_text": "NDX",
+          "brand_color": "#7c3aed",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 25870.709,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": 5.73,
+            "six_months": 12.97,
+            "one_year": 34.67,
+            "five_years": 91.13
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 19215.46
+            },
+            {
+              "date": "2025-05-23",
+              "close": 18737.21
+            },
+            {
+              "date": "2025-05-30",
+              "close": 19113.77
+            },
+            {
+              "date": "2025-06-05",
+              "close": 19298.45
+            },
+            {
+              "date": "2025-06-11",
+              "close": 19615.88
+            },
+            {
+              "date": "2025-06-17",
+              "close": 19521.09
+            },
+            {
+              "date": "2025-06-24",
+              "close": 19912.53
+            },
+            {
+              "date": "2025-06-30",
+              "close": 20369.73
+            },
+            {
+              "date": "2025-07-07",
+              "close": 20412.52
+            },
+            {
+              "date": "2025-07-11",
+              "close": 20585.53
+            },
+            {
+              "date": "2025-07-17",
+              "close": 20885.65
+            },
+            {
+              "date": "2025-07-23",
+              "close": 21020.02
+            },
+            {
+              "date": "2025-07-29",
+              "close": 21098.29
+            },
+            {
+              "date": "2025-08-04",
+              "close": 21053.58
+            },
+            {
+              "date": "2025-08-08",
+              "close": 21450.02
+            },
+            {
+              "date": "2025-08-14",
+              "close": 21710.67
+            },
+            {
+              "date": "2025-08-20",
+              "close": 21172.86
+            },
+            {
+              "date": "2025-08-26",
+              "close": 21544.27
+            },
+            {
+              "date": "2025-09-02",
+              "close": 21279.63
+            },
+            {
+              "date": "2025-09-08",
+              "close": 21798.7
+            },
+            {
+              "date": "2025-09-12",
+              "close": 22141.1
+            },
+            {
+              "date": "2025-09-18",
+              "close": 22470.72
+            },
+            {
+              "date": "2025-09-24",
+              "close": 22497.86
+            },
+            {
+              "date": "2025-09-30",
+              "close": 22660.01
+            },
+            {
+              "date": "2025-10-06",
+              "close": 22941.67
+            },
+            {
+              "date": "2025-10-10",
+              "close": 22204.43
+            },
+            {
+              "date": "2025-10-16",
+              "close": 22562.54
+            },
+            {
+              "date": "2025-10-22",
+              "close": 22740.4
+            },
+            {
+              "date": "2025-10-28",
+              "close": 23827.49
+            },
+            {
+              "date": "2025-11-03",
+              "close": 23834.72
+            },
+            {
+              "date": "2025-11-07",
+              "close": 23004.54
+            },
+            {
+              "date": "2025-11-13",
+              "close": 22870.36
+            },
+            {
+              "date": "2025-11-19",
+              "close": 22564.23
+            },
+            {
+              "date": "2025-11-25",
+              "close": 23025.59
+            },
+            {
+              "date": "2025-12-02",
+              "close": 23413.67
+            },
+            {
+              "date": "2025-12-08",
+              "close": 23545.9
+            },
+            {
+              "date": "2025-12-12",
+              "close": 23195.17
+            },
+            {
+              "date": "2025-12-18",
+              "close": 23006.36
+            },
+            {
+              "date": "2025-12-24",
+              "close": 23613.31
+            },
+            {
+              "date": "2025-12-31",
+              "close": 23241.99
+            },
+            {
+              "date": "2026-01-07",
+              "close": 23584.28
+            },
+            {
+              "date": "2026-01-13",
+              "close": 23709.87
+            },
+            {
+              "date": "2026-01-20",
+              "close": 22954.32
+            },
+            {
+              "date": "2026-01-26",
+              "close": 23601.36
+            },
+            {
+              "date": "2026-01-30",
+              "close": 23461.82
+            },
+            {
+              "date": "2026-02-05",
+              "close": 22540.59
+            },
+            {
+              "date": "2026-02-11",
+              "close": 23066.47
+            },
+            {
+              "date": "2026-02-18",
+              "close": 22753.63
+            },
+            {
+              "date": "2026-02-24",
+              "close": 22863.68
+            },
+            {
+              "date": "2026-03-02",
+              "close": 22748.86
+            },
+            {
+              "date": "2026-03-06",
+              "close": 22387.68
+            },
+            {
+              "date": "2026-03-12",
+              "close": 22311.98
+            },
+            {
+              "date": "2026-03-18",
+              "close": 22152.42
+            },
+            {
+              "date": "2026-03-24",
+              "close": 21761.89
+            },
+            {
+              "date": "2026-03-30",
+              "close": 20794.64
+            },
+            {
+              "date": "2026-04-06",
+              "close": 21996.34
+            },
+            {
+              "date": "2026-04-10",
+              "close": 22902.89
+            },
+            {
+              "date": "2026-04-16",
+              "close": 24102.7
+            },
+            {
+              "date": "2026-04-22",
+              "close": 24657.57
+            },
+            {
+              "date": "2026-04-28",
+              "close": 24663.8
+            },
+            {
+              "date": "2026-05-04",
+              "close": 25067.8
+            },
+            {
+              "date": "2026-05-08",
+              "close": 26247.08
+            },
+            {
+              "date": "2026-05-14",
+              "close": 26635.22
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Buy",
+          "score": 80,
+          "rating_reasons": [
+            "strong one-year trend",
+            "six-month momentum is supportive"
+          ]
+        },
+        {
+          "ticker": "^DJI",
+          "name": "Dow Jones Industrial Average",
+          "asset_type": "index",
+          "logo_text": "DJI",
+          "brand_color": "#2563eb",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": null,
+          "price": 49363.88,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": null,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": null,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": -0.17,
+            "six_months": 4.7,
+            "one_year": 15.73,
+            "five_years": 44.83
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 42792.07
+            },
+            {
+              "date": "2025-05-23",
+              "close": 41603.07
+            },
+            {
+              "date": "2025-05-30",
+              "close": 42270.07
+            },
+            {
+              "date": "2025-06-05",
+              "close": 42319.74
+            },
+            {
+              "date": "2025-06-11",
+              "close": 42865.77
+            },
+            {
+              "date": "2025-06-17",
+              "close": 42215.8
+            },
+            {
+              "date": "2025-06-24",
+              "close": 43089.02
+            },
+            {
+              "date": "2025-06-30",
+              "close": 44094.77
+            },
+            {
+              "date": "2025-07-07",
+              "close": 44406.36
+            },
+            {
+              "date": "2025-07-11",
+              "close": 44371.51
+            },
+            {
+              "date": "2025-07-17",
+              "close": 44484.49
+            },
+            {
+              "date": "2025-07-23",
+              "close": 45010.29
+            },
+            {
+              "date": "2025-07-29",
+              "close": 44632.99
+            },
+            {
+              "date": "2025-08-04",
+              "close": 44173.64
+            },
+            {
+              "date": "2025-08-08",
+              "close": 44175.61
+            },
+            {
+              "date": "2025-08-14",
+              "close": 44911.26
+            },
+            {
+              "date": "2025-08-20",
+              "close": 44938.31
+            },
+            {
+              "date": "2025-08-26",
+              "close": 45418.07
+            },
+            {
+              "date": "2025-09-02",
+              "close": 45295.81
+            },
+            {
+              "date": "2025-09-08",
+              "close": 45514.95
+            },
+            {
+              "date": "2025-09-12",
+              "close": 45834.22
+            },
+            {
+              "date": "2025-09-18",
+              "close": 46142.42
+            },
+            {
+              "date": "2025-09-24",
+              "close": 46121.28
+            },
+            {
+              "date": "2025-09-30",
+              "close": 46397.89
+            },
+            {
+              "date": "2025-10-06",
+              "close": 46694.97
+            },
+            {
+              "date": "2025-10-10",
+              "close": 45479.6
+            },
+            {
+              "date": "2025-10-16",
+              "close": 45952.24
+            },
+            {
+              "date": "2025-10-22",
+              "close": 46590.41
+            },
+            {
+              "date": "2025-10-28",
+              "close": 47706.37
+            },
+            {
+              "date": "2025-11-03",
+              "close": 47336.68
+            },
+            {
+              "date": "2025-11-07",
+              "close": 46987.1
+            },
+            {
+              "date": "2025-11-13",
+              "close": 47457.22
+            },
+            {
+              "date": "2025-11-19",
+              "close": 46138.77
+            },
+            {
+              "date": "2025-11-25",
+              "close": 47112.45
+            },
+            {
+              "date": "2025-12-02",
+              "close": 47474.46
+            },
+            {
+              "date": "2025-12-08",
+              "close": 47739.32
+            },
+            {
+              "date": "2025-12-12",
+              "close": 48458.05
+            },
+            {
+              "date": "2025-12-18",
+              "close": 47951.85
+            },
+            {
+              "date": "2025-12-24",
+              "close": 48731.16
+            },
+            {
+              "date": "2025-12-31",
+              "close": 48063.29
+            },
+            {
+              "date": "2026-01-07",
+              "close": 48996.08
+            },
+            {
+              "date": "2026-01-13",
+              "close": 49191.99
+            },
+            {
+              "date": "2026-01-20",
+              "close": 48488.59
+            },
+            {
+              "date": "2026-01-26",
+              "close": 49412.4
+            },
+            {
+              "date": "2026-01-30",
+              "close": 48892.47
+            },
+            {
+              "date": "2026-02-05",
+              "close": 48908.72
+            },
+            {
+              "date": "2026-02-11",
+              "close": 50121.4
+            },
+            {
+              "date": "2026-02-18",
+              "close": 49662.66
+            },
+            {
+              "date": "2026-02-24",
+              "close": 49174.5
+            },
+            {
+              "date": "2026-03-02",
+              "close": 48904.78
+            },
+            {
+              "date": "2026-03-06",
+              "close": 47501.55
+            },
+            {
+              "date": "2026-03-12",
+              "close": 46677.85
+            },
+            {
+              "date": "2026-03-18",
+              "close": 46225.15
+            },
+            {
+              "date": "2026-03-24",
+              "close": 46124.06
+            },
+            {
+              "date": "2026-03-30",
+              "close": 45216.14
+            },
+            {
+              "date": "2026-04-06",
+              "close": 46669.88
+            },
+            {
+              "date": "2026-04-10",
+              "close": 47916.57
+            },
+            {
+              "date": "2026-04-16",
+              "close": 48578.72
+            },
+            {
+              "date": "2026-04-22",
+              "close": 49490.03
+            },
+            {
+              "date": "2026-04-28",
+              "close": 49141.93
+            },
+            {
+              "date": "2026-05-04",
+              "close": 48941.9
+            },
+            {
+              "date": "2026-05-08",
+              "close": 49609.16
+            },
+            {
+              "date": "2026-05-14",
+              "close": 50063.46
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Hold",
+          "score": 66,
+          "rating_reasons": [
+            "strong one-year trend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fixed-income",
+      "name": "Fixed income",
+      "description": "Treasury bond ETFs across short, intermediate, and long duration.",
+      "assets": [
+        {
+          "ticker": "SHY",
+          "name": "iShares 1-3 Year Treasury Bond ETF",
+          "asset_type": "fixed income",
+          "logo_text": "SHY",
+          "brand_color": "#475569",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": "The fund will invest at least 80% of its assets in the component securities of the underlying index and it will invest at least 90% of its assets in U.S. Treasury securities that BFA believes will help the fund track the underlying index. The underlying index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity of greater than or equal to one year and less than three years.",
+          "price": 82.04,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": 3.72,
+          "beta": null,
+          "trailing_pe": 3729.091,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": 0.95127666,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": -0.43,
+            "six_months": 0.82,
+            "one_year": 3.3,
+            "five_years": 8.64
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 79.45
+            },
+            {
+              "date": "2025-05-23",
+              "close": 79.5
+            },
+            {
+              "date": "2025-05-30",
+              "close": 79.66
+            },
+            {
+              "date": "2025-06-05",
+              "close": 79.63
+            },
+            {
+              "date": "2025-06-11",
+              "close": 79.68
+            },
+            {
+              "date": "2025-06-17",
+              "close": 79.72
+            },
+            {
+              "date": "2025-06-24",
+              "close": 79.99
+            },
+            {
+              "date": "2025-06-30",
+              "close": 80.12
+            },
+            {
+              "date": "2025-07-07",
+              "close": 79.92
+            },
+            {
+              "date": "2025-07-11",
+              "close": 79.98
+            },
+            {
+              "date": "2025-07-17",
+              "close": 79.99
+            },
+            {
+              "date": "2025-07-23",
+              "close": 80.1
+            },
+            {
+              "date": "2025-07-29",
+              "close": 80.14
+            },
+            {
+              "date": "2025-08-04",
+              "close": 80.47
+            },
+            {
+              "date": "2025-08-08",
+              "close": 80.41
+            },
+            {
+              "date": "2025-08-14",
+              "close": 80.49
+            },
+            {
+              "date": "2025-08-20",
+              "close": 80.53
+            },
+            {
+              "date": "2025-08-26",
+              "close": 80.66
+            },
+            {
+              "date": "2025-09-02",
+              "close": 80.72
+            },
+            {
+              "date": "2025-09-08",
+              "close": 81.0
+            },
+            {
+              "date": "2025-09-12",
+              "close": 80.96
+            },
+            {
+              "date": "2025-09-18",
+              "close": 80.96
+            },
+            {
+              "date": "2025-09-24",
+              "close": 80.94
+            },
+            {
+              "date": "2025-09-30",
+              "close": 80.99
+            },
+            {
+              "date": "2025-10-06",
+              "close": 81.06
+            },
+            {
+              "date": "2025-10-10",
+              "close": 81.21
+            },
+            {
+              "date": "2025-10-16",
+              "close": 81.38
+            },
+            {
+              "date": "2025-10-22",
+              "close": 81.4
+            },
+            {
+              "date": "2025-10-28",
+              "close": 81.38
+            },
+            {
+              "date": "2025-11-03",
+              "close": 81.27
+            },
+            {
+              "date": "2025-11-07",
+              "close": 81.37
+            },
+            {
+              "date": "2025-11-13",
+              "close": 81.35
+            },
+            {
+              "date": "2025-11-19",
+              "close": 81.4
+            },
+            {
+              "date": "2025-11-25",
+              "close": 81.63
+            },
+            {
+              "date": "2025-12-02",
+              "close": 81.6
+            },
+            {
+              "date": "2025-12-08",
+              "close": 81.54
+            },
+            {
+              "date": "2025-12-12",
+              "close": 81.66
+            },
+            {
+              "date": "2025-12-18",
+              "close": 81.82
+            },
+            {
+              "date": "2025-12-24",
+              "close": 81.77
+            },
+            {
+              "date": "2025-12-31",
+              "close": 81.86
+            },
+            {
+              "date": "2026-01-07",
+              "close": 81.93
+            },
+            {
+              "date": "2026-01-13",
+              "close": 81.89
+            },
+            {
+              "date": "2026-01-20",
+              "close": 81.84
+            },
+            {
+              "date": "2026-01-26",
+              "close": 81.91
+            },
+            {
+              "date": "2026-01-30",
+              "close": 82.03
+            },
+            {
+              "date": "2026-02-05",
+              "close": 82.15
+            },
+            {
+              "date": "2026-02-11",
+              "close": 82.14
+            },
+            {
+              "date": "2026-02-18",
+              "close": 82.27
+            },
+            {
+              "date": "2026-02-24",
+              "close": 82.35
+            },
+            {
+              "date": "2026-03-02",
+              "close": 82.32
+            },
+            {
+              "date": "2026-03-06",
+              "close": 82.24
+            },
+            {
+              "date": "2026-03-12",
+              "close": 82.01
+            },
+            {
+              "date": "2026-03-18",
+              "close": 82.02
+            },
+            {
+              "date": "2026-03-24",
+              "close": 81.82
+            },
+            {
+              "date": "2026-03-30",
+              "close": 82.01
+            },
+            {
+              "date": "2026-04-06",
+              "close": 82.04
+            },
+            {
+              "date": "2026-04-10",
+              "close": 82.17
+            },
+            {
+              "date": "2026-04-16",
+              "close": 82.24
+            },
+            {
+              "date": "2026-04-22",
+              "close": 82.28
+            },
+            {
+              "date": "2026-04-28",
+              "close": 82.26
+            },
+            {
+              "date": "2026-05-04",
+              "close": 82.15
+            },
+            {
+              "date": "2026-05-08",
+              "close": 82.3
+            },
+            {
+              "date": "2026-05-14",
+              "close": 82.16
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Hold",
+          "score": 50,
+          "rating_reasons": [
+            "limited directional signal"
+          ]
+        },
+        {
+          "ticker": "IEF",
+          "name": "iShares 7-10 Year Treasury Bond ETF",
+          "asset_type": "fixed income",
+          "logo_text": "IEF",
+          "brand_color": "#0f766e",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": "The underlying index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity of greater than or equal to seven years and less than ten years. The fund will invest at least 80% of its assets in the component securities of the underlying index, and the fund will invest at least 90% of its assets in U.S. Treasury securities that the advisor believes will help the fund track the underlying index.",
+          "price": 93.11,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": 3.85,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": null,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": 0.79473877,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": -2.62,
+            "six_months": -1.6,
+            "one_year": 2.94,
+            "five_years": -6.21
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 90.4
+            },
+            {
+              "date": "2025-05-23",
+              "close": 90.26
+            },
+            {
+              "date": "2025-05-30",
+              "close": 91.03
+            },
+            {
+              "date": "2025-06-05",
+              "close": 91.03
+            },
+            {
+              "date": "2025-06-11",
+              "close": 91.0
+            },
+            {
+              "date": "2025-06-17",
+              "close": 91.24
+            },
+            {
+              "date": "2025-06-24",
+              "close": 92.0
+            },
+            {
+              "date": "2025-06-30",
+              "close": 92.49
+            },
+            {
+              "date": "2025-07-07",
+              "close": 91.51
+            },
+            {
+              "date": "2025-07-11",
+              "close": 91.38
+            },
+            {
+              "date": "2025-07-17",
+              "close": 91.2
+            },
+            {
+              "date": "2025-07-23",
+              "close": 91.71
+            },
+            {
+              "date": "2025-07-29",
+              "close": 92.18
+            },
+            {
+              "date": "2025-08-04",
+              "close": 93.12
+            },
+            {
+              "date": "2025-08-08",
+              "close": 92.71
+            },
+            {
+              "date": "2025-08-14",
+              "close": 92.75
+            },
+            {
+              "date": "2025-08-20",
+              "close": 92.84
+            },
+            {
+              "date": "2025-08-26",
+              "close": 93.14
+            },
+            {
+              "date": "2025-09-02",
+              "close": 93.18
+            },
+            {
+              "date": "2025-09-08",
+              "close": 94.67
+            },
+            {
+              "date": "2025-09-12",
+              "close": 94.57
+            },
+            {
+              "date": "2025-09-18",
+              "close": 94.27
+            },
+            {
+              "date": "2025-09-24",
+              "close": 94.08
+            },
+            {
+              "date": "2025-09-30",
+              "close": 94.06
+            },
+            {
+              "date": "2025-10-06",
+              "close": 94.02
+            },
+            {
+              "date": "2025-10-10",
+              "close": 94.79
+            },
+            {
+              "date": "2025-10-16",
+              "close": 95.42
+            },
+            {
+              "date": "2025-10-22",
+              "close": 95.58
+            },
+            {
+              "date": "2025-10-28",
+              "close": 95.45
+            },
+            {
+              "date": "2025-11-03",
+              "close": 94.69
+            },
+            {
+              "date": "2025-11-07",
+              "close": 94.87
+            },
+            {
+              "date": "2025-11-13",
+              "close": 94.79
+            },
+            {
+              "date": "2025-11-19",
+              "close": 94.82
+            },
+            {
+              "date": "2025-11-25",
+              "close": 95.76
+            },
+            {
+              "date": "2025-12-02",
+              "close": 95.23
+            },
+            {
+              "date": "2025-12-08",
+              "close": 94.74
+            },
+            {
+              "date": "2025-12-12",
+              "close": 94.66
+            },
+            {
+              "date": "2025-12-18",
+              "close": 95.23
+            },
+            {
+              "date": "2025-12-24",
+              "close": 95.13
+            },
+            {
+              "date": "2025-12-31",
+              "close": 94.94
+            },
+            {
+              "date": "2026-01-07",
+              "close": 95.26
+            },
+            {
+              "date": "2026-01-13",
+              "close": 95.08
+            },
+            {
+              "date": "2026-01-20",
+              "close": 94.34
+            },
+            {
+              "date": "2026-01-26",
+              "close": 94.87
+            },
+            {
+              "date": "2026-01-30",
+              "close": 94.72
+            },
+            {
+              "date": "2026-02-05",
+              "close": 95.16
+            },
+            {
+              "date": "2026-02-11",
+              "close": 95.33
+            },
+            {
+              "date": "2026-02-18",
+              "close": 96.08
+            },
+            {
+              "date": "2026-02-24",
+              "close": 96.5
+            },
+            {
+              "date": "2026-03-02",
+              "close": 96.48
+            },
+            {
+              "date": "2026-03-06",
+              "close": 95.81
+            },
+            {
+              "date": "2026-03-12",
+              "close": 95.06
+            },
+            {
+              "date": "2026-03-18",
+              "close": 95.12
+            },
+            {
+              "date": "2026-03-24",
+              "close": 94.23
+            },
+            {
+              "date": "2026-03-30",
+              "close": 94.64
+            },
+            {
+              "date": "2026-04-06",
+              "close": 94.7
+            },
+            {
+              "date": "2026-04-10",
+              "close": 94.96
+            },
+            {
+              "date": "2026-04-16",
+              "close": 95.1
+            },
+            {
+              "date": "2026-04-22",
+              "close": 95.21
+            },
+            {
+              "date": "2026-04-28",
+              "close": 94.94
+            },
+            {
+              "date": "2026-05-04",
+              "close": 94.39
+            },
+            {
+              "date": "2026-05-08",
+              "close": 94.96
+            },
+            {
+              "date": "2026-05-14",
+              "close": 94.26
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Hold",
+          "score": 50,
+          "rating_reasons": [
+            "limited directional signal"
+          ]
+        },
+        {
+          "ticker": "TLT",
+          "name": "iShares 20+ Year Treasury Bond ETF",
+          "asset_type": "fixed income",
+          "logo_text": "TLT",
+          "brand_color": "#1d4ed8",
+          "brand_domain": null,
+          "sector": null,
+          "industry": null,
+          "summary": "The fund will invest at least 80% of its assets in the component securities of the underlying index, and it will invest at least 90% of its assets in U.S. Treasury securities that the advisor believes will help the fund track the underlying index. The underlying index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity greater than or equal to twenty years.",
+          "price": 83.02,
+          "currency": "USD",
+          "market_cap": null,
+          "enterprise_value": null,
+          "dividend_yield": 4.57,
+          "beta": null,
+          "trailing_pe": null,
+          "forward_pe": -4151.0,
+          "peg_ratio": null,
+          "price_to_sales": null,
+          "price_to_book": 0.55768645,
+          "profit_margin": null,
+          "operating_margin": null,
+          "gross_margin": null,
+          "revenue_growth": null,
+          "earnings_growth": null,
+          "return_on_equity": null,
+          "debt_to_equity": null,
+          "free_cashflow": null,
+          "recommendation_key": null,
+          "analyst_target_mean": null,
+          "number_of_analyst_opinions": null,
+          "performance": {
+            "one_month": -4.3,
+            "six_months": -4.48,
+            "one_year": 0.57,
+            "five_years": -28.57
+          },
+          "chart_points": [
+            {
+              "date": "2025-05-19",
+              "close": 82.31
+            },
+            {
+              "date": "2025-05-23",
+              "close": 80.88
+            },
+            {
+              "date": "2025-05-30",
+              "close": 82.53
+            },
+            {
+              "date": "2025-06-05",
+              "close": 83.0
+            },
+            {
+              "date": "2025-06-11",
+              "close": 82.71
+            },
+            {
+              "date": "2025-06-17",
+              "close": 83.05
+            },
+            {
+              "date": "2025-06-24",
+              "close": 83.92
+            },
+            {
+              "date": "2025-06-30",
+              "close": 84.73
+            },
+            {
+              "date": "2025-07-07",
+              "close": 83.02
+            },
+            {
+              "date": "2025-07-11",
+              "close": 82.68
+            },
+            {
+              "date": "2025-07-17",
+              "close": 82.02
+            },
+            {
+              "date": "2025-07-23",
+              "close": 82.92
+            },
+            {
+              "date": "2025-07-29",
+              "close": 84.15
+            },
+            {
+              "date": "2025-08-04",
+              "close": 85.19
+            },
+            {
+              "date": "2025-08-08",
+              "close": 84.45
+            },
+            {
+              "date": "2025-08-14",
+              "close": 84.18
+            },
+            {
+              "date": "2025-08-20",
+              "close": 84.01
+            },
+            {
+              "date": "2025-08-26",
+              "close": 83.92
+            },
+            {
+              "date": "2025-09-02",
+              "close": 83.15
+            },
+            {
+              "date": "2025-09-08",
+              "close": 87.15
+            },
+            {
+              "date": "2025-09-12",
+              "close": 87.35
+            },
+            {
+              "date": "2025-09-18",
+              "close": 86.61
+            },
+            {
+              "date": "2025-09-24",
+              "close": 86.41
+            },
+            {
+              "date": "2025-09-30",
+              "close": 86.79
+            },
+            {
+              "date": "2025-10-06",
+              "close": 86.41
+            },
+            {
+              "date": "2025-10-10",
+              "close": 88.31
+            },
+            {
+              "date": "2025-10-16",
+              "close": 89.01
+            },
+            {
+              "date": "2025-10-22",
+              "close": 89.71
+            },
+            {
+              "date": "2025-10-28",
+              "close": 89.67
+            },
+            {
+              "date": "2025-11-03",
+              "close": 87.76
+            },
+            {
+              "date": "2025-11-07",
+              "close": 87.6
+            },
+            {
+              "date": "2025-11-13",
+              "close": 87.41
+            },
+            {
+              "date": "2025-11-19",
+              "close": 86.92
+            },
+            {
+              "date": "2025-11-25",
+              "close": 88.25
+            },
+            {
+              "date": "2025-12-02",
+              "close": 87.17
+            },
+            {
+              "date": "2025-12-08",
+              "close": 86.25
+            },
+            {
+              "date": "2025-12-12",
+              "close": 85.72
+            },
+            {
+              "date": "2025-12-18",
+              "close": 86.59
+            },
+            {
+              "date": "2025-12-24",
+              "close": 86.74
+            },
+            {
+              "date": "2025-12-31",
+              "close": 85.88
+            },
+            {
+              "date": "2026-01-07",
+              "close": 86.5
+            },
+            {
+              "date": "2026-01-13",
+              "close": 86.53
+            },
+            {
+              "date": "2026-01-20",
+              "close": 85.38
+            },
+            {
+              "date": "2026-01-26",
+              "close": 87.05
+            },
+            {
+              "date": "2026-01-30",
+              "close": 85.85
+            },
+            {
+              "date": "2026-02-05",
+              "close": 86.52
+            },
+            {
+              "date": "2026-02-11",
+              "close": 87.1
+            },
+            {
+              "date": "2026-02-18",
+              "close": 88.55
+            },
+            {
+              "date": "2026-02-24",
+              "close": 88.92
+            },
+            {
+              "date": "2026-03-02",
+              "close": 88.93
+            },
+            {
+              "date": "2026-03-06",
+              "close": 87.78
+            },
+            {
+              "date": "2026-03-12",
+              "close": 86.31
+            },
+            {
+              "date": "2026-03-18",
+              "close": 86.3
+            },
+            {
+              "date": "2026-03-24",
+              "close": 85.35
+            },
+            {
+              "date": "2026-03-30",
+              "close": 86.12
+            },
+            {
+              "date": "2026-04-06",
+              "close": 86.33
+            },
+            {
+              "date": "2026-04-10",
+              "close": 86.17
+            },
+            {
+              "date": "2026-04-16",
+              "close": 85.96
+            },
+            {
+              "date": "2026-04-22",
+              "close": 86.42
+            },
+            {
+              "date": "2026-04-28",
+              "close": 86.05
+            },
+            {
+              "date": "2026-05-04",
+              "close": 84.96
+            },
+            {
+              "date": "2026-05-08",
+              "close": 86.08
+            },
+            {
+              "date": "2026-05-14",
+              "close": 84.92
+            }
+          ],
+          "valuation_history": [],
+          "sentiment": {
+            "available": false,
+            "score": null,
+            "label": "Unavailable",
+            "delta": null,
+            "history": [],
+            "source": "Finnhub"
+          },
+          "latest_news": [],
+          "earnings": {
+            "available": false,
+            "source": "Finnhub"
+          },
+          "rating": "Hold",
+          "score": 45,
+          "rating_reasons": [
+            "limited directional signal"
+          ]
+        }
+      ]
+    }
+  ],
   "companies": [
     {
       "ticker": "AAPL",
       "name": "Apple Inc.",
+      "asset_type": "equity",
       "logo_text": "A",
       "brand_color": "#111111",
       "brand_domain": "apple.com",
       "sector": "Technology",
       "industry": "Consumer Electronics",
       "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
-      "price": 298.3099,
+      "price": 298.97,
       "currency": "USD",
-      "market_cap": 4381238099968.0,
-      "enterprise_value": 4390686031872.0,
+      "market_cap": 4391078723584.0,
+      "enterprise_value": 4407282892800.0,
       "dividend_yield": 0.36,
       "beta": 1.065,
-      "trailing_pe": 36.157574,
-      "forward_pe": 31.117973,
+      "trailing_pe": 36.23879,
+      "forward_pe": 31.187866,
       "peg_ratio": 2.59,
-      "price_to_sales": 9.705308,
-      "price_to_book": 41.08815,
+      "price_to_sales": 9.726784,
+      "price_to_book": 41.18044,
       "profit_margin": 27.15,
       "operating_margin": 32.27,
       "gross_margin": 47.86,
@@ -35,15 +4908,15 @@
       "analyst_target_mean": 308.06512,
       "number_of_analyst_opinions": 43,
       "performance": {
-        "one_month": 10.49,
-        "six_months": 9.71,
-        "one_year": 41.76,
-        "five_years": 145.43
+        "one_month": 10.74,
+        "six_months": 9.95,
+        "one_year": 42.08,
+        "five_years": 140.92
       },
       "chart_points": [
         {
           "date": "2025-05-19",
-          "close": 207.96
+          "close": 207.95
         },
         {
           "date": "2025-05-23",
@@ -369,23 +5242,24 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
+      "asset_type": "equity",
       "logo_text": "MS",
       "brand_color": "#2563eb",
       "brand_domain": "microsoft.com",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "summary": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics products and cloud services, such as dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services comprising Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; server products, including SQL and windows server, visual studio and system center related client access licenses, and other on-premises offerings; enterprise and partner services, such as enterprise support and nuance professional services, industry solutions, Microsoft partner network, and learning experience. The Personal Computing segment provides windows and devices, such as Windows OEM licensing and devices and surface and PC accessories; gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox game pass, subscriptions, and cloud gaming, advertising, and other cloud services; search and news advertising services that includes Bing and Copilot, Microsoft News and Edge, and third-party affiliates. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.",
-      "price": 418.97,
+      "price": 417.42,
       "currency": "USD",
-      "market_cap": 3112291270656.0,
-      "enterprise_value": 3193443188736.0,
-      "dividend_yield": 0.86,
+      "market_cap": 3100777381888.0,
+      "enterprise_value": 3147981127680.0,
+      "dividend_yield": 0.87,
       "beta": 1.093,
-      "trailing_pe": 24.983303,
-      "forward_pe": 21.628689,
+      "trailing_pe": 24.876043,
+      "forward_pe": 21.548674,
       "peg_ratio": 1.31,
-      "price_to_sales": 9.778685,
-      "price_to_book": 7.511519,
+      "price_to_sales": 9.742509,
+      "price_to_book": 7.48373,
       "profit_margin": 39.34,
       "operating_margin": 46.33,
       "gross_margin": 68.31,
@@ -398,10 +5272,10 @@
       "analyst_target_mean": 560.6302,
       "number_of_analyst_opinions": 54,
       "performance": {
-        "one_month": -0.9,
-        "six_months": -17.54,
-        "one_year": -7.23,
-        "five_years": 79.18
+        "one_month": -1.27,
+        "six_months": -17.84,
+        "one_year": -7.58,
+        "five_years": null
       },
       "chart_points": [
         {
@@ -723,23 +5597,24 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
+      "asset_type": "equity",
       "logo_text": "NV",
       "brand_color": "#76b900",
       "brand_domain": "nvidia.com",
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. The company sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants worldwide. It has a collaboration with Tech Mahindra Limited to develop artificial intelligence powered telco network operations reasoning agent. The company has a strategic partnership with Lumentum Holdings Inc. to develop optics technologies for AI and data centers. It also has a strategic partnership with Nebius Group N.V. to develop and deploy hyperscale cloud for the artificial intelligence market; and has a strategic partnership with IREN Limited to accelerate deployment of up to 5 gigawatts of infrastructure. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-      "price": 222.7,
+      "price": 220.61,
       "currency": "USD",
-      "market_cap": 5394637258752.0,
-      "enterprise_value": 5351231979520.0,
+      "market_cap": 5343290064896.0,
+      "enterprise_value": 5309679009792.0,
       "dividend_yield": 0.02,
       "beta": 2.244,
-      "trailing_pe": 45.548058,
-      "forward_pe": 19.157608,
+      "trailing_pe": 45.02245,
+      "forward_pe": 18.975262,
       "peg_ratio": 0.71,
-      "price_to_sales": 24.978977,
-      "price_to_book": 34.4144,
+      "price_to_sales": 24.744556,
+      "price_to_book": 34.086834,
       "profit_margin": 55.6,
       "operating_margin": 65.02,
       "gross_margin": 71.07,
@@ -752,10 +5627,10 @@
       "analyst_target_mean": 275.3058,
       "number_of_analyst_opinions": 57,
       "performance": {
-        "one_month": 10.44,
-        "six_months": 17.13,
-        "one_year": 64.54,
-        "five_years": 1487.48
+        "one_month": 9.39,
+        "six_months": 16.02,
+        "one_year": 62.97,
+        "five_years": 1413.54
       },
       "chart_points": [
         {
