@@ -42,9 +42,9 @@ Open `http://127.0.0.1:4173`.
 
 Use the `PDF` button on a company card to print that company as a one-page snapshot. Use `PDF all` to print the detailed company snapshots.
 
-## Finnhub news, sentiment, and earnings
+## News, sentiment, and earnings
 
-The page supports Finnhub enrichment for:
+The page supports Finnhub enrichment for equities when `FINNHUB_API_KEY` is configured:
 
 - news sentiment
 - latest company news
@@ -52,13 +52,15 @@ The page supports Finnhub enrichment for:
 - EPS and revenue estimates
 - sentiment history across refreshes
 
+When Finnhub is unavailable, and for non-equity underlyings, the refresh falls back to Yahoo Finance news from `yfinance`. It uses a simple transparent headline lexicon to estimate positive, neutral, or negative tone.
+
 Create a GitHub repository secret named `FINNHUB_API_KEY`. The scheduled workflow refreshes data three times per weekday:
 
 - 07:20 UTC
 - 13:20 UTC
 - 19:20 UTC
 
-If the secret is missing, the page still works with Yahoo Finance data and shows Finnhub fields as unavailable.
+If the secret is missing, the page still works with Yahoo Finance data and Yahoo headline sentiment.
 
 ## GitHub Pages
 

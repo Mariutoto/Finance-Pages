@@ -372,6 +372,10 @@ footer {
   margin-bottom: 14px;
 }
 
+.event-grid.market-events {
+  grid-template-columns: 0.9fr 1.4fr;
+}
+
 .chart-panel {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -774,6 +778,10 @@ footer {
     gap: 7px;
     grid-template-columns: 1fr 1fr 1.25fr;
     margin-bottom: 8px;
+  }
+
+  .event-grid.market-events {
+    grid-template-columns: 1fr 1.25fr;
   }
 
   .chart-panel,

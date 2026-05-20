@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-20T12:29:03.563807+00:00",
-  "source": "Yahoo Finance via yfinance + Finnhub",
+  "generated_at": "2026-05-20T12:43:47.257018+00:00",
+  "source": "Yahoo Finance via yfinance + Finnhub when configured",
   "disclaimer": "Educational snapshot only. Not financial advice.",
   "asset_groups": [
     {
@@ -348,17 +348,83 @@
             }
           ],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
-            "bullish_percent": null,
-            "bearish_percent": null,
-            "articles_last_week": null,
-            "source": "Finnhub",
+            "available": true,
+            "score": 0.0,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": []
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Analyze Apple stock on Yahoo Finance's new AI platform AlphaSpace",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/analyze-apple-stock-on-yahoo-finances-new-ai-platform-alphaspace-194037185.html",
+              "published_at": "2026-05-19T19:40:37Z",
+              "summary": "Josh Lipton, host of Market Domination, explores Yahoo Finance's latest offering and new way to level up your investing strategy, AlphaSpace."
+            },
+            {
+              "headline": "Trump's Big Tech trades while in office raise concerns",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/trumps-big-tech-trades-while-in-office-raise-concerns-150723305.html",
+              "published_at": "2026-05-19T15:07:23Z",
+              "summary": "President Trump traded over $50 million in Magnificent Seven tech stocks in the first quarter of 2026, according to a new ethics disclosure. Yahoo Finance Washington Correspondent Ben Werschkul comes on Market Catalysts to speak more about the concerns raised from Trump's trading activity and volume while in office."
+            },
+            {
+              "headline": "Apple TV Series Launch Ties Services Growth To Valuation Questions",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-tv-series-launch-ties-120619910.html",
+              "published_at": "2026-05-20T12:06:19Z",
+              "summary": "Global rollout of multi Emmy Award winning lifestyle series Staycation International on Apple TV. Streaming on Apple TV is scheduled to begin on May 24, 2026. Expansion underscores Apple’s focus on premium lifestyle and travel programming within Apple TV. News is material for Apple’s media and services strategy alongside its hardware business. Apple, traded as NasdaqGS:AAPL, is adding Staycation International to Apple TV at a time when media and technology groups are competing for user..."
+            },
+            {
+              "headline": "The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ai-capex-cycle-crushing-equal-115514192.html",
+              "published_at": "2026-05-20T11:55:14Z",
+              "summary": "The Invesco QQQ Trust (NASDAQ:QQQ) and the Direxion NASDAQ-100 Equal Weighted Index Shares (NYSEARCA:QQQE) own the same 100 stocks. The choice between them hinges on whether you want NVIDIA, Apple, and Microsoft to drive returns or let the other 97 names carry equal weight. Over the past year that single choice produced a return spread ... The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning"
+            },
+            {
+              "headline": "XLK’s quiet edge over FTEC comes from a cap limit most investors never notice",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/xlk-quiet-edge-over-ftec-093025038.html",
+              "published_at": "2026-05-20T09:30:25Z",
+              "summary": "If you are picking a U.S. technology ETF, the choice almost always narrows to Fidelity MSCI Information Technology Index ETF (NYSEARCA:FTEC) and The Technology Select Sector SPDR Fund (NYSEARCA:XLK). Both look like the same trade: cheap, passive, mega-cap heavy. But XLK has quietly outrun FTEC 22.06% year to date versus 19.58%, and that gap traces ... XLK’s quiet edge over FTEC comes from a cap limit most investors never notice"
+            },
+            {
+              "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/1-unstoppable-stock-buy-joins-072200028.html",
+              "published_at": "2026-05-20T07:22:00Z",
+              "summary": "This semiconductor leader has grown sevenfold over the past year and shows no signs of slowing."
+            },
+            {
+              "headline": "Anthropic withholds most powerful AI from British companies",
+              "source": "The Telegraph",
+              "url": "https://finance.yahoo.com/news/anthropic-withhold-most-powerful-ai-070000578.html",
+              "published_at": "2026-05-20T07:00:00Z",
+              "summary": "The US tech giant Anthropic is withholding British companies’ access to its powerful AI model after warning it was too dangerous to release globally."
+            },
+            {
+              "headline": "Will Nvidia Hit the $6 Trillion Mark on Thursday?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-hit-6-trillion-mark-065000424.html",
+              "published_at": "2026-05-20T06:50:00Z",
+              "summary": "After topping $5.5 trillion, could $6 trillion be next?"
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
@@ -703,17 +769,83 @@
             }
           ],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
-            "bullish_percent": null,
-            "bearish_percent": null,
-            "articles_last_week": null,
-            "source": "Finnhub",
+            "available": true,
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": []
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Nvidia and Apple hold stock market's power like never before: Chart of the Day",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/sectors/technology/article/nvidia-and-apple-hold-stock-markets-power-like-never-before-chart-of-the-day-155214605.html",
+              "published_at": "2026-05-19T15:52:14Z",
+              "summary": "The S&P 500 has never been more concentrated in two stocks than it is today."
+            },
+            {
+              "headline": "OpenAI prevails in Musk's lawsuit, paving the way for IPO",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/news/openai-prevails-in-musks-lawsuit-paving-the-way-for-ipo-175338618.html",
+              "published_at": "2026-05-18T17:53:38Z",
+              "summary": "A California jury, on Monday found OpenAI cofounders CEO Sam Altman and president Greg Brockman not liable of unjustly enriching themselves by turning the once nonprofit company into a for-profit business."
+            },
+            {
+              "headline": "Lambda wins cloud deal with Hudson River Trading to supply access to Nvidia chips",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/sectors/technology/articles/lamda-wins-cloud-deal-hudson-120156059.html",
+              "published_at": "2026-05-20T12:01:56Z",
+              "summary": "Artificial intelligence cloud computing startup ‌Lambda on Wednesday said it has won a ‌cloud contract with high-speed trading firm Hudson River Trading.  Lambda, which is ​backed by Nvidia and raised $1.5 billion last year after signing a deal to provide Microsoft with access to Nvidia's chips, said the deal with Hudson River Trading ‌will entail renting ⁠more than 1,000 of Nvidia's latest \"Blackwell\" systems to the trading firm, which Reuters last ⁠month reported had $12.3 billion in trading revenue last year."
+            },
+            {
+              "headline": "The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ai-capex-cycle-crushing-equal-115514192.html",
+              "published_at": "2026-05-20T11:55:14Z",
+              "summary": "The Invesco QQQ Trust (NASDAQ:QQQ) and the Direxion NASDAQ-100 Equal Weighted Index Shares (NYSEARCA:QQQE) own the same 100 stocks. The choice between them hinges on whether you want NVIDIA, Apple, and Microsoft to drive returns or let the other 97 names carry equal weight. Over the past year that single choice produced a return spread ... The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning"
+            },
+            {
+              "headline": "Nvidia’s $5.7 Trillion Market Cap Faces Its Toughest Test Yet. Can It Beat 75% Gross Margin Expectations Before Earnings?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-7-trillion-market-115044616.html",
+              "published_at": "2026-05-20T11:50:44Z",
+              "summary": "NVIDIA (NASDAQ:NVDA) reports fiscal Q1 2027 results later today, and the bar has rarely looked higher. The traders on CNBC’s Fast Money segment “Yields Surge and Prepping for Nvidia Results” framed it around a single number: “Anything south of 75% gross margins, then we can start having a different conversation. 75% is a bogey.” The ... Nvidia’s $5.7 Trillion Market Cap Faces Its Toughest Test Yet. Can It Beat 75% Gross Margin Expectations Before Earnings?"
+            },
+            {
+              "headline": "Higher Prices Could Slow the AI Building Boom",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/finance/stocks/higher-prices-could-slow-the-ai-building-boom-627f6c2c?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-20T10:24:00Z",
+              "summary": "AI’s big bucks go mostly toward computing gear like chips and servers in data centers.  Should that trend persist, it could come to bite suppliers including chip giant  Nvidia  which reports quarterly results after the bell today.  Nvidia can insulate itself from cost inflation by expanding offerings that don’t require as much in-demand memory, by passing on higher prices to customers and by inking longer-term deals with its own suppliers at lower prices."
+            },
+            {
+              "headline": "XLK’s quiet edge over FTEC comes from a cap limit most investors never notice",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/xlk-quiet-edge-over-ftec-093025038.html",
+              "published_at": "2026-05-20T09:30:25Z",
+              "summary": "If you are picking a U.S. technology ETF, the choice almost always narrows to Fidelity MSCI Information Technology Index ETF (NYSEARCA:FTEC) and The Technology Select Sector SPDR Fund (NYSEARCA:XLK). Both look like the same trade: cheap, passive, mega-cap heavy. But XLK has quietly outrun FTEC 22.06% year to date versus 19.58%, and that gap traces ... XLK’s quiet edge over FTEC comes from a cap limit most investors never notice"
+            },
+            {
+              "headline": "KPMG partners with Anthropic to embed Claude in Digital Gateway",
+              "source": "International Accounting Bulletin",
+              "url": "https://finance.yahoo.com/sectors/technology/articles/kpmg-partners-anthropic-embed-claude-091914835.html",
+              "published_at": "2026-05-20T09:19:14Z",
+              "summary": "The initial rollout will focus on tax teams and PE clients, allowing them to create agentic workflows."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
@@ -1067,17 +1199,83 @@
             }
           ],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
-            "bullish_percent": null,
-            "bearish_percent": null,
-            "articles_last_week": null,
-            "source": "Finnhub",
+            "available": true,
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": []
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Investors might be penalizing Nvidia for not boosting cash returns like its Big Tech peers",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/investors-might-be-penalizing-nvidia-for-not-boosting-cash-returns-like-its-big-tech-peers-122358951.html",
+              "published_at": "2026-05-20T12:23:58Z",
+              "summary": "Maybe it’s time for Nvidia and CEO Jensen Huang to up cash giveaways to lure in new investors. It wouldn’t hurt to offer an enticement."
+            },
+            {
+              "headline": "Intel, Micron, and other semiconductor stocks extend bounce ahead of Nvidia earnings",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/intel-micron-and-other-semiconductor-stocks-extend-bounce-ahead-of-nvidia-earnings-114957534.html",
+              "published_at": "2026-05-20T11:49:57Z",
+              "summary": "Chip stocks bounce ahead of Nvidia eaernings."
+            },
+            {
+              "headline": "Nvidia earnings: TSM's results may give 'a clue' on what to expect",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/nvidia-earnings-tsms-results-may-100000386.html",
+              "published_at": "2026-05-20T10:00:00Z",
+              "summary": "Nvidia (NVDA) is rounding out the earnings season for the Magnificent Seven this week as the chipmaker prepares to release first quarter results this Wednesday, May 20. Bokeh Capital Partners founder and CIO Kimberly Forrest highlights what she expects to see from Nvidia's results, mentioning how Taiwan Semiconductor Manufacturing Company's (TSM) own results may hint at what's to come."
+            },
+            {
+              "headline": "Beyond Nvidia: Why investors might want to buy foreign stocks",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/beyond-nvidia-why-investors-might-want-to-buy-foreign-stocks-214458293.html",
+              "published_at": "2026-05-19T21:44:58Z",
+              "summary": "Crescent Grove Advisors co-chief investment officer Andrew Krei explains the importance of Nvidia's (NVDA) upcoming earnings print to the broader markets, and why overseas stocks and emerging markets (EEM) are worth considering for investors."
+            },
+            {
+              "headline": "Take a closer look at Nvidia stock using Yahoo Finance's AlphaSpace",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/take-a-closer-look-at-nvidia-stock-using-yahoo-finances-alphaspace-140312172.html",
+              "published_at": "2026-05-19T14:03:12Z",
+              "summary": "Yahoo Finance has launched AlphaSpace, a premium investment platform that combines data, charting, news, analysis, and more to help retail investors understand markets and make smart decisions faster. Yahoo Finance Executive Editor Brian Sozzi demonstrates how to use the platform by taking a closer look at AI chip stock Nvidia (NVDA) ahead of its first quarter earnings on Wednesday. Innovator From Goldman Sachs Asset Management chief investment strategist Tim Urbanowicz weighs in with his firm's general outlook on Nvidia."
+            },
+            {
+              "headline": "ServiceNow stock gains as investors push further into software",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/servicenow-stock-gains-as-investors-push-further-into-software-141506101.html",
+              "published_at": "2026-05-19T14:15:06Z",
+              "summary": "ServiceNow (NOW) shares are extending their gains in this trading week, jumping by nearly 5% on Tuesday morning in a new push by software stocks. Yahoo Finance Senior Reporter Ines Ferré takes a closer look at why investors may be rotating out of semiconductor stocks into software. AI semiconductor giant Nvidia (NVDA) is scheduled to report first quarter earnings this Wednesday, May 20."
+            },
+            {
+              "headline": "Bond yields pause near recent highs, stocks steady ahead of Nvidia results",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/news/asian-stocks-fall-4th-day-020854458.html",
+              "published_at": "2026-05-20T12:34:25Z",
+              "summary": "By Alun John and Stella Qiu LONDON/SYDNEY, May 20 (Reuters) - Government bonds steadied on Wednesday after a steep selloff that sent yields to multi-year highs on war-driven inflation fears, a calmer"
+            },
+            {
+              "headline": "The Best Way to Invest in SpaceX Before Its IPO",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/best-way-invest-spacex-ipo-123300710.html",
+              "published_at": "2026-05-20T12:33:00Z",
+              "summary": "SpaceX is targeting a valuation of up to $2 trillion when it goes public."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
@@ -1108,7 +1306,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 4498.3,
+          "price": 4506.6,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -1131,10 +1329,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -6.41,
-            "six_months": 10.57,
-            "one_year": 37.13,
-            "five_years": 139.04
+            "one_month": -6.24,
+            "six_months": 10.77,
+            "one_year": 37.38,
+            "five_years": 139.48
           },
           "chart_points": [
             {
@@ -1392,14 +1590,83 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.0,
+            "label": "Neutral",
+            "bullish_percent": 12.5,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Should You Invest in Gold or the S&P 500? It Depends.",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/invest-gold-p-500-depends-121529640.html",
+              "published_at": "2026-05-20T12:15:29Z",
+              "summary": "With contrasting approaches to risk, income, and portfolio composition, these two ETFs play distinct roles in a diversified investment strategy."
+            },
+            {
+              "headline": "Dundee Precious Metals Posts High-Grade Results from Wedge Zone Deep Prospect",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/dundee-precious-metals-posts-high-112759265.html",
+              "published_at": "2026-05-20T11:27:59Z",
+              "summary": "DPM Metals (DPM.TO) reported results from delineation drilling at the Wedge Zone Deep prospect withi"
+            },
+            {
+              "headline": "P2 Gold Posts Results Confirming Potential for Expansion at Lucky Strike Zone of Gabbs Project",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/p2-gold-posts-results-confirming-103829292.html",
+              "published_at": "2026-05-20T10:38:29Z",
+              "summary": "P2 Gold (PGLD.V) reported results from the Lucky Strike Zone as part of a drill program at the Gabbs"
+            },
+            {
+              "headline": "Gold prices hold steady as markets balance rising bond yields and hopes for Iran peace talks",
+              "source": "InvestorsHub",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-prices-hold-steady-markets-100634886.html",
+              "published_at": "2026-05-20T10:06:34Z",
+              "summary": "Gold prices traded little changed on Wednesday as investors assessed the impact of surging government bond yields and a firmer U. S."
+            },
+            {
+              "headline": "Kavango Resources shares on the move as test data boosts Hillside gold project",
+              "source": "Proactive",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/kavango-resources-shares-move-test-092600059.html",
+              "published_at": "2026-05-20T09:26:00Z",
+              "summary": "Kavango Resources PLC (LSE:KAV, OTC:KVGOF) shares were on the move on Wednesday, as it reported metallurgical testwork from the Hillside Gold Project in Zimbabwe, which the company said delivered high recoveries and standard processing requirements, clearing a key technical step as it prepares..."
+            },
+            {
+              "headline": "Corazon to acquire Chalice Gold Project for $18.3m",
+              "source": "Mining Technology",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/corazon-acquire-chalice-gold-project-090940725.html",
+              "published_at": "2026-05-20T09:09:40Z",
+              "summary": "The deal grants Corazon a high-grade asset on a mining lease in the Goldfields region in WA."
+            },
+            {
+              "headline": "Drilling under way at Vizsla Copper’s Woodjam Project in BC",
+              "source": "Mining Technology",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/drilling-under-way-vizsla-copper-085041748.html",
+              "published_at": "2026-05-20T08:50:41Z",
+              "summary": "The programme is targeting up to 8,000m of drilling across approximately 16 drill-holes."
+            },
+            {
+              "headline": "New episode: Copper-gold mining – the strategic convergence of two sectors",
+              "source": "Mining Technology",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/episode-copper-gold-mining-strategic-082807131.html",
+              "published_at": "2026-05-20T08:28:07Z",
+              "summary": "In this week’s episode of Energy Technology, we consider the outlook for porphyry copper-gold systems today."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
@@ -1421,7 +1688,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 75.795,
+          "price": 75.985,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -1444,10 +1711,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -5.2,
-            "six_months": 49.72,
-            "one_year": 129.82,
-            "five_years": 170.19
+            "one_month": -4.95,
+            "six_months": 50.11,
+            "one_year": 130.43,
+            "five_years": 170.91
           },
           "chart_points": [
             {
@@ -1705,23 +1972,93 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.208,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Gold and silver prices today, Wednesday, May 20: Lowest opening in weeks after Trump's latest comments on Iran",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-and-silver-prices-today-wednesday-may-20-lowest-opening-in-weeks-after-trumps-latest-comments-on-iran-104149917.html",
+              "published_at": "2026-05-20T10:41:49Z",
+              "summary": "These are today's gold and silver prices, May 20, 2026. Gold opened at $4,486.60 this morning, down 0.5% from Tuesday’s closing price of $4,511.20. Silver futures opened at $74.08 per ounce on Wednesday, down 1.4% from yesterday’s closing price of $75.15."
+            },
+            {
+              "headline": "Aya Gold & Silver Posts High-Grade Drill Results from Boumadine Project",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/aya-gold-silver-posts-high-122140354.html",
+              "published_at": "2026-05-20T12:21:40Z",
+              "summary": "Aya Gold & Silver (AYA.TO) reported new drill results from the Boumadine project in Morocco that con"
+            },
+            {
+              "headline": "Basic Materials Roundup: Market Talk",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-db0e789c?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-19T21:11:00Z",
+              "summary": "BUSINESS  The latest Market Talks covering Basic Materials. Published exclusively on Dow Jones Newswires at 4:20 ET, 12:20 ET and 16:50 ET. 1433 ET – Ongoing negotiations over a prospective deal to end the war in Iran continue to run into the same problems."
+            },
+            {
+              "headline": "The Russell 2000 Is Up 31% and These 2 Small Cap Stocks Under $30 Have the Fundamentals to Keep Running",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/russell-2000-31-2-small-151110777.html",
+              "published_at": "2026-05-19T15:11:10Z",
+              "summary": "Small caps are finally getting their moment. The iShares Russell 2000 ETF (NYSEARCA:IWM) is up 12.11% year to date and 31.51% over the past year, a sharp rotation away from the mega-cap trade that dominated the prior cycle. For retail investors, that means the cheaper end of the market, names trading under $30 a share, ... The Russell 2000 Is Up 31% and These 2 Small Cap Stocks Under $30 Have the Fundamentals to Keep Running"
+            },
+            {
+              "headline": "Aftermath Silver reports high-grade silver, copper assays from Berenguela Phase 3 drilling",
+              "source": "Proactive",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/aftermath-silver-reports-high-grade-141300965.html",
+              "published_at": "2026-05-19T14:13:00Z",
+              "summary": "Aftermath Silver Ltd (TSX-V:AAG, OTCQX:AAGFF, FRA:FLM1) reported new assay results from its Phase 3 diamond drill program at Berenguela, with several holes returning high-grade intercepts of silver and copper from shallow depths. Among the highlights from the silver-copper-manganese deposit..."
+            },
+            {
+              "headline": "Can Newmont's Record Free Cash Flow Momentum Carry Into Q2?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/newmonts-record-free-cash-flow-121300870.html",
+              "published_at": "2026-05-19T12:13:00Z",
+              "summary": "NEM's record free cash flow is fueling investment in organic growth projects and incremental shareholder returns."
+            },
+            {
+              "headline": "Can Coeur Mining Sustain Its Rapid Cash Expansion Momentum?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-sustain-rapid-cash-120900530.html",
+              "published_at": "2026-05-19T12:09:00Z",
+              "summary": "CDE's cash surged to $843M in Q1 2026, fueled by stronger mine performance, higher gold and silver prices and the New Gold acquisition."
+            },
+            {
+              "headline": "Blossom Gold Provides Two Rosebud Project Updates",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/blossom-gold-provides-two-rosebud-120836297.html",
+              "published_at": "2026-05-19T12:08:36Z",
+              "summary": "Blossom Gold (BGAU.TO) said on Tuesday that all initially planned metallurgical drill holes at its R"
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 70,
+          "score": 74,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive"
+            "six-month momentum is supportive",
+            "mildly positive news tone"
           ]
         },
         {
@@ -1734,7 +2071,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 101.77,
+          "price": 101.18,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -1757,10 +2094,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 13.57,
-            "six_months": 69.87,
-            "one_year": 62.68,
-            "five_years": 64.01
+            "one_month": 12.91,
+            "six_months": 68.89,
+            "one_year": 61.73,
+            "five_years": 63.06
           },
           "chart_points": [
             {
@@ -2018,23 +2355,93 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.333,
+            "label": "Positive",
+            "bullish_percent": 62.5,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.333,
+                "label": "Positive",
+                "bullish_percent": 62.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Treasury yields climb as bond market weighs inflation concerns",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/treasury-yields-climb-as-bond-market-weighs-inflation-concerns-200826775.html",
+              "published_at": "2026-05-19T20:08:26Z",
+              "summary": "Yahoo Finance Breaking Business News Reporter Jake Conley and Senior Markets Reporter Ines Ferré gauge the recent climb in the bond market (^TYX, ^TNX, ^FVX) as Treasury yields react to the latest inflation worries and speculation as to whether the Federal Reserve will be able to cut interest rates under new chairman Kevin Warsh."
+            },
+            {
+              "headline": "Only 2 things could stop bond yields from climbing even higher",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/only-2-things-could-stop-bond-yields-from-climbing-even-higher-183050515.html",
+              "published_at": "2026-05-19T18:30:50Z",
+              "summary": "Treasury yields (^FVX, ^TNX, ^TYX) have been moving sharply higher this week, driven partially by the Iran war. Piper Sandler chief investment strategist Michael Kantrowitz explains why bond market movements matter for equities, what needs to happen for yields to return to normal levels, and what it all means for the Federal Reserve."
+            },
+            {
+              "headline": "How the Iran war is driving a renewable energy pivot",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/how-the-iran-war-is-driving-a-renewable-energy-pivot-140143905.html",
+              "published_at": "2026-05-19T14:01:43Z",
+              "summary": "Yahoo Finance's Julie Hyman and Jake Conley explain how the Iran war and rising oil (CL=F, BZ=F) prices are causing a mass pivot to various types of renewable energy."
+            },
+            {
+              "headline": "Freight rates for Russia’s Urals weaken on tonnage overhang, sources say",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/news/freight-rates-russia-urals-weaken-121930198.html",
+              "published_at": "2026-05-20T12:19:30Z",
+              "summary": "MOSCOW, May 20 (Reuters) - Freight rates for tanker shipments of Urals crude from Russia’s western ports to India fell in mid-May due to seasonal factors, an ample supply of shadow fleet vessels and"
+            },
+            {
+              "headline": "Oil prices slump after Trump comments while analysts point to supply crunch",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/news/oil-prices-ease-trump-says-013901463.html",
+              "published_at": "2026-05-20T12:19:06Z",
+              "summary": "By Shadia Nasralla LONDON, May 20 (Reuters) - Oil prices lost more than 2% on Wednesday after U.S."
+            },
+            {
+              "headline": "S&P 500 futures rise ahead of Nvidia Q1 earnings",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-futures-rise-ahead-121320832.html",
+              "published_at": "2026-05-20T12:13:20Z",
+              "summary": "The S&P 500 is set to snap a three-day losing streak as Trump's comments on the Iran war ease energy prices"
+            },
+            {
+              "headline": "US Equity Futures Rise Pre-Bell Amid Chip Sector Gains as Traders Await Nvidia Earnings",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-pre-115952908.html",
+              "published_at": "2026-05-20T11:59:52Z",
+              "summary": "US equity futures were higher pre-bell Wednesday as traders anticipated Nvidia's (NVDA) fiscal Q1 fi"
+            },
+            {
+              "headline": "Stock Market Today: Dow Rises Ahead Of Fed Minutes; Nvidia Shares Rally With Earnings Due (Live Coverage)",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-2/?src=A00220&yptr=yahoo",
+              "published_at": "2026-05-20T11:58:49Z",
+              "summary": "Stock Market Today: The Dow Jones index rose Wednesday ahead of the Fed minutes. Nvidia stock rallied ahead of earnings."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 80,
+          "score": 88,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive"
+            "six-month momentum is supportive",
+            "positive news tone"
           ]
         }
       ]
@@ -2054,9 +2461,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 77420.91,
+          "price": 77456.28,
           "currency": "USD",
-          "market_cap": 1550981922816.0,
+          "market_cap": 1551328083968.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -2077,10 +2484,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 1.4,
-            "six_months": -20.13,
-            "one_year": -32.06,
-            "five_years": 89.84
+            "one_month": 1.45,
+            "six_months": -20.09,
+            "one_year": -32.03,
+            "five_years": 89.93
           },
           "chart_points": [
             {
@@ -2338,23 +2745,93 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.25,
+            "label": "Positive",
+            "bullish_percent": 37.5,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.25,
+                "label": "Positive",
+                "bullish_percent": 37.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Bitcoin and ethereum prices today, Wednesday, May 20, 2026: Opened lower but moving higher",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-may-20-2026-opened-lower-but-moving-higher-111622180.html",
+              "published_at": "2026-05-20T11:16:22Z",
+              "summary": "Bitcoin opened at $76,757.31 on Wednesday, May 20, 2026, down 0.3% from Tuesday’s opening price. The price of bitcoin as of 7:00 a.m. ET rose to $77,428.64. Ethereum opened at $2,110.07 on Wednesday, 0.9% lower than Tuesday’s opening price. Ethereum also rose this morning, valued at $2,128.62 as of 7:00 a.m. ET."
+            },
+            {
+              "headline": "Morning Minute: Markets Flip Green Overnight Ahead of NVDA Earnings",
+              "source": "decrypt",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/morning-minute-markets-flip-green-122036804.html",
+              "published_at": "2026-05-20T12:20:36Z",
+              "summary": "Crypto majors and stocks are back in the green, while Polymarket just opened private company prediction markets to retail."
+            },
+            {
+              "headline": "Tether Takes Full Control of Twenty One Capital (XXI) After Buying SoftBank Stake",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/tether-takes-full-control-twenty-121236408.html",
+              "published_at": "2026-05-20T12:12:36Z",
+              "summary": "Tether acquires SoftBank’s stake in Twenty One Capital (XXI), gaining full control of the public Bitcoin treasury company."
+            },
+            {
+              "headline": "Stock Market Today: Dow Rises Ahead Of Fed Minutes; Nvidia Shares Rally With Earnings Due (Live Coverage)",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-2/?src=A00220&yptr=yahoo",
+              "published_at": "2026-05-20T11:58:49Z",
+              "summary": "Stock Market Today: The Dow Jones index rose Wednesday ahead of the Fed minutes. Nvidia stock rallied ahead of earnings."
+            },
+            {
+              "headline": "Solana News: Amundi Breaks Into Solana – Europe’s Largest Asset Manager Launches SOL UCITS Fund",
+              "source": "Cryptonews",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-news-amundi-breaks-solana-115539383.html",
+              "published_at": "2026-05-20T11:55:39Z",
+              "summary": "Solana News: Europe’s largest asset manager just put Solana in the same conversation as Ethereum and Bitcoin for institutional allocation. Amundi, €2.4 trillion AUM, a subsidiary of Crédit Agricole, and the tenth-largest asset manager globally – has announced a UCITS-compliant fund on the Solana blockchain in partnership with Spiko Finance, ..."
+            },
+            {
+              "headline": "Ethereum ‘Not the Right Asset’ For Now? Here's Why Wintermute Claims ETH Is Failing In The Current Macro",
+              "source": "CCN",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-not-asset-now-heres-113905433.html",
+              "published_at": "2026-05-20T11:39:05Z",
+              "summary": "Wintermute said Ethereum is 'the wrong asset for this macro.' It comes shortly after Tom Lee linked Ethereum’s weakness to rising oil prices. Despite near-term ..."
+            },
+            {
+              "headline": "How High Could Bitcoin Realistically Go This Cycle?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/high-could-bitcoin-realistically-cycle-103436220.html",
+              "published_at": "2026-05-20T10:34:36Z",
+              "summary": "Every time the market breaks out, social media timelines immediately fill up with wild predictions of Bitcoin (CRYPTO: BTC) hitting $500,000 or even $1 million per coin. If you hold Bitcoin right now, it is easy to get caught up in that excitement. However, figuring out how high the Bitcoin price could realistically go this ... How High Could Bitcoin Realistically Go This Cycle?"
+            },
+            {
+              "headline": "CAN Q1 Earnings Call Focuses on Power & Cost Discipline",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/q1-earnings-call-focuses-power-102600936.html",
+              "published_at": "2026-05-20T10:26:00Z",
+              "summary": "Canaan's Q1 call highlights West Texas power assets, inventory cleanup and tighter costs as it pivots beyond mining rigs."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
           "rating": "Avoid",
-          "score": 25,
+          "score": 33,
           "rating_reasons": [
             "weak one-year trend",
-            "six-month momentum is under pressure"
+            "six-month momentum is under pressure",
+            "positive news tone"
           ]
         },
         {
@@ -2367,9 +2844,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 2128.59,
+          "price": 2129.97,
           "currency": "USD",
-          "market_cap": 257009008640.0,
+          "market_cap": 257080197120.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -2390,10 +2867,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -7.02,
-            "six_months": -36.55,
-            "one_year": -51.06,
-            "five_years": -23.55
+            "one_month": -6.96,
+            "six_months": -36.51,
+            "one_year": -51.03,
+            "five_years": -23.5
           },
           "chart_points": [
             {
@@ -2651,14 +3128,83 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": -0.042,
+            "label": "Neutral",
+            "bullish_percent": 12.5,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": -0.042,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Bitcoin and ethereum prices today, Wednesday, May 20, 2026: Opened lower but moving higher",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-may-20-2026-opened-lower-but-moving-higher-111622180.html",
+              "published_at": "2026-05-20T11:16:22Z",
+              "summary": "Bitcoin opened at $76,757.31 on Wednesday, May 20, 2026, down 0.3% from Tuesday’s opening price. The price of bitcoin as of 7:00 a.m. ET rose to $77,428.64. Ethereum opened at $2,110.07 on Wednesday, 0.9% lower than Tuesday’s opening price. Ethereum also rose this morning, valued at $2,128.62 as of 7:00 a.m. ET."
+            },
+            {
+              "headline": "Solana News: Amundi Breaks Into Solana – Europe’s Largest Asset Manager Launches SOL UCITS Fund",
+              "source": "Cryptonews",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-news-amundi-breaks-solana-115539383.html",
+              "published_at": "2026-05-20T11:55:39Z",
+              "summary": "Solana News: Europe’s largest asset manager just put Solana in the same conversation as Ethereum and Bitcoin for institutional allocation. Amundi, €2.4 trillion AUM, a subsidiary of Crédit Agricole, and the tenth-largest asset manager globally – has announced a UCITS-compliant fund on the Solana blockchain in partnership with Spiko Finance, ..."
+            },
+            {
+              "headline": "Ethereum ‘Not the Right Asset’ For Now? Here's Why Wintermute Claims ETH Is Failing In The Current Macro",
+              "source": "CCN",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-not-asset-now-heres-113905433.html",
+              "published_at": "2026-05-20T11:39:05Z",
+              "summary": "Wintermute said Ethereum is 'the wrong asset for this macro.' It comes shortly after Tom Lee linked Ethereum’s weakness to rising oil prices. Despite near-term ..."
+            },
+            {
+              "headline": "2 Cryptocurrencies to Buy Before the Next Bull Run",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/2-cryptocurrencies-buy-next-bull-105000078.html",
+              "published_at": "2026-05-20T10:50:00Z",
+              "summary": "These two assets are positioned to experience plenty of growth."
+            },
+            {
+              "headline": "Trump's Truth Social Pulls Bitcoin ETF Application From SEC Review",
+              "source": "decrypt",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/trumps-truth-social-pulls-bitcoin-100426533.html",
+              "published_at": "2026-05-20T10:04:26Z",
+              "summary": "Trump Media & Technology Group has withdrawn its Form S-1 registrations for Bitcoin and Bitcoin-Ethereum ETFs."
+            },
+            {
+              "headline": "Ethereum's Moving Fast to Counter a New Threat. Does That Make It a Buy?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/ethereums-moving-fast-counter-threat-100300958.html",
+              "published_at": "2026-05-20T10:03:00Z",
+              "summary": "Cybersecurity is a major concern for crypto right now."
+            },
+            {
+              "headline": "Mesh joins Global Dollar Network to support USDG settlement",
+              "source": "Electronic Payments",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/mesh-joins-global-dollar-network-100045174.html",
+              "published_at": "2026-05-20T10:00:45Z",
+              "summary": "GDN is an open network of enterprises working to grow stablecoin adoption through “aligned economic incentives”."
+            },
+            {
+              "headline": "This Top Cryptocurrency Could Soar 2,600%, According to High-Profile Wall Street Strategist",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrency-could-soar-2-090500751.html",
+              "published_at": "2026-05-20T09:05:00Z",
+              "summary": "Ethereum could be on the verge of a major breakout, but a lot needs to go right for that to happen."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
@@ -2680,9 +3226,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 84.76,
+          "price": 84.94,
           "currency": "USD",
-          "market_cap": 48911552512.0,
+          "market_cap": 49073180672.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -2703,10 +3249,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 0.86,
-            "six_months": -42.24,
-            "one_year": -62.16,
-            "five_years": 89.44
+            "one_month": 1.07,
+            "six_months": -42.12,
+            "one_year": -62.08,
+            "five_years": 89.84
           },
           "chart_points": [
             {
@@ -2964,14 +3510,83 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": -0.058,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": -0.058,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Solana News: Amundi Breaks Into Solana – Europe’s Largest Asset Manager Launches SOL UCITS Fund",
+              "source": "Cryptonews",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-news-amundi-breaks-solana-115539383.html",
+              "published_at": "2026-05-20T11:55:39Z",
+              "summary": "Solana News: Europe’s largest asset manager just put Solana in the same conversation as Ethereum and Bitcoin for institutional allocation. Amundi, €2.4 trillion AUM, a subsidiary of Crédit Agricole, and the tenth-largest asset manager globally – has announced a UCITS-compliant fund on the Solana blockchain in partnership with Spiko Finance, ..."
+            },
+            {
+              "headline": "Solana Loses Half Its Bid Just as $83 Trapdoor Threatens Free-Fall",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-loses-half-bid-just-102711838.html",
+              "published_at": "2026-05-20T10:27:11Z",
+              "summary": "Solana price hovers 2% above the $83.38 floor as buying pressure halves and cost basis heatmap reveals no demand walls below current price."
+            },
+            {
+              "headline": "Mesh joins Global Dollar Network to support USDG settlement",
+              "source": "Electronic Payments",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/mesh-joins-global-dollar-network-100045174.html",
+              "published_at": "2026-05-20T10:00:45Z",
+              "summary": "GDN is an open network of enterprises working to grow stablecoin adoption through “aligned economic incentives”."
+            },
+            {
+              "headline": "Here's What Will Happen in Crypto If The Clarity Act Passes",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/heres-happen-crypto-clarity-act-003100473.html",
+              "published_at": "2026-05-20T00:31:00Z",
+              "summary": "If this bill is eventually signed into law, it could have some positive consequences for a few of the crypto sector's leaders."
+            },
+            {
+              "headline": "Top Cryptocurrencies Fall; Bitcoin Holds Above $76,000 Level",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrencies-fall-bitcoin-holds-200645362.html",
+              "published_at": "2026-05-19T20:06:45Z",
+              "summary": "Major digital assets were weaker Tuesday, with Bitcoin (BTC-USD) lower but holding above the $76,000"
+            },
+            {
+              "headline": "Solana RWA market cap hits $2B as chain GDP reaches $342M",
+              "source": "TheStreet",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-rwa-market-cap-hits-184200298.html",
+              "published_at": "2026-05-19T18:42:00Z",
+              "summary": "Solana (SOL) generated approximately $342.2 million in chain GDP during the first quarter of 2026, according to Messari’s latest network report. The quarter unfolded during a broader crypto market slowdown that weighed heavily on digital assets, including SOL itself. However, despite weaker market ..."
+            },
+            {
+              "headline": "Solana Slides to Worst Weekly Performance in Top 10 as Whales Step Up Sales",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-slides-worst-weekly-performance-124202460.html",
+              "published_at": "2026-05-19T12:42:02Z",
+              "summary": "Solana (SOL) price slides nearly 12% to worst in top 10 as major whales exit Solana positions in May 2026."
+            },
+            {
+              "headline": "We Asked 3 AI Models if XRP Could Outperform Solana by End of 2026",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/asked-3-ai-models-xrp-123101262.html",
+              "published_at": "2026-05-19T12:31:01Z",
+              "summary": "XRP (CRYPTO: XRP) is trading at $1.38 today, down 62% from its 2025 high, while Solana (CRYPTO: SOL) hovers around $84, down over 70% from its own peak. Both coins are recovering, have institutional money building behind them, and have catalysts that could push them significantly higher before the year ends. So we asked ChatGPT, ... We Asked 3 AI Models if XRP Could Outperform Solana by End of 2026"
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
@@ -3284,23 +3899,93 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.208,
+            "label": "Neutral",
+            "bullish_percent": 50.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 50.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Investors might be penalizing Nvidia for not boosting cash returns like its Big Tech peers",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/investors-might-be-penalizing-nvidia-for-not-boosting-cash-returns-like-its-big-tech-peers-122358951.html",
+              "published_at": "2026-05-20T12:23:58Z",
+              "summary": "Maybe it’s time for Nvidia and CEO Jensen Huang to up cash giveaways to lure in new investors. It wouldn’t hurt to offer an enticement."
+            },
+            {
+              "headline": "Treasury yields climb as bond market weighs inflation concerns",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/treasury-yields-climb-as-bond-market-weighs-inflation-concerns-200826775.html",
+              "published_at": "2026-05-19T20:08:26Z",
+              "summary": "Yahoo Finance Breaking Business News Reporter Jake Conley and Senior Markets Reporter Ines Ferré gauge the recent climb in the bond market (^TYX, ^TNX, ^FVX) as Treasury yields react to the latest inflation worries and speculation as to whether the Federal Reserve will be able to cut interest rates under new chairman Kevin Warsh."
+            },
+            {
+              "headline": "3 Reasons HLT is Risky and 1 Stock to Buy Instead",
+              "source": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-hlt-risky-1-122855741.html",
+              "published_at": "2026-05-20T12:28:55Z",
+              "summary": "Hilton trades at $315.85 per share and has stayed right on track with the overall market, gaining 17.9% over the last six months. At the same time, the S&P 500 has returned 13.3%."
+            },
+            {
+              "headline": "3 Reasons NBTB is Risky and 1 Stock to Buy Instead",
+              "source": "StockStory",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-nbtb-risky-1-122055114.html",
+              "published_at": "2026-05-20T12:20:55Z",
+              "summary": "NBT Bancorp trades at $44.09 and has moved in lockstep with the market. Its shares have returned 10.8% over the last six months while the S&P 500 has gained 13.3%."
+            },
+            {
+              "headline": "What the Call Buying Frenzy Means for the S&P 500",
+              "source": "Schaeffer's Investment Research",
+              "url": "https://finance.yahoo.com/markets/options/articles/call-buying-frenzy-means-p-122050887.html",
+              "published_at": "2026-05-20T12:20:50Z",
+              "summary": "Some sectors have seen a greater influx of calls than others"
+            },
+            {
+              "headline": "Should You Invest in Gold or the S&P 500? It Depends.",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/invest-gold-p-500-depends-121529640.html",
+              "published_at": "2026-05-20T12:15:29Z",
+              "summary": "With contrasting approaches to risk, income, and portfolio composition, these two ETFs play distinct roles in a diversified investment strategy."
+            },
+            {
+              "headline": "S&P 500 futures rise ahead of Nvidia Q1 earnings",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-futures-rise-ahead-121320832.html",
+              "published_at": "2026-05-20T12:13:20Z",
+              "summary": "The S&P 500 is set to snap a three-day losing streak as Trump's comments on the Iran war ease energy prices"
+            },
+            {
+              "headline": "US Equity Futures Rise Pre-Bell Amid Chip Sector Gains as Traders Await Nvidia Earnings",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-pre-115952908.html",
+              "published_at": "2026-05-20T11:59:52Z",
+              "summary": "US equity futures were higher pre-bell Wednesday as traders anticipated Nvidia's (NVDA) fiscal Q1 fi"
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 75,
+          "score": 79,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive"
+            "six-month momentum is supportive",
+            "mildly positive news tone"
           ]
         },
         {
@@ -3597,23 +4282,93 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.625,
+            "label": "Positive",
+            "bullish_percent": 75.0,
+            "bearish_percent": 0.0,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.625,
+                "label": "Positive",
+                "bullish_percent": 75.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Stock market today: Dow, S&P 500, Nasdaq futures rise in countdown to Nvidia earnings",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-in-countdown-to-nvidia-earnings-222757872.html",
+              "published_at": "2026-05-19T22:27:57Z",
+              "summary": "Investors are bracing for Nvidia earnings, as strong results could offer relief from inflation worries."
+            },
+            {
+              "headline": "Take a closer look at Nvidia stock using Yahoo Finance's AlphaSpace",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/take-a-closer-look-at-nvidia-stock-using-yahoo-finances-alphaspace-140312172.html",
+              "published_at": "2026-05-19T14:03:12Z",
+              "summary": "Yahoo Finance has launched AlphaSpace, a premium investment platform that combines data, charting, news, analysis, and more to help retail investors understand markets and make smart decisions faster. Yahoo Finance Executive Editor Brian Sozzi demonstrates how to use the platform by taking a closer look at AI chip stock Nvidia (NVDA) ahead of its first quarter earnings on Wednesday. Innovator From Goldman Sachs Asset Management chief investment strategist Tim Urbanowicz weighs in with his firm's general outlook on Nvidia."
+            },
+            {
+              "headline": "US Equity Futures Rise Pre-Bell Amid Chip Sector Gains as Traders Await Nvidia Earnings",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-pre-115952908.html",
+              "published_at": "2026-05-20T11:59:52Z",
+              "summary": "US equity futures were higher pre-bell Wednesday as traders anticipated Nvidia's (NVDA) fiscal Q1 fi"
+            },
+            {
+              "headline": "Nasdaq to rebound as bonds retreat slightly, Nvidia numbers awaited",
+              "source": "Proactive",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-rebound-bonds-retreat-slightly-114500870.html",
+              "published_at": "2026-05-20T11:45:00Z",
+              "summary": "US stock futures were edging higher on Wednesday ahead of a busier day of economic and corporate news, with investors awaiting Nvidia’s latest earnings as a key test for the AI trends that have driven the wider market. Nasdaq futures climbed 0.6%, with those for the S&P 500 up 0.3% and..."
+            },
+            {
+              "headline": "Nvidia Watch Lifts Wall Street Pre-Bell; Asia Off, Europe Up",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-watch-lifts-wall-street-111727203.html",
+              "published_at": "2026-05-20T11:17:27Z",
+              "summary": "Wall Street futures pointed moderately higher pre-bell Wednesday as traders took positions ahead of"
+            },
+            {
+              "headline": "Stocks Gain Pre-Bell Ahead of Nvidia Earnings, Fed Meeting Minutes",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-gain-pre-bell-ahead-110246938.html",
+              "published_at": "2026-05-20T11:02:46Z",
+              "summary": "The main US stock measures were pointing higher in Wednesday's premarket activity as traders await t"
+            },
+            {
+              "headline": "Markets Look to Break 3-Day Losing Run as Nvidia Earnings Loom. Stock Futures Rise.",
+              "source": "Barrons.com",
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-052026/card/markets-look-to-break-3-day-losing-run-as-nvidia-earnings-loom-stock-futures-rise--u7Q3qhWXk3OUSOVqc7a7?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-20T10:52:41Z",
+              "summary": "Stocks looked set to edge higher on Wednesday as Wall Street waited for earnings from Nvidia, which could end a recent rough spell for the market by signaling that the artificial-intelligence investment boom still has legs.  The indexes have all dropped for three straight sessions as investors fretted about rising bond yields.  The worry is that the Iran war has triggered a flare-up in inflation that will strengthen the case for the Federal Reserve to hike interest rates later in 2026."
+            },
+            {
+              "headline": "7 Words From New Fed Chair Kevin Warsh That Portend a Significant Shift in Central Bank Ideology -- but Are Investors Paying Attention?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/economy/policy/articles/7-words-fed-chair-kevin-082600979.html",
+              "published_at": "2026-05-20T08:26:00Z",
+              "summary": "Don't expect the Federal Reserve to be an active market participant for much longer."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 80,
+          "score": 88,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive"
+            "six-month momentum is supportive",
+            "positive news tone"
           ]
         },
         {
@@ -3910,22 +4665,92 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.625,
+            "label": "Positive",
+            "bullish_percent": 87.5,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.625,
+                "label": "Positive",
+                "bullish_percent": 87.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Stock market today: Dow, S&P 500, Nasdaq futures rise in countdown to Nvidia earnings",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-in-countdown-to-nvidia-earnings-222757872.html",
+              "published_at": "2026-05-19T22:27:57Z",
+              "summary": "Investors are bracing for Nvidia earnings, as strong results could offer relief from inflation worries."
+            },
+            {
+              "headline": "Stock market today: Dow, S&P 500, Nasdaq drop amid rising bond yields",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-drop-amid-rising-bond-yields-222343798.html",
+              "published_at": "2026-05-18T22:23:43Z",
+              "summary": "Wall Street weighed inflation concerns and counted down to Nvidia earnings."
+            },
+            {
+              "headline": "US Equity Futures Rise Pre-Bell Amid Chip Sector Gains as Traders Await Nvidia Earnings",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-pre-115952908.html",
+              "published_at": "2026-05-20T11:59:52Z",
+              "summary": "US equity futures were higher pre-bell Wednesday as traders anticipated Nvidia's (NVDA) fiscal Q1 fi"
+            },
+            {
+              "headline": "Stock Market Today: Dow Rises Ahead Of Fed Minutes; Nvidia Shares Rally With Earnings Due (Live Coverage)",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-2/?src=A00220&yptr=yahoo",
+              "published_at": "2026-05-20T11:58:49Z",
+              "summary": "Stock Market Today: The Dow Jones index rose Wednesday ahead of the Fed minutes. Nvidia stock rallied ahead of earnings."
+            },
+            {
+              "headline": "Nasdaq to rebound as bonds retreat slightly, Nvidia numbers awaited",
+              "source": "Proactive",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-rebound-bonds-retreat-slightly-114500870.html",
+              "published_at": "2026-05-20T11:45:00Z",
+              "summary": "US stock futures were edging higher on Wednesday ahead of a busier day of economic and corporate news, with investors awaiting Nvidia’s latest earnings as a key test for the AI trends that have driven the wider market. Nasdaq futures climbed 0.6%, with those for the S&P 500 up 0.3% and..."
+            },
+            {
+              "headline": "Nvidia Watch Lifts Wall Street Pre-Bell; Asia Off, Europe Up",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-watch-lifts-wall-street-111727203.html",
+              "published_at": "2026-05-20T11:17:27Z",
+              "summary": "Wall Street futures pointed moderately higher pre-bell Wednesday as traders took positions ahead of"
+            },
+            {
+              "headline": "Stocks Gain Pre-Bell Ahead of Nvidia Earnings, Fed Meeting Minutes",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-gain-pre-bell-ahead-110246938.html",
+              "published_at": "2026-05-20T11:02:46Z",
+              "summary": "The main US stock measures were pointing higher in Wednesday's premarket activity as traders await t"
+            },
+            {
+              "headline": "Markets Look to Break 3-Day Losing Run as Nvidia Earnings Loom. Stock Futures Rise.",
+              "source": "Barrons.com",
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-052026/card/markets-look-to-break-3-day-losing-run-as-nvidia-earnings-loom-stock-futures-rise--u7Q3qhWXk3OUSOVqc7a7?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-20T10:52:41Z",
+              "summary": "Stocks looked set to edge higher on Wednesday as Wall Street waited for earnings from Nvidia, which could end a recent rough spell for the market by signaling that the artificial-intelligence investment boom still has legs.  The indexes have all dropped for three straight sessions as investors fretted about rising bond yields.  The worry is that the Iran war has triggered a flare-up in inflation that will strengthen the case for the Federal Reserve to hike interest rates later in 2026."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
-          "rating": "Hold",
-          "score": 66,
+          "rating": "Buy",
+          "score": 74,
           "rating_reasons": [
-            "strong one-year trend"
+            "strong one-year trend",
+            "positive news tone"
           ]
         }
       ]
@@ -4229,14 +5054,83 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.083,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.083,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Time for Short-Term U.S. Treasury ETFs?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/options/articles/time-short-term-u-treasury-140000316.html",
+              "published_at": "2026-05-06T14:00:00Z",
+              "summary": "Geopolitical risks and rate outlook boost appeal of short-term U.S. Treasury ETFs as investors seek stability amid volatile equity and oil markets."
+            },
+            {
+              "headline": "MoneyMasters Podcast 4-16-26- SP 500 Volatility, Midterms,  the Fed's Next Move",
+              "source": "MoneyShow",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/moneymasters-podcast-4-16-26-163000991.html",
+              "published_at": "2026-04-16T16:30:00Z",
+              "summary": "How do you position yourself in a market defined by relentless volatility and geopolitical instability?"
+            },
+            {
+              "headline": "3 Low-Volatility ETFs for Peace of Mind in Turbulent Times",
+              "source": "MarketBeat",
+              "url": "https://finance.yahoo.com/markets/options/articles/3-low-volatility-etfs-peace-130000388.html",
+              "published_at": "2026-04-13T13:00:00Z",
+              "summary": "With uncertainty plaguing the market, investors might be more inclined than usual to seek out low-volatility alternatives. These ETFs take multiple approaches."
+            },
+            {
+              "headline": "MoneyMasters Podcast 3-26-26- Yardeni on Navigating the \"Fog of War\"",
+              "source": "MoneyShow",
+              "url": "https://finance.yahoo.com/economy/articles/moneymasters-podcast-3-26-26-163000627.html",
+              "published_at": "2026-03-26T16:30:00Z",
+              "summary": "This week Dr. Ed Yardeni joins the MoneyShow MoneyMasters Podcast to analyze how the Middle East conflict and “the fog of war” are reshaping the global economic outlook. He discusses why he raised his recession odds to 35% and how current geopolitical volatility may force the Federal Reserve to pause interest rate cuts indefinitely."
+            },
+            {
+              "headline": "Fed- Flying Blind Even BEFORE War Broke Out",
+              "source": "MoneyShow",
+              "url": "https://finance.yahoo.com/economy/policy/articles/fed-flying-blind-even-war-050100271.html",
+              "published_at": "2026-03-24T05:01:00Z",
+              "summary": "Life would be a lot easier if all fats were unhealthy…it was always incorrect to wear anything white after Labor Day…and our monetary policymakers knew exactly what was happening and what they should do next. But as it turns out, things are a bit more complicated than we would like, writes Nilus Mattive, editor of Safe Money Report."
+            },
+            {
+              "headline": "Bond ETFs Hit as Oil Spike Sends Yields Higher",
+              "source": "etf.com",
+              "url": "https://finance.yahoo.com/economy/policy/articles/bond-etfs-hit-oil-spike-202257189.html",
+              "published_at": "2026-03-19T20:22:57Z",
+              "summary": "Rising oil prices and central bank caution pushed yields higher, weighing on bond ETFs, particularly at the short end."
+            },
+            {
+              "headline": "Market Minute 3-18-26- Oil, Fed in Focus",
+              "source": "MoneyShow",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/market-minute-3-18-26-141500967.html",
+              "published_at": "2026-03-18T14:15:00Z",
+              "summary": "Energy prices started the morning out tame - but are on the move now. Equities and gold are sliding along with Treasuries, while the dollar is modestly higher."
+            },
+            {
+              "headline": "Market Minute 12-10-25- Fed, SpaceX IPO in Focus",
+              "source": "MoneyShow",
+              "url": "https://finance.yahoo.com/news/market-minute-12-10-25-143000540.html",
+              "published_at": "2025-12-10T14:30:00Z",
+              "summary": "Equity markets are still twiddling their proverbial thumbs ahead of the Federal Reserve’s latest interest rate decision, due out later today. Silver is extending its breakout above $60, crude oil is rising a bit, but gold is easing back. The dollar and Treasuries are flattish."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
@@ -4541,22 +5435,91 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": 0.208,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 0.0,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "30-Year Treasury Yield Hits 19-Year High, Hammering Bond ETFs",
+              "source": "etf.com",
+              "url": "https://finance.yahoo.com/markets/options/articles/30-treasury-yield-hits-19-224949706.html",
+              "published_at": "2026-05-18T22:49:49Z",
+              "summary": "A surge in long-term Treasury yields sent ETFs like TLT and ZROZ sharply lower."
+            },
+            {
+              "headline": "Best ETFs to Buy After Hot Inflation Data",
+              "source": "etf.com",
+              "url": "https://finance.yahoo.com/news/best-etfs-buy-hot-inflation-233421583.html",
+              "published_at": "2026-05-12T23:34:21Z",
+              "summary": "Looking for the best ETFs for inflation 2026? After April CPI hit 3.8%, here's how bond ETFs, TIPS, small caps, and energy funds are reacting — and what to buy now."
+            },
+            {
+              "headline": "3 Low-Volatility ETFs for Peace of Mind in Turbulent Times",
+              "source": "MarketBeat",
+              "url": "https://finance.yahoo.com/markets/options/articles/3-low-volatility-etfs-peace-130000388.html",
+              "published_at": "2026-04-13T13:00:00Z",
+              "summary": "With uncertainty plaguing the market, investors might be more inclined than usual to seek out low-volatility alternatives. These ETFs take multiple approaches."
+            },
+            {
+              "headline": "4 Top-Performing Sector ETFs of Q1 2026",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/4-top-performing-sector-etfs-120000501.html",
+              "published_at": "2026-04-07T12:00:00Z",
+              "summary": "Q1 2026's top sectors are in -- Energy, Telecom, and Space led the rally as disruption, 5G growth, and IPO buzz powered standout ETF gains."
+            },
+            {
+              "headline": "Best-Performing Leveraged ETFs of Q1 2026",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etfs-q1-140000248.html",
+              "published_at": "2026-04-06T14:00:00Z",
+              "summary": "Oil shock and Iran war reshaped Q1, sending some leveraged energy ETFs soaring."
+            },
+            {
+              "headline": "ETF Winners & Losers of Q1 2026",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/news/etf-winners-losers-q1-2026-150000644.html",
+              "published_at": "2026-04-02T15:00:00Z",
+              "summary": "Iran war reshaped Q1 markets: energy, shipping & lithium ETFs surged while tech and airlines lagged as inflation fears and oil shocks rattled sentiment."
+            },
+            {
+              "headline": "Fed- Flying Blind Even BEFORE War Broke Out",
+              "source": "MoneyShow",
+              "url": "https://finance.yahoo.com/economy/policy/articles/fed-flying-blind-even-war-050100271.html",
+              "published_at": "2026-03-24T05:01:00Z",
+              "summary": "Life would be a lot easier if all fats were unhealthy…it was always incorrect to wear anything white after Labor Day…and our monetary policymakers knew exactly what was happening and what they should do next. But as it turns out, things are a bit more complicated than we would like, writes Nilus Mattive, editor of Safe Money Report."
+            },
+            {
+              "headline": "Bond ETFs Hit as Oil Spike Sends Yields Higher",
+              "source": "etf.com",
+              "url": "https://finance.yahoo.com/economy/policy/articles/bond-etfs-hit-oil-spike-202257189.html",
+              "published_at": "2026-03-19T20:22:57Z",
+              "summary": "Rising oil prices and central bank caution pushed yields higher, weighing on bond ETFs, particularly at the short end."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
           "rating": "Hold",
-          "score": 50,
+          "score": 54,
           "rating_reasons": [
-            "limited directional signal"
+            "mildly positive news tone"
           ]
         },
         {
@@ -4853,22 +5816,91 @@
           ],
           "valuation_history": [],
           "sentiment": {
-            "available": false,
-            "score": null,
-            "label": "Unavailable",
+            "available": true,
+            "score": -0.167,
+            "label": "Neutral",
+            "bullish_percent": 12.5,
+            "bearish_percent": 37.5,
+            "articles_last_week": 8,
+            "source": "Yahoo Finance",
             "delta": null,
-            "history": [],
-            "source": "Finnhub"
+            "history": [
+              {
+                "timestamp": "2026-05-20T12:43:47.257018+00:00",
+                "score": -0.167,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 37.5,
+                "articles_last_week": 8
+              }
+            ]
           },
-          "latest_news": [],
+          "latest_news": [
+            {
+              "headline": "Daily ETF Flows: TLT, MUU Picks Up Assets",
+              "source": "etf.com",
+              "url": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-tlt-muu-210004523.html",
+              "published_at": "2026-05-19T21:00:04Z",
+              "summary": "Here are the daily ETF fund flows for May 18, 2026."
+            },
+            {
+              "headline": "Treasury ETF Falls. A Record Low Looms.",
+              "source": "Barrons.com",
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-051926/card/ttreasuries-hunt-for-bottom-as-tlt-nea-d5WVx8w91sWPXxAjlr2h?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-19T15:08:43Z",
+              "summary": "It's the last line of support and a famous long-term government bond fund is close to crossing it.  If the fund manages to trade below that level, it will surpass its 2023 closing low of $82.77 and be on pace for its lowest close since June 12, 2007, when it closed at $82.35."
+            },
+            {
+              "headline": "Treasury Yields Are Soaring. Don’t Miss Out and Buy This ETF Today",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/options/articles/treasury-yields-soaring-don-t-144049224.html",
+              "published_at": "2026-05-19T14:40:49Z",
+              "summary": "The yield on the front end of the Treasury curve has been doing something unusual for a supposedly boring asset class, and the iShares 0-3 Month Treasury Bond ETF (NASDAQ:SGOV) is the cleanest way to own it. Investors have pushed roughly $75 billion into SGOV because it solves a specific problem. You want a cash ... Treasury Yields Are Soaring. Don’t Miss Out and Buy This ETF Today"
+            },
+            {
+              "headline": "30-Year Treasury Yield Hits 19-Year High, Hammering Bond ETFs",
+              "source": "etf.com",
+              "url": "https://finance.yahoo.com/markets/options/articles/30-treasury-yield-hits-19-224949706.html",
+              "published_at": "2026-05-18T22:49:49Z",
+              "summary": "A surge in long-term Treasury yields sent ETFs like TLT and ZROZ sharply lower."
+            },
+            {
+              "headline": "Long-Term Yields Back In Spotlight: This Trade Bets On Further Weakness In TLT",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/research/options/bonds-yields-treasury-tlt-etf-inflation-fed-interest-rates-options-markets/?src=A00220&yptr=yahoo",
+              "published_at": "2026-05-18T19:18:24Z",
+              "summary": "Bond yields are up and prices fall, as hotter inflation spurs talk of a Fed rate-hike. This TLT trade bets that yields will further climb."
+            },
+            {
+              "headline": "Fed appoints Powell interim chair ahead of turbulent Warsh transition",
+              "source": "Investing.com",
+              "url": "https://www.yahoo.com/news/articles/fed-appoints-powell-interim-chair-071511709.html",
+              "published_at": "2026-05-16T07:15:11Z",
+              "summary": "Investing.com -- The Federal Reserve Board announced late Friday that it has appointed Jerome Powell as chair pro tempore, ensuring he will lead the U.S. central bank on an interim basis until his successor, Kevin Warsh, is formally sworn into office."
+            },
+            {
+              "headline": "Is Negative Sentiment in Bonds a Reason to Buy?",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/articles/negative-sentiment-bonds-reason-buy-190002660.html",
+              "published_at": "2026-05-14T19:00:02Z",
+              "summary": "Rising oil prices are lifting inflation indicators and weighing on bond prices. Sentiment in the U.S. government bond market is bearish, which could explain why the odds favor the upside."
+            },
+            {
+              "headline": "Will 2026 be a Year of Muni Bond ETFs?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/news/2026-muni-bond-etfs-120000689.html",
+              "published_at": "2026-05-13T12:00:00Z",
+              "summary": "Muni bond ETFs may shine in 2026 as attractive yields, solid credit quality and easing policy risks boost investor appeal."
+            }
+          ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
-          "rating": "Hold",
-          "score": 45,
+          "rating": "Avoid",
+          "score": 41,
           "rating_reasons": [
-            "limited directional signal"
+            "mildly negative news tone"
           ]
         }
       ]
@@ -5215,17 +6247,83 @@
         }
       ],
       "sentiment": {
-        "available": false,
-        "score": null,
-        "label": "Unavailable",
-        "bullish_percent": null,
-        "bearish_percent": null,
-        "articles_last_week": null,
-        "source": "Finnhub",
+        "available": true,
+        "score": 0.0,
+        "label": "Neutral",
+        "bullish_percent": 25.0,
+        "bearish_percent": 12.5,
+        "articles_last_week": 8,
+        "source": "Yahoo Finance",
         "delta": null,
-        "history": []
+        "history": [
+          {
+            "timestamp": "2026-05-20T12:43:47.257018+00:00",
+            "score": 0.0,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
+          }
+        ]
       },
-      "latest_news": [],
+      "latest_news": [
+        {
+          "headline": "Analyze Apple stock on Yahoo Finance's new AI platform AlphaSpace",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/analyze-apple-stock-on-yahoo-finances-new-ai-platform-alphaspace-194037185.html",
+          "published_at": "2026-05-19T19:40:37Z",
+          "summary": "Josh Lipton, host of Market Domination, explores Yahoo Finance's latest offering and new way to level up your investing strategy, AlphaSpace."
+        },
+        {
+          "headline": "Trump's Big Tech trades while in office raise concerns",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/trumps-big-tech-trades-while-in-office-raise-concerns-150723305.html",
+          "published_at": "2026-05-19T15:07:23Z",
+          "summary": "President Trump traded over $50 million in Magnificent Seven tech stocks in the first quarter of 2026, according to a new ethics disclosure. Yahoo Finance Washington Correspondent Ben Werschkul comes on Market Catalysts to speak more about the concerns raised from Trump's trading activity and volume while in office."
+        },
+        {
+          "headline": "Apple TV Series Launch Ties Services Growth To Valuation Questions",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-tv-series-launch-ties-120619910.html",
+          "published_at": "2026-05-20T12:06:19Z",
+          "summary": "Global rollout of multi Emmy Award winning lifestyle series Staycation International on Apple TV. Streaming on Apple TV is scheduled to begin on May 24, 2026. Expansion underscores Apple’s focus on premium lifestyle and travel programming within Apple TV. News is material for Apple’s media and services strategy alongside its hardware business. Apple, traded as NasdaqGS:AAPL, is adding Staycation International to Apple TV at a time when media and technology groups are competing for user..."
+        },
+        {
+          "headline": "The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-capex-cycle-crushing-equal-115514192.html",
+          "published_at": "2026-05-20T11:55:14Z",
+          "summary": "The Invesco QQQ Trust (NASDAQ:QQQ) and the Direxion NASDAQ-100 Equal Weighted Index Shares (NYSEARCA:QQQE) own the same 100 stocks. The choice between them hinges on whether you want NVIDIA, Apple, and Microsoft to drive returns or let the other 97 names carry equal weight. Over the past year that single choice produced a return spread ... The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning"
+        },
+        {
+          "headline": "XLK’s quiet edge over FTEC comes from a cap limit most investors never notice",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/xlk-quiet-edge-over-ftec-093025038.html",
+          "published_at": "2026-05-20T09:30:25Z",
+          "summary": "If you are picking a U.S. technology ETF, the choice almost always narrows to Fidelity MSCI Information Technology Index ETF (NYSEARCA:FTEC) and The Technology Select Sector SPDR Fund (NYSEARCA:XLK). Both look like the same trade: cheap, passive, mega-cap heavy. But XLK has quietly outrun FTEC 22.06% year to date versus 19.58%, and that gap traces ... XLK’s quiet edge over FTEC comes from a cap limit most investors never notice"
+        },
+        {
+          "headline": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-unstoppable-stock-buy-joins-072200028.html",
+          "published_at": "2026-05-20T07:22:00Z",
+          "summary": "This semiconductor leader has grown sevenfold over the past year and shows no signs of slowing."
+        },
+        {
+          "headline": "Anthropic withholds most powerful AI from British companies",
+          "source": "The Telegraph",
+          "url": "https://finance.yahoo.com/news/anthropic-withhold-most-powerful-ai-070000578.html",
+          "published_at": "2026-05-20T07:00:00Z",
+          "summary": "The US tech giant Anthropic is withholding British companies’ access to its powerful AI model after warning it was too dangerous to release globally."
+        },
+        {
+          "headline": "Will Nvidia Hit the $6 Trillion Mark on Thursday?",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-hit-6-trillion-mark-065000424.html",
+          "published_at": "2026-05-20T06:50:00Z",
+          "summary": "After topping $5.5 trillion, could $6 trillion be next?"
+        }
+      ],
       "earnings": {
         "available": false,
         "source": "Finnhub"
@@ -5570,17 +6668,83 @@
         }
       ],
       "sentiment": {
-        "available": false,
-        "score": null,
-        "label": "Unavailable",
-        "bullish_percent": null,
-        "bearish_percent": null,
-        "articles_last_week": null,
-        "source": "Finnhub",
+        "available": true,
+        "score": 0.125,
+        "label": "Neutral",
+        "bullish_percent": 25.0,
+        "bearish_percent": 12.5,
+        "articles_last_week": 8,
+        "source": "Yahoo Finance",
         "delta": null,
-        "history": []
+        "history": [
+          {
+            "timestamp": "2026-05-20T12:43:47.257018+00:00",
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
+          }
+        ]
       },
-      "latest_news": [],
+      "latest_news": [
+        {
+          "headline": "Nvidia and Apple hold stock market's power like never before: Chart of the Day",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/sectors/technology/article/nvidia-and-apple-hold-stock-markets-power-like-never-before-chart-of-the-day-155214605.html",
+          "published_at": "2026-05-19T15:52:14Z",
+          "summary": "The S&P 500 has never been more concentrated in two stocks than it is today."
+        },
+        {
+          "headline": "OpenAI prevails in Musk's lawsuit, paving the way for IPO",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/openai-prevails-in-musks-lawsuit-paving-the-way-for-ipo-175338618.html",
+          "published_at": "2026-05-18T17:53:38Z",
+          "summary": "A California jury, on Monday found OpenAI cofounders CEO Sam Altman and president Greg Brockman not liable of unjustly enriching themselves by turning the once nonprofit company into a for-profit business."
+        },
+        {
+          "headline": "Lambda wins cloud deal with Hudson River Trading to supply access to Nvidia chips",
+          "source": "Reuters",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/lamda-wins-cloud-deal-hudson-120156059.html",
+          "published_at": "2026-05-20T12:01:56Z",
+          "summary": "Artificial intelligence cloud computing startup ‌Lambda on Wednesday said it has won a ‌cloud contract with high-speed trading firm Hudson River Trading.  Lambda, which is ​backed by Nvidia and raised $1.5 billion last year after signing a deal to provide Microsoft with access to Nvidia's chips, said the deal with Hudson River Trading ‌will entail renting ⁠more than 1,000 of Nvidia's latest \"Blackwell\" systems to the trading firm, which Reuters last ⁠month reported had $12.3 billion in trading revenue last year."
+        },
+        {
+          "headline": "The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-capex-cycle-crushing-equal-115514192.html",
+          "published_at": "2026-05-20T11:55:14Z",
+          "summary": "The Invesco QQQ Trust (NASDAQ:QQQ) and the Direxion NASDAQ-100 Equal Weighted Index Shares (NYSEARCA:QQQE) own the same 100 stocks. The choice between them hinges on whether you want NVIDIA, Apple, and Microsoft to drive returns or let the other 97 names carry equal weight. Over the past year that single choice produced a return spread ... The AI Capex Cycle Is Crushing Equal-Weight NASDAQ. Here’s Why QQQ’s Concentration Bet Is Winning"
+        },
+        {
+          "headline": "Nvidia’s $5.7 Trillion Market Cap Faces Its Toughest Test Yet. Can It Beat 75% Gross Margin Expectations Before Earnings?",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-7-trillion-market-115044616.html",
+          "published_at": "2026-05-20T11:50:44Z",
+          "summary": "NVIDIA (NASDAQ:NVDA) reports fiscal Q1 2027 results later today, and the bar has rarely looked higher. The traders on CNBC’s Fast Money segment “Yields Surge and Prepping for Nvidia Results” framed it around a single number: “Anything south of 75% gross margins, then we can start having a different conversation. 75% is a bogey.” The ... Nvidia’s $5.7 Trillion Market Cap Faces Its Toughest Test Yet. Can It Beat 75% Gross Margin Expectations Before Earnings?"
+        },
+        {
+          "headline": "Higher Prices Could Slow the AI Building Boom",
+          "source": "The Wall Street Journal",
+          "url": "https://www.wsj.com/finance/stocks/higher-prices-could-slow-the-ai-building-boom-627f6c2c?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-05-20T10:24:00Z",
+          "summary": "AI’s big bucks go mostly toward computing gear like chips and servers in data centers.  Should that trend persist, it could come to bite suppliers including chip giant  Nvidia  which reports quarterly results after the bell today.  Nvidia can insulate itself from cost inflation by expanding offerings that don’t require as much in-demand memory, by passing on higher prices to customers and by inking longer-term deals with its own suppliers at lower prices."
+        },
+        {
+          "headline": "XLK’s quiet edge over FTEC comes from a cap limit most investors never notice",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/xlk-quiet-edge-over-ftec-093025038.html",
+          "published_at": "2026-05-20T09:30:25Z",
+          "summary": "If you are picking a U.S. technology ETF, the choice almost always narrows to Fidelity MSCI Information Technology Index ETF (NYSEARCA:FTEC) and The Technology Select Sector SPDR Fund (NYSEARCA:XLK). Both look like the same trade: cheap, passive, mega-cap heavy. But XLK has quietly outrun FTEC 22.06% year to date versus 19.58%, and that gap traces ... XLK’s quiet edge over FTEC comes from a cap limit most investors never notice"
+        },
+        {
+          "headline": "KPMG partners with Anthropic to embed Claude in Digital Gateway",
+          "source": "International Accounting Bulletin",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/kpmg-partners-anthropic-embed-claude-091914835.html",
+          "published_at": "2026-05-20T09:19:14Z",
+          "summary": "The initial rollout will focus on tax teams and PE clients, allowing them to create agentic workflows."
+        }
+      ],
       "earnings": {
         "available": false,
         "source": "Finnhub"
@@ -5934,17 +7098,83 @@
         }
       ],
       "sentiment": {
-        "available": false,
-        "score": null,
-        "label": "Unavailable",
-        "bullish_percent": null,
-        "bearish_percent": null,
-        "articles_last_week": null,
-        "source": "Finnhub",
+        "available": true,
+        "score": 0.125,
+        "label": "Neutral",
+        "bullish_percent": 37.5,
+        "bearish_percent": 12.5,
+        "articles_last_week": 8,
+        "source": "Yahoo Finance",
         "delta": null,
-        "history": []
+        "history": [
+          {
+            "timestamp": "2026-05-20T12:43:47.257018+00:00",
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
+          }
+        ]
       },
-      "latest_news": [],
+      "latest_news": [
+        {
+          "headline": "Investors might be penalizing Nvidia for not boosting cash returns like its Big Tech peers",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/investors-might-be-penalizing-nvidia-for-not-boosting-cash-returns-like-its-big-tech-peers-122358951.html",
+          "published_at": "2026-05-20T12:23:58Z",
+          "summary": "Maybe it’s time for Nvidia and CEO Jensen Huang to up cash giveaways to lure in new investors. It wouldn’t hurt to offer an enticement."
+        },
+        {
+          "headline": "Intel, Micron, and other semiconductor stocks extend bounce ahead of Nvidia earnings",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/intel-micron-and-other-semiconductor-stocks-extend-bounce-ahead-of-nvidia-earnings-114957534.html",
+          "published_at": "2026-05-20T11:49:57Z",
+          "summary": "Chip stocks bounce ahead of Nvidia eaernings."
+        },
+        {
+          "headline": "Nvidia earnings: TSM's results may give 'a clue' on what to expect",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/nvidia-earnings-tsms-results-may-100000386.html",
+          "published_at": "2026-05-20T10:00:00Z",
+          "summary": "Nvidia (NVDA) is rounding out the earnings season for the Magnificent Seven this week as the chipmaker prepares to release first quarter results this Wednesday, May 20. Bokeh Capital Partners founder and CIO Kimberly Forrest highlights what she expects to see from Nvidia's results, mentioning how Taiwan Semiconductor Manufacturing Company's (TSM) own results may hint at what's to come."
+        },
+        {
+          "headline": "Beyond Nvidia: Why investors might want to buy foreign stocks",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/beyond-nvidia-why-investors-might-want-to-buy-foreign-stocks-214458293.html",
+          "published_at": "2026-05-19T21:44:58Z",
+          "summary": "Crescent Grove Advisors co-chief investment officer Andrew Krei explains the importance of Nvidia's (NVDA) upcoming earnings print to the broader markets, and why overseas stocks and emerging markets (EEM) are worth considering for investors."
+        },
+        {
+          "headline": "Take a closer look at Nvidia stock using Yahoo Finance's AlphaSpace",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/take-a-closer-look-at-nvidia-stock-using-yahoo-finances-alphaspace-140312172.html",
+          "published_at": "2026-05-19T14:03:12Z",
+          "summary": "Yahoo Finance has launched AlphaSpace, a premium investment platform that combines data, charting, news, analysis, and more to help retail investors understand markets and make smart decisions faster. Yahoo Finance Executive Editor Brian Sozzi demonstrates how to use the platform by taking a closer look at AI chip stock Nvidia (NVDA) ahead of its first quarter earnings on Wednesday. Innovator From Goldman Sachs Asset Management chief investment strategist Tim Urbanowicz weighs in with his firm's general outlook on Nvidia."
+        },
+        {
+          "headline": "ServiceNow stock gains as investors push further into software",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/servicenow-stock-gains-as-investors-push-further-into-software-141506101.html",
+          "published_at": "2026-05-19T14:15:06Z",
+          "summary": "ServiceNow (NOW) shares are extending their gains in this trading week, jumping by nearly 5% on Tuesday morning in a new push by software stocks. Yahoo Finance Senior Reporter Ines Ferré takes a closer look at why investors may be rotating out of semiconductor stocks into software. AI semiconductor giant Nvidia (NVDA) is scheduled to report first quarter earnings this Wednesday, May 20."
+        },
+        {
+          "headline": "Bond yields pause near recent highs, stocks steady ahead of Nvidia results",
+          "source": "Reuters",
+          "url": "https://finance.yahoo.com/news/asian-stocks-fall-4th-day-020854458.html",
+          "published_at": "2026-05-20T12:34:25Z",
+          "summary": "By Alun John and Stella Qiu LONDON/SYDNEY, May 20 (Reuters) - Government bonds steadied on Wednesday after a steep selloff that sent yields to multi-year highs on war-driven inflation fears, a calmer"
+        },
+        {
+          "headline": "The Best Way to Invest in SpaceX Before Its IPO",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/best-way-invest-spacex-ipo-123300710.html",
+          "published_at": "2026-05-20T12:33:00Z",
+          "summary": "SpaceX is targeting a valuation of up to $2 trillion when it goes public."
+        }
+      ],
       "earnings": {
         "available": false,
         "source": "Finnhub"
