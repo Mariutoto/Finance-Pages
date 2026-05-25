@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T11:17:59.881802+00:00",
+  "generated_at": "2026-05-25T16:03:34.717484+00:00",
   "source": "Yahoo Finance via yfinance + Finnhub when configured",
   "disclaimer": "Educational snapshot only. Not financial advice.",
   "asset_groups": [
@@ -349,13 +349,13 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.167,
+            "score": 0.125,
             "label": "Neutral",
-            "bullish_percent": 50.0,
-            "bearish_percent": 25.0,
+            "bullish_percent": 37.5,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.084,
+            "delta": -0.042,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -436,65 +436,73 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Apple: Strong Execution, But Valuation Leaves Me Cautious",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-strong-execution-valuation-leaves-111147392.html",
-              "published_at": "2026-05-25T11:11:47Z",
-              "summary": "Q2 was excellent, but at today's valuation a new buyer needs a great deal to go right."
-            },
-            {
-              "headline": "Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year",
+              "headline": "S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-microsoft-capex-wars-110054667.html",
-              "published_at": "2026-05-25T11:00:54Z",
-              "summary": "The Vanguard Mega Cap Growth ETF (NYSEARCA:MGK) is built for capital appreciation, with dividends an afterthought. With a 0.05% expense ratio and a portfolio engineered for capital appreciation, MGK pays a yield so thin it barely registers next to a money market fund. But MGK still distributes cash every quarter, and that cash comes from ... Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividends-just-hit-150510340.html",
+              "published_at": "2026-05-25T15:05:10Z",
+              "summary": "The host of Retire SMART Podcast opened Episode 416 with a number that should stop every income-focused retiree in their tracks. The S&P 500’s dividend yield has fallen to roughly 1.1%, an all-time low going back to the 1800s. His framing was blunt: “The dividend usually fluctuates between 2 and change, and sometimes up to ... S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know"
             },
             {
-              "headline": "This Tech Stock Is Trading Below Where It Was a Year Ago -- but Its Business Has Never Been Stronger",
+              "headline": "Here's How Much You'd Need to Invest in VIG to Generate $500 per Month in Dividends",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/tech-stock-trading-below-where-062700899.html",
-              "published_at": "2026-05-25T06:27:00Z",
-              "summary": "Despite a surge in revenue and a massive opportunity ahead of it, Microsoft's stock has slipped over the last year."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invest-vig-144012963.html",
+              "published_at": "2026-05-25T14:40:12Z",
+              "summary": "The Vanguard Dividend Appreciation ETF (VIG) may be one of the more consistent dividend-growth funds. But it's not one of the biggest yielders."
             },
             {
-              "headline": "Analysis-Ferrari's Luce leads bold leap into uncertain electric era",
-              "source": "Reuters",
-              "url": "https://finance.yahoo.com/news/analysis-ferraris-luce-leads-bold-060900962.html",
-              "published_at": "2026-05-25T06:09:00Z",
-              "summary": "By Giulio Piovaccari ROME, May 25 (Reuters) - As its sports car rivals tap the brakes on a shift to EVs, Ferrari will take a leap into an uncertain era on Monday with the launch of its first fully-"
+              "headline": "Meta urges Labour to burden Apple with age checks",
+              "source": "The Telegraph",
+              "url": "https://finance.yahoo.com/news/meta-urges-labour-burden-apple-142724103.html",
+              "published_at": "2026-05-25T14:27:24Z",
+              "summary": "Meta has urged Labour to enforce age verification checks directly on iPhone and Android smartphones amid a possible UK ban on child users."
             },
             {
-              "headline": "Apple vs. Microsoft: What Their Revenue Trends Reveal for Investors",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-vs-microsoft-revenue-trends-041032559.html",
-              "published_at": "2026-05-25T04:10:32Z",
-              "summary": "One tech giant delivers record-setting sales surges, while the other posts unwavering growth. Recent earnings reveal how each strategy plays out over time."
-            },
-            {
-              "headline": "‘Expect Corrections and Don’t Rely on Hope’: Cramer’s Reality Check for a First-Time Homebuyer",
+              "headline": "JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/expect-corrections-don-t-rely-222154839.html",
-              "published_at": "2026-05-24T22:21:54Z",
-              "summary": "Jim Cramer’s blunt line to a young first-time homebuyer on the May 22 episode of Mad Money: “Expect corrections and don’t rely on hope as an investing strategy.” The caller, a younger investor, had just used a significant portion of his investment assets as a down payment on his first home and asked how to ... ‘Expect Corrections and Don’t Rely on Hope’: Cramer’s Reality Check for a First-Time Homebuyer"
+              "url": "https://finance.yahoo.com/markets/options/articles/jepq-distribution-looks-income-until-140004009.html",
+              "published_at": "2026-05-25T14:00:04Z",
+              "summary": "If you bought JPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) for the monthly checks, you probably think you own a Nasdaq-100 portfolio with a covered-call overlay. That is mostly true. The part that gets less airtime is that JEPQ’s option exposure runs through equity-linked notes, which are unsecured debt of the banks that issue them. ... JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It"
             },
             {
-              "headline": "Qualcomm Stock Is the Sleeping Giant of the AI Revolution. It’s Starting to Wake Up.",
-              "source": "Barchart",
-              "url": "https://finance.yahoo.com/sectors/technology/articles/qualcomm-stock-sleeping-giant-ai-214147300.html",
-              "published_at": "2026-05-24T21:41:47Z",
-              "summary": "Long weighed down by smartphone market stagnation and the impending loss of Apple as a client, Qualcomm is staging a powerful comeback as it transitions to an aggressive offensive in AI data center inference and physical AI."
+              "headline": "Here's How Much a $1000 Investment in Apple Made 10 Years Ago Would Be Worth Today",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-apple-123002846.html",
+              "published_at": "2026-05-25T12:30:02Z",
+              "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards."
             },
             {
-              "headline": "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-favorite-holdings-3-175000577.html",
-              "published_at": "2026-05-24T17:50:00Z",
-              "summary": "New CEO Greg Abel is following in Buffett's footsteps and keeping these positions."
+              "headline": "QQQI’s 14 Percent Yield Was 98 Percent Return of Capital in a Recent Distribution, And That’s the Real Story",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/options/articles/qqqi-14-percent-yield-98-122053874.html",
+              "published_at": "2026-05-25T12:20:53Z",
+              "summary": "The NEOS Nasdaq-100 High Income ETF (NASDAQ:QQQI) paid out $0.6589 per share on May 22, 2026, the latest in a steady run of monthly checks that produce a headline distribution rate near 14%. That number dominates marketing decks and YouTube thumbnails. What QQQI investors mostly do not see is that a recent monthly payout was ... QQQI’s 14 Percent Yield Was 98 Percent Return of Capital in a Recent Distribution, And That’s the Real Story"
+            },
+            {
+              "headline": "Posthaste: Worried about a market bubble? You ain't seen nothing yet, warns top BofA strategist",
+              "source": "Financial Post",
+              "url": "https://finance.yahoo.com/news/posthaste-worried-market-bubble-aint-120708976.html",
+              "published_at": "2026-05-25T12:07:08Z",
+              "summary": "Bubble brewing that rivals the roaring '20s, but bulls won't sell until these two things happen"
+            },
+            {
+              "headline": "Italian Stocks Hit First Record in 26 Years Led by Energy, Chips",
+              "source": "Bloomberg",
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/italian-stocks-hit-first-record-115046033.html",
+              "published_at": "2026-05-25T11:50:46Z",
+              "summary": "(Bloomberg) -- Italy’s benchmark equity index rose past its all-time closing high set in 2000, with a recent rally in energy and chip stocks supercharging it to record levels.Most Read from BloombergNvidia CEO Urges Super Micro to Tighten Up on ComplianceTrump Doctor Visit Renews Health Scrutiny as 80th Birthday NearsTrump Says He’ll Announce Negotiated Deal With Iran ShortlyRubio Sees Good News Coming on Hormuz as Iran Talks ContinueUS, Iran Inch Toward Deal as Gaps Remain on Uranium, Sanctions"
             }
           ],
           "earnings": {
@@ -842,13 +850,13 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.208,
+            "score": 0.0,
             "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 0.0,
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.084,
+            "delta": -0.208,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -929,65 +937,73 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year",
+              "headline": "Microsoft (MSFT) was Hurt by the “SaaSmaggedon” Market Reaction",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-hurt-saasmaggedon-market-154740514.html",
+              "published_at": "2026-05-25T15:47:40Z",
+              "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG “Yacktman Focused Fund”. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000® Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue […]"
+            },
+            {
+              "headline": "S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-microsoft-capex-wars-110054667.html",
-              "published_at": "2026-05-25T11:00:54Z",
-              "summary": "The Vanguard Mega Cap Growth ETF (NYSEARCA:MGK) is built for capital appreciation, with dividends an afterthought. With a 0.05% expense ratio and a portfolio engineered for capital appreciation, MGK pays a yield so thin it barely registers next to a money market fund. But MGK still distributes cash every quarter, and that cash comes from ... Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividends-just-hit-150510340.html",
+              "published_at": "2026-05-25T15:05:10Z",
+              "summary": "The host of Retire SMART Podcast opened Episode 416 with a number that should stop every income-focused retiree in their tracks. The S&P 500’s dividend yield has fallen to roughly 1.1%, an all-time low going back to the 1800s. His framing was blunt: “The dividend usually fluctuates between 2 and change, and sometimes up to ... S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know"
             },
             {
-              "headline": "NVIDIA Extends AI Story With Quantum Center And Alice And Bob Bet",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-extends-ai-story-quantum-080753084.html",
-              "published_at": "2026-05-25T08:07:53Z",
-              "summary": "NVIDIA (NasdaqGS:NVDA) has launched a quantum research center as part of its push into quantum computing. The company is partnering with and investing in quantum startups, including French firm Alice & Bob, which focuses on error resistant qubits. These steps come while other companies such as Microsoft and IonQ are also focusing on quantum computing progress. NVIDIA is widely known for AI chips and data center hardware, which sit at the core of many current AI and accelerated computing..."
-            },
-            {
-              "headline": "This Tech Stock Is Trading Below Where It Was a Year Ago -- but Its Business Has Never Been Stronger",
+              "headline": "Here's How Much You'd Need to Invest in VIG to Generate $500 per Month in Dividends",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/tech-stock-trading-below-where-062700899.html",
-              "published_at": "2026-05-25T06:27:00Z",
-              "summary": "Despite a surge in revenue and a massive opportunity ahead of it, Microsoft's stock has slipped over the last year."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invest-vig-144012963.html",
+              "published_at": "2026-05-25T14:40:12Z",
+              "summary": "The Vanguard Dividend Appreciation ETF (VIG) may be one of the more consistent dividend-growth funds. But it's not one of the biggest yielders."
             },
             {
-              "headline": "IAC Conference Highlights People Inc. Pivot, AI Licensing Upside and MGM Bet",
-              "source": "MarketBeat",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/iac-conference-highlights-people-inc-060210450.html",
-              "published_at": "2026-05-25T06:02:10Z",
-              "summary": "IAC (NASDAQ:IAC) is continuing its transformation from a holding company into People Incorporated, with executives describing the shift as a continuation of a strategy outlined earlier this year that includes asset sales, cost reductions and a sharper focus on People Inc. and MGM Resorts Internation"
+              "headline": "JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/options/articles/jepq-distribution-looks-income-until-140004009.html",
+              "published_at": "2026-05-25T14:00:04Z",
+              "summary": "If you bought JPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) for the monthly checks, you probably think you own a Nasdaq-100 portfolio with a covered-call overlay. That is mostly true. The part that gets less airtime is that JEPQ’s option exposure runs through equity-linked notes, which are unsecured debt of the banks that issue them. ... JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It"
             },
             {
-              "headline": "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-gates-foundation-sold-052000277.html",
-              "published_at": "2026-05-25T05:20:00Z",
-              "summary": "Microsoft has always been a standout stock for the foundation's portfolio."
+              "headline": "Your Chatbot Has a Long Memory. That Isn’t Always a Good Thing.",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/tech/ai/ai-memory-cd1de7f4?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-25T14:00:00Z",
+              "summary": "It may keep offering you advice based on information that may be dated—or wasn’t even about you in the first place."
             },
             {
-              "headline": "Apple vs. Microsoft: What Their Revenue Trends Reveal for Investors",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-vs-microsoft-revenue-trends-041032559.html",
-              "published_at": "2026-05-25T04:10:32Z",
-              "summary": "One tech giant delivers record-setting sales surges, while the other posts unwavering growth. Recent earnings reveal how each strategy plays out over time."
+              "headline": "SpaceX’s $2 Trillion Pitch: Is Elon Musk Quietly Building a Backup Internet for Civilization?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/sectors/technology/articles/spacex-2-trillion-pitch-elon-132227629.html",
+              "published_at": "2026-05-25T13:22:27Z",
+              "summary": "On a recent All-In Podcast episode dissecting SpaceX’s S-1 filing, guest investor Gavin Baker and the hosts framed Elon Musk’s privately held rocket and connectivity empire as something more ambitious than a high-growth tech company. David Friedberg argued that “having a space-based communication network, space-based data centers, and space-based communication back down to Earth wireless” ... SpaceX’s $2 Trillion Pitch: Is Elon Musk Quietly Building a Backup Internet for Civilization?"
             },
             {
-              "headline": "His piano lessons strike a chord with kids. It's music to parents' ears.",
-              "source": "USA TODAY",
-              "url": "https://finance.yahoo.com/sectors/technology/articles/piano-lessons-strike-chord-kids-235542917.html",
-              "published_at": "2026-05-24T23:55:42Z",
-              "summary": "This 32-year-old piano teacher's method won over kids. Now a tech maverick, a Shark Tank tycoon and a Hollywood composer are helping him go national."
+              "headline": "AI Bubble Fears Grow as Big Tech Allegedly Pays Itself in Cloud Loop",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/sectors/technology/articles/ai-bubble-fears-grow-big-131548421.html",
+              "published_at": "2026-05-25T13:15:48Z",
+              "summary": "AI bubble fears grow as Big Tech allegedly recycles AI investments into cloud revenue, fueling dot-com style worries."
             },
             {
-              "headline": "2 Quantum Computing Stocks That Are Further Along Than Anyone Is Giving Them Credit For",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/sectors/technology/articles/2-quantum-computing-stocks-further-223000452.html",
-              "published_at": "2026-05-24T22:30:00Z",
-              "summary": "One of these players is a tech giant, while the other is a small pure-play quantum company."
+              "headline": "Trump’s Science Advisor Calls Nuclear EO ‘Most Consequential Day’ Since Atoms for Peace in 1953",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/trump-science-advisor-calls-nuclear-123424577.html",
+              "published_at": "2026-05-25T12:34:24Z",
+              "summary": "When a sitting administration’s top science advisor invokes Eisenhower’s 1953 Atoms for Peace speech to frame a present-day policy move, investors should pay attention. That is exactly what happened at the Operation Gigawatt Summit, where Michael Kratsios, Chief Science and Tech Policy Advisor to President Trump, anchored the case for a structural reordering of US ... Trump’s Science Advisor Calls Nuclear EO ‘Most Consequential Day’ Since Atoms for Peace in 1953"
             }
           ],
           "earnings": {
@@ -1344,13 +1360,13 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.0,
+            "score": 0.208,
             "label": "Neutral",
-            "bullish_percent": 25.0,
+            "bullish_percent": 50.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.375,
+            "delta": 0.208,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -1431,65 +1447,73 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 50.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Elon Musk wants to put data centers in space — here's what that could actually look like",
-              "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/article/elon-musk-wants-to-put-data-centers-in-space--heres-what-that-could-actually-look-like-143000204.html",
-              "published_at": "2026-05-24T14:30:00Z",
-              "summary": "SpaceX founder Elon Musk has said that he wants to put data centers in space for efficiency. One expert told Yahoo Finance how it would actually work."
-            },
-            {
-              "headline": "Scenes from the Memorial Day investing road: Takeaways on Walmart, Nvidia, and GameStop",
-              "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/article/scenes-from-the-memorial-day-investing-road-takeaways-on-walmart-nvidia-and-gamestop-123000395.html",
-              "published_at": "2026-05-24T12:30:00Z",
-              "summary": "A big week for investors, let's not overlook it."
-            },
-            {
-              "headline": "Kevin Warsh Sworn In as Fed Chair With Lowest Senate Votes Ever Amid Independence Concerns",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-sworn-fed-chair-111032652.html",
-              "published_at": "2026-05-25T11:10:32Z",
-              "summary": "Kevin Warsh takes the oath as Federal Reserve chair on Friday in a White House ceremony, only the second Fed swearing-in held at the executive mansion in nearly 40 years. The last was Ronald Reagan hosting Alan Greenspan in 1987, a tableau the Trump White House is happy to revive. The optics matter because Warsh ... Kevin Warsh Sworn In as Fed Chair With Lowest Senate Votes Ever Amid Independence Concerns"
-            },
-            {
-              "headline": "Markets Now Pricing in Rate Hikes Through 2027 as Fed Cut Expectations Evaporate",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/economy/policy/articles/markets-now-pricing-rate-hikes-110057917.html",
-              "published_at": "2026-05-25T11:00:57Z",
-              "summary": "The conversation about the Federal Reserve has flipped in a way that should make anyone holding long-duration assets sit up. A few months ago, the debate was about the cadence of cuts. Now, market strategists are saying the question is how long the Fed will stay on hold, and the curve has actually drifted to ... Markets Now Pricing in Rate Hikes Through 2027 as Fed Cut Expectations Evaporate"
-            },
-            {
-              "headline": "Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-microsoft-capex-wars-110054667.html",
-              "published_at": "2026-05-25T11:00:54Z",
-              "summary": "The Vanguard Mega Cap Growth ETF (NYSEARCA:MGK) is built for capital appreciation, with dividends an afterthought. With a 0.05% expense ratio and a portfolio engineered for capital appreciation, MGK pays a yield so thin it barely registers next to a money market fund. But MGK still distributes cash every quarter, and that cash comes from ... Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year"
-            },
-            {
-              "headline": "Is Walmart Stock Still a Safe Haven as Its Price Sinks With Consumer Pressures Intensifying?",
+              "headline": "SSR Mining Is Selling Its Interest in the Copler Mine for $1.5 Billion. Is This a Positive Sign for the Mining Stock?",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-still-safe-haven-104000075.html",
-              "published_at": "2026-05-25T10:40:00Z",
-              "summary": "Walmart stock has traditionally outperformed during recessions."
+              "url": "https://finance.yahoo.com/markets/commodities/articles/ssr-mining-selling-interest-copler-155000940.html",
+              "published_at": "2026-05-25T15:50:00Z",
+              "summary": "The gold miner is coming off a strong year and expects this year to be even better as it builds a strong balance sheet."
             },
             {
-              "headline": "3 Stocks I'd Buy Without Hesitation During a Market Plunge",
+              "headline": "Why AGNC Investment's Net Interest Spread Matters More Than Its 14% Dividend Yield",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-id-buy-without-102000488.html",
-              "published_at": "2026-05-25T10:20:00Z",
-              "summary": "These stocks are must-buys on the dip."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/why-agnc-investments-net-interest-152146121.html",
+              "published_at": "2026-05-25T15:21:46Z",
+              "summary": "This mREIT's core business is gradually stabilizing in this choppy market."
             },
             {
-              "headline": "Gas Shortages Are Coming, and Chevron's CEO Says Economies Will Have to Slow. These Consumer Stocks Are Most at Risk.",
+              "headline": "If You'd Invested Just $1,000 in SMH 5 Years Ago, Here's What You'd Have Today",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/sectors/energy/articles/gas-shortages-coming-chevrons-ceo-094700396.html",
-              "published_at": "2026-05-25T09:47:00Z",
-              "summary": "You may already be factoring the impact of higher gas prices into your investment strategies, but are you prepared for the imminent global oil shortage?"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/youd-invested-just-1-000-151900788.html",
+              "published_at": "2026-05-25T15:19:00Z",
+              "summary": "Semiconductor stocks have been red hot over the past few years. Just how hot might surprise you."
+            },
+            {
+              "headline": "S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividends-just-hit-150510340.html",
+              "published_at": "2026-05-25T15:05:10Z",
+              "summary": "The host of Retire SMART Podcast opened Episode 416 with a number that should stop every income-focused retiree in their tracks. The S&P 500’s dividend yield has fallen to roughly 1.1%, an all-time low going back to the 1800s. His framing was blunt: “The dividend usually fluctuates between 2 and change, and sometimes up to ... S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know"
+            },
+            {
+              "headline": "ARM Targets the AI Data Center Opportunity With New AGI CPU Push",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/sectors/technology/articles/arm-targets-ai-data-center-145300405.html",
+              "published_at": "2026-05-25T14:53:00Z",
+              "summary": "Arm Holdings targets AI data centers with its new AGI CPU, betting agentic AI workloads will drive demand for Arm-based infrastructure."
+            },
+            {
+              "headline": "Gain Exposure to Innovative AI Chipmaker Cerebras With Less Risk Through These ETFs",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/gain-exposure-innovative-ai-chipmaker-145000121.html",
+              "published_at": "2026-05-25T14:50:00Z",
+              "summary": "If you're feeling conflicted about buying shares of the wafer-scale engine specialist so soon after its IPO, a more diversified tech exchange-traded fund that includes the stock in its portfolio could be the right solution for you."
+            },
+            {
+              "headline": "Here's How Much You'd Need to Invest in VIG to Generate $500 per Month in Dividends",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invest-vig-144012963.html",
+              "published_at": "2026-05-25T14:40:12Z",
+              "summary": "The Vanguard Dividend Appreciation ETF (VIG) may be one of the more consistent dividend-growth funds. But it's not one of the biggest yielders."
+            },
+            {
+              "headline": "IREN’s CEO Just Said 11 Words that Delivered the AI Boom a Brutal Reality Check",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/sectors/technology/articles/iren-ceo-just-said-11-142835688.html",
+              "published_at": "2026-05-25T14:28:35Z",
+              "summary": "The artificial intelligence boom has kicked off one of the largest infrastructure races since the early internet era. Nvidia (NASDAQ:NVDA) GPUs are selling faster than they can be packaged. High-bandwidth memory has become scarce enough that companies like Micron Technology (NASDAQ:MU) and SK hynix are effectively sold out months in advance. Utilities from Virginia to ... IREN’s CEO Just Said 11 Words that Delivered the AI Boom a Brutal Reality Check"
             }
           ],
           "earnings": {
@@ -1807,13 +1831,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.358,
+            "score": 0.375,
             "label": "Positive",
-            "bullish_percent": 75.0,
-            "bearish_percent": 12.5,
+            "bullish_percent": 50.0,
+            "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.42,
+            "delta": 0.017,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -1894,65 +1918,73 @@
                 "bullish_percent": 75.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.375,
+                "label": "Positive",
+                "bullish_percent": 50.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "SSR Mining Is Selling Its Interest in the Copler Mine for $1.5 Billion. Is This a Positive Sign for the Mining Stock?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/ssr-mining-selling-interest-copler-155000940.html",
+              "published_at": "2026-05-25T15:50:00Z",
+              "summary": "The gold miner is coming off a strong year and expects this year to be even better as it builds a strong balance sheet."
+            },
+            {
+              "headline": "What Is the Best Way to Own Gold in 2026?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/best-way-own-gold-2026-153500202.html",
+              "published_at": "2026-05-25T15:35:00Z",
+              "summary": "Investors looking to add gold to their portfolio should consider growth, not just the precious metal's price."
+            },
+            {
+              "headline": "Goldman maintains bullish gold outlook as central bank buying forecasts rise",
+              "source": "InvestorsHub",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/goldman-maintains-bullish-gold-outlook-141040865.html",
+              "published_at": "2026-05-25T14:10:40Z",
+              "summary": "Goldman Sachs has reaffirmed its positive stance on gold, keeping its year-end forecast of $5,400 per troy ounce after increasing its estimates for central bank demand and predicting that official-sector purchases will continue accelerating throughout the remainder of 2026. The investment bank revised its internal tracking model for central bank gold demand after concluding that it had consistently understated buying activity since August 2025."
+            },
+            {
+              "headline": "AEM vs. NEM: Which Gold Mining Giant Should You Invest in Now?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/aem-vs-nem-gold-mining-131900514.html",
+              "published_at": "2026-05-25T13:19:00Z",
+              "summary": "Agnico Eagle and Newmont strengthen their positions with rising cash flows and project expansions as gold prices stay elevated."
+            },
+            {
+              "headline": "TNR Gold completes C$4.2M strategic investment from Altius",
+              "source": "Proactive",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/tnr-gold-completes-c-4-130300871.html",
+              "published_at": "2026-05-25T13:03:00Z",
+              "summary": "TNR Gold Corp (TSX-V:TNR, FRA:TNW, OTC:TRRXF) announced that it has completed a strategic private placement investment by Altius Resources, raising approximately C$4.2 million in gross proceeds. The company issued 23.5 million common shares to Altius Resources, a wholly owned subsidiary of..."
+            },
+            {
+              "headline": "Orecap Invest Increases Stake in Awale Resources to Over 10.6 Million Shares",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/orecap-invest-increases-stake-awale-124202575.html",
+              "published_at": "2026-05-25T12:42:02Z",
+              "summary": "Orecap Invest (OCI.V) exercised all of its outstanding common share purchase warrants of Awale Resou"
+            },
+            {
+              "headline": "Capital Formation, Commodity Cycles & AI Market Growth",
+              "source": "InvestorsHub",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/capital-formation-commodity-cycles-ai-110000110.html",
+              "published_at": "2026-05-25T11:00:00Z",
+              "summary": "In this May 2026 edition of Market This Month, Anna Serin and Bruce Campbell discuss the sharp rebound in global markets following March volatility and examine the sectors currently driving investor momentum. The conversation covers the continued strength of the technology sector, renewed interest in commodities including gold, silver, lithium, rare earths, and energy, and the growing flow of capital into junior exploration companies across the Canadian market."
+            },
             {
               "headline": "Aben Gold secures Yukon mining licence for five-year exploration",
               "source": "Mining Technology",
               "url": "https://finance.yahoo.com/markets/commodities/articles/aben-gold-secures-yukon-mining-103731616.html",
               "published_at": "2026-05-25T10:37:31Z",
               "summary": "The approval applies to the company's 7,400ha, 100%-owned Justin Gold Tungsten Project in southeast Yukon."
-            },
-            {
-              "headline": "Gold Gains as Prospects of Iran Deal Temper Inflation Concerns",
-              "source": "Bloomberg",
-              "url": "https://finance.yahoo.com/news/gold-jumps-as-prospects-of-iran-deal-temper-inflation-concerns-023152905.html",
-              "published_at": "2026-05-25T08:09:44Z",
-              "summary": "(Bloomberg) -- Gold advanced as signs the US and Iran are closing in on a deal that would reopen the Strait of Hormuz tempered inflation concerns.Most Read from BloombergNvidia CEO Urges Super Micro to Tighten Up on ComplianceTrump Doctor Visit Renews Health Scrutiny as 80th Birthday NearsTrump Says He’ll Announce Negotiated Deal With Iran ShortlyRubio Sees Good News Coming on Hormuz as Iran Talks ContinueUS, Iran Inch Toward Deal as Gaps Remain on Uranium, SanctionsBullion rose as much as 1.6%"
-            },
-            {
-              "headline": "Gold Rises on U.S.-Iran Optimism, Weaker Dollar",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/finance/commodities-futures/gold-silver-rise-on-hopes-for-u-s-iran-deal-1ffacfe6?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-05-25T06:58:00Z",
-              "summary": "Gold prices rose on a weaker dollar and optimism that a potential breakthrough in U.S.-Iran peace negotiations could improve the inflation outlook."
-            },
-            {
-              "headline": "In Sudan’s war economy, gold keeps flowing as miners risk mercury and collapse",
-              "source": "Associated Press",
-              "url": "https://www.yahoo.com/news/world/articles/sudan-war-economy-gold-keeps-052108163.html",
-              "published_at": "2026-05-25T05:21:08Z",
-              "summary": "The men carried metal detectors as they scanned a mountainous area in northern Sudan in search of gold.  The mine is one of thousands of small-scale and artisanal mines scattered across Sudan, part of a sector that is at the center of the devastating war that has at times pushed parts of the country into famine.  Gold has become a major source of funding for Sudan’s treasury after the country lost over two-thirds of its oil revenues with the secession of South Sudan in 2011."
-            },
-            {
-              "headline": "Gold rises on weaker dollar as investor weigh US-Iran peace deal prospects",
-              "source": "Reuters",
-              "url": "https://finance.yahoo.com/news/gold-rises-weaker-dollar-investor-011857914.html",
-              "published_at": "2026-05-25T01:18:57Z",
-              "summary": "May 25 (Reuters) - Gold prices rose more than 1% on Monday, supported by a weaker dollar and lower oil prices, as investors weighed prospects of a breakthrough in U.S.-Iran peace negotiations."
-            },
-            {
-              "headline": "Alamos Gold Leadership Moves Support Growth Plan And Valuation Debate",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/alamos-gold-leadership-moves-support-230616271.html",
-              "published_at": "2026-05-24T23:06:16Z",
-              "summary": "Alamos Gold (TSX:AGI) announced a series of senior management promotions tied to its long term production objectives. James Clark was appointed Vice President, Canadian Operations, while Marcelo Martinez became Vice President, Mexico Operations. Scott Parsons and Adrian Paulse were promoted to Senior Vice President roles, supporting the company’s goal of reaching one million ounces of annual gold production by 2030. Alamos Gold operates as a gold producer with assets in Canada and Mexico,..."
-            },
-            {
-              "headline": "Assessing Devon Energy (DVN) Valuation After Strong Recent Shareholder Returns",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-devon-energy-dvn-valuation-221250751.html",
-              "published_at": "2026-05-24T22:12:50Z",
-              "summary": "Event context and recent share performance Devon Energy (DVN) has drawn attention after recent trading left the stock near US$47.22, with the price up about 8% over the past 3 months but down slightly over the past month. See our latest analysis for Devon Energy. At around US$47.22, Devon Energy’s share price has a year to date share price return of 24.69%, while the 1 year total shareholder return of 55.47% points to momentum that has built over a longer period. If you are looking beyond..."
-            },
-            {
-              "headline": "Discover 3 ASX Penny Stocks With Market Caps Under A$500M",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/discover-3-asx-penny-stocks-200200562.html",
-              "published_at": "2026-05-24T20:02:00Z",
-              "summary": "The Australian market is poised for a positive end to the week, with ASX futures suggesting a 0.5% rise, buoyed by declining oil prices and strong gold performance. In such an environment, investors often look beyond established names to discover opportunities among smaller companies. Penny stocks, though sometimes seen as relics of past market eras, continue to offer potential value and growth for those willing to explore them."
             }
           ],
           "earnings": {
@@ -2262,13 +2294,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.25,
+            "score": 0.292,
             "label": "Positive",
             "bullish_percent": 50.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.167,
+            "delta": 0.042,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -2349,10 +2381,32 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.292,
+                "label": "Positive",
+                "bullish_percent": 50.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "SSR Mining Is Selling Its Interest in the Copler Mine for $1.5 Billion. Is This a Positive Sign for the Mining Stock?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/ssr-mining-selling-interest-copler-155000940.html",
+              "published_at": "2026-05-25T15:50:00Z",
+              "summary": "The gold miner is coming off a strong year and expects this year to be even better as it builds a strong balance sheet."
+            },
+            {
+              "headline": "GoldHaven Resources Highlights Strategic Tungsten and Indium Exposure at Magno Project",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/goldhaven-resources-highlights-strategic-tungsten-121010303.html",
+              "published_at": "2026-05-25T12:10:10Z",
+              "summary": "GoldHaven Resources (GOH.CN) Chief Executive Rob Birmingham on Monday said that \"global markets are"
+            },
             {
               "headline": "Gold Rises on U.S.-Iran Optimism, Weaker Dollar",
               "source": "The Wall Street Journal",
@@ -2394,20 +2448,6 @@
               "url": "https://finance.yahoo.com/markets/stocks/articles/shivalik-bimetal-controls-ltd-bom-030118741.html",
               "published_at": "2026-05-23T03:01:18Z",
               "summary": "Shivalik Bimetal Controls Ltd (BOM:513097) reports a robust 12.3% revenue increase and strategic advancements in high-value components, despite challenges in the Americas market."
-            },
-            {
-              "headline": "TD Securities Raises its Price Target on Sprott (SII)",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/td-securities-raises-price-target-023053876.html",
-              "published_at": "2026-05-23T02:30:53Z",
-              "summary": "Sprott Inc. (NYSE:SII) is one of the 10 Best Performing Canadian Stocks So Far in 2026. On May 7, 2026, TD Securities analyst Graham Ryding raised the firm’s price target on Sprott Inc. (NYSE:SII) to C$205 from C$190 previously and maintained a Hold rating on the shares after Sprott Inc. (NYSE:SII) disclosed its first-quarter financial […]"
-            },
-            {
-              "headline": "Market Minute 5-22-26- SPX Targeting 8-Week Win Streak",
-              "source": "MoneyShow",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/market-minute-5-22-26-141500655.html",
-              "published_at": "2026-05-22T14:15:00Z",
-              "summary": "Equities are adding to gains in the early going, and for a change, crude oil is trading in the same direction (higher). Gold and silver are pulling back while Treasuries and the dollar are mostly flat. Bitcoin is trading in the high $70,000s after failing to hold the $80K level last week."
             }
           ],
           "earnings": {
@@ -2717,13 +2757,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": -0.125,
-            "label": "Neutral",
-            "bullish_percent": 12.5,
-            "bearish_percent": 37.5,
+            "score": -0.292,
+            "label": "Negative",
+            "bullish_percent": 0.0,
+            "bearish_percent": 62.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.568,
+            "delta": -0.167,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -2804,6 +2844,14 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 37.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": -0.292,
+                "label": "Negative",
+                "bullish_percent": 0.0,
+                "bearish_percent": 62.5,
+                "articles_last_week": 8
               }
             ]
           },
@@ -2816,65 +2864,65 @@
               "summary": "Oil prices dropped at the start of futures trading on Sunday after President Trump said the US and Iran were close to announcing a deal that would reopen the Strait of Hormuz."
             },
             {
-              "headline": "Oil plunges below $100 on hopes of US-Iran Hormuz deal",
+              "headline": "Stocks jump while oil and dollar ease on Iran peace hopes",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-rise-oil-dollar-slide-233702158.html",
+              "published_at": "2026-05-25T15:50:38Z",
+              "summary": "By Nell Mackenzie and Ankur Banerjee LONDON/SINGAPORE, May 25 (Reuters) - Stocks surged and the U.S. dollar and oil prices slid on Monday as the prospect of a deal to end the Iran war buoyed risk"
+            },
+            {
+              "headline": "Oil drops below $100 on hopes of US-Iran deal to open Hormuz",
               "source": "AFP",
               "url": "https://finance.yahoo.com/markets/commodities/articles/oil-falls-stocks-climb-hopes-074820979.html",
-              "published_at": "2026-05-25T11:07:11Z",
-              "summary": "Oil prices dropped back below $100 a barrel on Monday and stock markets rallied as investors raised expectations of a reopening of the Strait of Hormuz following signs that Washington and Iran were edging closer to a deal.But many investors are betting Trump is eager to declare an accord that would see Gulf tanker traffic resume through the Strait of Hormuz -- and help ease fuel prices ahead of the summer tourism season."
+              "published_at": "2026-05-25T15:47:57Z",
+              "summary": "Oil prices plunged below $100 a barrel on Monday and stock markets rallied as investors raised their expectations of a reopening of the Strait of Hormuz following signs that Washington and Iran were edging closer to a deal.But many investors are betting Trump is eager to declare an accord that would see Gulf tanker traffic resume through the Strait of Hormuz -- and help ease fuel prices ahead of the northern hemisphere's summer tourism season."
             },
             {
-              "headline": "Oil falls and stocks rise on Iran deal hopes",
-              "source": "The Telegraph",
-              "url": "https://finance.yahoo.com/news/oil-falls-stocks-rise-iran-110243444.html",
-              "published_at": "2026-05-25T11:02:43Z",
-              "summary": "Oil prices have dropped to a two-week low and global markets rallied after Donald Trump revived hopes that an Iran peace deal could be imminent."
-            },
-            {
-              "headline": "Soft Inflation Dynamics Give Bank of Canada Room to Stay Patient, Says TD",
+              "headline": "CIBC Confirms Neutral Rating and Target of $5.00 on Computer Modelling After Q4 Results",
               "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/economy/policy/articles/soft-inflation-dynamics-bank-canada-105527425.html",
-              "published_at": "2026-05-25T10:55:27Z",
-              "summary": "Canadian financial markets seemingly \"exhaled\" a bit last week, \"catalyzed\" by constructive developm"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cibc-confirms-neutral-rating-target-153610891.html",
+              "published_at": "2026-05-25T15:36:10Z",
+              "summary": "CIBC Capital Markets maintained its neutral rating and target price of $5.00 on the shares of Comput"
             },
             {
-              "headline": "Market Chatter: Oil Sands Firms Can Afford Carbon Capture, Canadian Energy Minister Says",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/sectors/energy/articles/market-chatter-oil-sands-firms-104510373.html",
-              "published_at": "2026-05-25T10:45:10Z",
-              "summary": "Canadian Energy Minister Tim Hodgson said he's \"highly confident\" that Alberta oil sands companies c"
-            },
-            {
-              "headline": "Mojtaba Khamenei Reportedly Says Enriched Uranium 'Should Not Leave The Country' — Trump Vows Not To Let Iran Keep The Stockpile, Oil Futures Rise",
-              "source": "Benzinga",
-              "url": "https://www.yahoo.com/news/politics/articles/mojtaba-khamenei-reportedly-says-enriched-100110749.html",
-              "published_at": "2026-05-25T10:01:10Z",
-              "summary": "Iran's supreme leader, Ayatollah Mojtaba Khamenei, has ordered that the country's near-weapons-grade uranium stockpile should not be sent abroad, two senior Iranian sources said, hardening Tehran's position on one of Washington's central demands in peace talks aimed at ending the..."
-            },
-            {
-              "headline": "Crude Oil Prices Fall as Market Hopes for Peace Deal Between U.S., Iran",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/crude-oil-prices-fall-market-094138566.html",
-              "published_at": "2026-05-25T09:41:38Z",
-              "summary": "Crude oil prices dropped on Monday to two-week lows as the market expects the U.S. and Iran are near"
-            },
-            {
-              "headline": "Japan plans $19 billion extra budget amid concerns over fiscal strains",
+              "headline": "Oil slips to two-week low as US and Iran seen moving closer to deal",
               "source": "Reuters",
-              "url": "https://finance.yahoo.com/economy/policy/articles/japan-plans-3-trillion-yen-085623190.html",
-              "published_at": "2026-05-25T09:33:49Z",
-              "summary": "By Makiko Yamazaki TOKYO, May 25 (Reuters) - Japan's government will compile an extra budget of some 3 trillion yen ($19 billion), Prime Minister Sanae Takaichi said on Monday, stoking concerns over"
+              "url": "https://finance.yahoo.com/news/oil-falls-more-4-us-220953817.html",
+              "published_at": "2026-05-25T15:35:59Z",
+              "summary": "By Amanda Stephenson CALGARY, May 25 (Reuters) - Oil prices fell about 5% to two-week lows on Monday as optimism grew that the United States and Iran were moving closer to a peace deal that would"
+            },
+            {
+              "headline": "Oil Price Butchered as US Stocks Breach ATH: Can Bitcoin Mirror the S&P 500?",
+              "source": "Cryptonews",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/oil-price-butchered-us-stocks-144359730.html",
+              "published_at": "2026-05-25T14:43:59Z",
+              "summary": "The S&P 500 blasted to a record 7,534 on Memorial Day as oil price plummeted on potential Middle East de-escalation. A tentative framework agreement between the Trump administration and Iran to reopen the Strait of Hormuz sent Brent crude tumbling back below $100 per barrel, gutting the geopolitical risk premium ..."
+            },
+            {
+              "headline": "Dollar drifts lower as oil falls on Hormuz deal optimism",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/news/dollar-softer-signs-deal-reopen-050626887.html",
+              "published_at": "2026-05-25T13:58:52Z",
+              "summary": "By Gregor Stuart Hunter and Lucy Raitano SINGAPORE/LONDON, May 25 (Reuters) - The dollar dropped against major currencies on Monday as hopes of a deal to reopen the Strait of Hormuz pushed oil prices"
+            },
+            {
+              "headline": "Oil Prices Drop on Prospect of Iran Deal, but Investors Aren’t Celebrating Yet",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/finance/oil-prices-drop-on-prospect-of-iran-deal-but-investors-arent-celebrating-yet-6d5a483a?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-25T13:42:00Z",
+              "summary": "Brent crude fell more than 5% and Dow Jones Industrial Average futures rallied even as investors remain skeptical about the impact of the U.S.-Iran talks."
             }
           ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
-          "rating": "Buy",
-          "score": 71,
+          "rating": "Hold",
+          "score": 67,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is supportive",
-            "mildly negative news tone"
+            "negative news tone"
           ]
         }
       ]
@@ -2894,9 +2942,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 77347.99,
+          "price": 77501.66,
           "currency": "USD",
-          "market_cap": 1550090764288.0,
+          "market_cap": 1553692360704.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -2917,10 +2965,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -1.52,
-            "six_months": -16.43,
-            "one_year": -33.0,
-            "five_years": 101.42
+            "one_month": -1.32,
+            "six_months": -16.26,
+            "one_year": -32.87,
+            "five_years": 101.82
           },
           "chart_points": [
             {
@@ -3179,13 +3227,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": -0.021,
+            "score": -0.125,
             "label": "Neutral",
-            "bullish_percent": 25.0,
+            "bullish_percent": 0.0,
             "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.188,
+            "delta": -0.104,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -3266,65 +3314,73 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": -0.125,
+                "label": "Neutral",
+                "bullish_percent": 0.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Strategy: A Potential Millionaire-Maker Stock for Long-Term Investors",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-potential-millionaire-maker-stock-103000375.html",
-              "published_at": "2026-05-25T10:30:00Z",
-              "summary": "With the share price 66% off its peak, investors who buy now would be making a highly contrarian bet."
+              "headline": "Bitcoin and ethereum prices today, Monday, May 25, 2026: Down from last week, but rising this morning",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-may-25-2026-down-from-last-week-but-rising-this-morning-121507080.html",
+              "published_at": "2026-05-25T12:15:07Z",
+              "summary": "Bitcoin opened at $76,969.03 on Monday, and as of 8:00 a.m. ET, the price of bitcoin moved higher to $77,292.81. Ethereum opened at $2,097.55 on Monday and was $2,112.89 as of 8:00 a.m. ET."
             },
             {
-              "headline": "Bitcoin Price Prediction: BTC Options Coming to Nasdaq",
-              "source": "Cryptonews",
-              "url": "https://finance.yahoo.com/markets/options/articles/bitcoin-price-prediction-btc-options-101529819.html",
-              "published_at": "2026-05-25T10:15:29Z",
-              "summary": "The Bitcoin price prediction today shows the asset is trading around $77,400 after a modest +0.9% pump over the past 24 hours. Institutional infrastructure is expanding at its fastest pace in years, yet the spot price is in a technically fragile zone that analysts call “the edge of a cliff.”Last ..."
-            },
-            {
-              "headline": "Michael Saylor Didn’t Buy Bitcoin This Week: Here’s What Strategy Bought Instead",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-didn-t-buy-095619374.html",
-              "published_at": "2026-05-25T09:56:19Z",
-              "summary": "Strategy repurchased $1.5B in convertible bonds instead of Bitcoin this week. Saylor says the BitVac is charging for the next round."
-            },
-            {
-              "headline": "Cathie Wood Doubles Down On Peter Thiel's Bullish, Ark Sells Taiwan Semiconductor Stock Amid Spike",
-              "source": "Benzinga",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-doubles-down-peter-094630153.html",
-              "published_at": "2026-05-25T09:46:30Z",
-              "summary": "On Thursday, Cathie Wood-led Ark Invest made significant trades, notably increasing its stake in Bullish Inc. while reducing its position in Taiwan Semiconductor Manufacturing Co., Ltd.. These trades reflect Ark’s strategic adjustments amid evolving market conditions. The Bullish Trade Ark..."
-            },
-            {
-              "headline": "Ripple EX-CTO Mocks Lawsuit Claiming Ownership of 3.7 Million Abandoned Bitcoins",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/ripple-ex-cto-mocks-lawsuit-082318283.html",
-              "published_at": "2026-05-25T08:23:18Z",
-              "summary": "Schwartz mocked a NY suit claiming 3.79M bitcoins as abandoned property, quipping only BSV would honor a court ruling."
-            },
-            {
-              "headline": "Michael Saylor Hits Pause on Bitcoin Buys — Here’s Why Strategy Bought Bonds Instead",
+              "headline": "Will Bitcoin's Price Fall Below $60K? Here's Why Michaël van de Poppe Believes It Could",
               "source": "CCN",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-hits-pause-bitcoin-082102139.html",
-              "published_at": "2026-05-25T08:21:02Z",
-              "summary": "Strategy paused Bitcoin purchases for the first time in years and instead repurchased $1.5 billion of its own convertible bonds at a discount. The bond ..."
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoins-price-fall-below-60k-153215150.html",
+              "published_at": "2026-05-25T15:32:15Z",
+              "summary": "Analysts Michaël van de Poppe and Benjamin Cowen warned that Bitcoin's price may revisit the $60,000 range — or even lower. Figureheads have highlighted historical ..."
             },
             {
-              "headline": "Bitcoin’s Quietest Accumulation in 18 Months Is Happening Right Now",
+              "headline": "BlackRock Sells $1B Bitcoin as BTC ETFs Hit 6 Day Losing Streak — What Is Happening?",
+              "source": "CCN",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-sells-1b-bitcoin-btc-150215259.html",
+              "published_at": "2026-05-25T15:02:15Z",
+              "summary": "Bitcoin's price has stayed fairly stable, despite several bearish moves. Bitcoin ETFs have seen a six-day losing streak. Figureheads are divided on Bitcoin's future price ..."
+            },
+            {
+              "headline": "Bitcoin Pizza Day Recipient Speaks Out: How the 10,000 BTC Was Spent",
               "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-quietest-accumulation-18-months-070647052.html",
-              "published_at": "2026-05-25T07:06:47Z",
-              "summary": "Bitcoin price builds a proactive setup as whale positioning hits a yearly high while retail demand drops to its most bearish level of 2026."
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-pizza-day-recipient-speaks-150000056.html",
+              "published_at": "2026-05-25T15:00:00Z",
+              "summary": "Jeremy Sturdivant spent his 10,000 bitcoin on a US road trip. At Bitcoin's peak, the coins topped $1.26 billion."
             },
             {
-              "headline": "Michael Saylor’s Strategy Buys Bonds Over Bitcoin, Here’s Why It’s Bullish",
-              "source": "CoinGape",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-strategy-buys-bonds-061220657.html",
-              "published_at": "2026-05-25T06:12:20Z",
-              "summary": "Strategy (formerly MicroStrategy) pauses its Bitcoin purchase this week and decides to buy bonds, Michael Saylor confirms. This has sparked discussions among crypto and stock investors about whether it’s good or bad, as the company announced potential Bitcoin sales to purchase bonds. While MSTR stock tumbled more than 5% last week, Strategy still holds 843,738"
+              "headline": "Oil Price Butchered as US Stocks Breach ATH: Can Bitcoin Mirror the S&P 500?",
+              "source": "Cryptonews",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/oil-price-butchered-us-stocks-144359730.html",
+              "published_at": "2026-05-25T14:43:59Z",
+              "summary": "The S&P 500 blasted to a record 7,534 on Memorial Day as oil price plummeted on potential Middle East de-escalation. A tentative framework agreement between the Trump administration and Iran to reopen the Strait of Hormuz sent Brent crude tumbling back below $100 per barrel, gutting the geopolitical risk premium ..."
+            },
+            {
+              "headline": "BlackRock IBIT Sheds $1 Billion in Bitcoin as Larry Fink Quote Misleads Traders",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-ibit-sheds-1-billion-143926885.html",
+              "published_at": "2026-05-25T14:39:26Z",
+              "summary": "BlackRock's IBIT sold $1.01B Bitcoin via redemptions as Larry Fink's old crypto comments resurfaced. BTC held near $77,382."
+            },
+            {
+              "headline": "IREN vs. CIFR: Which AI Data Center Stock Has an Edge Right Now?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/iren-vs-cifr-ai-data-142600592.html",
+              "published_at": "2026-05-25T14:26:00Z",
+              "summary": "Cipher Digital's long-term hyperscale leases and $11.4B in contracted revenues give it an edge over IREN Limited as AI infrastructure demand accelerates."
+            },
+            {
+              "headline": "Strategy Pauses Bitcoin Buying as $1.5B Bond Repurchase Takes Priority",
+              "source": "CryptoProwl",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-pauses-bitcoin-buying-1-141700285.html",
+              "published_at": "2026-05-25T14:17:00Z",
+              "summary": "Strategy Inc. (NASDAQ: $MSTR) broke from its usual bitcoin-buying rhythm this week, with Michael Saylor saying the ..."
             }
           ],
           "earnings": {
@@ -3332,10 +3388,11 @@
             "source": "Finnhub"
           },
           "rating": "Avoid",
-          "score": 25,
+          "score": 21,
           "rating_reasons": [
             "weak one-year trend",
-            "six-month momentum is under pressure"
+            "six-month momentum is under pressure",
+            "mildly negative news tone"
           ]
         },
         {
@@ -3348,9 +3405,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 2113.79,
+          "price": 2124.1,
           "currency": "USD",
-          "market_cap": 255137873920.0,
+          "market_cap": 256465485824.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -3371,10 +3428,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -8.95,
-            "six_months": -33.67,
-            "one_year": -53.31,
-            "five_years": -21.9
+            "one_month": -8.51,
+            "six_months": -33.34,
+            "one_year": -53.08,
+            "five_years": -21.52
           },
           "chart_points": [
             {
@@ -3633,13 +3690,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.062,
+            "score": -0.062,
             "label": "Neutral",
-            "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
+            "bullish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.187,
+            "delta": -0.124,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -3720,10 +3777,60 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": -0.062,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Bitcoin and ethereum prices today, Monday, May 25, 2026: Down from last week, but rising this morning",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-may-25-2026-down-from-last-week-but-rising-this-morning-121507080.html",
+              "published_at": "2026-05-25T12:15:07Z",
+              "summary": "Bitcoin opened at $76,969.03 on Monday, and as of 8:00 a.m. ET, the price of bitcoin moved higher to $77,292.81. Ethereum opened at $2,097.55 on Monday and was $2,112.89 as of 8:00 a.m. ET."
+            },
+            {
+              "headline": "Ethereum Price Drop Deepens: Tom Lee’s Portfolio Bleeds $7.8 Billion",
+              "source": "CCN",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-price-drop-deepens-tom-143216394.html",
+              "published_at": "2026-05-25T14:32:16Z",
+              "summary": "Tom Lee’s BitMine is facing roughly $7.8 billion in unrealized Ethereum losses as ETH remains deep in a prolonged downtrend. Ethereum has fallen more than ..."
+            },
+            {
+              "headline": "BitMine Considered For Russell 1000 Inclusion",
+              "source": "CryptoProwl",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/bitmine-considered-russell-1000-inclusion-131900602.html",
+              "published_at": "2026-05-25T13:19:00Z",
+              "summary": "Ethereum (CRYPTO: $ETH) treasury company BitMine Immersion Technologies (NYSE: $BMNR) is being considered for inclu..."
+            },
+            {
+              "headline": "How Investors May Respond To BitMine Immersion (BMNR) Share Resale Registration And Added Supply Overhang",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-bitmine-immersion-131307705.html",
+              "published_at": "2026-05-25T13:13:07Z",
+              "summary": "In recent days, BitMine Immersion Technologies filed to register the resale of 501,545 common shares held by existing shareholders, allowing those investors to sell into the open market. This move does not raise new capital for the company but increases potential share supply, which can weigh on sentiment toward crypto-mining equities. Next, we’ll examine how this resale registration and potential selling pressure may shape BitMine Immersion Technologies’ broader investment..."
+            },
+            {
+              "headline": "Robinhood’s Top Crypto Executive Departs Company",
+              "source": "CryptoProwl",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-top-crypto-executive-departs-131000063.html",
+              "published_at": "2026-05-25T13:10:00Z",
+              "summary": "The top cryptocurrency executive at Robinhood Markets (NASDAQ: $HOOD) is leaving the company."
+            },
+            {
+              "headline": "Vitalik Buterin Defends Ethereum’s ‘Unreasonable’ Ideals as Samson Mow Claims He 'Feels Sorry For ETH'",
+              "source": "CCN",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/vitalik-buterin-defends-ethereum-unreasonable-121215718.html",
+              "published_at": "2026-05-25T12:12:15Z",
+              "summary": "Vitalik Buterin defended Ethereum’s long-term focus on decentralization, privacy, and censorship resistance. Bitcoin maximalist Samson Mow and consultant Austin Campbell intensified criticism of Ethereum. Ethereum’s ..."
+            },
             {
               "headline": "Cathie Wood Doubles Down On Peter Thiel's Bullish, Ark Sells Taiwan Semiconductor Stock Amid Spike",
               "source": "Benzinga",
@@ -3737,48 +3844,6 @@
               "url": "https://finance.yahoo.com/markets/crypto/articles/3-month-old-ethereum-foundation-090300304.html",
               "published_at": "2026-05-25T09:03:00Z",
               "summary": "Ethereum Foundation:- When Vitalik Buterin announced on Sunday that the Ethereum Foundation is becoming leaner, making less ETH sells, restructuring itself, the debate about its merits or demerits exploded across crypto social media. But hidden inside that announcement and behind the current executive strategy is another name: Bastian Aue. While Vitalik has been the most"
-            },
-            {
-              "headline": "Why Is The Crypto Market Up Today?",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/why-crypto-market-today-035345690.html",
-              "published_at": "2026-05-25T04:19:54Z",
-              "summary": "Crypto market adds $3.42 billion as Trump's patient Iran strategy resets risk premium and Bitcoin holds $77,000 above Hormuz Letter caveat."
-            },
-            {
-              "headline": "Is Cardano Too Cheap to Ignore Right Now?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/cardano-too-cheap-ignore-now-025000450.html",
-              "published_at": "2026-05-25T02:50:00Z",
-              "summary": "Even at a heavily discounted price, Cardano could be a value trap."
-            },
-            {
-              "headline": "Bitcoin, Ethereum, XRP, Dogecoin Flat Amid Iran Deal Uncertainty: Crypto Commentator Says 'Everyone's Bearish' On ETH, But Data Isn't",
-              "source": "Benzinga",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-ethereum-xrp-dogecoin-flat-015632937.html",
-              "published_at": "2026-05-25T01:56:32Z",
-              "summary": "Leading cryptocurrencies paused gains, while stock futures surged on Sunday after President Donald Trump urged officials not to rush into a deal with Iran. Cryptocurrency24-Hour Gains +/-Price (Recorded at 9:20 p.m. EDT)Bitcoin (CRYPTO: BTC)+0.47%$77,121.91Ethereum (CRYPTO: ETH) -0.73%$2,103.98XRP (CRYPTO: XRP) -0.58%$1.35Solana (CRYPTO: SOL) -0.57%$85.43Dogecoin (CRYPTO: DOGE) -0.56%$0.1024 Crypto Market Lacks Momentum Bitcoin declined to $76,000 during the evening hours, rebounding to $77,000"
-            },
-            {
-              "headline": "Harvard University Sold Some Bitcoin and Ethereum in Q1. Should You?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/harvard-university-sold-bitcoin-ethereum-000900505.html",
-              "published_at": "2026-05-25T00:09:00Z",
-              "summary": "Some investors are concerned that the sales are a sign of renewed institutional skittishness about key cryptoassets."
-            },
-            {
-              "headline": "Will Ethereum Ever Move Past $4,000 Again?",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-ever-move-past-4-214344099.html",
-              "published_at": "2026-05-24T21:43:44Z",
-              "summary": "Ethereum (CRYPTO: ETH) is trading around $2,091 today, down 57% from its all-time high of $4,946, set in August 2025. To move past $4,000 again, Ethereum needs to nearly double from its current price. Ethereum nearly doubling from here is a stretch, but the case for it is stronger than the price suggests. So, we ... Will Ethereum Ever Move Past $4,000 Again?"
-            },
-            {
-              "headline": "Vitalik Buterin Signals Ethereum Foundation Power Cut, ETH Sales Reduced in Major Shift",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/vitalik-buterin-signals-ethereum-foundation-183238304.html",
-              "published_at": "2026-05-24T18:32:38Z",
-              "summary": "Vitalik Buterin signals reduced influence at the Ethereum Foundation as ETH sales slow and the CROPS framework becomes core."
             }
           ],
           "earnings": {
@@ -3802,9 +3867,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 85.88,
+          "price": 86.1,
           "currency": "USD",
-          "market_cap": 49682575360.0,
+          "market_cap": 49832218624.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -3825,10 +3890,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 2.36,
-            "six_months": -35.59,
-            "one_year": -63.36,
-            "five_years": 186.29
+            "one_month": 2.62,
+            "six_months": -35.43,
+            "one_year": -63.26,
+            "five_years": 187.03
           },
           "chart_points": [
             {
@@ -4093,7 +4158,7 @@
             "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.041,
+            "delta": 0.0,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -4169,6 +4234,14 @@
               },
               {
                 "timestamp": "2026-05-25T11:17:59.881802+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 50.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
                 "score": 0.208,
                 "label": "Neutral",
                 "bullish_percent": 50.0,
@@ -4549,13 +4622,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.042,
+            "score": 0.083,
             "label": "Neutral",
-            "bullish_percent": 50.0,
-            "bearish_percent": 25.0,
+            "bullish_percent": 12.5,
+            "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.258,
+            "delta": 0.041,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -4636,65 +4709,73 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.083,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Markets Now Pricing in Rate Hikes Through 2027 as Fed Cut Expectations Evaporate",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/economy/policy/articles/markets-now-pricing-rate-hikes-110057917.html",
-              "published_at": "2026-05-25T11:00:57Z",
-              "summary": "The conversation about the Federal Reserve has flipped in a way that should make anyone holding long-duration assets sit up. A few months ago, the debate was about the cadence of cuts. Now, market strategists are saying the question is how long the Fed will stay on hold, and the curve has actually drifted to ... Markets Now Pricing in Rate Hikes Through 2027 as Fed Cut Expectations Evaporate"
+              "headline": "Is ConocoPhillips (COP) a natural hedge during uncertainties?",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/conocophillips-cop-natural-hedge-during-155410293.html",
+              "published_at": "2026-05-25T15:54:10Z",
+              "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG “Yacktman Focused Fund”. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000® Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue […]"
             },
             {
-              "headline": "3 Services Stocks for Long-Term Investors",
+              "headline": "Here’s Why EOG Resources (EOG) Surged in Q1",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/why-eog-resources-eog-surged-155114268.html",
+              "published_at": "2026-05-25T15:51:14Z",
+              "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG “Yacktman Focused Fund”. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000® Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue […]"
+            },
+            {
+              "headline": "3 Reasons to Avoid SWK and 1 Stock to Buy Instead",
               "source": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-services-stocks-long-term-104351823.html",
-              "published_at": "2026-05-25T10:43:51Z",
-              "summary": "Business services providers play a critical role for enterprises, assisting them with everything from new hardware integrations to consulting and marketing. Furthermore, the demand for their offerings is rising as more clients outsource non-core functions, a trend that has enabled the industry to return 12.9% over the past six months. At the same time, the S&P 500 was up 10%."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-swk-1-154751494.html",
+              "published_at": "2026-05-25T15:47:51Z",
+              "summary": "Stanley Black & Decker has followed the market’s trajectory closely, rising in tandem with the S&P 500 over the past six months. The stock has climbed by 8.1% to $76.46 per share while the index has gained 10%."
             },
             {
-              "headline": "3 Stocks I'd Buy Without Hesitation During a Market Plunge",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-id-buy-without-102000488.html",
-              "published_at": "2026-05-25T10:20:00Z",
-              "summary": "These stocks are must-buys on the dip."
+              "headline": "Microsoft (MSFT) was Hurt by the “SaaSmaggedon” Market Reaction",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-hurt-saasmaggedon-market-154740514.html",
+              "published_at": "2026-05-25T15:47:40Z",
+              "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG “Yacktman Focused Fund”. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000® Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue […]"
             },
             {
-              "headline": "2 Industrials Stocks with Exciting Potential and 1 We Turn Down",
+              "headline": "Self-Storage Business Powers U-Haul Holding Company’s (UHAL) Valuation",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/self-storage-business-powers-u-154521789.html",
+              "published_at": "2026-05-25T15:45:21Z",
+              "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG “Yacktman Focused Fund”. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000® Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue […]"
+            },
+            {
+              "headline": "3 Reasons ALLY is Risky and 1 Stock to Buy Instead",
               "source": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/2-industrials-stocks-exciting-potential-093151690.html",
-              "published_at": "2026-05-25T09:31:51Z",
-              "summary": "Whether you see them or not, industrials businesses play a crucial part in our daily activities. They are also bound to benefit from a friendlier regulatory environment with the Trump administration, and this excitement has led to a six-month gain of 18% for the sector - higher than the S&P 500’s 10% return."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-ally-risky-1-153151086.html",
+              "published_at": "2026-05-25T15:31:51Z",
+              "summary": "Ally Financial currently trades at $42.33 per share and has shown little upside over the past six months, posting a middling return of 3.9%. The stock also fell short of the S&P 500’s 10% gain during that period."
             },
             {
-              "headline": "Here Are My Top 3 High-Yield Dividend Stocks to Buy Now",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-high-yield-dividend-090400151.html",
-              "published_at": "2026-05-25T09:04:00Z",
-              "summary": "These high yields don't come with terrifyingly high risks."
-            },
-            {
-              "headline": "3 Software Stocks That Concern Us",
+              "headline": "3 Reasons NVAX is Risky and 1 Stock to Buy Instead",
               "source": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-software-stocks-concern-us-085951634.html",
-              "published_at": "2026-05-25T08:59:51Z",
-              "summary": "From commerce to culture, software is digitizing every aspect of our lives. Companies bringing it to life have been rewarded with high valuation multiples that make fundraising easier, but they have weighed on the returns lately as the industry has pulled back by 10.1% over the past six months. This drop is a far cry from the S&P 500’s 10% ascent."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-nvax-risky-1-151551945.html",
+              "published_at": "2026-05-25T15:15:51Z",
+              "summary": "Novavax has had an impressive run over the past six months as its shares have beaten the S&P 500 by 27.6%. The stock now trades at $9.21, marking a 37.6% gain. This was partly due to its solid quarterly results, and the run-up might have investors contemplating their next move."
             },
             {
-              "headline": "2 Bank Stocks with Solid Fundamentals and 1 We Ignore",
-              "source": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/2-bank-stocks-solid-fundamentals-085151425.html",
-              "published_at": "2026-05-25T08:51:51Z",
-              "summary": "Banks serve as the backbone of the economy, facilitating lending, deposits, and financial services that keep businesses and consumers moving forward. But worries about an economic slowdown and potential credit deterioration have kept sentiment in check, and over the past six months, the banking industry’s 7.5% return has trailed the S&P 500 by 2.5 percentage points."
-            },
-            {
-              "headline": "1 Industrials Stock with Impressive Fundamentals and 2 That Underwhelm",
-              "source": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/1-industrials-stock-impressive-fundamentals-084351515.html",
-              "published_at": "2026-05-25T08:43:51Z",
-              "summary": "Even if they go mostly unnoticed, industrial businesses are the backbone of our country. Their momentum is also rising as lower interest rates have incentivized higher capital spending. As a result, the industry has posted a 18% gain over the past six months, beating the S&P 500 by 8 percentage points."
+              "headline": "Middle East Conflict Lifted Canadian Natural Resources Limited (CNQ)",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/sectors/energy/articles/middle-east-conflict-lifted-canadian-151341988.html",
+              "published_at": "2026-05-25T15:13:41Z",
+              "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG “Yacktman Focused Fund”. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000® Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue […]"
             }
           ],
           "earnings": {
@@ -5003,13 +5084,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.125,
+            "score": -0.158,
             "label": "Neutral",
-            "bullish_percent": 25.0,
-            "bearish_percent": 0.0,
+            "bullish_percent": 12.5,
+            "bearish_percent": 37.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.342,
+            "delta": -0.283,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -5090,10 +5171,39 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": -0.158,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 37.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/options/articles/jepq-distribution-looks-income-until-140004009.html",
+              "published_at": "2026-05-25T14:00:04Z",
+              "summary": "If you bought JPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) for the monthly checks, you probably think you own a Nasdaq-100 portfolio with a covered-call overlay. That is mostly true. The part that gets less airtime is that JEPQ’s option exposure runs through equity-linked notes, which are unsecured debt of the banks that issue them. ... JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It"
+            },
+            {
+              "headline": "TQQQ’s 3x Promise Quietly Cost Holders 81 Percent in 2022 While the Nasdaq Fell Just 33 Percent",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/options/articles/tqqq-3x-promise-quietly-cost-140002126.html",
+              "published_at": "2026-05-25T14:00:02Z",
+              "summary": "A trader who bought ProShares UltraPro QQQ (NASDAQ:TQQQ) at the start of 2022 expecting the tech rally to continue ended the year down roughly 80%, while the Nasdaq 100 fell about 34%. That gap is the entire argument against treating TQQQ as a buy-and-hold position. The fund did exactly what its prospectus promised on a ... TQQQ’s 3x Promise Quietly Cost Holders 81 Percent in 2022 While the Nasdaq Fell Just 33 Percent"
+            },
+            {
+              "headline": "The Nasdaq’s AI Fast‑Track Will Reshape Big Tech — The S&P Might Be Ready to Change the Rules, Too",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-ai-fast-track-reshape-132454956.html",
+              "published_at": "2026-05-25T13:24:54Z",
+              "summary": "As the biggest IPOs the world has ever seen touch down, the market, as we know it, is about to change its composition in a big way, especially at the top. With the Nasdaq 100 poised to fast-track SpaceX, Anthropic, and OpenAI in just weeks after their debuts, questions linger about what the S&P 500 ... The Nasdaq’s AI Fast‑Track Will Reshape Big Tech — The S&P Might Be Ready to Change the Rules, Too"
+            },
             {
               "headline": "3 Stocks I'd Buy Without Hesitation During a Market Plunge",
               "source": "Motley Fool",
@@ -5128,27 +5238,6 @@
               "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-rebound-3-stocks-buy-020500204.html",
               "published_at": "2026-05-25T02:05:00Z",
               "summary": "These three stocks are well off their highs but could stage big rallies."
-            },
-            {
-              "headline": "Why GlobalFoundries Stock Skyrocketed This Week",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-globalfoundries-stock-skyrocketed-week-180402723.html",
-              "published_at": "2026-05-24T18:04:02Z",
-              "summary": "GlobalFoundries stock is getting a big boost from excitement surrounding quantum computing."
-            },
-            {
-              "headline": "Why Arm Stock Skyrocketed This Week",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-arm-stock-skyrocketed-week-173325547.html",
-              "published_at": "2026-05-24T17:33:25Z",
-              "summary": "On the heels of a huge rally this week, Arm stock is now up roughly 180% in 2026."
-            },
-            {
-              "headline": "The Top 4 ETF Strategies for New Investors",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/options/articles/top-4-etf-strategies-investors-172100365.html",
-              "published_at": "2026-05-24T17:21:00Z",
-              "summary": "If you're new -- or relatively new -- to ETFs, these strategies may give you the confidence you need."
             }
           ],
           "earnings": {
@@ -5156,11 +5245,11 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 84,
+          "score": 76,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is supportive",
-            "mildly positive news tone"
+            "mildly negative news tone"
           ]
         },
         {
@@ -5458,13 +5547,13 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.208,
+            "score": 0.083,
             "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 0.0,
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.348,
+            "delta": -0.125,
             "history": [
               {
                 "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -5545,10 +5634,25 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.083,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Oil Prices Drop on Prospect of Iran Deal, but Investors Aren’t Celebrating Yet",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/finance/oil-prices-drop-on-prospect-of-iran-deal-but-investors-arent-celebrating-yet-6d5a483a?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-05-25T13:42:00Z",
+              "summary": "Brent crude fell more than 5% and Dow Jones Industrial Average futures rallied even as investors remain skeptical about the impact of the U.S.-Iran talks."
+            },
             {
               "headline": "3 Stocks I'd Buy Without Hesitation During a Market Plunge",
               "source": "Motley Fool",
@@ -5597,13 +5701,6 @@
               "url": "https://finance.yahoo.com/economy/policy/articles/trumpflation-roiling-wall-street-may-105600359.html",
               "published_at": "2026-05-24T10:56:00Z",
               "summary": "Two concurrent price shocks, which trace back to decisions made by President Donald Trump, threaten to upend a seemingly unstoppable stock market."
-            },
-            {
-              "headline": "Prediction: It's Only a Matter of Time Before President Donald Trump and Fed Chair Kevin Warsh Are Butting Heads -- and Wall Street May Be the Big Loser",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/economy/policy/articles/prediction-only-matter-time-president-082600694.html",
-              "published_at": "2026-05-24T08:26:00Z",
-              "summary": "Economic dynamics and the new Fed chair's strong views on monetary policy have Warsh and Trump on a collision course."
             }
           ],
           "earnings": {
@@ -5611,11 +5708,10 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 79,
+          "score": 75,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive",
-            "mildly positive news tone"
+            "six-month momentum is supportive"
           ]
         }
       ]
@@ -6002,6 +6098,14 @@
               },
               {
                 "timestamp": "2026-05-25T11:17:59.881802+00:00",
+                "score": 0.083,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
                 "score": 0.083,
                 "label": "Neutral",
                 "bullish_percent": 25.0,
@@ -6455,6 +6559,14 @@
               },
               {
                 "timestamp": "2026-05-25T11:17:59.881802+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
                 "score": 0.208,
                 "label": "Neutral",
                 "bullish_percent": 25.0,
@@ -6914,6 +7026,14 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-05-25T16:03:34.717484+00:00",
+                "score": 0.042,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -7330,13 +7450,13 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.167,
+        "score": 0.125,
         "label": "Neutral",
-        "bullish_percent": 50.0,
-        "bearish_percent": 25.0,
+        "bullish_percent": 37.5,
+        "bearish_percent": 12.5,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": 0.084,
+        "delta": -0.042,
         "history": [
           {
             "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -7417,65 +7537,73 @@
             "bullish_percent": 50.0,
             "bearish_percent": 25.0,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-05-25T16:03:34.717484+00:00",
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "Apple: Strong Execution, But Valuation Leaves Me Cautious",
-          "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-strong-execution-valuation-leaves-111147392.html",
-          "published_at": "2026-05-25T11:11:47Z",
-          "summary": "Q2 was excellent, but at today's valuation a new buyer needs a great deal to go right."
-        },
-        {
-          "headline": "Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year",
+          "headline": "S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know",
           "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-microsoft-capex-wars-110054667.html",
-          "published_at": "2026-05-25T11:00:54Z",
-          "summary": "The Vanguard Mega Cap Growth ETF (NYSEARCA:MGK) is built for capital appreciation, with dividends an afterthought. With a 0.05% expense ratio and a portfolio engineered for capital appreciation, MGK pays a yield so thin it barely registers next to a money market fund. But MGK still distributes cash every quarter, and that cash comes from ... Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividends-just-hit-150510340.html",
+          "published_at": "2026-05-25T15:05:10Z",
+          "summary": "The host of Retire SMART Podcast opened Episode 416 with a number that should stop every income-focused retiree in their tracks. The S&P 500’s dividend yield has fallen to roughly 1.1%, an all-time low going back to the 1800s. His framing was blunt: “The dividend usually fluctuates between 2 and change, and sometimes up to ... S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know"
         },
         {
-          "headline": "This Tech Stock Is Trading Below Where It Was a Year Ago -- but Its Business Has Never Been Stronger",
+          "headline": "Here's How Much You'd Need to Invest in VIG to Generate $500 per Month in Dividends",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tech-stock-trading-below-where-062700899.html",
-          "published_at": "2026-05-25T06:27:00Z",
-          "summary": "Despite a surge in revenue and a massive opportunity ahead of it, Microsoft's stock has slipped over the last year."
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invest-vig-144012963.html",
+          "published_at": "2026-05-25T14:40:12Z",
+          "summary": "The Vanguard Dividend Appreciation ETF (VIG) may be one of the more consistent dividend-growth funds. But it's not one of the biggest yielders."
         },
         {
-          "headline": "Analysis-Ferrari's Luce leads bold leap into uncertain electric era",
-          "source": "Reuters",
-          "url": "https://finance.yahoo.com/news/analysis-ferraris-luce-leads-bold-060900962.html",
-          "published_at": "2026-05-25T06:09:00Z",
-          "summary": "By Giulio Piovaccari ROME, May 25 (Reuters) - As its sports car rivals tap the brakes on a shift to EVs, Ferrari will take a leap into an uncertain era on Monday with the launch of its first fully-"
+          "headline": "Meta urges Labour to burden Apple with age checks",
+          "source": "The Telegraph",
+          "url": "https://finance.yahoo.com/news/meta-urges-labour-burden-apple-142724103.html",
+          "published_at": "2026-05-25T14:27:24Z",
+          "summary": "Meta has urged Labour to enforce age verification checks directly on iPhone and Android smartphones amid a possible UK ban on child users."
         },
         {
-          "headline": "Apple vs. Microsoft: What Their Revenue Trends Reveal for Investors",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-vs-microsoft-revenue-trends-041032559.html",
-          "published_at": "2026-05-25T04:10:32Z",
-          "summary": "One tech giant delivers record-setting sales surges, while the other posts unwavering growth. Recent earnings reveal how each strategy plays out over time."
-        },
-        {
-          "headline": "‘Expect Corrections and Don’t Rely on Hope’: Cramer’s Reality Check for a First-Time Homebuyer",
+          "headline": "JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It",
           "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/expect-corrections-don-t-rely-222154839.html",
-          "published_at": "2026-05-24T22:21:54Z",
-          "summary": "Jim Cramer’s blunt line to a young first-time homebuyer on the May 22 episode of Mad Money: “Expect corrections and don’t rely on hope as an investing strategy.” The caller, a younger investor, had just used a significant portion of his investment assets as a down payment on his first home and asked how to ... ‘Expect Corrections and Don’t Rely on Hope’: Cramer’s Reality Check for a First-Time Homebuyer"
+          "url": "https://finance.yahoo.com/markets/options/articles/jepq-distribution-looks-income-until-140004009.html",
+          "published_at": "2026-05-25T14:00:04Z",
+          "summary": "If you bought JPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) for the monthly checks, you probably think you own a Nasdaq-100 portfolio with a covered-call overlay. That is mostly true. The part that gets less airtime is that JEPQ’s option exposure runs through equity-linked notes, which are unsecured debt of the banks that issue them. ... JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It"
         },
         {
-          "headline": "Qualcomm Stock Is the Sleeping Giant of the AI Revolution. It’s Starting to Wake Up.",
-          "source": "Barchart",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/qualcomm-stock-sleeping-giant-ai-214147300.html",
-          "published_at": "2026-05-24T21:41:47Z",
-          "summary": "Long weighed down by smartphone market stagnation and the impending loss of Apple as a client, Qualcomm is staging a powerful comeback as it transitions to an aggressive offensive in AI data center inference and physical AI."
+          "headline": "Here's How Much a $1000 Investment in Apple Made 10 Years Ago Would Be Worth Today",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-apple-123002846.html",
+          "published_at": "2026-05-25T12:30:02Z",
+          "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards."
         },
         {
-          "headline": "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-favorite-holdings-3-175000577.html",
-          "published_at": "2026-05-24T17:50:00Z",
-          "summary": "New CEO Greg Abel is following in Buffett's footsteps and keeping these positions."
+          "headline": "QQQI’s 14 Percent Yield Was 98 Percent Return of Capital in a Recent Distribution, And That’s the Real Story",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/options/articles/qqqi-14-percent-yield-98-122053874.html",
+          "published_at": "2026-05-25T12:20:53Z",
+          "summary": "The NEOS Nasdaq-100 High Income ETF (NASDAQ:QQQI) paid out $0.6589 per share on May 22, 2026, the latest in a steady run of monthly checks that produce a headline distribution rate near 14%. That number dominates marketing decks and YouTube thumbnails. What QQQI investors mostly do not see is that a recent monthly payout was ... QQQI’s 14 Percent Yield Was 98 Percent Return of Capital in a Recent Distribution, And That’s the Real Story"
+        },
+        {
+          "headline": "Posthaste: Worried about a market bubble? You ain't seen nothing yet, warns top BofA strategist",
+          "source": "Financial Post",
+          "url": "https://finance.yahoo.com/news/posthaste-worried-market-bubble-aint-120708976.html",
+          "published_at": "2026-05-25T12:07:08Z",
+          "summary": "Bubble brewing that rivals the roaring '20s, but bulls won't sell until these two things happen"
+        },
+        {
+          "headline": "Italian Stocks Hit First Record in 26 Years Led by Energy, Chips",
+          "source": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/italian-stocks-hit-first-record-115046033.html",
+          "published_at": "2026-05-25T11:50:46Z",
+          "summary": "(Bloomberg) -- Italy’s benchmark equity index rose past its all-time closing high set in 2000, with a recent rally in energy and chip stocks supercharging it to record levels.Most Read from BloombergNvidia CEO Urges Super Micro to Tighten Up on ComplianceTrump Doctor Visit Renews Health Scrutiny as 80th Birthday NearsTrump Says He’ll Announce Negotiated Deal With Iran ShortlyRubio Sees Good News Coming on Hormuz as Iran Talks ContinueUS, Iran Inch Toward Deal as Gaps Remain on Uranium, Sanctions"
         }
       ],
       "earnings": {
@@ -7823,13 +7951,13 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.208,
+        "score": 0.0,
         "label": "Neutral",
-        "bullish_percent": 37.5,
-        "bearish_percent": 0.0,
+        "bullish_percent": 25.0,
+        "bearish_percent": 12.5,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": -0.084,
+        "delta": -0.208,
         "history": [
           {
             "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -7910,65 +8038,73 @@
             "bullish_percent": 37.5,
             "bearish_percent": 0.0,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-05-25T16:03:34.717484+00:00",
+            "score": 0.0,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year",
+          "headline": "Microsoft (MSFT) was Hurt by the “SaaSmaggedon” Market Reaction",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-hurt-saasmaggedon-market-154740514.html",
+          "published_at": "2026-05-25T15:47:40Z",
+          "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG “Yacktman Focused Fund”. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000® Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue […]"
+        },
+        {
+          "headline": "S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know",
           "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-microsoft-capex-wars-110054667.html",
-          "published_at": "2026-05-25T11:00:54Z",
-          "summary": "The Vanguard Mega Cap Growth ETF (NYSEARCA:MGK) is built for capital appreciation, with dividends an afterthought. With a 0.05% expense ratio and a portfolio engineered for capital appreciation, MGK pays a yield so thin it barely registers next to a money market fund. But MGK still distributes cash every quarter, and that cash comes from ... Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividends-just-hit-150510340.html",
+          "published_at": "2026-05-25T15:05:10Z",
+          "summary": "The host of Retire SMART Podcast opened Episode 416 with a number that should stop every income-focused retiree in their tracks. The S&P 500’s dividend yield has fallen to roughly 1.1%, an all-time low going back to the 1800s. His framing was blunt: “The dividend usually fluctuates between 2 and change, and sometimes up to ... S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know"
         },
         {
-          "headline": "NVIDIA Extends AI Story With Quantum Center And Alice And Bob Bet",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-extends-ai-story-quantum-080753084.html",
-          "published_at": "2026-05-25T08:07:53Z",
-          "summary": "NVIDIA (NasdaqGS:NVDA) has launched a quantum research center as part of its push into quantum computing. The company is partnering with and investing in quantum startups, including French firm Alice & Bob, which focuses on error resistant qubits. These steps come while other companies such as Microsoft and IonQ are also focusing on quantum computing progress. NVIDIA is widely known for AI chips and data center hardware, which sit at the core of many current AI and accelerated computing..."
-        },
-        {
-          "headline": "This Tech Stock Is Trading Below Where It Was a Year Ago -- but Its Business Has Never Been Stronger",
+          "headline": "Here's How Much You'd Need to Invest in VIG to Generate $500 per Month in Dividends",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tech-stock-trading-below-where-062700899.html",
-          "published_at": "2026-05-25T06:27:00Z",
-          "summary": "Despite a surge in revenue and a massive opportunity ahead of it, Microsoft's stock has slipped over the last year."
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invest-vig-144012963.html",
+          "published_at": "2026-05-25T14:40:12Z",
+          "summary": "The Vanguard Dividend Appreciation ETF (VIG) may be one of the more consistent dividend-growth funds. But it's not one of the biggest yielders."
         },
         {
-          "headline": "IAC Conference Highlights People Inc. Pivot, AI Licensing Upside and MGM Bet",
-          "source": "MarketBeat",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/iac-conference-highlights-people-inc-060210450.html",
-          "published_at": "2026-05-25T06:02:10Z",
-          "summary": "IAC (NASDAQ:IAC) is continuing its transformation from a holding company into People Incorporated, with executives describing the shift as a continuation of a strategy outlined earlier this year that includes asset sales, cost reductions and a sharper focus on People Inc. and MGM Resorts Internation"
+          "headline": "JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/options/articles/jepq-distribution-looks-income-until-140004009.html",
+          "published_at": "2026-05-25T14:00:04Z",
+          "summary": "If you bought JPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) for the monthly checks, you probably think you own a Nasdaq-100 portfolio with a covered-call overlay. That is mostly true. The part that gets less airtime is that JEPQ’s option exposure runs through equity-linked notes, which are unsecured debt of the banks that issue them. ... JEPQ’s Distribution Looks Like Income Until You See the ELN Counterparty Risk Behind It"
         },
         {
-          "headline": "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-gates-foundation-sold-052000277.html",
-          "published_at": "2026-05-25T05:20:00Z",
-          "summary": "Microsoft has always been a standout stock for the foundation's portfolio."
+          "headline": "Your Chatbot Has a Long Memory. That Isn’t Always a Good Thing.",
+          "source": "The Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/ai-memory-cd1de7f4?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-05-25T14:00:00Z",
+          "summary": "It may keep offering you advice based on information that may be dated—or wasn’t even about you in the first place."
         },
         {
-          "headline": "Apple vs. Microsoft: What Their Revenue Trends Reveal for Investors",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-vs-microsoft-revenue-trends-041032559.html",
-          "published_at": "2026-05-25T04:10:32Z",
-          "summary": "One tech giant delivers record-setting sales surges, while the other posts unwavering growth. Recent earnings reveal how each strategy plays out over time."
+          "headline": "SpaceX’s $2 Trillion Pitch: Is Elon Musk Quietly Building a Backup Internet for Civilization?",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/spacex-2-trillion-pitch-elon-132227629.html",
+          "published_at": "2026-05-25T13:22:27Z",
+          "summary": "On a recent All-In Podcast episode dissecting SpaceX’s S-1 filing, guest investor Gavin Baker and the hosts framed Elon Musk’s privately held rocket and connectivity empire as something more ambitious than a high-growth tech company. David Friedberg argued that “having a space-based communication network, space-based data centers, and space-based communication back down to Earth wireless” ... SpaceX’s $2 Trillion Pitch: Is Elon Musk Quietly Building a Backup Internet for Civilization?"
         },
         {
-          "headline": "His piano lessons strike a chord with kids. It's music to parents' ears.",
-          "source": "USA TODAY",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/piano-lessons-strike-chord-kids-235542917.html",
-          "published_at": "2026-05-24T23:55:42Z",
-          "summary": "This 32-year-old piano teacher's method won over kids. Now a tech maverick, a Shark Tank tycoon and a Hollywood composer are helping him go national."
+          "headline": "AI Bubble Fears Grow as Big Tech Allegedly Pays Itself in Cloud Loop",
+          "source": "BeInCrypto",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/ai-bubble-fears-grow-big-131548421.html",
+          "published_at": "2026-05-25T13:15:48Z",
+          "summary": "AI bubble fears grow as Big Tech allegedly recycles AI investments into cloud revenue, fueling dot-com style worries."
         },
         {
-          "headline": "2 Quantum Computing Stocks That Are Further Along Than Anyone Is Giving Them Credit For",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/2-quantum-computing-stocks-further-223000452.html",
-          "published_at": "2026-05-24T22:30:00Z",
-          "summary": "One of these players is a tech giant, while the other is a small pure-play quantum company."
+          "headline": "Trump’s Science Advisor Calls Nuclear EO ‘Most Consequential Day’ Since Atoms for Peace in 1953",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/trump-science-advisor-calls-nuclear-123424577.html",
+          "published_at": "2026-05-25T12:34:24Z",
+          "summary": "When a sitting administration’s top science advisor invokes Eisenhower’s 1953 Atoms for Peace speech to frame a present-day policy move, investors should pay attention. That is exactly what happened at the Operation Gigawatt Summit, where Michael Kratsios, Chief Science and Tech Policy Advisor to President Trump, anchored the case for a structural reordering of US ... Trump’s Science Advisor Calls Nuclear EO ‘Most Consequential Day’ Since Atoms for Peace in 1953"
         }
       ],
       "earnings": {
@@ -8325,13 +8461,13 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.0,
+        "score": 0.208,
         "label": "Neutral",
-        "bullish_percent": 25.0,
+        "bullish_percent": 50.0,
         "bearish_percent": 12.5,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": -0.375,
+        "delta": 0.208,
         "history": [
           {
             "timestamp": "2026-05-20T12:43:47.257018+00:00",
@@ -8412,65 +8548,73 @@
             "bullish_percent": 25.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-05-25T16:03:34.717484+00:00",
+            "score": 0.208,
+            "label": "Neutral",
+            "bullish_percent": 50.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "Elon Musk wants to put data centers in space — here's what that could actually look like",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/elon-musk-wants-to-put-data-centers-in-space--heres-what-that-could-actually-look-like-143000204.html",
-          "published_at": "2026-05-24T14:30:00Z",
-          "summary": "SpaceX founder Elon Musk has said that he wants to put data centers in space for efficiency. One expert told Yahoo Finance how it would actually work."
-        },
-        {
-          "headline": "Scenes from the Memorial Day investing road: Takeaways on Walmart, Nvidia, and GameStop",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/scenes-from-the-memorial-day-investing-road-takeaways-on-walmart-nvidia-and-gamestop-123000395.html",
-          "published_at": "2026-05-24T12:30:00Z",
-          "summary": "A big week for investors, let's not overlook it."
-        },
-        {
-          "headline": "Kevin Warsh Sworn In as Fed Chair With Lowest Senate Votes Ever Amid Independence Concerns",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-sworn-fed-chair-111032652.html",
-          "published_at": "2026-05-25T11:10:32Z",
-          "summary": "Kevin Warsh takes the oath as Federal Reserve chair on Friday in a White House ceremony, only the second Fed swearing-in held at the executive mansion in nearly 40 years. The last was Ronald Reagan hosting Alan Greenspan in 1987, a tableau the Trump White House is happy to revive. The optics matter because Warsh ... Kevin Warsh Sworn In as Fed Chair With Lowest Senate Votes Ever Amid Independence Concerns"
-        },
-        {
-          "headline": "Markets Now Pricing in Rate Hikes Through 2027 as Fed Cut Expectations Evaporate",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/economy/policy/articles/markets-now-pricing-rate-hikes-110057917.html",
-          "published_at": "2026-05-25T11:00:57Z",
-          "summary": "The conversation about the Federal Reserve has flipped in a way that should make anyone holding long-duration assets sit up. A few months ago, the debate was about the cadence of cuts. Now, market strategists are saying the question is how long the Fed will stay on hold, and the curve has actually drifted to ... Markets Now Pricing in Rate Hikes Through 2027 as Fed Cut Expectations Evaporate"
-        },
-        {
-          "headline": "Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-microsoft-capex-wars-110054667.html",
-          "published_at": "2026-05-25T11:00:54Z",
-          "summary": "The Vanguard Mega Cap Growth ETF (NYSEARCA:MGK) is built for capital appreciation, with dividends an afterthought. With a 0.05% expense ratio and a portfolio engineered for capital appreciation, MGK pays a yield so thin it barely registers next to a money market fund. But MGK still distributes cash every quarter, and that cash comes from ... Why Apple and Microsoft’s Capex Wars Will Make or Break Your MGK Income This Year"
-        },
-        {
-          "headline": "Is Walmart Stock Still a Safe Haven as Its Price Sinks With Consumer Pressures Intensifying?",
+          "headline": "SSR Mining Is Selling Its Interest in the Copler Mine for $1.5 Billion. Is This a Positive Sign for the Mining Stock?",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-still-safe-haven-104000075.html",
-          "published_at": "2026-05-25T10:40:00Z",
-          "summary": "Walmart stock has traditionally outperformed during recessions."
+          "url": "https://finance.yahoo.com/markets/commodities/articles/ssr-mining-selling-interest-copler-155000940.html",
+          "published_at": "2026-05-25T15:50:00Z",
+          "summary": "The gold miner is coming off a strong year and expects this year to be even better as it builds a strong balance sheet."
         },
         {
-          "headline": "3 Stocks I'd Buy Without Hesitation During a Market Plunge",
+          "headline": "Why AGNC Investment's Net Interest Spread Matters More Than Its 14% Dividend Yield",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-id-buy-without-102000488.html",
-          "published_at": "2026-05-25T10:20:00Z",
-          "summary": "These stocks are must-buys on the dip."
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-agnc-investments-net-interest-152146121.html",
+          "published_at": "2026-05-25T15:21:46Z",
+          "summary": "This mREIT's core business is gradually stabilizing in this choppy market."
         },
         {
-          "headline": "Gas Shortages Are Coming, and Chevron's CEO Says Economies Will Have to Slow. These Consumer Stocks Are Most at Risk.",
+          "headline": "If You'd Invested Just $1,000 in SMH 5 Years Ago, Here's What You'd Have Today",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/gas-shortages-coming-chevrons-ceo-094700396.html",
-          "published_at": "2026-05-25T09:47:00Z",
-          "summary": "You may already be factoring the impact of higher gas prices into your investment strategies, but are you prepared for the imminent global oil shortage?"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/youd-invested-just-1-000-151900788.html",
+          "published_at": "2026-05-25T15:19:00Z",
+          "summary": "Semiconductor stocks have been red hot over the past few years. Just how hot might surprise you."
+        },
+        {
+          "headline": "S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividends-just-hit-150510340.html",
+          "published_at": "2026-05-25T15:05:10Z",
+          "summary": "The host of Retire SMART Podcast opened Episode 416 with a number that should stop every income-focused retiree in their tracks. The S&P 500’s dividend yield has fallen to roughly 1.1%, an all-time low going back to the 1800s. His framing was blunt: “The dividend usually fluctuates between 2 and change, and sometimes up to ... S&P 500 Dividends Just Hit an All-Time Low Going Back to the 1800s — Here’s What Retirees Need to Know"
+        },
+        {
+          "headline": "ARM Targets the AI Data Center Opportunity With New AGI CPU Push",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/arm-targets-ai-data-center-145300405.html",
+          "published_at": "2026-05-25T14:53:00Z",
+          "summary": "Arm Holdings targets AI data centers with its new AGI CPU, betting agentic AI workloads will drive demand for Arm-based infrastructure."
+        },
+        {
+          "headline": "Gain Exposure to Innovative AI Chipmaker Cerebras With Less Risk Through These ETFs",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gain-exposure-innovative-ai-chipmaker-145000121.html",
+          "published_at": "2026-05-25T14:50:00Z",
+          "summary": "If you're feeling conflicted about buying shares of the wafer-scale engine specialist so soon after its IPO, a more diversified tech exchange-traded fund that includes the stock in its portfolio could be the right solution for you."
+        },
+        {
+          "headline": "Here's How Much You'd Need to Invest in VIG to Generate $500 per Month in Dividends",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invest-vig-144012963.html",
+          "published_at": "2026-05-25T14:40:12Z",
+          "summary": "The Vanguard Dividend Appreciation ETF (VIG) may be one of the more consistent dividend-growth funds. But it's not one of the biggest yielders."
+        },
+        {
+          "headline": "IREN’s CEO Just Said 11 Words that Delivered the AI Boom a Brutal Reality Check",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/iren-ceo-just-said-11-142835688.html",
+          "published_at": "2026-05-25T14:28:35Z",
+          "summary": "The artificial intelligence boom has kicked off one of the largest infrastructure races since the early internet era. Nvidia (NASDAQ:NVDA) GPUs are selling faster than they can be packaged. High-bandwidth memory has become scarce enough that companies like Micron Technology (NASDAQ:MU) and SK hynix are effectively sold out months in advance. Utilities from Virginia to ... IREN’s CEO Just Said 11 Words that Delivered the AI Boom a Brutal Reality Check"
         }
       ],
       "earnings": {
