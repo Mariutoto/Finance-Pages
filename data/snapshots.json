@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T15:45:54.666858+00:00",
+  "generated_at": "2026-06-25T21:06:33.950919+00:00",
   "source": "Yahoo Finance via yfinance + Finnhub when configured",
   "disclaimer": "Educational snapshot only. Not financial advice.",
   "asset_groups": [
@@ -18,17 +18,17 @@
           "sector": "Technology",
           "industry": "Consumer Electronics",
           "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
-          "price": 279.53,
+          "price": 275.15,
           "currency": "USD",
-          "market_cap": 4105556459520.0,
+          "market_cap": 4041225797632.0,
           "enterprise_value": 4320774324224.0,
           "dividend_yield": 0.37,
           "beta": 1.086,
-          "trailing_pe": 33.841404,
-          "forward_pe": 29.087074,
+          "trailing_pe": 33.31114,
+          "forward_pe": 28.634851,
           "peg_ratio": 2.37,
-          "price_to_sales": 9.0943165,
-          "price_to_book": 38.502754,
+          "price_to_sales": 8.951816,
+          "price_to_book": 37.89945,
           "profit_margin": 27.15,
           "operating_margin": 32.27,
           "gross_margin": 47.86,
@@ -41,10 +41,10 @@
           "analyst_target_mean": 315.09048,
           "number_of_analyst_opinions": 42,
           "performance": {
-            "one_month": -9.48,
-            "six_months": 3.35,
-            "one_year": 40.11,
-            "five_years": 115.44
+            "one_month": -10.9,
+            "six_months": 1.73,
+            "one_year": 37.91,
+            "five_years": 109.44
           },
           "chart_points": [
             {
@@ -349,22 +349,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.0,
+            "score": 0.183,
             "label": "Neutral",
             "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.042,
+            "delta": 0.183,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.083,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.208,
@@ -596,65 +588,73 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.183,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Tech stocks live: AI memory trade roars back after Micron earnings crush estimates",
+              "headline": "Apple stock plunges after raising prices on MacBooks, iPads amid global memory crisis",
               "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-ai-memory-trade-roars-back-after-micron-earnings-crush-estimates-143422690.html",
-              "published_at": "2026-06-22T14:34:22Z",
-              "summary": "Memory giant Micron (MU) will report its third quarter earnings after the bell on Wednesday, providing another update on the broader AI build-out."
+              "url": "https://finance.yahoo.com/technology/article/apple-stock-plunges-after-raising-prices-on-macbooks-ipads-amid-global-memory-crisis-140406938.html",
+              "published_at": "2026-06-25T14:04:06Z",
+              "summary": "Apple is increasing prices on some of its MacBooks and iPads to offset the impact of the global memory crisis."
             },
             {
-              "headline": "Apple announces price hikes on Mac and iPad devices",
-              "source": "Axios",
-              "url": "https://finance.yahoo.com/technology/articles/apple-announces-price-hikes-mac-151322462.html",
-              "published_at": "2026-06-25T15:13:22Z",
-              "summary": "Apple increased prices on MacBook and iPad devices Thursday, saying that AI data center investments have triggered a chain reaction that forced its hand."
+              "headline": "Big Tech stocks tumble while Micron continues to gain on Q3 earnings",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/big-tech-stocks-tumble-while-191535676.html",
+              "published_at": "2026-06-25T19:15:35Z",
+              "summary": "US stocks (^DJI, ^IXIC, ^GSPC) search for direction ahead of Thursday's session close, while Micron Technology (MU) holds onto gains following its massive earnings beat yesterday. Yahoo Finance Markets and Data Editor Jared Blikre takes a closer look at the day's market moves, Big Tech stocks, and how Micron's stock gains may be impacting Apple (AAPL)."
             },
             {
-              "headline": "AAPL Stock Drops 6% After Apple Passes AI-Driven Chip Costs to Consumers",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/aapl-stock-drops-6-apple-145432149.html",
-              "published_at": "2026-06-25T14:54:32Z",
-              "summary": "Apple raised Mac and iPad prices as an AI memory shortage lifted costs, and the stock fell on demand fears."
+              "headline": "May PCE: Inflation ticks up to highest level since 2023",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/may-pce-inflation-ticks-highest-135200649.html",
+              "published_at": "2026-06-25T13:52:00Z",
+              "summary": "May's Personal Consumption Expenditures (PCE) index — the Federal Reserve's preferred inflation gauge — saw inflation rise 0.4% month-over-month and 4.1% year-over-year Core PCE, which excludes food and energy prices, rose 0.3% monthly and 3.4% annually, marking the highest level since 2023. Morning Brief Host Julie Hyman is joined by Yahoo Finance Tech Editor Dan Howley and Epistrophy Capital Research chief market strategist Cory Johnson to further examine rising price trends."
             },
             {
-              "headline": "Apple raises Mac and iPad prices, spares iPhone for now",
-              "source": "TechCrunch",
-              "url": "https://finance.yahoo.com/technology/articles/apple-raises-mac-ipad-prices-145235673.html",
-              "published_at": "2026-06-25T14:52:35Z",
-              "summary": "Apple raises prices of MacBook Air and Pro along with iPad Air and Pro"
+              "headline": "Alphabet makes the Dow look more like the Nasdaq",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/alphabet-makes-the-dow-look-more-like-the-nasdaq-155236659.html",
+              "published_at": "2026-06-24T15:52:36Z",
+              "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
             },
             {
-              "headline": "Apple stock falls on MacBook and iPad price hikes",
-              "source": "Quartz",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-falls-macbook-ipad-144640996.html",
-              "published_at": "2026-06-25T14:46:40Z",
-              "summary": "Apple raised prices by up to $300 on five products Thursday, blaming an AI-driven surge in memory and storage costs"
+              "headline": "Nasdaq falls again on mixed day for US stocks, oil prices rise",
+              "source": "AFP",
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-stocks-soar-asia-tech-025740744.html",
+              "published_at": "2026-06-25T20:56:00Z",
+              "summary": "The Nasdaq fell for the fourth straight session Thursday behind weakness in Apple and other tech giants while oil prices pushed higher after a cargo ship was attacked in the Strait of Hormuz. The cargo ship was damaged by an unknown projectile off the Omani coast in the strategic strait on Thursday, prompting the International Maritime Organization to halt an evacuation of crews trapped by the US-Iran war."
             },
             {
-              "headline": "Stock Market Today: Indexes Volatile; Micron Surges, But Apple Makes Sell Signal (Live Coverage)",
+              "headline": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-mixed-signals-micron-flies-apple-dives/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:55:29Z",
+              "summary": "The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower."
+            },
+            {
+              "headline": "Stock Market Today: Indexes Mixed; S&P 500 Barely Holds This Significant Level (Live Coverage)",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-micron-stock-mu/?src=A00220&yptr=yahoo",
-              "published_at": "2026-06-25T14:39:59Z",
-              "summary": "The stock market was volatile Thursday morning, reversing lower in the opening phase before quickly rebounding.  Apple stock tumbled and technology stocks in general reversed lower.  The Dow Jones Industrial Average and other major stock indexes opened higher on the stock market today after a stronger-than-expected GDP reading."
+              "published_at": "2026-06-25T20:44:45Z",
+              "summary": "The stock market closed mixed Thursday, with the Nasdaq composite down 0.5%.  The bullish mood that Micron Technology's earnings report engendered didn't spread to many of the major tech stocks.  The Nasdaq closed below its 50-day line for a third straight day."
             },
             {
-              "headline": "Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage",
-              "source": "CNN Business",
-              "url": "https://finance.yahoo.com/technology/articles/apple-hiking-prices-macbooks-ipads-134446334.html",
-              "published_at": "2026-06-25T14:35:51Z",
-              "summary": "Apple has hiked prices on some of its most popular products, including the MacBook and iPad, because of the rising costs of memory and storage chips sparked by the AI boom."
-            },
-            {
-              "headline": "Why the Dow Is Soaring But the Nasdaq Is Falling",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/why-the-dow-is-soaring-but-the-nasdaq-is-falling-WHcXPsuw4gNuvtyGDQe3?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:31:29Z",
-              "summary": "The stock market is leaving Big Tech stocks in the dust. The Dow surged 733 points, or 1.4%, while the S&P 500 gained 0.3%. The Nasdaq, which was up nearly 1% at the open, was down 0.6%. More than four-in-five S&P 500 stocks were set to close higher, but the Roundhill Magnificent Seven ETF dropped 2%."
+              "headline": "Apple Just Dropped 6%. Here’s Why Some Investors Are Buying",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-dropped-6-why-203327355.html",
+              "published_at": "2026-06-25T20:33:27Z",
+              "summary": "Apple (NASDAQ:AAPL) became the focal point of a CNBC investment-committee debate after the company raised prices across its Mac, iPad, HomePod, and Vision Pro lines to offset surging memory and storage chip costs. The move sent the stock down 6.2% on Thursday, June 25. Now, some investors are wondering whether this marks a good entry point ... Apple Just Dropped 6%. Here’s Why Some Investors Are Buying"
             }
           ],
           "earnings": {
@@ -680,17 +680,17 @@
           "sector": "Technology",
           "industry": "Software - Infrastructure",
           "summary": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics products and cloud services, such as dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services comprising Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; server products, including SQL and windows server, visual studio and system center related client access licenses, and other on-premises offerings; enterprise and partner services, such as enterprise support and nuance professional services, industry solutions, Microsoft partner network, and learning experience. The Personal Computing segment provides windows and devices, such as Windows OEM licensing and devices and surface and PC accessories; gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox game pass, subscriptions, and cloud gaming, advertising, and other cloud services; search and news advertising services. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company has a strategic collaboration with Mayo Clinic, Inc. for the development of a frontier AI model for healthcare; and Global Objects, Inc. to build a retrieval-grounded generative AI world model. The company was founded in 1975 and is headquartered in Redmond, Washington.",
-          "price": 356.21,
+          "price": 352.83,
           "currency": "USD",
-          "market_cap": 2645860024320.0,
+          "market_cap": 2620974694400.0,
           "enterprise_value": 2761999777792.0,
           "dividend_yield": 1.0,
           "beta": 1.103,
-          "trailing_pe": 21.239117,
-          "forward_pe": 18.38933,
+          "trailing_pe": 21.039354,
+          "forward_pe": 18.216372,
           "peg_ratio": 1.13,
-          "price_to_sales": 8.313878,
-          "price_to_book": 6.385786,
+          "price_to_sales": 8.234989,
+          "price_to_book": 6.3257256,
           "profit_margin": 39.34,
           "operating_margin": 46.33,
           "gross_margin": 68.31,
@@ -700,13 +700,13 @@
           "debt_to_equity": 30.271,
           "free_cashflow": 37011251200.0,
           "recommendation_key": "strong_buy",
-          "analyst_target_mean": 561.38763,
+          "analyst_target_mean": 561.1149,
           "number_of_analyst_opinions": 55,
           "performance": {
-            "one_month": -14.9,
-            "six_months": -26.21,
-            "one_year": -26.74,
-            "five_years": 40.06
+            "one_month": -15.71,
+            "six_months": -26.92,
+            "one_year": -27.44,
+            "five_years": 36.81
           },
           "chart_points": [
             {
@@ -1002,22 +1002,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": -0.146,
+            "score": 0.01,
             "label": "Neutral",
-            "bullish_percent": 12.5,
-            "bearish_percent": 37.5,
+            "bullish_percent": 25.0,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.229,
+            "delta": 0.156,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.042,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": -0.042,
@@ -1249,65 +1241,73 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 37.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.01,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Qualcomm's 'next phase' is AI rack infrastructure: CFO",
+              "headline": "Micron earnings beat fuels hopes for Tech rally rebound",
               "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/qualcomms-next-phase-ai-rack-145505993.html",
-              "published_at": "2026-06-25T14:55:05Z",
-              "summary": "Qualcomm (QCOM) CFO and COO Akash Palkhiwala joins Yahoo Finance Tech Editor Dan Howley to discuss the AI chipmaker's expansion into the AI data center industry with its new server rack."
+              "url": "https://finance.yahoo.com/video/micron-earnings-beat-fuels-hopes-194500066.html",
+              "published_at": "2026-06-25T19:45:00Z",
+              "summary": "TECHnalysis Research President Bob O'Donnell joins Josh Lipton on Market Domination to break down Micron's (MU) strong earnings beat and what it could mean for a broader tech rally rebound."
             },
             {
-              "headline": "Stifel cuts Microsoft target, says Street FY27 gross margin estimates are too high",
-              "source": "Investing.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-cuts-microsoft-target-says-150503186.html",
-              "published_at": "2026-06-25T15:05:03Z",
-              "summary": "Investing.com -- Stifel has cut its price target on Microsoft to $400, warning that Wall Street’s fiscal year 2027 gross margin estimates fail to capture the drag from Azure’s rapid growth and compressing cloud margins driven by accelerating capital expenditure."
+              "headline": "Alphabet makes the Dow look more like the Nasdaq",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/alphabet-makes-the-dow-look-more-like-the-nasdaq-155236659.html",
+              "published_at": "2026-06-24T15:52:36Z",
+              "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
             },
             {
-              "headline": "Nvidia Stock Slips Below $200, and the Competition Fears Are Growing",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/nvidia-stock-price-chip-competition-8a703dd9?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:46:00Z",
-              "summary": "Nvidia  was falling early Thursday after rising throughout premarket trading as initial semiconductor cheer from Micron earnings quickly reversed.  Nvidia shares were down 2% at $2194.98 in early trading after  Micron Technology  blowout earnings.  As Barron’s has written, Nvidia looked to be establishing a trading range with a floor of roughly $200, after breaking through that level in April."
+              "headline": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-mixed-signals-micron-flies-apple-dives/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:55:29Z",
+              "summary": "The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower."
             },
             {
-              "headline": "The New Push to Ready Millions for AI Career Upheaval",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/lifestyle/careers/the-new-push-to-ready-millions-for-ai-career-upheaval-dfb04cc5?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:43:00Z",
-              "summary": "A coalition of employers and state governments says it is developing a sweeping strategy to help workers respond to the AI age."
+              "headline": "Stock Market Today: Indexes Mixed; S&P 500 Barely Holds This Significant Level (Live Coverage)",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-micron-stock-mu/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:44:45Z",
+              "summary": "The stock market closed mixed Thursday, with the Nasdaq composite down 0.5%.  The bullish mood that Micron Technology's earnings report engendered didn't spread to many of the major tech stocks.  The Nasdaq closed below its 50-day line for a third straight day."
             },
             {
-              "headline": "Qualcomm unveils data center AI chips, Meta as CPU customer",
-              "source": "Quartz",
-              "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-unveils-data-center-ai-141725469.html",
-              "published_at": "2026-06-25T14:17:25Z",
-              "summary": "The chipmaker unveiled its Dragonfly portfolio at an investor day, targeting more than $15 billion in data center revenue by fiscal 2029"
+              "headline": "Update: Nasdaq Extends Losing Streak; Apple Plunges After Price Hikes",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-extends-losing-streak-apple-202855276.html",
+              "published_at": "2026-06-25T20:28:55Z",
+              "summary": "(Updates with market moves at the end of the day.) The Nasdaq Composite extended its losing strea"
             },
             {
-              "headline": "S&P 500, Nasdaq drop as tech megacap declines outweigh upbeat Micron forecast",
+              "headline": "Wall St ends mixed as tech megacap declines outweigh upbeat chip outlook",
               "source": "Reuters",
               "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-2-micron-073003123.html",
-              "published_at": "2026-06-25T14:10:31Z",
-              "summary": "By Twesha Dikshit and Joel Jose June 25 (Reuters) - The S&P 500 and the Nasdaq dropped on Thursday as declines in big technology names weighed despite strong forecasts from Micron and Qualcomm aiding"
+              "published_at": "2026-06-25T20:27:26Z",
+              "summary": "By Abigail Summerville, Twesha Dikshit and Joel Jose June 25 (Reuters) - The Nasdaq closed lower on Thursday, dragged down by losses in Big Tech shares, while the S&P closed near flat and the Dow"
             },
             {
-              "headline": "Will Gaming Expansion Help Microsoft Anchor the Cloud Reach?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/technology/articles/gaming-expansion-help-microsoft-anchor-140000783.html",
-              "published_at": "2026-06-25T14:00:00Z",
-              "summary": "MSFT's gaming revenues fall as Xbox hardware slumps, but cloud streaming, Game Pass and new content may deepen ties to its cloud ecosystem."
-            },
-            {
-              "headline": "Microsoft’s Stock Is Crippled",
+              "headline": "Melius Research: “Buy the chip dip, skip hyperscalers” until AI payoff becomes clear",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-crippled-135408285.html",
-              "published_at": "2026-06-25T13:54:08Z",
-              "summary": "AI was supposed to be a tide that lifted all ships within the sector. Microsoft (NASDAQ: MSFT) is the leading exception. So far this year, the stock is down 24%. The market is 7% higher, and the market’s long-term trade is just bad or worse. Over the last five years, the stock has risen 38% ... Microsoft’s Stock Is Crippled"
+              "url": "https://finance.yahoo.com/technology/ai/articles/melius-research-buy-chip-dip-201917445.html",
+              "published_at": "2026-06-25T20:19:17Z",
+              "summary": "Melius Research’s head of tech research, Ben Reitzes, told CNBC to lean into chip-stock weakness and stay clear of the cloud giants paying for the buildout. “I’m telling them to buy on the dip. These have been opportunities in the past, and we just don’t really see any change,” Reitzes said. His list of buys ... Melius Research: “Buy the chip dip, skip hyperscalers” until AI payoff becomes clear"
+            },
+            {
+              "headline": "MSFT Stock Slides 4.5% — Microsoft Price Target Revision By Stifel And Xbox Pricing Changes In Focus",
+              "source": "Stocktwits",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-slides-4-5-200936585.html",
+              "published_at": "2026-06-25T20:09:36Z",
+              "summary": "Microsoft said it will raise Xbox console prices globally from August 1, with 512 GB models up $100 and 1 TB models up $150."
             }
           ],
           "earnings": {
@@ -1315,7 +1315,7 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 96,
+          "score": 100,
           "rating_reasons": [
             "solid revenue growth",
             "high net margins",
@@ -1333,17 +1333,17 @@
           "sector": "Technology",
           "industry": "Semiconductors",
           "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-          "price": 196.13,
+          "price": 195.74,
           "currency": "USD",
-          "market_cap": 4750465040384.0,
+          "market_cap": 4741018419200.0,
           "enterprise_value": 4775442120704.0,
           "dividend_yield": 0.5,
           "beta": 2.202,
-          "trailing_pe": 30.035221,
-          "forward_pe": 15.408112,
-          "peg_ratio": 0.64,
-          "price_to_sales": 18.740171,
-          "price_to_book": 24.303595,
+          "trailing_pe": 29.975498,
+          "forward_pe": 15.377473,
+          "peg_ratio": 0.61,
+          "price_to_sales": 18.702906,
+          "price_to_book": 24.255268,
           "profit_margin": 62.97,
           "operating_margin": 65.6,
           "gross_margin": 74.14,
@@ -1356,10 +1356,10 @@
           "analyst_target_mean": 298.9322,
           "number_of_analyst_opinions": 59,
           "performance": {
-            "one_month": -8.81,
-            "six_months": 6.91,
-            "one_year": 32.79,
-            "five_years": 934.2
+            "one_month": -8.99,
+            "six_months": 6.69,
+            "one_year": 32.52,
+            "five_years": 882.82
           },
           "chart_points": [
             {
@@ -1664,22 +1664,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.333,
-            "label": "Positive",
-            "bullish_percent": 50.0,
+            "score": -0.042,
+            "label": "Neutral",
+            "bullish_percent": 0.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.166,
+            "delta": -0.375,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.083,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.083,
@@ -1911,65 +1903,73 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": -0.042,
+                "label": "Neutral",
+                "bullish_percent": 0.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "May PCE: Inflation ticks up to highest level since 2023",
-              "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/may-pce-inflation-ticks-highest-135200649.html",
-              "published_at": "2026-06-25T13:52:00Z",
-              "summary": "May's Personal Consumption Expenditures (PCE) index — the Federal Reserve's preferred inflation gauge — saw inflation rise 0.4% month-over-month and 4.1% year-over-year Core PCE, which excludes food and energy prices, rose 0.3% monthly and 3.4% annually, marking the highest level since 2023. Morning Brief Host Julie Hyman is joined by Yahoo Finance Tech Editor Dan Howley and Epistrophy Capital Research chief market strategist Cory Johnson to further examine rising price trends."
-            },
-            {
-              "headline": "Trending: OpenAI, Broadcom target Nvidia's AI chip dominance; Wendy's sees meme stock boost",
-              "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/trending-openai-broadcom-target-nvidias-194722853.html",
-              "published_at": "2026-06-24T19:47:22Z",
-              "summary": "Yahoo Finance's Josh Lipton takes a closer look at some of Wednesday's trending tickers and stories, including Broadcom's (AVGO) partnership with OpenAI (OPAI.PVT), Cerebras's (CBRS) first quarterly earnings report, and Wendy's (WEN) meme stock status."
-            },
-            {
-              "headline": "Qualcomm debuts line of AI data center chips and systems, increasing competition with Nvidia",
+              "headline": "Sandisk, Western Digital, and others soar as Micron results  'justify elevated valuations'",
               "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/technology/article/qualcomm-debuts-line-of-ai-data-center-chips-and-systems-increasing-competition-with-nvidia-193000684.html",
-              "published_at": "2026-06-24T19:30:00Z",
-              "summary": "Qualcomm is increasing its line of AI data center products as it looks to grow its share of the market."
+              "url": "https://finance.yahoo.com/markets/article/sandisk-western-digital-and-others-soar-as-micron-results-justify-elevated-valuations-140642825.html",
+              "published_at": "2026-06-25T14:06:42Z",
+              "summary": "Micron's blowout earnings lifted the semiconductor complex on Thursday."
             },
             {
-              "headline": "An Analyst Just Declared Eli Lilly the \"Clear Winner\" of an American Diabetes Association Conference Focused on Weight-Loss Drugs. Novo's Chief Scientist Disagrees. Who's Right?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/healthcare/articles/analyst-just-declared-eli-lilly-153800845.html",
-              "published_at": "2026-06-25T15:38:00Z",
-              "summary": "Novo Nordisk is no longer the front-runner, but it's not out of the running, either."
+              "headline": "Qualcomm CFO talks Modular acquisition's significance for AI data centers",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/qualcomm-cfo-talks-modular-acquisitions-160500980.html",
+              "published_at": "2026-06-25T16:05:00Z",
+              "summary": "Qualcomm (QCOM) CFO and COO Akash Palkhiwala joins Yahoo Finance Tech Editor Dan Howley to discuss the AI chipmaker's announced acquisition of AI software infrastructure startup Modular."
             },
             {
-              "headline": "Forget XLU. The Grid Fund Actually Powering the AI Boom Is Up 23% in 2026",
+              "headline": "Alphabet makes the Dow look more like the Nasdaq",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/alphabet-makes-the-dow-look-more-like-the-nasdaq-155236659.html",
+              "published_at": "2026-06-24T15:52:36Z",
+              "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
+            },
+            {
+              "headline": "268 U.S. Cities Now Have $1 Million Starter Homes as Housing Affordability Worsens. Here’s Why",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/forget-xlu-grid-fund-actually-153652208.html",
-              "published_at": "2026-06-25T15:36:52Z",
-              "summary": "If you own the Utilities Select Sector SPDR Fund (NYSEARCA:XLU) as your AI power play, the logic is straightforward: data centers need electricity, regulated utilities sell electricity, so XLU should capture the demand wave. The fund holds NextEra Energy at 13.59%, Southern Company at 7.47%, and Duke Energy at 7.15%, charges an expense ratio of ... Forget XLU. The Grid Fund Actually Powering the AI Boom Is Up 23% in 2026"
+              "url": "https://finance.yahoo.com/real-estate/articles/268-u-cities-now-1-205348627.html",
+              "published_at": "2026-06-25T20:53:48Z",
+              "summary": "The American starter home, once a symbol of accessible homeownership, has crossed into seven-figure territory in a growing number of metros. According to Katie Hubbard, president of U.S. Capital Markets at Walton Global, 268 U.S. cities now have entry-level homes priced at $1 million, concentrated mostly in California and New York. According to Zillow, the ... 268 U.S. Cities Now Have $1 Million Starter Homes as Housing Affordability Worsens. Here’s Why"
             },
             {
-              "headline": "This Might Be the Cheapest Meta Platforms Trades in Years. Here's Why.",
+              "headline": "Breakout Watch: This Firm Helps Nvidia, TSM And Intel Bring AI Ideas To Market",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/research/ibd-stock-analysis/breakout-watch-this-firm-helps-nvidia-tsm-and-intel-bring-ai-ideas-to-market/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:37:19Z",
+              "summary": "In demand among the best mutual fund managers, Nvidia, TSMC and Intel partner Keysight looks to etch a breakout."
+            },
+            {
+              "headline": "Battle of the Artificial Intelligence (AI) Computing Companies: Is AMD, Broadcom, Nvidia, or Marvell the Best Stock to Buy Now?",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/might-cheapest-meta-platforms-trades-153500226.html",
-              "published_at": "2026-06-25T15:35:00Z",
-              "summary": "Now is the time to load up on Meta Platforms stock."
+              "url": "https://finance.yahoo.com/technology/ai/articles/battle-artificial-intelligence-ai-computing-203700012.html",
+              "published_at": "2026-06-25T20:37:00Z",
+              "summary": "All four companies have different strengths."
             },
             {
-              "headline": "Why Goldman is cautious on outperforming Intel stock",
-              "source": "Investing.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-goldman-cautious-outperforming-intel-153414830.html",
-              "published_at": "2026-06-25T15:34:14Z",
-              "summary": "Investing.com -- Goldman Sachs initiated coverage of Intel with a Neutral rating and a 12-month price target of $150, acknowledging clear tailwinds in server CPUs and foundry optionality but arguing that the stock's recent run has already priced in much of the upside."
+              "headline": "Amazon's Next Big Move Into Big-Box Retail Could Be a Smart Move",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-next-big-move-big-203700286.html",
+              "published_at": "2026-06-25T20:37:00Z",
+              "summary": "The e-commerce giant's new store concept includes a feature that could make a key difference to sales."
             },
             {
-              "headline": "It’s Pretty Insane How Much TPAY’s 10% Yield Beats Most Covered Call ETFs",
+              "headline": "Apple Just Dropped 6%. Here’s Why Some Investors Are Buying",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/options/articles/pretty-insane-much-tpay-10-152406249.html",
-              "published_at": "2026-06-25T15:24:06Z",
-              "summary": "As a general rule, I expect covered call ETFs to lag the broader market over time. The math is not particularly favorable. You cap your upside, retain most of the downside, pay higher management fees, and often generate taxable distributions along the way. Even after reinvesting those distributions, many covered call ETFs struggle to keep ... It’s Pretty Insane How Much TPAY’s 10% Yield Beats Most Covered Call ETFs"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-dropped-6-why-203327355.html",
+              "published_at": "2026-06-25T20:33:27Z",
+              "summary": "Apple (NASDAQ:AAPL) became the focal point of a CNBC investment-committee debate after the company raised prices across its Mac, iPad, HomePod, and Vision Pro lines to offset surging memory and storage chip costs. The move sent the stock down 6.2% on Thursday, June 25. Now, some investors are wondering whether this marks a good entry point ... Apple Just Dropped 6%. Here’s Why Some Investors Are Buying"
             }
           ],
           "earnings": {
@@ -2002,7 +2002,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 4040.9,
+          "price": 4040.2,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -2025,10 +2025,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -10.62,
-            "six_months": -9.08,
-            "one_year": 21.46,
-            "five_years": 127.46
+            "one_month": -10.63,
+            "six_months": -9.1,
+            "one_year": 21.43,
+            "five_years": 127.41
           },
           "chart_points": [
             {
@@ -2287,22 +2287,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.167,
-            "label": "Neutral",
-            "bullish_percent": 50.0,
-            "bearish_percent": 12.5,
+            "score": 0.292,
+            "label": "Positive",
+            "bullish_percent": 62.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.292,
+            "delta": 0.125,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.125,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.167,
@@ -2534,6 +2526,14 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.292,
+                "label": "Positive",
+                "bullish_percent": 62.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -2546,11 +2546,46 @@
               "summary": "Gold (GC=F) August futures opened at $4,019 per troy ounce on Thursday, June 25, 2026, up 0.3% from Wednesday's close of $4,008.80. The price of gold moved lower this morning, trading at $3,992.80 as of 7:27 a.m. ET."
             },
             {
-              "headline": "Gold tumbles below $4,000 over worries of Fed rate hikes",
-              "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/article/gold-tumbles-to-4000-over-worries-of-fed-rate-hikes-125357912.html",
-              "published_at": "2026-06-24T12:53:57Z",
-              "summary": "Gold prices retreated on Wednesday as the market awaited a key inflation print this week."
+              "headline": "TSX Closer: Index Jumps as Investors Assess Oil Rebound, Rate Outlook, Trade Developments",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/economy/policy/articles/tsx-closer-index-jumps-investors-202240977.html",
+              "published_at": "2026-06-25T20:22:40Z",
+              "summary": "The Toronto Stock Exchange surged on Thursday as investors weighed a rebound in oil prices, the outl"
+            },
+            {
+              "headline": "Dollar retreats as US inflation data eases rate hike expectations",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/news/dollar-rides-high-fed-rate-012635389.html",
+              "published_at": "2026-06-25T19:12:36Z",
+              "summary": "By Chuck Mikolajczak NEW YORK, June 25 (Reuters) - The dollar was set to snap a three-session streak of gains on Thursday, after a flurry of U.S. economic data that included a reading on inflation"
+            },
+            {
+              "headline": "Silver Selloff Tests Key Support Zone",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/silver-selloff-tests-key-support-184810631.html",
+              "published_at": "2026-06-25T18:48:10Z",
+              "summary": "Analyst Says Bullish Structure Has Not Broken Yet"
+            },
+            {
+              "headline": "Gold and Silver Snap Losing Streak",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-higher-but-fed-rate-hike-expectations-weigh-ceb42ebf?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-06-25T18:25:00Z",
+              "summary": "Gold settled 1% higher and silver rose 0.5%, with both metals snapping a four-session losing streak."
+            },
+            {
+              "headline": "Update: Gold Edges Up as Dollar Eases Even as US Inflation Accelerates",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-edges-dollar-eases-even-175430791.html",
+              "published_at": "2026-06-25T17:54:30Z",
+              "summary": "(Updates prices in the second and final paragraphs.) Gold moved higher midafternoon on Thursday a"
+            },
+            {
+              "headline": "How Much Will One Bitcoin Be Worth in 2030?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/much-one-bitcoin-worth-2030-171436050.html",
+              "published_at": "2026-06-25T17:14:36Z",
+              "summary": "Asking what one Bitcoin (CRYPTO:BTC) will be worth in 2030 feels almost absurd right now. The coin is hovering just above $60,000, down by about half from its peak last October, and the Fear and Greed Index has dropped into extreme fear. Even gold, the asset Bitcoin is supposed to replace, is getting sold off ... How Much Will One Bitcoin Be Worth in 2030?"
             },
             {
               "headline": "Gold Pullback Forces Analysts to Reassess Price Outlook",
@@ -2558,41 +2593,6 @@
               "url": "https://finance.yahoo.com/markets/commodities/articles/gold-pullback-forces-analysts-reassess-151147096.html",
               "published_at": "2026-06-25T15:11:47Z",
               "summary": "Key TakeawaysGold’s retreat from record highs has prompted a reassessment of near-term price expectations. Rising Treasury yields, a firmer U."
-            },
-            {
-              "headline": "Dollar eases from 13-month high after data burst",
-              "source": "Reuters",
-              "url": "https://finance.yahoo.com/news/dollar-rides-high-fed-rate-012635389.html",
-              "published_at": "2026-06-25T14:35:29Z",
-              "summary": "By Chuck Mikolajczak NEW YORK, June 25 (Reuters) - The dollar was on track to snap a three-session streak of gains on Thursday, after a flurry of U.S. economic data that included a reading on"
-            },
-            {
-              "headline": "Michael Burry is questioning SpaceX's $3-trillion market valuation — and says he'd be tempted to bet against it",
-              "source": "Moneywise",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-questioning-spacexs-3-143000495.html",
-              "published_at": "2026-06-25T14:30:00Z",
-              "summary": "The investor, famous for predicting the 2008 financial crisis, says he’s staying out of Elon Musk’s rockets-and-AI company entirely."
-            },
-            {
-              "headline": "Gold Edges Up as Dollar Eases Even as US Inflation Accelerates",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-edges-dollar-eases-even-134228693.html",
-              "published_at": "2026-06-25T13:42:28Z",
-              "summary": "Gold edged higher early on Thursday as the dollar eased, while a key U.S. inflation measure accelera"
-            },
-            {
-              "headline": "Agnico Eagle vs. Barrick Mining: Which Gold Miner is Shining Brighter?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/agnico-eagle-vs-barrick-mining-124700332.html",
-              "published_at": "2026-06-25T12:47:00Z",
-              "summary": "AEM and B are advancing major growth projects, boosting cash flows and shareholder returns as gold prices remain supportive."
-            },
-            {
-              "headline": "Gold falls below $4,000 on Fed rate hike bets under Kevin Warsh",
-              "source": "Quartz",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-below-4-000-121747550.html",
-              "published_at": "2026-06-25T12:17:47Z",
-              "summary": "Spot gold has shed more than 3% since the Fed's last meeting, after officials signaled that interest rates could rise this year"
             }
           ],
           "earnings": {
@@ -2600,11 +2600,11 @@
             "source": "Finnhub"
           },
           "rating": "Hold",
-          "score": 56,
+          "score": 60,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is under pressure",
-            "mildly positive news tone"
+            "positive news tone"
           ]
         },
         {
@@ -2617,7 +2617,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 58.365,
+          "price": 57.855,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -2640,10 +2640,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -23.1,
-            "six_months": -14.05,
-            "one_year": 61.74,
-            "five_years": 123.78
+            "one_month": -23.77,
+            "six_months": -14.8,
+            "one_year": 60.33,
+            "five_years": 121.82
           },
           "chart_points": [
             {
@@ -2902,22 +2902,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": -0.125,
+            "score": -0.042,
             "label": "Neutral",
-            "bullish_percent": 25.0,
+            "bullish_percent": 37.5,
             "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
             "delta": 0.083,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.042,
-                "label": "Neutral",
-                "bullish_percent": 50.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.083,
@@ -3149,6 +3141,14 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": -0.042,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -3159,6 +3159,13 @@
               "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-thursday-june-25-2026-lowest-opening-price-since-dec-25-ahead-of-pce-report-121026414.html",
               "published_at": "2026-06-25T12:10:26Z",
               "summary": "Silver July futures opened at just $57.60 per ounce on Thursday, June 25, 2026, down 0.8% compared to Wednesday's closing price of $58.09. The silver price is moving down slightly this morning, reaching $57.23 as of 7:55 a.m. ET."
+            },
+            {
+              "headline": "Gold and Silver Snap Losing Streak",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-higher-but-fed-rate-hike-expectations-weigh-ceb42ebf?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-06-25T18:25:00Z",
+              "summary": "Gold settled 1% higher and silver rose 0.5%, with both metals snapping a four-session losing streak."
             },
             {
               "headline": "Aftermath Silver reports high-grade assays from Berenguela Phase 3 drilling in Peru",
@@ -3201,13 +3208,6 @@
               "url": "https://finance.yahoo.com/markets/commodities/articles/miners-hochschild-fresnillo-lead-ftse-075100615.html",
               "published_at": "2026-06-25T07:51:00Z",
               "summary": "Hochschild Mining PLC (LSE:HOC) and Fresnillo PLC (LSE:FRES) led London's mining sector lower on Thursday as falling gold and silver prices hit precious metals producers. Hochschild fell 1.8%, Endeavour Mining PLC (LSE:EDV) lost 1.8%, Pan African Resources PLC (LSE:PAF) shed 1.5% and..."
-            },
-            {
-              "headline": "Tertiary Minerals begins largest Zambian drill programme at A1 silver discovery",
-              "source": "Proactive",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/tertiary-minerals-begins-largest-zambian-060800187.html",
-              "published_at": "2026-06-25T06:08:00Z",
-              "summary": "Tertiary Minerals PLC (AIM:TYM, OTC:TTIRF, FRA:TMU), the junior exploration company, has started drilling at its Target A1 silver oxide discovery within the Mushima North project in northwest Zambia. The 4,000-metre reverse circulation programme is the largest the company has undertaken in..."
             }
           ],
           "earnings": {
@@ -3215,11 +3215,10 @@
             "source": "Finnhub"
           },
           "rating": "Hold",
-          "score": 48,
+          "score": 52,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is under pressure",
-            "mildly negative news tone"
+            "six-month momentum is under pressure"
           ]
         },
         {
@@ -3232,7 +3231,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 71.24,
+          "price": 71.39,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -3255,10 +3254,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -26.25,
-            "six_months": 22.81,
-            "one_year": 9.74,
-            "five_years": -3.79
+            "one_month": -26.1,
+            "six_months": 23.06,
+            "one_year": 9.97,
+            "five_years": -3.59
           },
           "chart_points": [
             {
@@ -3517,22 +3516,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.125,
-            "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 12.5,
+            "score": 0.308,
+            "label": "Positive",
+            "bullish_percent": 62.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.125,
+            "delta": 0.183,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.417,
-                "label": "Positive",
-                "bullish_percent": 50.0,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.167,
@@ -3764,6 +3755,14 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.308,
+                "label": "Positive",
+                "bullish_percent": 62.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -3783,58 +3782,58 @@
               "summary": "The US government says the Strait of Hormuz is open for transit. For the shipping industry, promises of safety may not be enough."
             },
             {
-              "headline": "Temporary vs. permanent rate buydown: 2-1 buydown explained",
-              "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/mortgages/article/temporary-vs-permanent-mortgage-interest-rate-buydown-2-1-buydown-explained-154739219.html",
-              "published_at": "2026-06-24T15:47:39Z",
-              "summary": "Not sure whether to choose a temporary or permanent rate buydown? Here's how 2-1 buydowns and discount points compare, including what they cost and who pays."
+              "headline": "Lower oil prices may be the Fed's next problem: Chart of the Day",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/lower-oil-prices-may-be-the-feds-next-problem-chart-of-the-day-100000266.html",
+              "published_at": "2026-06-25T10:00:00Z",
+              "summary": "Lower oil prices may mean a new problem for investors and the Fed."
             },
             {
-              "headline": "IMF says energy, commodity prices fall after Iran deal but will take time to normalize",
+              "headline": "Nasdaq falls again on mixed day for US stocks, oil prices rise",
+              "source": "AFP",
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-stocks-soar-asia-tech-025740744.html",
+              "published_at": "2026-06-25T20:56:00Z",
+              "summary": "The Nasdaq fell for the fourth straight session Thursday behind weakness in Apple and other tech giants while oil prices pushed higher after a cargo ship was attacked in the Strait of Hormuz. The cargo ship was damaged by an unknown projectile off the Omani coast in the strategic strait on Thursday, prompting the International Maritime Organization to halt an evacuation of crews trapped by the US-Iran war."
+            },
+            {
+              "headline": "TSX Closer: Index Jumps as Investors Assess Oil Rebound, Rate Outlook, Trade Developments",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/economy/policy/articles/tsx-closer-index-jumps-investors-202240977.html",
+              "published_at": "2026-06-25T20:22:40Z",
+              "summary": "The Toronto Stock Exchange surged on Thursday as investors weighed a rebound in oil prices, the outl"
+            },
+            {
+              "headline": "Oil prices climb 2% after cargo ship hit by projectile near Oman",
               "source": "Reuters",
-              "url": "https://finance.yahoo.com/energy/articles/imf-says-energy-commodity-prices-151657126.html",
-              "published_at": "2026-06-25T15:16:57Z",
-              "summary": "WASHINGTON, June 25 (Reuters) - The International Monetary Fund said on Thursday that it has seen energy and commodity prices fall since the U.S.-Iran agreement to halt hostilities and reopen the"
+              "url": "https://finance.yahoo.com/news/oil-prices-edge-supply-worries-183534376.html",
+              "published_at": "2026-06-25T20:13:42Z",
+              "summary": "By Scott DiSavino NEW YORK, June 25 (Reuters) - Oil prices rose more than 2% on Thursday after a cargo vessel was hit by an unknown projectile near Oman, putting an evacuation effort for ships from"
             },
             {
-              "headline": "Trump’s Iran peace deal costs Putin $110m a day",
-              "source": "The Telegraph",
-              "url": "https://finance.yahoo.com/news/trump-iran-peace-deal-costs-151346128.html",
-              "published_at": "2026-06-25T15:13:46Z",
-              "summary": "Donald Trump’s peace deal with Iran has cost Vladimir Putin $110m (£84m) a day in lost oil revenues, new analysis shows."
+              "headline": "US Equity Markets Mixed After Micron Technology's Results, Surge in Annual Inflation Rate",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-micron-200421175.html",
+              "published_at": "2026-06-25T20:04:21Z",
+              "summary": "US equity indexes were mixed on Thursday after Micron Technology's (MU) better-than-expected quarter"
             },
             {
-              "headline": "US May PCE inflation rises 4.1%, keeping Fed hike in play",
-              "source": "Reuters",
-              "url": "https://finance.yahoo.com/economy/articles/us-pce-inflation-measure-tops-124005521.html",
-              "published_at": "2026-06-25T15:13:05Z",
-              "summary": "By Lucia Mutikani WASHINGTON, June 25 (Reuters) - U.S. inflation increased further in May, breaking above 4.0% for the first time in three years as the Middle East conflict boosted energy prices, and"
-            },
-            {
-              "headline": "BofA cuts euro forecasts, sees stronger dollar in second half on hawkish Fed",
-              "source": "Investing.com",
-              "url": "https://finance.yahoo.com/markets/currencies/articles/bofa-cuts-euro-forecasts-sees-150555554.html",
-              "published_at": "2026-06-25T15:05:55Z",
-              "summary": "Investing.com -- Bank of America has revised its G10 foreign-exchange forecasts for the second half of 2026, lowering its euro-dollar projections and adopting a more constructive near-term view on the U.S. dollar as resilient U.S. economic data and a hawkish Federal Reserve continue to support the greenback."
-            },
-            {
-              "headline": "Fed's preferred inflation gauge hits 3-year high",
-              "source": "CBS News",
-              "url": "https://finance.yahoo.com/economy/policy/articles/feds-preferred-inflation-gauge-hits-124806630.html",
-              "published_at": "2026-06-25T14:38:18Z",
-              "summary": "Inflation continued to rise in May, with the Personal Consumption Expenditures price index rising at an annual rate of 4.1%."
+              "headline": "Sector Update: Energy Stocks Higher Late Afternoon",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-afternoon-195920356.html",
+              "published_at": "2026-06-25T19:59:20Z",
+              "summary": "Energy stocks advanced late Thursday afternoon, with the NYSE Energy Sector Index rising 0.6% and th"
             }
           ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
-          "rating": "Hold",
-          "score": 66,
+          "rating": "Buy",
+          "score": 70,
           "rating_reasons": [
             "positive one-year trend",
             "six-month momentum is supportive",
-            "mildly positive news tone"
+            "positive news tone"
           ]
         }
       ]
@@ -3854,9 +3853,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 59226.39,
+          "price": 59394.4,
           "currency": "USD",
-          "market_cap": 1183262179328.0,
+          "market_cap": 1190404554752.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -3877,10 +3876,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -7.48,
-            "six_months": -11.55,
-            "one_year": -45.26,
-            "five_years": 87.2
+            "one_month": -7.22,
+            "six_months": -11.3,
+            "one_year": -45.1,
+            "five_years": 87.73
           },
           "chart_points": [
             {
@@ -4139,22 +4138,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.083,
+            "score": 0.0,
             "label": "Neutral",
-            "bullish_percent": 25.0,
+            "bullish_percent": 12.5,
             "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.083,
+            "delta": -0.083,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.292,
-                "label": "Positive",
-                "bullish_percent": 50.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.083,
@@ -4386,65 +4377,73 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Bitcoin and ethereum prices today, Thursday, June 25, 2026: Bitcoin hits its lowest levels in years",
+              "headline": "As bitcoin slides, Scott Melker revisits the many times BTC was called “dead”",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/bitcoin-slides-scott-melker-revisits-191500182.html",
+              "published_at": "2026-06-25T19:15:00Z",
+              "summary": "Bitcoin (BTC-USD) extends slide as traders hunt for a bottom. Scott Melker revisits the 472 times the internet has called bitcoin “dead” since 2018. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
+            },
+            {
+              "headline": "Is bitcoin's price volatility an investing opportunity? Here's how to buy bitcoin.",
               "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-june-25-2026-bitcoin-hits-its-lowest-levels-in-years-125308371.html",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/how-to-buy-bitcoin-222211772.html",
+              "published_at": "2026-02-19T22:22:11Z",
+              "summary": "Is the recent bitcoin slump a buying opportunity? Discover the safest ways to buy and store bitcoin in 2026."
+            },
+            {
+              "headline": "Bitcoin and ethereum prices today, Thursday, June 25, 2026: Bitcoin tumbles further below $60,000",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-june-25-2026-bitcoin-tumbles-further-below-60000-125308371.html",
               "published_at": "2026-06-25T12:53:08Z",
               "summary": "Bitcoin opened at $60,983.43 on Thursday, June 25, 2026, down 2.7% from Wednesday's opening price. The value of bitcoin rose this morning to $61,244.29 by 8:50 a.m. ET.  Ethereum opened at $1,619.51, down 2.8% from yesterday's opening price. The price of ethereum edged higher this morning as well, moving to $1,636.26 by 8:50 a.m. ET."
             },
             {
-              "headline": "SpaceX rockets downward on day 1 of short trading",
-              "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/spacex-rockets-downward-day-1-165103863.html",
-              "published_at": "2026-06-24T16:51:03Z",
-              "summary": "Scott Melker hits on SpaceX's short activity, ethereum, Kalshi, CBOE, and other big crypto news headlines. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
-            },
-            {
-              "headline": "Short sellers are coming after SpaceX as it sheds post-IPO gains",
-              "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/short-sellers-coming-spacex-sheds-162500174.html",
-              "published_at": "2026-06-24T16:25:00Z",
-              "summary": "Scott Melker discusses the trading volatility and short activity around SpaceX (SPCX) — the Elon Musk-led company's stock shedding its post-IPO gains — especially as it issues its first debt sale since going public. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
-            },
-            {
-              "headline": "Dave Portnoy just challenged every Bitcoin bull",
+              "headline": "Analyst who nailed Bitcoin's 2025 rally makes new prediction",
               "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/dave-portnoy-just-challenged-every-153000029.html",
-              "published_at": "2026-06-25T15:30:00Z",
-              "summary": "American businessman and social media personality Dave Portnoy doesn't shy away from sharing his blunt views on the twists and turns of the crypto markets. The millionaire can't keep calm regardless of whether the digital asset market crashes or rallies. Last year, the Barstool Sports founder ..."
+              "url": "https://finance.yahoo.com/markets/crypto/articles/analyst-nailed-bitcoins-2025-rally-203000053.html",
+              "published_at": "2026-06-25T20:30:00Z",
+              "summary": "KillaXBT is a quantitative trader who is best known among crypto traders for their wildly accurate predictions on X. On May 13, 2025, KillaXBT posted a Bitcoin (BTC) price prediction chart. The chart showed rotational market mathematics to analyze the momentum until it declines. In one of ..."
             },
             {
-              "headline": "Saylor’s Strategy should pause bitcoin buys, says CryptoQuant",
-              "source": "Investing.com",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/saylor-strategy-pause-bitcoin-buys-152421626.html",
-              "published_at": "2026-06-25T15:24:21Z",
-              "summary": "Investing.com -- Michael Saylor's Strategy should pause its bitcoin purchases, rebuild its cash reserves and develop a disciplined strategy for buying the flagship cryptocurrency, according to a CryptoQuant report released Thursday."
+              "headline": "Strategy Logs Worst Seven-Day Stretch Since November 2022",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-25-2026/card/strategy-logs-worst-seven-day-stretch-since-november-2022-B2fAy25w2huzPmIc1SKx?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-06-25T20:27:22Z",
+              "summary": "The stock slumped more than 9% Thursday and was the worst performer in the Nasdaq 100.  This steep discount severely limits Strategy’s ability to issue new preferred capital to fund its bitcoin purchases.  Investors were also rattled by Strategy’s recent decision to use proceeds from common stock sales to buy bitcoin and bolster its cash reserve."
             },
             {
-              "headline": "Bitcoin Collapses Below $59,000. Just How Deep Is This Hole?",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-collapses-below-59-000-151620003.html",
-              "published_at": "2026-06-25T15:16:20Z",
-              "summary": "The speculative excesses that defined much of the past few years is meeting a harsh reality check. Rising interest rates, tighter liquidity, and slowing economic growth have forced investors to rethink how much they are willing to pay for risk assets. Few corners of the market have felt that pressure more than cryptocurrency. Bitcoin (CRYPTO:BTC) ... Bitcoin Collapses Below $59,000. Just How Deep Is This Hole?"
+              "headline": "This analyst thinks real estate-Bitcoin strategy could outperform traditional assets: here's how",
+              "source": "TheStreet",
+              "url": "https://finance.yahoo.com/real-estate/articles/analyst-thinks-real-estate-bitcoin-201000612.html",
+              "published_at": "2026-06-25T20:10:00Z",
+              "summary": "Real estate investor Grant Cardone laid out the mechanics of his real estate-Bitcoin (BTC) hybrid strategy in unusually candid terms during a closed-door session with brokers explaining exactly why Bitcoin gets added to a deal after the property itself is already secured. Cardone was ..."
             },
             {
-              "headline": "Leopold Aschenbrenner’s Situational Awareness Top AI Pick-And-Shovel Stock Pick in 2026",
+              "headline": "Sector Update: Financial Stocks Mixed Late Afternoon",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-195254296.html",
+              "published_at": "2026-06-25T19:52:54Z",
+              "summary": "Financial stocks were mixed in late Thursday afternoon trading, with the NYSE Financial Index rising"
+            },
+            {
+              "headline": "Top AI Data Center Stock Pick of Leopold Aschenbrenner’s Situational Awareness Everyone’s Ignoring",
               "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/ai/articles/leopold-aschenbrenner-situational-awareness-top-150531078.html",
-              "published_at": "2026-06-25T15:05:31Z",
-              "summary": "We just covered Leopold Aschenbrenner’s Situational Awareness Reveals Its 10 Under-The-Radar AI Stock Picks. Core Scientific, Inc. (NASDAQ:CORZ) ranks #2 (see Situational Awareness Top 5 Under-The-Radar AI Stock Picks). Situational Awareness Stake Value: $389,086,756 Core Scientific (NASDAQ:CORZ) is another former Bitcoin miner in Situational Awareness’s portfolio that is transitioning toward AI infrastructure. Core Scientific builds and […]"
-            },
-            {
-              "headline": "Dollar eases from 13-month high after data burst",
-              "source": "Reuters",
-              "url": "https://finance.yahoo.com/news/dollar-rides-high-fed-rate-012635389.html",
-              "published_at": "2026-06-25T14:35:29Z",
-              "summary": "By Chuck Mikolajczak NEW YORK, June 25 (Reuters) - The dollar was on track to snap a three-session streak of gains on Thursday, after a flurry of U.S. economic data that included a reading on"
+              "url": "https://finance.yahoo.com/technology/ai/articles/top-ai-data-center-stock-193822511.html",
+              "published_at": "2026-06-25T19:38:22Z",
+              "summary": "We just covered Leopold Aschenbrenner’s Situational Awareness Reveals Its 10 Under-The-Radar AI Stock Picks. Riot Platforms (NASDAQ:RIOT) ranks #4 (see Situational Awareness Top 5 Under-The-Radar AI Stock Picks). Situational Awareness Stake Value: $142,166,413 Situational Awareness is apparently a fan of former Bitcoin players transitioning into AI and data centers. Riot Platforms (NASDAQ:RIOT) is one such name, […]"
             }
           ],
           "earnings": {
@@ -4468,9 +4467,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 1562.64,
+          "price": 1558.37,
           "currency": "USD",
-          "market_cap": 187525464064.0,
+          "market_cap": 188160983040.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -4491,10 +4490,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -13.75,
-            "six_months": -19.79,
-            "one_year": -59.88,
-            "five_years": -13.82
+            "one_month": -13.98,
+            "six_months": -20.01,
+            "one_year": -59.99,
+            "five_years": -14.05
           },
           "chart_points": [
             {
@@ -4753,22 +4752,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.067,
+            "score": 0.0,
             "label": "Neutral",
-            "bullish_percent": 37.5,
+            "bullish_percent": 12.5,
             "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.292,
+            "delta": -0.067,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": -0.167,
-                "label": "Neutral",
-                "bullish_percent": 0.0,
-                "bearish_percent": 37.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": -0.042,
@@ -5000,23 +4991,59 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Bitcoin and ethereum prices today, Thursday, June 25, 2026: Bitcoin hits its lowest levels in years",
-              "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-june-25-2026-bitcoin-hits-its-lowest-levels-in-years-125308371.html",
-              "published_at": "2026-06-25T12:53:08Z",
-              "summary": "Bitcoin opened at $60,983.43 on Thursday, June 25, 2026, down 2.7% from Wednesday's opening price. The value of bitcoin rose this morning to $61,244.29 by 8:50 a.m. ET.  Ethereum opened at $1,619.51, down 2.8% from yesterday's opening price. The price of ethereum edged higher this morning as well, moving to $1,636.26 by 8:50 a.m. ET."
+              "headline": "Iranian entities moved $3.8B through crypto exchange CoinEx: What to know",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/iranian-entities-moved-3-8b-193000115.html",
+              "published_at": "2026-06-25T19:30:00Z",
+              "summary": "Scott Melker discusses headlines alleging that Iranian crypto traders have moved over $3.8 billion in digital assets through the crypto exchange CoinEx (CET-USD). \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
             },
             {
-              "headline": "SpaceX rockets downward on day 1 of short trading",
+              "headline": "Inside Machi Big Brother's high-stakes ETH trade",
               "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/spacex-rockets-downward-day-1-165103863.html",
-              "published_at": "2026-06-24T16:51:03Z",
-              "summary": "Scott Melker hits on SpaceX's short activity, ethereum, Kalshi, CBOE, and other big crypto news headlines. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
+              "url": "https://finance.yahoo.com/video/inside-machi-big-brothers-high-230000638.html",
+              "published_at": "2026-06-24T23:00:00Z",
+              "summary": "Scott Melker discusses Jeffrey Huang, better known as Machi Big Brother, and his massive Ethereum (ETH-USD) long position, which currently faces the largest liquidation on Hyperliquid. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
+            },
+            {
+              "headline": "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrencies-mixed-bitcoin-holds-193222984.html",
+              "published_at": "2026-06-25T19:32:22Z",
+              "summary": "Major digital assets were mixed Thursday, with Bitcoin (BTC-USD) holding above the $59,000 level."
+            },
+            {
+              "headline": "Crypto Trader James Wynn Slams Shiba Inu: ‘SHIB is Old, Dead, and Boring’",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-trader-james-wynn-slams-180932149.html",
+              "published_at": "2026-06-25T18:09:32Z",
+              "summary": "Trader James Wynn calls SHIB old and dead as whales dump 1.04 trillion tokens on exchanges in a single day."
+            },
+            {
+              "headline": "MyTonWallet Rebrands As ‘My Wallet’",
+              "source": "CryptoProwl",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/mytonwallet-rebrands-wallet-165200840.html",
+              "published_at": "2026-06-25T16:52:00Z",
+              "summary": "MyTonWallet has rebranded as “My Wallet” and announced a major expansion."
+            },
+            {
+              "headline": "Traders Predict More Pain for Bitcoin and Ethereum After Monthly Drops Above 20%",
+              "source": "decrypt",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/traders-predict-more-pain-bitcoin-162403797.html",
+              "published_at": "2026-06-25T16:24:03Z",
+              "summary": "Bitcoin touched its lowest price in 21 months early Thursday—and prediction market users don't see the crypto carnage ceasing imminently."
             },
             {
               "headline": "XRP and Ethereum Share This 1 Critical Problem. Should You Sell Them?",
@@ -5031,34 +5058,6 @@
               "url": "https://finance.yahoo.com/markets/crypto/articles/rlusd-just-overtook-ethereum-xrp-132443106.html",
               "published_at": "2026-06-25T13:24:43Z",
               "summary": "When Ripple launched its own dollar stablecoin in late 2024, the whole point was to give the XRP Ledger a regulated dollar to run on. Then it spent the next year and a half watching most of that stablecoin live somewhere else entirely—on Ethereum, the rival chain Ripple has spent a decade trying to beat. ... RLUSD Just Overtook Ethereum on the XRP Ledger: Can It Help XRP this Time?"
-            },
-            {
-              "headline": "Ethereum Price Crash Triggers a 36% DEX Volume Surge",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-price-crash-triggers-36-111754948.html",
-              "published_at": "2026-06-25T11:17:54Z",
-              "summary": "Why is Ethereum down today? A broad sell-off hit ETH, but whales bought the dip, DEX volume jumped 36%, and on-chain demand held up."
-            },
-            {
-              "headline": "DeFi Total Value Locked Slides Every Month in 2026 to $70 Billion",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/defi-total-value-locked-slides-072657247.html",
-              "published_at": "2026-06-25T07:26:57Z",
-              "summary": "DeFi total value locked fell 39% in 2026 to $70 billion, with only TRON and Hyperliquid growing among top chains."
-            },
-            {
-              "headline": "Aave Jumps 15% Off Standard Chartered Forecasts, While Bitcoin Drops Below $60,000",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/aave-jumps-15-off-standard-060117027.html",
-              "published_at": "2026-06-25T06:01:17Z",
-              "summary": "AAVE jumps 15% to $82 as Bitcoin drops below $60,000, with Standard Chartered forecasting a 50x surge by 2030."
-            },
-            {
-              "headline": "Ripple and SBI Launch RLUSD in Japan After JFSA Approval",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/ripple-sbi-launch-rlusd-japan-032053384.html",
-              "published_at": "2026-06-25T03:20:53Z",
-              "summary": "Japan keeps a short list of foreign dollar stablecoins allowed to operate inside its borders. Its regulators are demanding, and only a couple have ever made the cut, but Ripple’s RLUSD has become the newest name on that list. The approval came from the Japan Financial Services Agency (JFSA)—the country’s top financial regulator—and RLUSD is ... Ripple and SBI Launch RLUSD in Japan After JFSA Approval"
             }
           ],
           "earnings": {
@@ -5082,9 +5081,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 65.83,
+          "price": 66.23,
           "currency": "USD",
-          "market_cap": 38157266944.0,
+          "market_cap": 38463832064.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -5105,10 +5104,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -8.07,
-            "six_months": -20.1,
-            "one_year": -64.36,
-            "five_years": 129.38
+            "one_month": -7.52,
+            "six_months": -19.62,
+            "one_year": -64.14,
+            "five_years": 130.78
           },
           "chart_points": [
             {
@@ -5367,22 +5366,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": -0.167,
+            "score": -0.083,
             "label": "Neutral",
             "bullish_percent": 12.5,
-            "bearish_percent": 50.0,
+            "bearish_percent": 37.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.083,
+            "delta": 0.084,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.0,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.083,
@@ -5614,10 +5605,32 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 50.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": -0.083,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 37.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrencies-mixed-bitcoin-holds-193222984.html",
+              "published_at": "2026-06-25T19:32:22Z",
+              "summary": "Major digital assets were mixed Thursday, with Bitcoin (BTC-USD) holding above the $59,000 level."
+            },
+            {
+              "headline": "MyTonWallet Rebrands As ‘My Wallet’",
+              "source": "CryptoProwl",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/mytonwallet-rebrands-wallet-165200840.html",
+              "published_at": "2026-06-25T16:52:00Z",
+              "summary": "MyTonWallet has rebranded as “My Wallet” and announced a major expansion."
+            },
             {
               "headline": "PayPal's Big Bet on Stablecoin PYUSD: Can It Stay Ahead in the Stablecoin Race?",
               "source": "Coinage Coop",
@@ -5659,20 +5672,6 @@
               "url": "https://finance.yahoo.com/markets/crypto/articles/painful-bitcoin-sell-off-drags-205014642.html",
               "published_at": "2026-06-24T20:50:14Z",
               "summary": "Bitcoin's slide to its lowest point in 21 months slammed the price of leading altcoins, while pressuring crypto stocks on Wall Street."
-            },
-            {
-              "headline": "Wall Street, Solana, and Anthropic Bet on Micron—Then Earnings Crushed Expectations",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/technology/ai/articles/micron-smashes-estimates-says-ai-200836799.html",
-              "published_at": "2026-06-24T20:08:36Z",
-              "summary": "Micron Technology delivered blockbuster Q3 FY2026 earnings with $41.46B revenue and $25.11 EPS, smashing estimates."
-            },
-            {
-              "headline": "Top Cryptocurrencies Lower; Bitcoin Falls Below $60,000 Level",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/top-cryptocurrencies-lower-bitcoin-falls-195905177.html",
-              "published_at": "2026-06-24T19:59:05Z",
-              "summary": "Major digital assets were weaker Wednesday, with Bitcoin (BTC-USD) falling below the $60,000 level."
             }
           ],
           "earnings": {
@@ -5680,11 +5679,10 @@
             "source": "Finnhub"
           },
           "rating": "Avoid",
-          "score": 16,
+          "score": 20,
           "rating_reasons": [
             "weak one-year trend",
-            "six-month momentum is under pressure",
-            "mildly negative news tone"
+            "six-month momentum is under pressure"
           ]
         }
       ]
@@ -5704,7 +5702,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 7382.44,
+          "price": 7357.49,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -5727,10 +5725,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -1.22,
-            "six_months": 7.33,
-            "one_year": 21.18,
-            "five_years": 72.46
+            "one_month": -1.55,
+            "six_months": 6.96,
+            "one_year": 20.77,
+            "five_years": 71.48
           },
           "chart_points": [
             {
@@ -5989,22 +5987,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.333,
-            "label": "Positive",
-            "bullish_percent": 62.5,
+            "score": 0.188,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
             "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.0,
+            "delta": -0.145,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.125,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.458,
@@ -6236,65 +6226,73 @@
                 "bullish_percent": 62.5,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.188,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Stock market today: Dow and S&P 500 rise, Nasdaq slips as PCE comes in hot, Big Tech falters",
-              "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-and-sp-500-rise-nasdaq-slips-as-pce-comes-in-hot-big-tech-falters-232650645.html",
-              "published_at": "2026-06-24T23:26:50Z",
-              "summary": "Nasdaq jumps amid revived confidence in the AI trade, as Fed-favored inflation print keeps rate hikes in play."
-            },
-            {
-              "headline": "Strategist explains balance the market is looking for at end of first half 2026",
+              "headline": "Big Tech stocks tumble while Micron continues to gain on Q3 earnings",
               "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/strategist-explains-balance-market-looking-203225015.html",
-              "published_at": "2026-06-24T20:32:25Z",
-              "summary": "US stocks (^DJI, ^IXIC, ^GSPC) are a mixed bag at Wednesday's session close coming off of yesterday's Big Tech sell-off. With market indexes still sitting near record highs, The Wealth Consulting Group chief market strategist Talley Léger helps Josh Lipton assess how equities are feeling as the first half of 2026 nears its end."
+              "url": "https://finance.yahoo.com/video/big-tech-stocks-tumble-while-191535676.html",
+              "published_at": "2026-06-25T19:15:35Z",
+              "summary": "US stocks (^DJI, ^IXIC, ^GSPC) search for direction ahead of Thursday's session close, while Micron Technology (MU) holds onto gains following its massive earnings beat yesterday. Yahoo Finance Markets and Data Editor Jared Blikre takes a closer look at the day's market moves, Big Tech stocks, and how Micron's stock gains may be impacting Apple (AAPL)."
             },
             {
-              "headline": "3 Reasons to Avoid NX and 1 Stock to Buy Instead",
-              "source": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-nx-1-152950657.html",
-              "published_at": "2026-06-25T15:29:50Z",
-              "summary": "Quanex’s 16% return over the past six months has outpaced the S&P 500 by 9.8%, and its stock price has climbed to $17.78 per share. This was partly due to its solid quarterly results, and the run-up might have investors contemplating their next move."
+              "headline": "Why Micron earnings beat may fuel AI trade optimism",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/why-micron-earnings-beat-may-162728027.html",
+              "published_at": "2026-06-25T16:27:28Z",
+              "summary": "Yahoo Finance Senior Business Reporter Ines Ferre and Sevens Report Research Founder Tom Essaye break down Micron's (MU) earnings beat and stronger-than-expected guidance. They discuss how record revenue and growing demand for AI memory chips may boost confidence in the broader AI trade."
             },
             {
-              "headline": "IBD 50 Stock Indivior Breaks Out Amid Big Fund Ownership Expansion, Strong Profit Prospects",
+              "headline": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
               "source": "Investor's Business Daily",
-              "url": "https://www.investors.com/research/top-stocks-to-buy-ibd-50-stock-indivior-indv/?src=A00220&yptr=yahoo",
-              "published_at": "2026-06-25T15:24:48Z",
-              "summary": "Indivior, which is adding big gains this week, deserves attention as it meets practically every factor in the stock picking methodology of Investor's Business Daily.  Thus it serves as Thursday's IBD 50 Stocks To Watch pick.  Also this week, Indivior's relative strength line has bolted to new high ground."
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-mixed-signals-micron-flies-apple-dives/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:55:29Z",
+              "summary": "The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower."
             },
             {
-              "headline": "It’s Pretty Insane How Much TPAY’s 10% Yield Beats Most Covered Call ETFs",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/options/articles/pretty-insane-much-tpay-10-152406249.html",
-              "published_at": "2026-06-25T15:24:06Z",
-              "summary": "As a general rule, I expect covered call ETFs to lag the broader market over time. The math is not particularly favorable. You cap your upside, retain most of the downside, pay higher management fees, and often generate taxable distributions along the way. Even after reinvesting those distributions, many covered call ETFs struggle to keep ... It’s Pretty Insane How Much TPAY’s 10% Yield Beats Most Covered Call ETFs"
-            },
-            {
-              "headline": "Cathie Wood buys $9.6 million of megacap tech stock",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buys-9-6-150700955.html",
-              "published_at": "2026-06-25T15:07:00Z",
-              "summary": "Cathie Wood, chief of Ark Investment Management, likes to double down on her favorite tech stocks, especially when the prices are falling. That’s what she just did, buying a megacap tech stock amid a broader market sell-off. In 2025, the flagship Ark Innovation ETF gained 35.49%, far outpacing the ..."
-            },
-            {
-              "headline": "3 Reasons We’re Fans of Permian Resources (PR)",
-              "source": "StockStory",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-fans-permian-resources-145750450.html",
-              "published_at": "2026-06-25T14:57:50Z",
-              "summary": "Since June 2021, the S&P 500 has delivered a total return of 72%. But one standout stock has more than doubled the market - over the past five years, Permian Resources has surged 155% to $18.71 per share. Its momentum hasn’t stopped as it’s also gained 36.1% in the last six months, beating the S&P by 29.8%."
-            },
-            {
-              "headline": "Stock Market Today: Indexes Volatile; Micron Surges, But Apple Makes Sell Signal (Live Coverage)",
+              "headline": "Stock Market Today: Indexes Mixed; S&P 500 Barely Holds This Significant Level (Live Coverage)",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-micron-stock-mu/?src=A00220&yptr=yahoo",
-              "published_at": "2026-06-25T14:39:59Z",
-              "summary": "The stock market was volatile Thursday morning, reversing lower in the opening phase before quickly rebounding.  Apple stock tumbled and technology stocks in general reversed lower.  The Dow Jones Industrial Average and other major stock indexes opened higher on the stock market today after a stronger-than-expected GDP reading."
+              "published_at": "2026-06-25T20:44:45Z",
+              "summary": "The stock market closed mixed Thursday, with the Nasdaq composite down 0.5%.  The bullish mood that Micron Technology's earnings report engendered didn't spread to many of the major tech stocks.  The Nasdaq closed below its 50-day line for a third straight day."
+            },
+            {
+              "headline": "State Street Energy ETF vs Alerian MLP ETF: Which Is the Better Energy Fund?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/energy/articles/state-street-energy-etf-vs-203958567.html",
+              "published_at": "2026-06-25T20:39:58Z",
+              "summary": "One fund leans on energy giants while the other focuses on midstream infrastructure. Explore how portfolio makeup shapes risk and income for investors."
+            },
+            {
+              "headline": "Breakout Watch: This Firm Helps Nvidia, TSM And Intel Bring AI Ideas To Market",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/research/ibd-stock-analysis/breakout-watch-this-firm-helps-nvidia-tsm-and-intel-bring-ai-ideas-to-market/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:37:19Z",
+              "summary": "In demand among the best mutual fund managers, Nvidia, TSMC and Intel partner Keysight looks to etch a breakout."
+            },
+            {
+              "headline": "Update: Nasdaq Extends Losing Streak; Apple Plunges After Price Hikes",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-extends-losing-streak-apple-202855276.html",
+              "published_at": "2026-06-25T20:28:55Z",
+              "summary": "(Updates with market moves at the end of the day.) The Nasdaq Composite extended its losing strea"
+            },
+            {
+              "headline": "US Equity Markets Mixed After Micron Technology's Results, Surge in Annual Inflation Rate",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-micron-200421175.html",
+              "published_at": "2026-06-25T20:04:21Z",
+              "summary": "US equity indexes were mixed on Thursday after Micron Technology's (MU) better-than-expected quarter"
             }
           ],
           "earnings": {
@@ -6302,10 +6300,10 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 74,
+          "score": 70,
           "rating_reasons": [
             "strong one-year trend",
-            "positive news tone"
+            "mildly positive news tone"
           ]
         },
         {
@@ -6318,7 +6316,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 25425.426,
+          "price": 25358.604,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -6341,10 +6339,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": -3.49,
-            "six_months": 8.52,
-            "one_year": 27.68,
-            "five_years": 77.05
+            "one_month": -3.74,
+            "six_months": 8.24,
+            "one_year": 27.35,
+            "five_years": 74.88
           },
           "chart_points": [
             {
@@ -6603,22 +6601,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.292,
-            "label": "Positive",
-            "bullish_percent": 62.5,
-            "bearish_percent": 0.0,
+            "score": -0.167,
+            "label": "Neutral",
+            "bullish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.041,
+            "delta": -0.459,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.15,
-                "label": "Neutral",
-                "bullish_percent": 62.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.333,
@@ -6850,65 +6840,73 @@
                 "bullish_percent": 62.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": -0.167,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Stock market today: Dow and S&P 500 rise, Nasdaq slips as PCE comes in hot, Big Tech falters",
+              "headline": "Tech stocks live: AI memory trade roars back after Micron earnings crush estimates",
               "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-and-sp-500-rise-nasdaq-slips-as-pce-comes-in-hot-big-tech-falters-232650645.html",
-              "published_at": "2026-06-24T23:26:50Z",
-              "summary": "Nasdaq jumps amid revived confidence in the AI trade, as Fed-favored inflation print keeps rate hikes in play."
+              "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-ai-memory-trade-roars-back-after-micron-earnings-crush-estimates-143422690.html",
+              "published_at": "2026-06-22T14:34:22Z",
+              "summary": "Memory giant Micron (MU) will report its third quarter earnings after the bell on Wednesday, providing another update on the broader AI build-out."
             },
             {
-              "headline": "Big Tech is all in on AI. Now all they need is customers.",
-              "source": "CBS News",
-              "url": "https://finance.yahoo.com/technology/ai/articles/big-tech-ai-now-customers-151413488.html",
-              "published_at": "2026-06-25T15:14:13Z",
-              "summary": "Technology companies are betting trillions of dollars that consumers will open their wallets for AI services. But what if Big Tech is wrong?"
+              "headline": "Alphabet makes the Dow look more like the Nasdaq",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/alphabet-makes-the-dow-look-more-like-the-nasdaq-155236659.html",
+              "published_at": "2026-06-24T15:52:36Z",
+              "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
             },
             {
-              "headline": "Stock Market Today: Indexes Volatile; Micron Surges, But Apple Makes Sell Signal (Live Coverage)",
+              "headline": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-mixed-signals-micron-flies-apple-dives/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:55:29Z",
+              "summary": "The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower."
+            },
+            {
+              "headline": "Stock Market Today: Indexes Mixed; S&P 500 Barely Holds This Significant Level (Live Coverage)",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-micron-stock-mu/?src=A00220&yptr=yahoo",
-              "published_at": "2026-06-25T14:39:59Z",
-              "summary": "The stock market was volatile Thursday morning, reversing lower in the opening phase before quickly rebounding.  Apple stock tumbled and technology stocks in general reversed lower.  The Dow Jones Industrial Average and other major stock indexes opened higher on the stock market today after a stronger-than-expected GDP reading."
+              "published_at": "2026-06-25T20:44:45Z",
+              "summary": "The stock market closed mixed Thursday, with the Nasdaq composite down 0.5%.  The bullish mood that Micron Technology's earnings report engendered didn't spread to many of the major tech stocks.  The Nasdaq closed below its 50-day line for a third straight day."
             },
             {
-              "headline": "Why the Dow Is Soaring But the Nasdaq Is Falling",
+              "headline": "Update: Nasdaq Extends Losing Streak; Apple Plunges After Price Hikes",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-extends-losing-streak-apple-202855276.html",
+              "published_at": "2026-06-25T20:28:55Z",
+              "summary": "(Updates with market moves at the end of the day.) The Nasdaq Composite extended its losing strea"
+            },
+            {
+              "headline": "Wall St ends mixed as tech megacap declines outweigh upbeat chip outlook",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-2-micron-073003123.html",
+              "published_at": "2026-06-25T20:27:26Z",
+              "summary": "By Abigail Summerville, Twesha Dikshit and Joel Jose June 25 (Reuters) - The Nasdaq closed lower on Thursday, dragged down by losses in Big Tech shares, while the S&P closed near flat and the Dow"
+            },
+            {
+              "headline": "US Equity Markets Mixed After Micron Technology's Results, Surge in Annual Inflation Rate",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-micron-200421175.html",
+              "published_at": "2026-06-25T20:04:21Z",
+              "summary": "US equity indexes were mixed on Thursday after Micron Technology's (MU) better-than-expected quarter"
+            },
+            {
+              "headline": "The Mag 7 Is Bleeding. The Rest of the Market Is Cruising.",
               "source": "Barrons.com",
-              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/why-the-dow-is-soaring-but-the-nasdaq-is-falling-WHcXPsuw4gNuvtyGDQe3?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:31:29Z",
-              "summary": "The stock market is leaving Big Tech stocks in the dust. The Dow surged 733 points, or 1.4%, while the S&P 500 gained 0.3%. The Nasdaq, which was up nearly 1% at the open, was down 0.6%. More than four-in-five S&P 500 stocks were set to close higher, but the Roundhill Magnificent Seven ETF dropped 2%."
-            },
-            {
-              "headline": "Pre-Markets Up, Big Morning for Economic Releases",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/economy/articles/pre-markets-big-morning-economic-143100473.html",
-              "published_at": "2026-06-25T14:31:00Z",
-              "summary": "The pre-market futures, following Micron's (MU) epic fiscal Q3 earnings, are all in the green -- led by the Nasdaq's +700 points at this hour."
-            },
-            {
-              "headline": "💬 Money Quote: Profit Taking",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-25-2026/card/-money-quote-profit-taking-92RVLdI0Hzk2zeN5JaZI?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:26:56Z",
-              "summary": "📣 \"There are lots of traders there just trying to make a buck, so they follow the momentum and then try to take profits.\" —Thomas Martin, senior portfolio manager at Globalt Investments, on this morning's market moves."
-            },
-            {
-              "headline": "There Goes the Nasdaq's Rally",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/there-goes-the-nasdaq-s-rally-PzMqrpmUNwPodCRxibp6?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:26:00Z",
-              "summary": "It is happening again. The Nasdaq, after opening higher and riding a rebound in tech stocks, turned sharply lower. It's exactly what happened on Wednesday. This time, it is down 0.6%. The S&P 500 rose 0."
-            },
-            {
-              "headline": "Buy These 5 Low-Leverage Stocks Amid Widespread Tech Sell-Off",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/buy-5-low-leverage-stocks-141700563.html",
-              "published_at": "2026-06-25T14:17:00Z",
-              "summary": "Five low-leverage stocks stand out as investors rotate from tech, with earnings growth, expansion plans and strategic updates supporting interest."
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/the-mag-7-is-bleeding-the-rest-of-the-market-is-cruising--NEuvQe2EzzzuTbEVBD8Q?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-06-25T20:01:35Z",
+              "summary": "The bleeding in Magnificent Seven stocks dragged down the S&P 500 and Nasdaq again on Thursday, but other sectors cruised along.  The Nasdaq fell 0.5%.  For the fourth time, the Dow failed to close above 52,000 after crossing that mark during intraday trading."
             }
           ],
           "earnings": {
@@ -6916,11 +6914,11 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 83,
+          "score": 71,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is supportive",
-            "positive news tone"
+            "mildly negative news tone"
           ]
         },
         {
@@ -6933,7 +6931,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 52310.42,
+          "price": 51920.62,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -6956,10 +6954,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 3.42,
-            "six_months": 8.16,
-            "one_year": 21.4,
-            "five_years": 51.92
+            "one_month": 2.65,
+            "six_months": 7.36,
+            "one_year": 20.5,
+            "five_years": 51.45
           },
           "chart_points": [
             {
@@ -7218,22 +7216,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.25,
-            "label": "Positive",
-            "bullish_percent": 62.5,
-            "bearish_percent": 0.0,
+            "score": -0.042,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.2,
+            "delta": -0.292,
             "history": [
-              {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.217,
-                "label": "Neutral",
-                "bullish_percent": 50.0,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.375,
@@ -7465,16 +7455,24 @@
                 "bullish_percent": 62.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": -0.042,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Stock market today: Dow and S&P 500 rise, Nasdaq slips as PCE comes in hot, Big Tech falters",
-              "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-and-sp-500-rise-nasdaq-slips-as-pce-comes-in-hot-big-tech-falters-232650645.html",
-              "published_at": "2026-06-24T23:26:50Z",
-              "summary": "Nasdaq jumps amid revived confidence in the AI trade, as Fed-favored inflation print keeps rate hikes in play."
+              "headline": "Big Tech stocks tumble while Micron continues to gain on Q3 earnings",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/big-tech-stocks-tumble-while-191535676.html",
+              "published_at": "2026-06-25T19:15:35Z",
+              "summary": "US stocks (^DJI, ^IXIC, ^GSPC) search for direction ahead of Thursday's session close, while Micron Technology (MU) holds onto gains following its massive earnings beat yesterday. Yahoo Finance Markets and Data Editor Jared Blikre takes a closer look at the day's market moves, Big Tech stocks, and how Micron's stock gains may be impacting Apple (AAPL)."
             },
             {
               "headline": "Alphabet makes the Dow look more like the Nasdaq",
@@ -7484,58 +7482,56 @@
               "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
             },
             {
-              "headline": "Stock Market Today: Indexes Volatile; Micron Surges, But Apple Makes Sell Signal (Live Coverage)",
+              "headline": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-mixed-signals-micron-flies-apple-dives/?src=A00220&yptr=yahoo",
+              "published_at": "2026-06-25T20:55:29Z",
+              "summary": "The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower."
+            },
+            {
+              "headline": "Stock Market Today: Indexes Mixed; S&P 500 Barely Holds This Significant Level (Live Coverage)",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-micron-stock-mu/?src=A00220&yptr=yahoo",
-              "published_at": "2026-06-25T14:39:59Z",
-              "summary": "The stock market was volatile Thursday morning, reversing lower in the opening phase before quickly rebounding.  Apple stock tumbled and technology stocks in general reversed lower.  The Dow Jones Industrial Average and other major stock indexes opened higher on the stock market today after a stronger-than-expected GDP reading."
+              "published_at": "2026-06-25T20:44:45Z",
+              "summary": "The stock market closed mixed Thursday, with the Nasdaq composite down 0.5%.  The bullish mood that Micron Technology's earnings report engendered didn't spread to many of the major tech stocks.  The Nasdaq closed below its 50-day line for a third straight day."
             },
             {
-              "headline": "Why the Dow Is Soaring But the Nasdaq Is Falling",
+              "headline": "Update: Nasdaq Extends Losing Streak; Apple Plunges After Price Hikes",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-extends-losing-streak-apple-202855276.html",
+              "published_at": "2026-06-25T20:28:55Z",
+              "summary": "(Updates with market moves at the end of the day.) The Nasdaq Composite extended its losing strea"
+            },
+            {
+              "headline": "Wall St ends mixed as tech megacap declines outweigh upbeat chip outlook",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-2-micron-073003123.html",
+              "published_at": "2026-06-25T20:27:26Z",
+              "summary": "By Abigail Summerville, Twesha Dikshit and Joel Jose June 25 (Reuters) - The Nasdaq closed lower on Thursday, dragged down by losses in Big Tech shares, while the S&P closed near flat and the Dow"
+            },
+            {
+              "headline": "US Equity Markets Mixed After Micron Technology's Results, Surge in Annual Inflation Rate",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-micron-200421175.html",
+              "published_at": "2026-06-25T20:04:21Z",
+              "summary": "US equity indexes were mixed on Thursday after Micron Technology's (MU) better-than-expected quarter"
+            },
+            {
+              "headline": "The Mag 7 Is Bleeding. The Rest of the Market Is Cruising.",
               "source": "Barrons.com",
-              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/why-the-dow-is-soaring-but-the-nasdaq-is-falling-WHcXPsuw4gNuvtyGDQe3?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:31:29Z",
-              "summary": "The stock market is leaving Big Tech stocks in the dust. The Dow surged 733 points, or 1.4%, while the S&P 500 gained 0.3%. The Nasdaq, which was up nearly 1% at the open, was down 0.6%. More than four-in-five S&P 500 stocks were set to close higher, but the Roundhill Magnificent Seven ETF dropped 2%."
-            },
-            {
-              "headline": "💬 Money Quote: Profit Taking",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-25-2026/card/-money-quote-profit-taking-92RVLdI0Hzk2zeN5JaZI?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:26:56Z",
-              "summary": "📣 \"There are lots of traders there just trying to make a buck, so they follow the momentum and then try to take profits.\" —Thomas Martin, senior portfolio manager at Globalt Investments, on this morning's market moves."
-            },
-            {
-              "headline": "There Goes the Nasdaq's Rally",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/there-goes-the-nasdaq-s-rally-PzMqrpmUNwPodCRxibp6?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T14:26:00Z",
-              "summary": "It is happening again. The Nasdaq, after opening higher and riding a rebound in tech stocks, turned sharply lower. It's exactly what happened on Wednesday. This time, it is down 0.6%. The S&P 500 rose 0."
-            },
-            {
-              "headline": "Buy These 5 Low-Leverage Stocks Amid Widespread Tech Sell-Off",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/buy-5-low-leverage-stocks-141700563.html",
-              "published_at": "2026-06-25T14:17:00Z",
-              "summary": "Five low-leverage stocks stand out as investors rotate from tech, with earnings growth, expansion plans and strategic updates supporting interest."
-            },
-            {
-              "headline": "Nasdaq Roars Back After Micron Earnings, Inflation Report",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/nasdaq-roars-back-after-micron-earnings-inflation-report-AdSLSauXHuJpvcB3QXwJ?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-06-25T13:33:01Z",
-              "summary": "Micron's earnings report gave the Nasdaq the jumpstart it desperately needed on Thursday.  The Nasdaq was up 0.9%.  Micron not only reported blowout results but also gave a forecast that had Wall Street ready to pile back into the chip sector after a brief road bump."
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/the-mag-7-is-bleeding-the-rest-of-the-market-is-cruising--NEuvQe2EzzzuTbEVBD8Q?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-06-25T20:01:35Z",
+              "summary": "The bleeding in Magnificent Seven stocks dragged down the S&P 500 and Nasdaq again on Thursday, but other sectors cruised along.  The Nasdaq fell 0.5%.  For the fourth time, the Dow failed to close above 52,000 after crossing that mark during intraday trading."
             }
           ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
-          "rating": "Buy",
-          "score": 83,
+          "rating": "Hold",
+          "score": 66,
           "rating_reasons": [
-            "strong one-year trend",
-            "six-month momentum is supportive",
-            "positive news tone"
+            "strong one-year trend"
           ]
         }
       ]
@@ -7555,17 +7551,17 @@
           "sector": null,
           "industry": null,
           "summary": "The fund will invest at least 80% of its assets in the component securities of the underlying index and it will invest at least 90% of its assets in U.S. Treasury securities that BFA believes will help the fund track the underlying index. The underlying index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity of greater than or equal to one year and less than three years.",
-          "price": 82.1301,
+          "price": 82.09,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
           "dividend_yield": 3.71,
           "beta": null,
-          "trailing_pe": 3733.1863,
+          "trailing_pe": 3731.3635,
           "forward_pe": null,
           "peg_ratio": null,
           "price_to_sales": null,
-          "price_to_book": 0.95232135,
+          "price_to_book": 0.9518564,
           "profit_margin": null,
           "operating_margin": null,
           "gross_margin": null,
@@ -7578,10 +7574,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 0.31,
-            "six_months": 0.75,
-            "one_year": 2.98,
-            "five_years": 9.3
+            "one_month": 0.26,
+            "six_months": 0.7,
+            "one_year": 2.93,
+            "five_years": 9.21
           },
           "chart_points": [
             {
@@ -7849,14 +7845,6 @@
             "delta": 0.0,
             "history": [
               {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.042,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
-              {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.042,
                 "label": "Neutral",
@@ -8087,6 +8075,14 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 50.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -8168,7 +8164,7 @@
           "sector": null,
           "industry": null,
           "summary": "The underlying index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity of greater than or equal to seven years and less than ten years. The fund will invest at least 80% of its assets in the component securities of the underlying index, and the fund will invest at least 90% of its assets in U.S. Treasury securities that the advisor believes will help the fund track the underlying index.",
-          "price": 94.895,
+          "price": 94.79,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -8178,7 +8174,7 @@
           "forward_pe": null,
           "peg_ratio": null,
           "price_to_sales": null,
-          "price_to_book": 0.80997455,
+          "price_to_book": 0.8090784,
           "profit_margin": null,
           "operating_margin": null,
           "gross_margin": null,
@@ -8191,10 +8187,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 1.42,
-            "six_months": 0.31,
-            "one_year": 3.5,
-            "five_years": -4.76
+            "one_month": 1.31,
+            "six_months": 0.2,
+            "one_year": 3.38,
+            "five_years": -5.16
           },
           "chart_points": [
             {
@@ -8462,14 +8458,6 @@
             "delta": 0.0,
             "history": [
               {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": -0.042,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
-              {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": -0.042,
                 "label": "Neutral",
@@ -8700,6 +8688,14 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.042,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
@@ -8781,17 +8777,17 @@
           "sector": null,
           "industry": null,
           "summary": "The fund will invest at least 80% of its assets in the component securities of the underlying index, and it will invest at least 90% of its assets in U.S. Treasury securities that the advisor believes will help the fund track the underlying index. The underlying index measures the performance of public obligations of the U.S. Treasury that have a remaining maturity greater than or equal to twenty years.",
-          "price": 87.475,
+          "price": 87.35,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
           "dividend_yield": 4.55,
           "beta": null,
           "trailing_pe": null,
-          "forward_pe": -4373.75,
+          "forward_pe": -4367.5,
           "peg_ratio": null,
           "price_to_sales": null,
-          "price_to_book": 0.5876129,
+          "price_to_book": 0.5867732,
           "profit_margin": null,
           "operating_margin": null,
           "gross_margin": null,
@@ -8804,10 +8800,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 3.71,
-            "six_months": 2.03,
-            "one_year": 4.65,
-            "five_years": -27.09
+            "one_month": 3.56,
+            "six_months": 1.88,
+            "one_year": 4.5,
+            "five_years": -27.93
           },
           "chart_points": [
             {
@@ -9075,14 +9071,6 @@
             "delta": 0.0,
             "history": [
               {
-                "timestamp": "2026-06-11T17:01:54.177527+00:00",
-                "score": 0.125,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
-              {
                 "timestamp": "2026-06-11T21:32:07.747475+00:00",
                 "score": 0.125,
                 "label": "Neutral",
@@ -9313,6 +9301,14 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-06-25T21:06:33.950919+00:00",
+                "score": 0.167,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -9399,17 +9395,17 @@
       "sector": "Technology",
       "industry": "Consumer Electronics",
       "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
-      "price": 279.53,
+      "price": 275.15,
       "currency": "USD",
-      "market_cap": 4105556459520.0,
+      "market_cap": 4041225797632.0,
       "enterprise_value": 4320774324224.0,
       "dividend_yield": 0.37,
       "beta": 1.086,
-      "trailing_pe": 33.841404,
-      "forward_pe": 29.087074,
+      "trailing_pe": 33.31114,
+      "forward_pe": 28.634851,
       "peg_ratio": 2.37,
-      "price_to_sales": 9.0943165,
-      "price_to_book": 38.502754,
+      "price_to_sales": 8.951816,
+      "price_to_book": 37.89945,
       "profit_margin": 27.15,
       "operating_margin": 32.27,
       "gross_margin": 47.86,
@@ -9422,10 +9418,10 @@
       "analyst_target_mean": 315.09048,
       "number_of_analyst_opinions": 42,
       "performance": {
-        "one_month": -9.48,
-        "six_months": 3.35,
-        "one_year": 40.11,
-        "five_years": 115.44
+        "one_month": -10.9,
+        "six_months": 1.73,
+        "one_year": 37.91,
+        "five_years": 109.44
       },
       "chart_points": [
         {
@@ -9730,22 +9726,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.0,
+        "score": 0.183,
         "label": "Neutral",
         "bullish_percent": 25.0,
-        "bearish_percent": 12.5,
+        "bearish_percent": 25.0,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": -0.042,
+        "delta": 0.183,
         "history": [
-          {
-            "timestamp": "2026-06-11T17:01:54.177527+00:00",
-            "score": 0.083,
-            "label": "Neutral",
-            "bullish_percent": 12.5,
-            "bearish_percent": 12.5,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-06-11T21:32:07.747475+00:00",
             "score": 0.208,
@@ -9977,65 +9965,73 @@
             "bullish_percent": 25.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-06-25T21:06:33.950919+00:00",
+            "score": 0.183,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "Tech stocks live: AI memory trade roars back after Micron earnings crush estimates",
+          "headline": "Apple stock plunges after raising prices on MacBooks, iPads amid global memory crisis",
           "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-ai-memory-trade-roars-back-after-micron-earnings-crush-estimates-143422690.html",
-          "published_at": "2026-06-22T14:34:22Z",
-          "summary": "Memory giant Micron (MU) will report its third quarter earnings after the bell on Wednesday, providing another update on the broader AI build-out."
+          "url": "https://finance.yahoo.com/technology/article/apple-stock-plunges-after-raising-prices-on-macbooks-ipads-amid-global-memory-crisis-140406938.html",
+          "published_at": "2026-06-25T14:04:06Z",
+          "summary": "Apple is increasing prices on some of its MacBooks and iPads to offset the impact of the global memory crisis."
         },
         {
-          "headline": "Apple announces price hikes on Mac and iPad devices",
-          "source": "Axios",
-          "url": "https://finance.yahoo.com/technology/articles/apple-announces-price-hikes-mac-151322462.html",
-          "published_at": "2026-06-25T15:13:22Z",
-          "summary": "Apple increased prices on MacBook and iPad devices Thursday, saying that AI data center investments have triggered a chain reaction that forced its hand."
+          "headline": "Big Tech stocks tumble while Micron continues to gain on Q3 earnings",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/big-tech-stocks-tumble-while-191535676.html",
+          "published_at": "2026-06-25T19:15:35Z",
+          "summary": "US stocks (^DJI, ^IXIC, ^GSPC) search for direction ahead of Thursday's session close, while Micron Technology (MU) holds onto gains following its massive earnings beat yesterday. Yahoo Finance Markets and Data Editor Jared Blikre takes a closer look at the day's market moves, Big Tech stocks, and how Micron's stock gains may be impacting Apple (AAPL)."
         },
         {
-          "headline": "AAPL Stock Drops 6% After Apple Passes AI-Driven Chip Costs to Consumers",
-          "source": "BeInCrypto",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aapl-stock-drops-6-apple-145432149.html",
-          "published_at": "2026-06-25T14:54:32Z",
-          "summary": "Apple raised Mac and iPad prices as an AI memory shortage lifted costs, and the stock fell on demand fears."
+          "headline": "May PCE: Inflation ticks up to highest level since 2023",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/may-pce-inflation-ticks-highest-135200649.html",
+          "published_at": "2026-06-25T13:52:00Z",
+          "summary": "May's Personal Consumption Expenditures (PCE) index — the Federal Reserve's preferred inflation gauge — saw inflation rise 0.4% month-over-month and 4.1% year-over-year Core PCE, which excludes food and energy prices, rose 0.3% monthly and 3.4% annually, marking the highest level since 2023. Morning Brief Host Julie Hyman is joined by Yahoo Finance Tech Editor Dan Howley and Epistrophy Capital Research chief market strategist Cory Johnson to further examine rising price trends."
         },
         {
-          "headline": "Apple raises Mac and iPad prices, spares iPhone for now",
-          "source": "TechCrunch",
-          "url": "https://finance.yahoo.com/technology/articles/apple-raises-mac-ipad-prices-145235673.html",
-          "published_at": "2026-06-25T14:52:35Z",
-          "summary": "Apple raises prices of MacBook Air and Pro along with iPad Air and Pro"
+          "headline": "Alphabet makes the Dow look more like the Nasdaq",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/alphabet-makes-the-dow-look-more-like-the-nasdaq-155236659.html",
+          "published_at": "2026-06-24T15:52:36Z",
+          "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
         },
         {
-          "headline": "Apple stock falls on MacBook and iPad price hikes",
-          "source": "Quartz",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-falls-macbook-ipad-144640996.html",
-          "published_at": "2026-06-25T14:46:40Z",
-          "summary": "Apple raised prices by up to $300 on five products Thursday, blaming an AI-driven surge in memory and storage costs"
+          "headline": "Nasdaq falls again on mixed day for US stocks, oil prices rise",
+          "source": "AFP",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-stocks-soar-asia-tech-025740744.html",
+          "published_at": "2026-06-25T20:56:00Z",
+          "summary": "The Nasdaq fell for the fourth straight session Thursday behind weakness in Apple and other tech giants while oil prices pushed higher after a cargo ship was attacked in the Strait of Hormuz. The cargo ship was damaged by an unknown projectile off the Omani coast in the strategic strait on Thursday, prompting the International Maritime Organization to halt an evacuation of crews trapped by the US-Iran war."
         },
         {
-          "headline": "Stock Market Today: Indexes Volatile; Micron Surges, But Apple Makes Sell Signal (Live Coverage)",
+          "headline": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-mixed-signals-micron-flies-apple-dives/?src=A00220&yptr=yahoo",
+          "published_at": "2026-06-25T20:55:29Z",
+          "summary": "The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower."
+        },
+        {
+          "headline": "Stock Market Today: Indexes Mixed; S&P 500 Barely Holds This Significant Level (Live Coverage)",
           "source": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-micron-stock-mu/?src=A00220&yptr=yahoo",
-          "published_at": "2026-06-25T14:39:59Z",
-          "summary": "The stock market was volatile Thursday morning, reversing lower in the opening phase before quickly rebounding.  Apple stock tumbled and technology stocks in general reversed lower.  The Dow Jones Industrial Average and other major stock indexes opened higher on the stock market today after a stronger-than-expected GDP reading."
+          "published_at": "2026-06-25T20:44:45Z",
+          "summary": "The stock market closed mixed Thursday, with the Nasdaq composite down 0.5%.  The bullish mood that Micron Technology's earnings report engendered didn't spread to many of the major tech stocks.  The Nasdaq closed below its 50-day line for a third straight day."
         },
         {
-          "headline": "Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage",
-          "source": "CNN Business",
-          "url": "https://finance.yahoo.com/technology/articles/apple-hiking-prices-macbooks-ipads-134446334.html",
-          "published_at": "2026-06-25T14:35:51Z",
-          "summary": "Apple has hiked prices on some of its most popular products, including the MacBook and iPad, because of the rising costs of memory and storage chips sparked by the AI boom."
-        },
-        {
-          "headline": "Why the Dow Is Soaring But the Nasdaq Is Falling",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062526/card/why-the-dow-is-soaring-but-the-nasdaq-is-falling-WHcXPsuw4gNuvtyGDQe3?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-06-25T14:31:29Z",
-          "summary": "The stock market is leaving Big Tech stocks in the dust. The Dow surged 733 points, or 1.4%, while the S&P 500 gained 0.3%. The Nasdaq, which was up nearly 1% at the open, was down 0.6%. More than four-in-five S&P 500 stocks were set to close higher, but the Roundhill Magnificent Seven ETF dropped 2%."
+          "headline": "Apple Just Dropped 6%. Here’s Why Some Investors Are Buying",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-dropped-6-why-203327355.html",
+          "published_at": "2026-06-25T20:33:27Z",
+          "summary": "Apple (NASDAQ:AAPL) became the focal point of a CNBC investment-committee debate after the company raised prices across its Mac, iPad, HomePod, and Vision Pro lines to offset surging memory and storage chip costs. The move sent the stock down 6.2% on Thursday, June 25. Now, some investors are wondering whether this marks a good entry point ... Apple Just Dropped 6%. Here’s Why Some Investors Are Buying"
         }
       ],
       "earnings": {
@@ -10061,17 +10057,17 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "summary": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics products and cloud services, such as dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services comprising Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; server products, including SQL and windows server, visual studio and system center related client access licenses, and other on-premises offerings; enterprise and partner services, such as enterprise support and nuance professional services, industry solutions, Microsoft partner network, and learning experience. The Personal Computing segment provides windows and devices, such as Windows OEM licensing and devices and surface and PC accessories; gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox game pass, subscriptions, and cloud gaming, advertising, and other cloud services; search and news advertising services. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company has a strategic collaboration with Mayo Clinic, Inc. for the development of a frontier AI model for healthcare; and Global Objects, Inc. to build a retrieval-grounded generative AI world model. The company was founded in 1975 and is headquartered in Redmond, Washington.",
-      "price": 356.21,
+      "price": 352.83,
       "currency": "USD",
-      "market_cap": 2645860024320.0,
+      "market_cap": 2620974694400.0,
       "enterprise_value": 2761999777792.0,
       "dividend_yield": 1.0,
       "beta": 1.103,
-      "trailing_pe": 21.239117,
-      "forward_pe": 18.38933,
+      "trailing_pe": 21.039354,
+      "forward_pe": 18.216372,
       "peg_ratio": 1.13,
-      "price_to_sales": 8.313878,
-      "price_to_book": 6.385786,
+      "price_to_sales": 8.234989,
+      "price_to_book": 6.3257256,
       "profit_margin": 39.34,
       "operating_margin": 46.33,
       "gross_margin": 68.31,
@@ -10081,13 +10077,13 @@
       "debt_to_equity": 30.271,
       "free_cashflow": 37011251200.0,
       "recommendation_key": "strong_buy",
-      "analyst_target_mean": 561.38763,
+      "analyst_target_mean": 561.1149,
       "number_of_analyst_opinions": 55,
       "performance": {
-        "one_month": -14.9,
-        "six_months": -26.21,
-        "one_year": -26.74,
-        "five_years": 40.06
+        "one_month": -15.71,
+        "six_months": -26.92,
+        "one_year": -27.44,
+        "five_years": 36.81
       },
       "chart_points": [
         {
@@ -10383,22 +10379,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": -0.146,
+        "score": 0.01,
         "label": "Neutral",
-        "bullish_percent": 12.5,
-        "bearish_percent": 37.5,
+        "bullish_percent": 25.0,
+        "bearish_percent": 25.0,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": -0.229,
+        "delta": 0.156,
         "history": [
-          {
-            "timestamp": "2026-06-11T17:01:54.177527+00:00",
-            "score": 0.042,
-            "label": "Neutral",
-            "bullish_percent": 12.5,
-            "bearish_percent": 0.0,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-06-11T21:32:07.747475+00:00",
             "score": -0.042,
@@ -10630,65 +10618,73 @@
             "bullish_percent": 12.5,
             "bearish_percent": 37.5,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-06-25T21:06:33.950919+00:00",
+            "score": 0.01,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "Qualcomm's 'next phase' is AI rack infrastructure: CFO",
+          "headline": "Micron earnings beat fuels hopes for Tech rally rebound",
           "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/qualcomms-next-phase-ai-rack-145505993.html",
-          "published_at": "2026-06-25T14:55:05Z",
-          "summary": "Qualcomm (QCOM) CFO and COO Akash Palkhiwala joins Yahoo Finance Tech Editor Dan Howley to discuss the AI chipmaker's expansion into the AI data center industry with its new server rack."
+          "url": "https://finance.yahoo.com/video/micron-earnings-beat-fuels-hopes-194500066.html",
+          "published_at": "2026-06-25T19:45:00Z",
+          "summary": "TECHnalysis Research President Bob O'Donnell joins Josh Lipton on Market Domination to break down Micron's (MU) strong earnings beat and what it could mean for a broader tech rally rebound."
         },
         {
-          "headline": "Stifel cuts Microsoft target, says Street FY27 gross margin estimates are too high",
-          "source": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-cuts-microsoft-target-says-150503186.html",
-          "published_at": "2026-06-25T15:05:03Z",
-          "summary": "Investing.com -- Stifel has cut its price target on Microsoft to $400, warning that Wall Street’s fiscal year 2027 gross margin estimates fail to capture the drag from Azure’s rapid growth and compressing cloud margins driven by accelerating capital expenditure."
+          "headline": "Alphabet makes the Dow look more like the Nasdaq",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/alphabet-makes-the-dow-look-more-like-the-nasdaq-155236659.html",
+          "published_at": "2026-06-24T15:52:36Z",
+          "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
         },
         {
-          "headline": "Nvidia Stock Slips Below $200, and the Competition Fears Are Growing",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/nvidia-stock-price-chip-competition-8a703dd9?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-06-25T14:46:00Z",
-          "summary": "Nvidia  was falling early Thursday after rising throughout premarket trading as initial semiconductor cheer from Micron earnings quickly reversed.  Nvidia shares were down 2% at $2194.98 in early trading after  Micron Technology  blowout earnings.  As Barron’s has written, Nvidia looked to be establishing a trading range with a floor of roughly $200, after breaking through that level in April."
+          "headline": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-mixed-signals-micron-flies-apple-dives/?src=A00220&yptr=yahoo",
+          "published_at": "2026-06-25T20:55:29Z",
+          "summary": "The Nasdaq reversed lower again while the Dow came off record highs. Micron soared but Apple led other tech titans lower."
         },
         {
-          "headline": "The New Push to Ready Millions for AI Career Upheaval",
-          "source": "The Wall Street Journal",
-          "url": "https://www.wsj.com/lifestyle/careers/the-new-push-to-ready-millions-for-ai-career-upheaval-dfb04cc5?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-06-25T14:43:00Z",
-          "summary": "A coalition of employers and state governments says it is developing a sweeping strategy to help workers respond to the AI age."
+          "headline": "Stock Market Today: Indexes Mixed; S&P 500 Barely Holds This Significant Level (Live Coverage)",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-inflation-data-micron-stock-mu/?src=A00220&yptr=yahoo",
+          "published_at": "2026-06-25T20:44:45Z",
+          "summary": "The stock market closed mixed Thursday, with the Nasdaq composite down 0.5%.  The bullish mood that Micron Technology's earnings report engendered didn't spread to many of the major tech stocks.  The Nasdaq closed below its 50-day line for a third straight day."
         },
         {
-          "headline": "Qualcomm unveils data center AI chips, Meta as CPU customer",
-          "source": "Quartz",
-          "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-unveils-data-center-ai-141725469.html",
-          "published_at": "2026-06-25T14:17:25Z",
-          "summary": "The chipmaker unveiled its Dragonfly portfolio at an investor day, targeting more than $15 billion in data center revenue by fiscal 2029"
+          "headline": "Update: Nasdaq Extends Losing Streak; Apple Plunges After Price Hikes",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-extends-losing-streak-apple-202855276.html",
+          "published_at": "2026-06-25T20:28:55Z",
+          "summary": "(Updates with market moves at the end of the day.) The Nasdaq Composite extended its losing strea"
         },
         {
-          "headline": "S&P 500, Nasdaq drop as tech megacap declines outweigh upbeat Micron forecast",
+          "headline": "Wall St ends mixed as tech megacap declines outweigh upbeat chip outlook",
           "source": "Reuters",
           "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-2-micron-073003123.html",
-          "published_at": "2026-06-25T14:10:31Z",
-          "summary": "By Twesha Dikshit and Joel Jose June 25 (Reuters) - The S&P 500 and the Nasdaq dropped on Thursday as declines in big technology names weighed despite strong forecasts from Micron and Qualcomm aiding"
+          "published_at": "2026-06-25T20:27:26Z",
+          "summary": "By Abigail Summerville, Twesha Dikshit and Joel Jose June 25 (Reuters) - The Nasdaq closed lower on Thursday, dragged down by losses in Big Tech shares, while the S&P closed near flat and the Dow"
         },
         {
-          "headline": "Will Gaming Expansion Help Microsoft Anchor the Cloud Reach?",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/gaming-expansion-help-microsoft-anchor-140000783.html",
-          "published_at": "2026-06-25T14:00:00Z",
-          "summary": "MSFT's gaming revenues fall as Xbox hardware slumps, but cloud streaming, Game Pass and new content may deepen ties to its cloud ecosystem."
-        },
-        {
-          "headline": "Microsoft’s Stock Is Crippled",
+          "headline": "Melius Research: “Buy the chip dip, skip hyperscalers” until AI payoff becomes clear",
           "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-crippled-135408285.html",
-          "published_at": "2026-06-25T13:54:08Z",
-          "summary": "AI was supposed to be a tide that lifted all ships within the sector. Microsoft (NASDAQ: MSFT) is the leading exception. So far this year, the stock is down 24%. The market is 7% higher, and the market’s long-term trade is just bad or worse. Over the last five years, the stock has risen 38% ... Microsoft’s Stock Is Crippled"
+          "url": "https://finance.yahoo.com/technology/ai/articles/melius-research-buy-chip-dip-201917445.html",
+          "published_at": "2026-06-25T20:19:17Z",
+          "summary": "Melius Research’s head of tech research, Ben Reitzes, told CNBC to lean into chip-stock weakness and stay clear of the cloud giants paying for the buildout. “I’m telling them to buy on the dip. These have been opportunities in the past, and we just don’t really see any change,” Reitzes said. His list of buys ... Melius Research: “Buy the chip dip, skip hyperscalers” until AI payoff becomes clear"
+        },
+        {
+          "headline": "MSFT Stock Slides 4.5% — Microsoft Price Target Revision By Stifel And Xbox Pricing Changes In Focus",
+          "source": "Stocktwits",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-slides-4-5-200936585.html",
+          "published_at": "2026-06-25T20:09:36Z",
+          "summary": "Microsoft said it will raise Xbox console prices globally from August 1, with 512 GB models up $100 and 1 TB models up $150."
         }
       ],
       "earnings": {
@@ -10696,7 +10692,7 @@
         "source": "Finnhub"
       },
       "rating": "Buy",
-      "score": 96,
+      "score": 100,
       "rating_reasons": [
         "solid revenue growth",
         "high net margins",
@@ -10714,17 +10710,17 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-      "price": 196.13,
+      "price": 195.74,
       "currency": "USD",
-      "market_cap": 4750465040384.0,
+      "market_cap": 4741018419200.0,
       "enterprise_value": 4775442120704.0,
       "dividend_yield": 0.5,
       "beta": 2.202,
-      "trailing_pe": 30.035221,
-      "forward_pe": 15.408112,
-      "peg_ratio": 0.64,
-      "price_to_sales": 18.740171,
-      "price_to_book": 24.303595,
+      "trailing_pe": 29.975498,
+      "forward_pe": 15.377473,
+      "peg_ratio": 0.61,
+      "price_to_sales": 18.702906,
+      "price_to_book": 24.255268,
       "profit_margin": 62.97,
       "operating_margin": 65.6,
       "gross_margin": 74.14,
@@ -10737,10 +10733,10 @@
       "analyst_target_mean": 298.9322,
       "number_of_analyst_opinions": 59,
       "performance": {
-        "one_month": -8.81,
-        "six_months": 6.91,
-        "one_year": 32.79,
-        "five_years": 934.2
+        "one_month": -8.99,
+        "six_months": 6.69,
+        "one_year": 32.52,
+        "five_years": 882.82
       },
       "chart_points": [
         {
@@ -11045,22 +11041,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.333,
-        "label": "Positive",
-        "bullish_percent": 50.0,
+        "score": -0.042,
+        "label": "Neutral",
+        "bullish_percent": 0.0,
         "bearish_percent": 12.5,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": 0.166,
+        "delta": -0.375,
         "history": [
-          {
-            "timestamp": "2026-06-11T17:01:54.177527+00:00",
-            "score": 0.083,
-            "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 12.5,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-06-11T21:32:07.747475+00:00",
             "score": 0.083,
@@ -11292,65 +11280,73 @@
             "bullish_percent": 50.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-06-25T21:06:33.950919+00:00",
+            "score": -0.042,
+            "label": "Neutral",
+            "bullish_percent": 0.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "May PCE: Inflation ticks up to highest level since 2023",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/may-pce-inflation-ticks-highest-135200649.html",
-          "published_at": "2026-06-25T13:52:00Z",
-          "summary": "May's Personal Consumption Expenditures (PCE) index — the Federal Reserve's preferred inflation gauge — saw inflation rise 0.4% month-over-month and 4.1% year-over-year Core PCE, which excludes food and energy prices, rose 0.3% monthly and 3.4% annually, marking the highest level since 2023. Morning Brief Host Julie Hyman is joined by Yahoo Finance Tech Editor Dan Howley and Epistrophy Capital Research chief market strategist Cory Johnson to further examine rising price trends."
-        },
-        {
-          "headline": "Trending: OpenAI, Broadcom target Nvidia's AI chip dominance; Wendy's sees meme stock boost",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/trending-openai-broadcom-target-nvidias-194722853.html",
-          "published_at": "2026-06-24T19:47:22Z",
-          "summary": "Yahoo Finance's Josh Lipton takes a closer look at some of Wednesday's trending tickers and stories, including Broadcom's (AVGO) partnership with OpenAI (OPAI.PVT), Cerebras's (CBRS) first quarterly earnings report, and Wendy's (WEN) meme stock status."
-        },
-        {
-          "headline": "Qualcomm debuts line of AI data center chips and systems, increasing competition with Nvidia",
+          "headline": "Sandisk, Western Digital, and others soar as Micron results  'justify elevated valuations'",
           "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/article/qualcomm-debuts-line-of-ai-data-center-chips-and-systems-increasing-competition-with-nvidia-193000684.html",
-          "published_at": "2026-06-24T19:30:00Z",
-          "summary": "Qualcomm is increasing its line of AI data center products as it looks to grow its share of the market."
+          "url": "https://finance.yahoo.com/markets/article/sandisk-western-digital-and-others-soar-as-micron-results-justify-elevated-valuations-140642825.html",
+          "published_at": "2026-06-25T14:06:42Z",
+          "summary": "Micron's blowout earnings lifted the semiconductor complex on Thursday."
         },
         {
-          "headline": "An Analyst Just Declared Eli Lilly the \"Clear Winner\" of an American Diabetes Association Conference Focused on Weight-Loss Drugs. Novo's Chief Scientist Disagrees. Who's Right?",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/healthcare/articles/analyst-just-declared-eli-lilly-153800845.html",
-          "published_at": "2026-06-25T15:38:00Z",
-          "summary": "Novo Nordisk is no longer the front-runner, but it's not out of the running, either."
+          "headline": "Qualcomm CFO talks Modular acquisition's significance for AI data centers",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/qualcomm-cfo-talks-modular-acquisitions-160500980.html",
+          "published_at": "2026-06-25T16:05:00Z",
+          "summary": "Qualcomm (QCOM) CFO and COO Akash Palkhiwala joins Yahoo Finance Tech Editor Dan Howley to discuss the AI chipmaker's announced acquisition of AI software infrastructure startup Modular."
         },
         {
-          "headline": "Forget XLU. The Grid Fund Actually Powering the AI Boom Is Up 23% in 2026",
+          "headline": "Alphabet makes the Dow look more like the Nasdaq",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/alphabet-makes-the-dow-look-more-like-the-nasdaq-155236659.html",
+          "published_at": "2026-06-24T15:52:36Z",
+          "summary": "Alphabet's inclusion in the Dow gives the 130-year-old blue-chip index a dose of the same mega-cap tech trade already dominating the Nasdaq 100."
+        },
+        {
+          "headline": "268 U.S. Cities Now Have $1 Million Starter Homes as Housing Affordability Worsens. Here’s Why",
           "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/forget-xlu-grid-fund-actually-153652208.html",
-          "published_at": "2026-06-25T15:36:52Z",
-          "summary": "If you own the Utilities Select Sector SPDR Fund (NYSEARCA:XLU) as your AI power play, the logic is straightforward: data centers need electricity, regulated utilities sell electricity, so XLU should capture the demand wave. The fund holds NextEra Energy at 13.59%, Southern Company at 7.47%, and Duke Energy at 7.15%, charges an expense ratio of ... Forget XLU. The Grid Fund Actually Powering the AI Boom Is Up 23% in 2026"
+          "url": "https://finance.yahoo.com/real-estate/articles/268-u-cities-now-1-205348627.html",
+          "published_at": "2026-06-25T20:53:48Z",
+          "summary": "The American starter home, once a symbol of accessible homeownership, has crossed into seven-figure territory in a growing number of metros. According to Katie Hubbard, president of U.S. Capital Markets at Walton Global, 268 U.S. cities now have entry-level homes priced at $1 million, concentrated mostly in California and New York. According to Zillow, the ... 268 U.S. Cities Now Have $1 Million Starter Homes as Housing Affordability Worsens. Here’s Why"
         },
         {
-          "headline": "This Might Be the Cheapest Meta Platforms Trades in Years. Here's Why.",
+          "headline": "Breakout Watch: This Firm Helps Nvidia, TSM And Intel Bring AI Ideas To Market",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-analysis/breakout-watch-this-firm-helps-nvidia-tsm-and-intel-bring-ai-ideas-to-market/?src=A00220&yptr=yahoo",
+          "published_at": "2026-06-25T20:37:19Z",
+          "summary": "In demand among the best mutual fund managers, Nvidia, TSMC and Intel partner Keysight looks to etch a breakout."
+        },
+        {
+          "headline": "Battle of the Artificial Intelligence (AI) Computing Companies: Is AMD, Broadcom, Nvidia, or Marvell the Best Stock to Buy Now?",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/might-cheapest-meta-platforms-trades-153500226.html",
-          "published_at": "2026-06-25T15:35:00Z",
-          "summary": "Now is the time to load up on Meta Platforms stock."
+          "url": "https://finance.yahoo.com/technology/ai/articles/battle-artificial-intelligence-ai-computing-203700012.html",
+          "published_at": "2026-06-25T20:37:00Z",
+          "summary": "All four companies have different strengths."
         },
         {
-          "headline": "Why Goldman is cautious on outperforming Intel stock",
-          "source": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-goldman-cautious-outperforming-intel-153414830.html",
-          "published_at": "2026-06-25T15:34:14Z",
-          "summary": "Investing.com -- Goldman Sachs initiated coverage of Intel with a Neutral rating and a 12-month price target of $150, acknowledging clear tailwinds in server CPUs and foundry optionality but arguing that the stock's recent run has already priced in much of the upside."
+          "headline": "Amazon's Next Big Move Into Big-Box Retail Could Be a Smart Move",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-next-big-move-big-203700286.html",
+          "published_at": "2026-06-25T20:37:00Z",
+          "summary": "The e-commerce giant's new store concept includes a feature that could make a key difference to sales."
         },
         {
-          "headline": "It’s Pretty Insane How Much TPAY’s 10% Yield Beats Most Covered Call ETFs",
+          "headline": "Apple Just Dropped 6%. Here’s Why Some Investors Are Buying",
           "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/options/articles/pretty-insane-much-tpay-10-152406249.html",
-          "published_at": "2026-06-25T15:24:06Z",
-          "summary": "As a general rule, I expect covered call ETFs to lag the broader market over time. The math is not particularly favorable. You cap your upside, retain most of the downside, pay higher management fees, and often generate taxable distributions along the way. Even after reinvesting those distributions, many covered call ETFs struggle to keep ... It’s Pretty Insane How Much TPAY’s 10% Yield Beats Most Covered Call ETFs"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-dropped-6-why-203327355.html",
+          "published_at": "2026-06-25T20:33:27Z",
+          "summary": "Apple (NASDAQ:AAPL) became the focal point of a CNBC investment-committee debate after the company raised prices across its Mac, iPad, HomePod, and Vision Pro lines to offset surging memory and storage chip costs. The move sent the stock down 6.2% on Thursday, June 25. Now, some investors are wondering whether this marks a good entry point ... Apple Just Dropped 6%. Here’s Why Some Investors Are Buying"
         }
       ],
       "earnings": {
