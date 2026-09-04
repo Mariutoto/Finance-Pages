@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:45:14.925853+00:00",
+  "generated_at": "2026-09-04T12:09:45.556178+00:00",
   "source": "Yahoo Finance via yfinance + Finnhub when configured",
   "disclaimer": "Educational snapshot only. Not financial advice.",
   "asset_groups": [
@@ -21,10 +21,10 @@
           "price": 328.21,
           "currency": "USD",
           "market_cap": 4789955985408.0,
-          "enterprise_value": 4764469821440.0,
+          "enterprise_value": 4811900583936.0,
           "dividend_yield": 0.33,
-          "beta": 1.086,
-          "trailing_pe": 37.681973,
+          "beta": 1.085,
+          "trailing_pe": 37.59565,
           "forward_pe": 34.403095,
           "peg_ratio": 2.56,
           "price_to_sales": 10.260755,
@@ -303,7 +303,7 @@
           "valuation_history": [
             {
               "year": 2021,
-              "price": 138.02,
+              "price": 138.01,
               "pe": null,
               "price_to_sales": null,
               "eps": null,
@@ -349,22 +349,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": -0.188,
+            "score": 0.083,
             "label": "Neutral",
-            "bullish_percent": 12.5,
-            "bearish_percent": 50.0,
+            "bullish_percent": 25.0,
+            "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.124,
+            "delta": 0.271,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.042,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.167,
@@ -596,65 +588,73 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 50.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.083,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "How Apple's John Ternus inherited a 'reckoning' with China",
-              "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/apples-john-ternus-inherited-reckoning-120000967.html",
-              "published_at": "2026-09-03T12:00:00Z",
-              "summary": "Strategy Risks founder and CEO, Isaac Stone Fish, sits down with Market Domination host Josh Lipton to discuss various aspects of Apple's (AAPL) overall strategy in China, India, and more."
+              "headline": "Apple's first foldable iPhone may cost $2,000",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/article/apples-first-foldable-iphone-may-cost-2000-110739523.html",
+              "published_at": "2026-09-04T11:07:39Z",
+              "summary": "Get ready to pay up for Apple!"
             },
             {
-              "headline": "Tim Cook Grew Apple From a $350 Billion Company Into a Multi-Trillion-Dollar Giant Over Nearly 15 Years as CEO. Can John Ternus' Product-First Approach Extend That Compounding?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/tim-cook-grew-apple-350-213500295.html",
-              "published_at": "2026-09-03T21:35:00Z",
-              "summary": "Apple is undergoing a major leadership transition, but it is important to remember that the company is product-driven."
+              "headline": "Market Chatter: Apple's Foldable iPhone Production Limited to Few Hundred Units Daily",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-apple-apos-foldable-115705069.html",
+              "published_at": "2026-09-04T11:57:05Z",
+              "summary": "Apple's (AAPL) initial production of its long-awaited foldable iPhone is limited to a few hundred un"
             },
             {
-              "headline": "Apple's Privacy Shield Now Carries a $2.7 Billion Price Tag",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/technology/articles/apples-privacy-shield-now-carries-213118939.html",
-              "published_at": "2026-09-03T21:31:18Z",
-              "summary": "The lawsuit attacks ATT's competitive economics--not the consumer-privacy promise Apple uses to defend it."
+              "headline": "Jim Cramer says it's time to buy the Magnificent Seven again",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-time-buy-114220204.html",
+              "published_at": "2026-09-04T11:42:20Z",
+              "summary": "The \"Mad Money\" host argues that months of underperformance have made most of the group too cheap to ignore"
             },
             {
-              "headline": "What Happens To Qualcomm Stock If The New Revenue Earns Less?",
-              "source": "Trefis",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/happens-qualcomm-stock-revenue-earns-204305867.html",
-              "published_at": "2026-09-03T20:43:05Z",
-              "summary": "Qualcomm (QCOM) is down 32% over the past three months, and the cause is not a mystery. The smartphone market has contracted as memory prices climbed, and Apple is exiting faster than the company had guided. Management has a credible plan to replace that revenue. The harder question is what the replacement earns."
+              "headline": "‘The soul of an innovator’: Tim Cook hands a $4.5T Apple to John Ternus. Turn $10K into your own wealth-building machine",
+              "source": "Moneywise",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/soul-innovator-tim-cook-hands-111500693.html",
+              "published_at": "2026-09-04T11:15:00Z",
+              "summary": "Cook's 15-year run delivered 2,274% gains. Here's how to start building wealth with your next dollar."
             },
             {
-              "headline": "Broadcom and Snowflake Perfectly Sum Up the AI Trade",
+              "headline": "Apple expands AI and data hiring in China, says GlobalData report",
+              "source": "Verdict",
+              "url": "https://finance.yahoo.com/technology/ai/articles/apple-expands-ai-data-hiring-110456857.html",
+              "published_at": "2026-09-04T11:04:56Z",
+              "summary": "This move reflects a broader strategy to reinforce China’s position within Apple’s global technology ecosystem."
+            },
+            {
+              "headline": "AMC Stock Jumps After Attack on ‘Inexcusable’ and ‘Vile’ Robinhood Practices",
               "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/stock-market-things-to-know-today-d343c1a0?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T20:34:00Z",
-              "summary": "Stock futures fall, Broadcom beat forecasts for AI Chip sales growth, Micron and China chip makers fight for market share."
+              "url": "https://www.barrons.com/articles/amc-stock-robinhood-attack-vile-c3cc9d42?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-09-04T10:47:00Z",
+              "summary": "AMC’s Adam Aron criticized the online trading platform for its tokenized stocks and demanded that the company stop the trading of AMC stock tokens.  The shares jumped around 10% ahead of the open and it was by far the most actively traded stock in premarket trading.  Robinhood stock fell 1.3%."
             },
             {
-              "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-mixed-outlook-182923490.html",
-              "published_at": "2026-09-03T18:29:23Z",
-              "summary": "Shares of Apple Inc. (NASDAQ:AAPL) have performed well so far this year. As of September 2, the stock has gained nearly 20% year-to-date, compared with an 11.78% rise in the broader S&P 500 Index. However, analysts remain divided on the company’s outlook. App Store Weakness Raises Concerns On September 2, Evercore ISI reiterated its Outperform […]"
+              "headline": "Update: Market Chatter: Apple Sued by BASF Over Facial Authentication Technology",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/technology/articles/market-chatter-apple-sued-basf-100430418.html",
+              "published_at": "2026-09-04T10:04:30Z",
+              "summary": "(Updates with BASF's response in the fourth paragraph.) Apple (AAPL) has been sued by BASF in a p"
             },
             {
-              "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
-              "source": "AFP",
-              "url": "https://finance.yahoo.com/media-advertising/articles/apple-faces-2-bn-lawsuit-174755792.html",
-              "published_at": "2026-09-03T17:47:55Z",
-              "summary": "Apple faces a £2 billion ($2.7 billion) lawsuit brought by UK app developers who accused Thursday the US tech giant of giving its own advertising services an unfair advantage by imposing tougher privacy rules on third parties.The claimants argue that the system was \"designed and implemented unfairly and without proper consultation, imposing stricter requirements on third-party app developers than on its own services.\""
-            },
-            {
-              "headline": "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/healthcare/articles/stryker-launches-fda-cleared-apple-173700748.html",
-              "published_at": "2026-09-03T17:37:00Z",
-              "summary": "SYK's FDA-cleared SportSuite Vision brings Apple Vision Pro into hip arthroscopy, strengthening its digital surgery push and Sports Medicine portfolio."
+              "headline": "Warren Buffett's Successor, Greg Abel, Has 63% of Berkshire's $360 Billion Portfolio Concentrated in 5 Superstar Stocks",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-successor-greg-abel-092600596.html",
+              "published_at": "2026-09-04T09:26:00Z",
+              "summary": "Approximately $226 billion of Berkshire Hathaway's invested assets can be traced to five standout stocks."
             }
           ],
           "earnings": {
@@ -662,7 +662,7 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 83,
+          "score": 87,
           "rating_reasons": [
             "solid revenue growth",
             "high net margins",
@@ -683,10 +683,10 @@
           "price": 510.12,
           "currency": "USD",
           "market_cap": 3787919458304.0,
-          "enterprise_value": 3741129637888.0,
-          "dividend_yield": 0.73,
-          "beta": 1.099,
-          "trailing_pe": 28.434782,
+          "enterprise_value": 3839889244160.0,
+          "dividend_yield": 0.71,
+          "beta": 1.108,
+          "trailing_pe": 28.40312,
           "forward_pe": 21.639755,
           "peg_ratio": 1.63,
           "price_to_sales": 11.414931,
@@ -1002,22 +1002,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.208,
+            "score": -0.042,
             "label": "Neutral",
-            "bullish_percent": 50.0,
-            "bearish_percent": 12.5,
+            "bullish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.208,
+            "delta": -0.25,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.062,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 37.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.117,
@@ -1249,65 +1241,73 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": -0.042,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Microsoft Finally Reveals Azure's $29.4 Billion Core",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/technology/articles/microsoft-finally-reveals-azures-29-213443350.html",
-              "published_at": "2026-09-03T21:34:43Z",
-              "summary": "The disclosure exposes Azure's real scale while making future market-share changes impossible to hide behind percentages."
-            },
-            {
-              "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+              "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-03T21:29:21Z",
-              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+              "published_at": "2026-09-04T12:06:15Z",
+              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
             },
             {
-              "headline": "SpaceX Reclaims $2 Trillion Market Cap As Tech Rally, Cybercab Ties Boost Investor Confidence",
+              "headline": "Jim Cramer says it's time to buy the Magnificent Seven again",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-time-buy-114220204.html",
+              "published_at": "2026-09-04T11:42:20Z",
+              "summary": "The \"Mad Money\" host argues that months of underperformance have made most of the group too cheap to ignore"
+            },
+            {
+              "headline": "Update: Market Chatter: Nvidia Increases Equity Investments to $99 Billion",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-increases-equity-102704254.html",
+              "published_at": "2026-09-04T10:27:04Z",
+              "summary": "(Updates with Nvidia's response in the fifth paragraph.) Nvidia (NVDA) has increased its equity i"
+            },
+            {
+              "headline": "What We’ve Learned Since 9/11",
+              "source": "Barrons.com",
+              "url": "https://www.barrons.com/articles/what-weve-learned-since-9-11-2165ca1d?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-09-04T06:45:00Z",
+              "summary": "From an economic standpoint, the nation’s fiscal status has been turned upside down—from a federal budget swimming in surpluses to one deeply in deficit, despite the U.S. not being in recession or officially at war.  Since then, the world has become even more dangerous, with the Iran war, Russia’s war on Ukraine, and China’s adventures in the Pacific.  The Up & Down Wall Street written directly after the 9/11 attacks predicted a marked increase in spending for national security."
+            },
+            {
+              "headline": "3 Japanese Hidden Gems With At Least 12% Net Margins",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/3-japanese-hidden-gems-least-062216235.html",
+              "published_at": "2026-09-04T06:22:16Z",
+              "summary": "Japan’s government bond yields recently retreated after earlier highs, and the yen has strengthened, which keeps many global investors focused on large caps and macro headlines. That leaves plenty of room in the shadows for smaller high quality Japanese stocks with solid fundamentals and limited analyst coverage. This article highlights three such under the radar opportunities that could potentially help diversify a long term Japan focused portfolio. The stocks covered below are just a small..."
+            },
+            {
+              "headline": "Does XRAY’s Profit Recovery and Reaffirmed 2026 Outlook Shift the Dentsply Sirona Thesis?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/does-xray-profit-recovery-reaffirmed-062029841.html",
+              "published_at": "2026-09-04T06:20:29Z",
+              "summary": "Dentsply Sirona recently reported second-quarter 2026 results showing a 4.1% year-over-year net sales decline but a return to net income, with higher margins and stronger cash generation, and also confirmed it will present at the Baird 2026 Global Healthcare Conference on September 15, 2026. The combination of improved profitability and cash flow, despite weaker revenue and a history of pressure on returns, led management to reiterate full-year 2026 guidance, highlighting a sharper focus on..."
+            },
+            {
+              "headline": "MSFT Stock Heads For Weekly Drop: CEO Satya Nadella Says Azure Customers Are Already Using OpenAI’s New Astra AI Model",
               "source": "Stocktwits",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-reclaims-2-trillion-market-211203949.html",
-              "published_at": "2026-09-03T21:12:03Z",
-              "summary": "SpaceX surpassed a $2 trillion market valuation for the first time in nearly two months, driven by strong analyst forecasts, integration with Tesla's upcoming Cybercab, and a broader surge in major technology stocks."
+              "url": "https://finance.yahoo.com/technology/ai/articles/msft-stock-heads-weekly-drop-055510102.html",
+              "published_at": "2026-09-04T05:55:10Z",
+              "summary": "Early support for Astra on Azure beefs up the cloud platform’s appeal among users."
             },
             {
-              "headline": "Amazon vs. Microsoft: 1 Key Metric Identifies the Superior Artificial Intelligence (AI) Cloud Stock",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/technology/ai/articles/amazon-vs-microsoft-1-key-201300604.html",
-              "published_at": "2026-09-03T20:13:00Z",
-              "summary": "Amazon's revenue growth may be slower, but it's accelerating quickly."
-            },
-            {
-              "headline": "Snowflake Stock Is Soaring. How the Software Giant’s Earnings Silenced AI Skeptics.",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/snowflake-earnings-stock-price-44551799?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T20:08:00Z",
-              "summary": "The software firm remains on track to break even next year, CEO Sridhar Ramaswamy told Barron’s on Wednesday."
-            },
-            {
-              "headline": "Microsoft CEO Nadella Sells $43 Million of Stock",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/microsoft-stock-ceo-nadella-9107763d?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T19:33:00Z",
-              "summary": "Microsoft  CEO Satya Nadella sold over $43 million worth of company stock under a pre-arranged trading plan, marking his first sale of the year.  A Form 4 filed with the Securities and Exchange Commission shows Nadella unloaded 86,525 shares across eight separate transactions on Sept. 1 at prices ranging from $497.69 to $505.76 each.  The transactions were conducted under a 105b-1 trading plan, which is triggered when pre-determined conditions such as stock price or date are met."
-            },
-            {
-              "headline": "The Market Marked ZM Down. The Numbers Push Back",
-              "source": "Trefis",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/market-marked-zm-down-numbers-191458556.html",
-              "published_at": "2026-09-03T19:14:58Z",
-              "summary": "The video platform that defined an era now trades at a fraction of the market's price, forcing investors to decide if the markdown is a miscalculation or a final verdict."
-            },
-            {
-              "headline": "Could Dell Be the Next Magnificent Seven Stock?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/could-dell-next-magnificent-seven-190600640.html",
-              "published_at": "2026-09-03T19:06:00Z",
-              "summary": "Dell Technologies stock is pushing new record highs following another exceptional earnings report, driven largely by the AI boom."
+              "headline": "Mark Zuckerberg Opposes Federal AI Watchdog in Call With Trump: Report",
+              "source": "Benzinga",
+              "url": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerberg-opposes-federal-ai-043718141.html",
+              "published_at": "2026-09-04T04:37:18Z",
+              "summary": "Meta Platforms Inc. (NASDAQ:META) CEO Mark Zuckerberg reportedly pushed back against a proposed national artificial-intelligence regulator during an August phone call with President Donald Trump, as the White House weighs a FINRA-style watchdog for frontier models. Zuckerberg Pushes Back On AI Watchdog According to a Politico report on Thursday, Trump called Zuckerberg during the week of Aug. 17. Zuckerberg said he opposed the proposal but did not ask Trump to change his position. Instead, he sa"
             }
           ],
           "earnings": {
@@ -1336,11 +1336,11 @@
           "price": 228.45,
           "currency": "USD",
           "market_cap": 5516382175232.0,
-          "enterprise_value": 5384672116736.0,
-          "dividend_yield": 0.45,
-          "beta": 2.215,
+          "enterprise_value": 5482036068352.0,
+          "dividend_yield": 0.44,
+          "beta": 2.217,
           "trailing_pe": 28.91772,
-          "forward_pe": 14.853116,
+          "forward_pe": 14.778659,
           "peg_ratio": 0.56,
           "price_to_sales": 18.207684,
           "price_to_book": 24.090477,
@@ -1664,22 +1664,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.083,
+            "score": 0.125,
             "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 25.0,
+            "bullish_percent": 50.0,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.084,
+            "delta": 0.042,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.0,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.208,
@@ -1911,6 +1903,14 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 50.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
@@ -1923,53 +1923,53 @@
               "summary": "Tech stocks surged on Thursday as fading rate-hike worries lifted market sentiment across the board."
             },
             {
-              "headline": "AI demand is 'exceptional,' but the supply chain is not: HPE CEO",
+              "headline": "Nvidia's Jensen Huang is 'playing both sides' of AI with Hugging Face purchase",
               "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/ai-demand-exceptional-supply-chain-201052714.html",
-              "published_at": "2026-09-03T20:10:52Z",
-              "summary": "HPE (HPE) reported third quarter earnings results on Wednesday. HPE CEO Antonio Neri sits down with Yahoo Finance Executive Editor Brian Sozzi to discuss the relationship between the roaring demand for AI and the industry's extreme supply-chain constraints."
+              "url": "https://finance.yahoo.com/video/nvidias-jensen-huang-playing-both-203620881.html",
+              "published_at": "2026-09-03T20:36:20Z",
+              "summary": "Nvidia (NVDA) is buying AI platform Hugging Face for $12.9 billion in a move that could extend Nvidia's reach in the AI ecosystem beyond being just a chip supplier. Futurum CEO Daniel Newman reacts to this headline news and what the acquisition of Hugging Face represents for Nvidia's growing market share of the AI landscape."
             },
             {
-              "headline": "How Nvidia's latest deal continues to target all points of the AI trade",
+              "headline": "Broadcom's 2028 AI revenue outlook is what's really 'important'",
               "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html",
-              "published_at": "2026-09-03T14:37:17Z",
-              "summary": "Yahoo Finance Senior Business Reporter Ines Ferré joins Yahoo Finance Executive Editor Brian Sozzi to report on Nvidia's $12.9 billion acquisition of Hugging Face, the company's bet on open AI models, and now accounting for 8% of the S&P 500 market cap."
+              "url": "https://finance.yahoo.com/video/broadcoms-2028-ai-revenue-outlook-160000306.html",
+              "published_at": "2026-09-03T16:00:00Z",
+              "summary": "Broadcom (AVGO) reported quarterly earnings on Wednesday that only modestly beat Wall Street's expectations. CFRA Research senior vice president and equity analyst, Angelo Zino, shares his thoughts on Broadcom's earnings print, highlighting what it signals about the broader semiconductor industry."
             },
             {
-              "headline": "Why Nvidia's purchase of Hugging Face is an 'important strategic move'",
+              "headline": "Are investors underappreciating Broadcom's strong performance?",
               "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/why-nvidias-purchase-hugging-face-132058312.html",
-              "published_at": "2026-09-03T13:20:58Z",
-              "summary": "Nvidia (NVDA) will be buying open-weight AI company Hugging Face for $12.9 billion. Morning Brief Host Julie Hyman is joined by Yahoo Finance Breaking Business News Reporter Jake Conley and BD8 Capital Partners, LLC CEO Barbara Doran to discuss what this means for Nvidia's standing in the AI ecosystem as it aims to become more than just a chip supplier."
+              "url": "https://finance.yahoo.com/video/investors-underappreciating-broadcoms-strong-performance-142402034.html",
+              "published_at": "2026-09-03T14:24:02Z",
+              "summary": "Yahoo Finance Executive Editor Brian Sozzi takes a second look at Broadcom's (AVGO) price performance, which is stumbling despite revenue surging 86% year over year, and why the company has more to offer than to worry about."
             },
             {
-              "headline": "Nvidia’s $5 Billion Intel Bet Was Worth $30 Billion by June. Is the Partnership Still Mispriced?",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-billion-intel-bet-213940172.html",
-              "published_at": "2026-09-03T21:39:40Z",
-              "summary": "Nvidia’s $5 billion Intel investment has produced an extraordinary paper gain, but the timeline matters. The companies announced the investment and product collaboration on September 18, 2025. Intel’s SEC filing shows that NVIDIA Corporation (NASDAQ:NVDA) actually completed the purchase on December 26, 2025, acquiring 214,776,632 Intel shares at $23.28 each for $5 billion. Nvidia’s June […]"
+              "headline": "Nvidia's $12.93 Billion Hugging Face Deal Reaches Beyond the GPU Rack",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-12-93-billion-hugging-120637039.html",
+              "published_at": "2026-09-04T12:06:37Z",
+              "summary": "The platform stays open, so Nvidia is paying for developer proximity--not guaranteed hardware lock-in."
             },
             {
-              "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+              "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-03T21:29:21Z",
-              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+              "published_at": "2026-09-04T12:06:15Z",
+              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
             },
             {
-              "headline": "Rosenblatt Doubles Down on Nvidia After Massive Deal",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/technology/ai/articles/rosenblatt-doubles-down-nvidia-massive-212520777.html",
-              "published_at": "2026-09-03T21:25:20Z",
-              "summary": "The acquisition may be about far more than software"
+              "headline": "Is Marvell Technology a Millionaire-Maker Stock?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-millionaire-maker-stock-115300293.html",
+              "published_at": "2026-09-04T11:53:00Z",
+              "summary": "The chipmaker has a powerful AI growth story, but it also faces fierce competition and has lofty expectations baked into its share price."
             },
             {
-              "headline": "Hilton Food Serves Up a Guidance Upgrade",
-              "source": "Moby",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-food-serves-guidance-upgrade-063349424.html",
-              "published_at": "2026-09-03T21:21:18Z",
-              "summary": "The food supplier’s shares jumped after stronger core trading, currency help and the Dalco exit outweighed seafood trouble."
+              "headline": "Breakfast News: Week in Review",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/technology/ai/articles/breakfast-news-week-review-115000946.html",
+              "published_at": "2026-09-04T11:50:00Z",
+              "summary": "Nvidia's $13 billion Hugging Face deal, MongoDB's 15% drop, and more..."
             }
           ],
           "earnings": {
@@ -2002,7 +2002,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 4520.3,
+          "price": 4512.8,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -2025,284 +2025,276 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 10.38,
-            "six_months": -10.76,
-            "one_year": 25.8,
-            "five_years": 146.89
+            "one_month": 6.29,
+            "six_months": -12.31,
+            "one_year": 26.56,
+            "five_years": 151.28
           },
           "chart_points": [
             {
-              "date": "2025-09-04",
-              "close": 3565.8
+              "date": "2025-09-05",
+              "close": 3613.2
             },
             {
-              "date": "2025-09-10",
-              "close": 3643.6
+              "date": "2025-09-11",
+              "close": 3636.9
             },
             {
-              "date": "2025-09-16",
-              "close": 3688.9
+              "date": "2025-09-17",
+              "close": 3681.8
             },
             {
-              "date": "2025-09-22",
-              "close": 3740.7
+              "date": "2025-09-23",
+              "close": 3780.6
             },
             {
-              "date": "2025-09-26",
-              "close": 3775.3
+              "date": "2025-09-29",
+              "close": 3820.9
             },
             {
-              "date": "2025-10-02",
-              "close": 3839.7
+              "date": "2025-10-03",
+              "close": 3880.8
             },
             {
-              "date": "2025-10-08",
-              "close": 4043.3
+              "date": "2025-10-09",
+              "close": 3946.3
             },
             {
-              "date": "2025-10-14",
-              "close": 4138.7
+              "date": "2025-10-15",
+              "close": 4176.9
             },
             {
-              "date": "2025-10-20",
-              "close": 4336.4
+              "date": "2025-10-21",
+              "close": 4087.7
             },
             {
-              "date": "2025-10-24",
-              "close": 4118.4
+              "date": "2025-10-27",
+              "close": 4001.9
             },
             {
-              "date": "2025-10-30",
-              "close": 4001.3
+              "date": "2025-10-31",
+              "close": 3982.2
             },
             {
-              "date": "2025-11-05",
-              "close": 3980.3
+              "date": "2025-11-06",
+              "close": 3979.9
             },
             {
-              "date": "2025-11-11",
-              "close": 4106.8
+              "date": "2025-11-12",
+              "close": 4204.4
             },
             {
-              "date": "2025-11-17",
-              "close": 4068.3
+              "date": "2025-11-18",
+              "close": 4061.3
             },
             {
-              "date": "2025-11-21",
-              "close": 4076.7
+              "date": "2025-11-24",
+              "close": 4091.9
             },
             {
-              "date": "2025-11-28",
-              "close": 4218.3
+              "date": "2025-12-01",
+              "close": 4239.3
             },
             {
-              "date": "2025-12-04",
-              "close": 4211.8
+              "date": "2025-12-05",
+              "close": 4212.9
             },
             {
-              "date": "2025-12-10",
-              "close": 4196.4
+              "date": "2025-12-11",
+              "close": 4285.5
             },
             {
-              "date": "2025-12-16",
-              "close": 4304.5
+              "date": "2025-12-17",
+              "close": 4347.5
             },
             {
-              "date": "2025-12-22",
-              "close": 4444.6
+              "date": "2025-12-23",
+              "close": 4482.8
             },
             {
-              "date": "2025-12-29",
-              "close": 4325.1
+              "date": "2025-12-30",
+              "close": 4370.1
             },
             {
-              "date": "2026-01-05",
-              "close": 4436.9
+              "date": "2026-01-06",
+              "close": 4482.2
             },
             {
-              "date": "2026-01-09",
-              "close": 4490.3
+              "date": "2026-01-12",
+              "close": 4604.3
             },
             {
-              "date": "2026-01-15",
-              "close": 4616.3
+              "date": "2026-01-16",
+              "close": 4588.4
             },
             {
-              "date": "2026-01-22",
-              "close": 4908.8
+              "date": "2026-01-23",
+              "close": 4976.2
             },
             {
-              "date": "2026-01-28",
-              "close": 5301.6
+              "date": "2026-01-29",
+              "close": 5318.4
             },
             {
-              "date": "2026-02-03",
-              "close": 4903.7
+              "date": "2026-02-04",
+              "close": 4920.4
             },
             {
-              "date": "2026-02-09",
-              "close": 5050.9
+              "date": "2026-02-10",
+              "close": 5003.8
             },
             {
-              "date": "2026-02-13",
-              "close": 5022.0
+              "date": "2026-02-17",
+              "close": 4882.9
             },
             {
-              "date": "2026-02-20",
-              "close": 5059.3
+              "date": "2026-02-23",
+              "close": 5204.7
             },
             {
-              "date": "2026-02-26",
-              "close": 5176.5
+              "date": "2026-02-27",
+              "close": 5230.5
             },
             {
-              "date": "2026-03-04",
-              "close": 5120.2
+              "date": "2026-03-05",
+              "close": 5065.3
             },
             {
-              "date": "2026-03-10",
-              "close": 5229.7
+              "date": "2026-03-11",
+              "close": 5167.4
             },
             {
-              "date": "2026-03-16",
-              "close": 4994.0
+              "date": "2026-03-17",
+              "close": 5001.0
             },
             {
-              "date": "2026-03-20",
-              "close": 4570.4
+              "date": "2026-03-23",
+              "close": 4404.1
             },
             {
-              "date": "2026-03-26",
-              "close": 4375.5
+              "date": "2026-03-27",
+              "close": 4492.0
             },
             {
-              "date": "2026-04-01",
-              "close": 4783.2
+              "date": "2026-04-02",
+              "close": 4651.5
             },
             {
-              "date": "2026-04-08",
-              "close": 4749.5
+              "date": "2026-04-09",
+              "close": 4792.2
             },
             {
-              "date": "2026-04-14",
-              "close": 4825.0
+              "date": "2026-04-15",
+              "close": 4800.0
             },
             {
-              "date": "2026-04-20",
-              "close": 4806.6
+              "date": "2026-04-21",
+              "close": 4698.4
             },
             {
-              "date": "2026-04-24",
-              "close": 4722.3
+              "date": "2026-04-27",
+              "close": 4675.4
             },
             {
-              "date": "2026-04-30",
-              "close": 4614.7
+              "date": "2026-05-01",
+              "close": 4629.9
             },
             {
-              "date": "2026-05-06",
-              "close": 4681.9
+              "date": "2026-05-07",
+              "close": 4699.8
             },
             {
-              "date": "2026-05-12",
-              "close": 4677.6
+              "date": "2026-05-13",
+              "close": 4697.7
             },
             {
-              "date": "2026-05-18",
-              "close": 4552.5
+              "date": "2026-05-19",
+              "close": 4506.3
             },
             {
-              "date": "2026-05-22",
-              "close": 4521.0
+              "date": "2026-05-26",
+              "close": 4500.4
             },
             {
-              "date": "2026-05-29",
-              "close": 4560.5
+              "date": "2026-06-01",
+              "close": 4475.2
             },
             {
-              "date": "2026-06-04",
-              "close": 4475.8
+              "date": "2026-06-05",
+              "close": 4337.1
             },
             {
-              "date": "2026-06-10",
-              "close": 4108.2
+              "date": "2026-06-11",
+              "close": 4090.3
             },
             {
-              "date": "2026-06-16",
-              "close": 4330.9
+              "date": "2026-06-17",
+              "close": 4358.9
             },
             {
-              "date": "2026-06-23",
-              "close": 4129.9
+              "date": "2026-06-24",
+              "close": 3990.3
             },
             {
-              "date": "2026-06-29",
-              "close": 4022.3
+              "date": "2026-06-30",
+              "close": 4022.9
             },
             {
-              "date": "2026-07-06",
-              "close": 4155.1
+              "date": "2026-07-07",
+              "close": 4145.3
             },
             {
-              "date": "2026-07-10",
-              "close": 4104.1
+              "date": "2026-07-13",
+              "close": 3997.0
             },
             {
-              "date": "2026-07-16",
-              "close": 3985.6
+              "date": "2026-07-17",
+              "close": 4012.7
             },
             {
-              "date": "2026-07-22",
-              "close": 4146.9
+              "date": "2026-07-23",
+              "close": 4046.6
             },
             {
-              "date": "2026-07-28",
-              "close": 4036.3
+              "date": "2026-07-29",
+              "close": 4034.7
             },
             {
-              "date": "2026-08-03",
-              "close": 4033.7
+              "date": "2026-08-04",
+              "close": 4095.4
             },
             {
-              "date": "2026-08-07",
-              "close": 4340.7
+              "date": "2026-08-10",
+              "close": 4361.8
             },
             {
-              "date": "2026-08-13",
-              "close": 4363.6
+              "date": "2026-08-14",
+              "close": 4380.4
             },
             {
-              "date": "2026-08-19",
-              "close": 4489.4
+              "date": "2026-08-20",
+              "close": 4516.3
             },
             {
-              "date": "2026-08-25",
-              "close": 4638.1
+              "date": "2026-08-26",
+              "close": 4598.2
             },
             {
-              "date": "2026-08-31",
-              "close": 4431.1
+              "date": "2026-09-01",
+              "close": 4348.0
             }
           ],
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.417,
-            "label": "Positive",
-            "bullish_percent": 62.5,
-            "bearish_percent": 0.0,
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.125,
+            "delta": -0.292,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.167,
-                "label": "Neutral",
-                "bullish_percent": 62.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.256,
@@ -2534,77 +2526,85 @@
                 "bullish_percent": 62.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Silver price today, Thursday, September 3, 2026: Silver prices rise following short-lived airstrikes",
+              "headline": "Gold price today, Friday, September 4, 2026: Gold price lifts ahead of jobs report",
               "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-3-2026-silver-prices-rise-following-short-lived-airstrikes-111653911.html",
-              "published_at": "2026-09-03T11:16:53Z",
-              "summary": "Silver futures opened at $66.17 per ounce on Thursday, September 3, 2026, up 1.1% from Wednesday's closing price. Silver prices are holding steady so far this morning, reaching $66.21 as of 7:05 a.m. ET."
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-4-2026-gold-price-lifts-ahead-of-jobs-report-105540094.html",
+              "published_at": "2026-09-04T10:55:40Z",
+              "summary": "Gold futures opened at $4,522 per troy ounce on Friday, September 4, 2026, down 0.4% from Thursday's closing price. The price of gold is pretty steady this morning at $4,521.40 per troy ounce as of 6:45 a.m. ET."
             },
             {
-              "headline": "Bitcoin Rally Accelerates After Surprise Fed Signal",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rally-accelerates-surprise-fed-213646143.html",
-              "published_at": "2026-09-03T21:36:46Z",
-              "summary": "A sudden rate shift just changed crypto's near-term setup"
+              "headline": "Fed Governor Waller just reignited the bitcoin debasement trade: Chart of the Day",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/fed-governor-waller-just-reignited-the-bitcoin-debasement-trade-chart-of-the-day-100000584.html",
+              "published_at": "2026-09-04T10:00:00Z",
+              "summary": "Bitcoin is back at the Rubicon —and Fed governor Waller just dared bulls to cross it."
             },
             {
-              "headline": "TSX Closer: Index Jumps As Technology Leads Gains; Investors Eye Friday Jobs Data",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-jumps-technology-202613125.html",
-              "published_at": "2026-09-03T20:26:13Z",
-              "summary": "The S&P/TSX Composite Index closed sharply higher on Thursday as steep gains in technology stocks ou"
+              "headline": "Here Are 5 ETFs That Retirees Use to Skip Stock Picking Entirely",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/5-etfs-retirees-skip-stock-120036429.html",
+              "published_at": "2026-09-04T12:00:36Z",
+              "summary": "Owning two or three dividend ETFs feels like extra protection, but it can quietly leave retirees paying multiple expense ratios for a nearly identical stack of stocks. Here is how the five most popular options actually differ, and why the wrong combination costs more than most people realize."
             },
             {
-              "headline": "Gold Futures Rise Ahead of U.S. Payrolls Data",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-markets-await-further-u-s-jobs-data-926919c4?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T18:20:00Z",
-              "summary": "Gold futures rose for a second session as Treasury yields eased and the dollar weakened, with the market waiting to see Friday’s August employment report."
-            },
-            {
-              "headline": "Bitcoin Reclaims $80,000 Amid Dovish Fed Signal",
-              "source": "Bankless",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-reclaims-80-000-amid-180712628.html",
-              "published_at": "2026-09-03T18:07:12Z",
-              "summary": "BTC reached $80k again after Fed Governor Waller said he may support holding rates at the next FOMC meeting."
-            },
-            {
-              "headline": "Stock Market Midday, Sept. 3: Stocks Rally as Treasury Yields Fall, Broadcom Falls Despite Earnings Beat",
+              "headline": "The Best Gold ETF Is SPDR Gold Shares (GLD): Here's Why I'm Holding It in 2026",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-midday-sept-3-165403805.html",
-              "published_at": "2026-09-03T16:54:03Z",
-              "summary": "Markets push upwards as the likelihood of a September rate hike slips slightly, today, Sept. 3, 2026."
+              "url": "https://finance.yahoo.com/markets/commodities/articles/best-gold-etf-spdr-gold-095000323.html",
+              "published_at": "2026-09-04T09:50:00Z",
+              "summary": "It's smart to have some exposure to gold, and this ETF is a straightforward way to get it."
             },
             {
-              "headline": "Gold rally driven by investment demand, not just Treasury move, says analyst",
-              "source": "Investing.com",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-rally-driven-investment-demand-163107026.html",
-              "published_at": "2026-09-03T16:31:07Z",
-              "summary": "Investing.com -- Gold's surge in August was led primarily by investment flows rather than any single catalyst, according to Krishan Gopaul, senior analyst for EMEA at the World Gold Council, who cautioned against pinning the move on the U.S. Treasury's decision to expand its bond buybacks."
+              "headline": "New Strong Sell Stocks for September 4th",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-september-4th-092600981.html",
+              "published_at": "2026-09-04T09:26:00Z",
+              "summary": "AAGIY, ASEKY and AU have been added to the Zacks Rank #5 (Strong Sell) List on September 4, 2026."
             },
             {
-              "headline": "Basic Materials Roundup: Market Talk",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-02178c2b?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T16:27:00Z",
-              "summary": "Find insight on Anglo American, Paladin Energy, Anglo Teck and more in the latest Market Talks covering basic materials."
+              "headline": "NT1 and Plutonian II agree on $500m merger deal",
+              "source": "Mining Technology",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nt1-plutonian-ii-agree-500m-090120996.html",
+              "published_at": "2026-09-04T09:01:20Z",
+              "summary": "Post-transaction, NT1 will maintain its existing management and organisational structure."
+            },
+            {
+              "headline": "Gold Holds Near $4,500 as Markets Await U.S. Employment Data",
+              "source": "InvestorsHub",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-500-085530762.html",
+              "published_at": "2026-09-04T08:55:30Z",
+              "summary": "Gold prices remained close to $4,500 an ounce on Friday after rising almost 2% in the previous session, as investors awaited U. S."
+            },
+            {
+              "headline": "Bitcoin News: BTC to Gold Ratio Hits 18 as Both Assets Rally",
+              "source": "Cryptonews",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-news-btc-gold-ratio-085000154.html",
+              "published_at": "2026-09-04T08:50:00Z",
+              "summary": "Bitcoin now buys 18 ounces of gold, the highest reading on that ratio since January, and it’s climbing while both assets rally together after the Fed’s job data news. The number forces a specific question onto the table: is Bitcoin capturing a durable share of the safe-haven trade from gold, ..."
             }
           ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
-          "rating": "Buy",
-          "score": 70,
+          "rating": "Hold",
+          "score": 66,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is under pressure",
-            "positive news tone"
+            "mildly positive news tone"
           ]
         },
         {
@@ -2617,7 +2617,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 67.585,
+          "price": 67.5,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -2640,284 +2640,276 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 12.54,
-            "six_months": -17.26,
-            "one_year": 62.69,
-            "five_years": 172.94
+            "one_month": 8.7,
+            "six_months": -19.47,
+            "one_year": 64.99,
+            "five_years": 177.39
           },
           "chart_points": [
             {
-              "date": "2025-09-04",
-              "close": 40.91
+              "date": "2025-09-05",
+              "close": 41.07
             },
             {
-              "date": "2025-09-10",
-              "close": 41.13
+              "date": "2025-09-11",
+              "close": 41.7
             },
             {
-              "date": "2025-09-16",
-              "close": 42.47
+              "date": "2025-09-17",
+              "close": 41.72
             },
             {
-              "date": "2025-09-22",
-              "close": 43.8
+              "date": "2025-09-23",
+              "close": 44.19
             },
             {
-              "date": "2025-09-26",
-              "close": 46.22
+              "date": "2025-09-29",
+              "close": 46.61
             },
             {
-              "date": "2025-10-02",
-              "close": 46.0
+              "date": "2025-10-03",
+              "close": 47.6
             },
             {
-              "date": "2025-10-08",
-              "close": 48.66
+              "date": "2025-10-09",
+              "close": 46.85
             },
             {
-              "date": "2025-10-14",
-              "close": 50.31
+              "date": "2025-10-15",
+              "close": 51.07
             },
             {
-              "date": "2025-10-20",
-              "close": 51.12
+              "date": "2025-10-21",
+              "close": 47.45
             },
             {
-              "date": "2025-10-24",
-              "close": 48.38
+              "date": "2025-10-27",
+              "close": 46.56
             },
             {
-              "date": "2025-10-30",
-              "close": 48.43
+              "date": "2025-10-31",
+              "close": 47.99
             },
             {
-              "date": "2025-11-05",
-              "close": 47.86
+              "date": "2025-11-06",
+              "close": 47.79
             },
             {
-              "date": "2025-11-11",
-              "close": 50.62
+              "date": "2025-11-12",
+              "close": 53.33
             },
             {
-              "date": "2025-11-17",
-              "close": 50.62
+              "date": "2025-11-18",
+              "close": 50.45
             },
             {
-              "date": "2025-11-21",
-              "close": 49.87
+              "date": "2025-11-24",
+              "close": 50.29
             },
             {
-              "date": "2025-11-28",
-              "close": 56.45
+              "date": "2025-12-01",
+              "close": 58.42
             },
             {
-              "date": "2025-12-04",
-              "close": 56.85
+              "date": "2025-12-05",
+              "close": 58.42
             },
             {
-              "date": "2025-12-10",
-              "close": 60.38
+              "date": "2025-12-11",
+              "close": 63.93
             },
             {
-              "date": "2025-12-16",
-              "close": 62.7
+              "date": "2025-12-17",
+              "close": 66.24
             },
             {
-              "date": "2025-12-22",
-              "close": 67.91
+              "date": "2025-12-23",
+              "close": 70.49
             },
             {
-              "date": "2025-12-29",
-              "close": 69.86
+              "date": "2025-12-30",
+              "close": 77.37
             },
             {
-              "date": "2026-01-05",
-              "close": 76.16
+              "date": "2026-01-06",
+              "close": 80.53
             },
             {
-              "date": "2026-01-09",
-              "close": 78.88
+              "date": "2026-01-12",
+              "close": 84.61
             },
             {
-              "date": "2026-01-15",
-              "close": 91.88
+              "date": "2026-01-16",
+              "close": 88.09
             },
             {
-              "date": "2026-01-22",
-              "close": 95.98
+              "date": "2026-01-23",
+              "close": 100.93
             },
             {
-              "date": "2026-01-28",
-              "close": 113.11
+              "date": "2026-01-29",
+              "close": 114.04
             },
             {
-              "date": "2026-02-03",
-              "close": 83.04
+              "date": "2026-02-04",
+              "close": 84.17
             },
             {
-              "date": "2026-02-09",
-              "close": 82.07
+              "date": "2026-02-10",
+              "close": 80.22
             },
             {
-              "date": "2026-02-13",
-              "close": 77.85
+              "date": "2026-02-17",
+              "close": 73.45
             },
             {
-              "date": "2026-02-20",
-              "close": 82.28
+              "date": "2026-02-23",
+              "close": 86.52
             },
             {
-              "date": "2026-02-26",
-              "close": 87.0
+              "date": "2026-02-27",
+              "close": 92.68
             },
             {
-              "date": "2026-03-04",
-              "close": 82.63
+              "date": "2026-03-05",
+              "close": 81.69
             },
             {
-              "date": "2026-03-10",
-              "close": 89.08
+              "date": "2026-03-11",
+              "close": 85.07
             },
             {
-              "date": "2026-03-16",
-              "close": 80.26
+              "date": "2026-03-17",
+              "close": 79.53
             },
             {
-              "date": "2026-03-20",
-              "close": 69.36
+              "date": "2026-03-23",
+              "close": 69.05
             },
             {
-              "date": "2026-03-26",
-              "close": 67.67
+              "date": "2026-03-27",
+              "close": 69.54
             },
             {
-              "date": "2026-04-01",
-              "close": 75.87
+              "date": "2026-04-02",
+              "close": 72.74
             },
             {
-              "date": "2026-04-08",
-              "close": 75.22
+              "date": "2026-04-09",
+              "close": 76.28
             },
             {
-              "date": "2026-04-14",
-              "close": 79.39
+              "date": "2026-04-15",
+              "close": 79.49
             },
             {
-              "date": "2026-04-20",
-              "close": 79.95
+              "date": "2026-04-21",
+              "close": 76.41
             },
             {
-              "date": "2026-04-24",
-              "close": 76.38
+              "date": "2026-04-27",
+              "close": 75.0
             },
             {
-              "date": "2026-04-30",
-              "close": 73.53
+              "date": "2026-05-01",
+              "close": 75.95
             },
             {
-              "date": "2026-05-06",
-              "close": 76.81
+              "date": "2026-05-07",
+              "close": 79.7
             },
             {
-              "date": "2026-05-12",
-              "close": 85.13
+              "date": "2026-05-13",
+              "close": 88.89
             },
             {
-              "date": "2026-05-18",
-              "close": 77.07
+              "date": "2026-05-19",
+              "close": 74.83
             },
             {
-              "date": "2026-05-22",
-              "close": 75.89
+              "date": "2026-05-26",
+              "close": 76.31
             },
             {
-              "date": "2026-05-29",
-              "close": 75.62
+              "date": "2026-06-01",
+              "close": 75.01
             },
             {
-              "date": "2026-06-04",
-              "close": 73.78
+              "date": "2026-06-05",
+              "close": 68.94
             },
             {
-              "date": "2026-06-10",
-              "close": 64.6
+              "date": "2026-06-11",
+              "close": 63.88
             },
             {
-              "date": "2026-06-16",
-              "close": 69.9
+              "date": "2026-06-17",
+              "close": 70.7
             },
             {
-              "date": "2026-06-23",
-              "close": 62.02
+              "date": "2026-06-24",
+              "close": 58.05
             },
             {
-              "date": "2026-06-29",
-              "close": 58.17
+              "date": "2026-06-30",
+              "close": 59.48
             },
             {
-              "date": "2026-07-06",
-              "close": 61.92
+              "date": "2026-07-07",
+              "close": 60.93
             },
             {
-              "date": "2026-07-10",
-              "close": 59.81
+              "date": "2026-07-13",
+              "close": 57.63
             },
             {
-              "date": "2026-07-16",
-              "close": 55.9
+              "date": "2026-07-17",
+              "close": 56.04
             },
             {
-              "date": "2026-07-22",
-              "close": 60.02
+              "date": "2026-07-23",
+              "close": 57.8
             },
             {
-              "date": "2026-07-28",
-              "close": 57.3
+              "date": "2026-07-29",
+              "close": 57.86
             },
             {
-              "date": "2026-08-03",
-              "close": 57.67
+              "date": "2026-08-04",
+              "close": 60.06
             },
             {
-              "date": "2026-08-07",
-              "close": 63.33
+              "date": "2026-08-10",
+              "close": 65.11
             },
             {
-              "date": "2026-08-13",
-              "close": 64.87
+              "date": "2026-08-14",
+              "close": 64.99
             },
             {
-              "date": "2026-08-19",
-              "close": 65.73
+              "date": "2026-08-20",
+              "close": 68.03
             },
             {
-              "date": "2026-08-25",
-              "close": 68.64
+              "date": "2026-08-26",
+              "close": 67.99
             },
             {
-              "date": "2026-08-31",
-              "close": 66.22
+              "date": "2026-09-01",
+              "close": 64.62
             }
           ],
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.25,
-            "label": "Positive",
-            "bullish_percent": 50.0,
-            "bearish_percent": 12.5,
+            "score": 0.208,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
             "delta": -0.042,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.292,
-                "label": "Positive",
-                "bullish_percent": 62.5,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.417,
@@ -3149,16 +3141,38 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Silver price today, Thursday, September 3, 2026: Silver prices rise following short-lived airstrikes",
+              "headline": "Silver price today, Friday, September 4, 2026: Silver prices rising ahead of August jobs report",
               "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-3-2026-silver-prices-rise-following-short-lived-airstrikes-111653911.html",
-              "published_at": "2026-09-03T11:16:53Z",
-              "summary": "Silver futures opened at $66.17 per ounce on Thursday, September 3, 2026, up 1.1% from Wednesday's closing price. Silver prices are holding steady so far this morning, reaching $66.21 as of 7:05 a.m. ET."
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-september-4-2026-silver-prices-rising-ahead-of-august-jobs-report-111120686.html",
+              "published_at": "2026-09-04T11:11:20Z",
+              "summary": "Silver opened at $67.63 per ounce on Friday, September 4, 2026, down 0.1% from Thursday's closing price. Silver prices were steady this morning, reaching $67.45 as of 6:59 a.m. ET."
+            },
+            {
+              "headline": "Hochschild Mining Posts Record Half-Year Results as Mara Rosa Recovery Gains Pace",
+              "source": "MarketBeat",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/hochschild-mining-posts-record-half-120205385.html",
+              "published_at": "2026-09-04T12:02:05Z",
+              "summary": "Hochschild Mining (LON:HOC) reported what management described as its strongest-ever half-year financial performance, supported by higher gold and silver prices, cash generation from its Peruvian and Argentine operations, and progress in restoring operational capacity at its Mara Rosa mine in Brazil"
+            },
+            {
+              "headline": "Gold Holds Near $4,500 as Markets Await U.S. Employment Data",
+              "source": "InvestorsHub",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-500-085530762.html",
+              "published_at": "2026-09-04T08:55:30Z",
+              "summary": "Gold prices remained close to $4,500 an ounce on Friday after rising almost 2% in the previous session, as investors awaited U. S."
             },
             {
               "headline": "Should Investors Ride the Silver Boom With a Physical ETF like SIVR or Through Silver Mining Stocks With SLVP?",
@@ -3166,6 +3180,13 @@
               "url": "https://finance.yahoo.com/markets/commodities/articles/investors-ride-silver-boom-physical-211501175.html",
               "published_at": "2026-09-03T21:15:01Z",
               "summary": "SLVP delivered 108.4% returns over one year but carries higher volatility tied to equity markets. SIVR's lower expense ratio and $4.6B in assets make it the steadier commodity play."
+            },
+            {
+              "headline": "Basic Materials Roundup: Market Talk",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-02178c2b?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-09-03T21:03:00Z",
+              "summary": "Find insight on gold futures, Anglo American, Paladin Energy, Anglo Teck and more in the latest Market Talks covering basic materials."
             },
             {
               "headline": "Abrdn Physical Silver Shares ETF vs iShares Silver Trust: Which Fund Helps Investors Ride the Commodity Boom?",
@@ -3182,44 +3203,23 @@
               "summary": "Gold futures rose for a second session as Treasury yields eased and the dollar weakened, with the market waiting to see Friday’s August employment report."
             },
             {
-              "headline": "Basic Materials Roundup: Market Talk",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-02178c2b?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T16:27:00Z",
-              "summary": "Find insight on Anglo American, Paladin Energy, Anglo Teck and more in the latest Market Talks covering basic materials."
-            },
-            {
               "headline": "GOLD Q4 Earnings Call Focuses on Softer Demand, Tether Growth",
               "source": "Zacks",
               "url": "https://finance.yahoo.com/markets/stocks/articles/gold-q4-earnings-call-focuses-140000321.html",
               "published_at": "2026-09-03T14:00:00Z",
               "summary": "Gold.com flags softer precious-metals demand into fiscal 2027 as Tether, lease deployment and Sunshine integration shape its growth plans."
-            },
-            {
-              "headline": "Falco Resources Advances Horne 5 as Feasibility Study Highlights Significant Economic Potential",
-              "source": "InvestorsHub",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/falco-resources-advances-horne-5-104904289.html",
-              "published_at": "2026-09-03T10:49:04Z",
-              "summary": "Falco Resources (TSXV:FPC) (USOTC:FPRGF) is entering an important phase in the development of its flagship Horne 5 project, with an updated feasibility study providing investors with a clearer picture of the project’s scale, economics and potential path toward development. Located in Quebec, Canada, Horne 5 is a large-scale polymetallic project positioned within an established mining district and a Tier 1 jurisdiction."
-            },
-            {
-              "headline": "Gold Rises Above $4,400 as Dollar and Treasury Yields Decline",
-              "source": "InvestorsHub",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-above-4-400-094949752.html",
-              "published_at": "2026-09-03T09:49:49Z",
-              "summary": "Gold prices rose more than 1% on Thursday, moving back above $4,400 an ounce as the US dollar weakened and Treasury yields declined, while investors reassessed expectations for further Federal Reserve interest-rate increases. Attention was also turning to Friday’s US nonfarm payrolls report for further indications on the outlook for monetary policy."
             }
           ],
           "earnings": {
             "available": false,
             "source": "Finnhub"
           },
-          "rating": "Buy",
-          "score": 70,
+          "rating": "Hold",
+          "score": 66,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is under pressure",
-            "positive news tone"
+            "mildly positive news tone"
           ]
         },
         {
@@ -3232,7 +3232,7 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 91.67,
+          "price": 90.75,
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
@@ -3255,284 +3255,276 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 20.98,
-            "six_months": 13.16,
-            "one_year": 43.3,
-            "five_years": 32.3
+            "one_month": 20.65,
+            "six_months": -0.17,
+            "one_year": 42.96,
+            "five_years": 32.77
           },
           "chart_points": [
             {
-              "date": "2025-09-04",
-              "close": 63.48
+              "date": "2025-09-05",
+              "close": 61.87
             },
             {
-              "date": "2025-09-10",
-              "close": 63.67
+              "date": "2025-09-11",
+              "close": 62.37
             },
             {
-              "date": "2025-09-16",
-              "close": 64.52
+              "date": "2025-09-17",
+              "close": 64.05
             },
             {
-              "date": "2025-09-22",
-              "close": 62.64
+              "date": "2025-09-23",
+              "close": 63.41
             },
             {
-              "date": "2025-09-26",
-              "close": 65.72
+              "date": "2025-09-29",
+              "close": 63.45
             },
             {
-              "date": "2025-10-02",
-              "close": 60.48
+              "date": "2025-10-03",
+              "close": 60.88
             },
             {
-              "date": "2025-10-08",
-              "close": 62.55
+              "date": "2025-10-09",
+              "close": 61.51
             },
             {
-              "date": "2025-10-14",
-              "close": 58.7
+              "date": "2025-10-15",
+              "close": 58.27
             },
             {
-              "date": "2025-10-20",
-              "close": 57.52
+              "date": "2025-10-21",
+              "close": 57.82
             },
             {
-              "date": "2025-10-24",
-              "close": 61.5
+              "date": "2025-10-27",
+              "close": 61.31
             },
             {
-              "date": "2025-10-30",
-              "close": 60.57
+              "date": "2025-10-31",
+              "close": 60.98
             },
             {
-              "date": "2025-11-05",
-              "close": 59.6
+              "date": "2025-11-06",
+              "close": 59.43
             },
             {
-              "date": "2025-11-11",
-              "close": 61.04
+              "date": "2025-11-12",
+              "close": 58.49
             },
             {
-              "date": "2025-11-17",
-              "close": 59.91
+              "date": "2025-11-18",
+              "close": 60.74
             },
             {
-              "date": "2025-11-21",
-              "close": 58.06
+              "date": "2025-11-24",
+              "close": 58.84
             },
             {
-              "date": "2025-11-28",
-              "close": 58.55
+              "date": "2025-12-01",
+              "close": 59.32
             },
             {
-              "date": "2025-12-04",
-              "close": 59.67
+              "date": "2025-12-05",
+              "close": 60.08
             },
             {
-              "date": "2025-12-10",
-              "close": 58.46
+              "date": "2025-12-11",
+              "close": 57.6
             },
             {
-              "date": "2025-12-16",
-              "close": 55.27
+              "date": "2025-12-17",
+              "close": 55.94
             },
             {
-              "date": "2025-12-22",
-              "close": 58.01
+              "date": "2025-12-23",
+              "close": 58.38
             },
             {
-              "date": "2025-12-29",
-              "close": 58.08
+              "date": "2025-12-30",
+              "close": 57.95
             },
             {
-              "date": "2026-01-05",
-              "close": 58.32
+              "date": "2026-01-06",
+              "close": 57.13
             },
             {
-              "date": "2026-01-09",
-              "close": 59.12
+              "date": "2026-01-12",
+              "close": 59.5
             },
             {
-              "date": "2026-01-15",
-              "close": 59.19
+              "date": "2026-01-16",
+              "close": 59.44
             },
             {
-              "date": "2026-01-22",
-              "close": 59.36
+              "date": "2026-01-23",
+              "close": 61.07
             },
             {
-              "date": "2026-01-28",
-              "close": 63.21
+              "date": "2026-01-29",
+              "close": 65.42
             },
             {
-              "date": "2026-02-03",
-              "close": 63.21
+              "date": "2026-02-04",
+              "close": 65.14
             },
             {
-              "date": "2026-02-09",
-              "close": 64.36
+              "date": "2026-02-10",
+              "close": 63.96
             },
             {
-              "date": "2026-02-13",
-              "close": 62.89
+              "date": "2026-02-17",
+              "close": 62.33
             },
             {
-              "date": "2026-02-20",
-              "close": 66.39
+              "date": "2026-02-23",
+              "close": 66.31
             },
             {
-              "date": "2026-02-26",
-              "close": 65.21
+              "date": "2026-02-27",
+              "close": 67.02
             },
             {
-              "date": "2026-03-04",
-              "close": 74.66
+              "date": "2026-03-05",
+              "close": 81.01
             },
             {
-              "date": "2026-03-10",
-              "close": 83.45
+              "date": "2026-03-11",
+              "close": 87.25
             },
             {
-              "date": "2026-03-16",
-              "close": 93.5
+              "date": "2026-03-17",
+              "close": 96.21
             },
             {
-              "date": "2026-03-20",
-              "close": 98.32
+              "date": "2026-03-23",
+              "close": 88.13
             },
             {
-              "date": "2026-03-26",
-              "close": 94.48
+              "date": "2026-03-27",
+              "close": 99.64
             },
             {
-              "date": "2026-04-01",
-              "close": 100.12
+              "date": "2026-04-02",
+              "close": 111.54
             },
             {
-              "date": "2026-04-08",
-              "close": 94.41
+              "date": "2026-04-09",
+              "close": 97.87
             },
             {
-              "date": "2026-04-14",
-              "close": 91.28
+              "date": "2026-04-15",
+              "close": 91.29
             },
             {
-              "date": "2026-04-20",
-              "close": 89.61
+              "date": "2026-04-21",
+              "close": 92.13
             },
             {
-              "date": "2026-04-24",
-              "close": 94.4
+              "date": "2026-04-27",
+              "close": 96.37
             },
             {
-              "date": "2026-04-30",
-              "close": 105.07
+              "date": "2026-05-01",
+              "close": 101.94
             },
             {
-              "date": "2026-05-06",
-              "close": 95.08
+              "date": "2026-05-07",
+              "close": 94.81
             },
             {
-              "date": "2026-05-12",
-              "close": 102.18
+              "date": "2026-05-13",
+              "close": 101.02
             },
             {
-              "date": "2026-05-18",
-              "close": 108.66
+              "date": "2026-05-19",
+              "close": 107.77
             },
             {
-              "date": "2026-05-22",
-              "close": 96.6
+              "date": "2026-05-26",
+              "close": 93.89
             },
             {
-              "date": "2026-05-29",
-              "close": 87.36
+              "date": "2026-06-01",
+              "close": 92.16
             },
             {
-              "date": "2026-06-04",
-              "close": 93.04
+              "date": "2026-06-05",
+              "close": 90.54
             },
             {
-              "date": "2026-06-10",
-              "close": 90.03
+              "date": "2026-06-11",
+              "close": 87.71
             },
             {
-              "date": "2026-06-16",
-              "close": 76.05
+              "date": "2026-06-17",
+              "close": 76.79
             },
             {
-              "date": "2026-06-23",
-              "close": 73.21
+              "date": "2026-06-24",
+              "close": 70.34
             },
             {
-              "date": "2026-06-29",
-              "close": 70.75
+              "date": "2026-06-30",
+              "close": 69.5
             },
             {
-              "date": "2026-07-06",
-              "close": 68.55
+              "date": "2026-07-07",
+              "close": 70.44
             },
             {
-              "date": "2026-07-10",
-              "close": 71.41
+              "date": "2026-07-13",
+              "close": 78.14
             },
             {
-              "date": "2026-07-16",
-              "close": 78.95
+              "date": "2026-07-17",
+              "close": 82.49
             },
             {
-              "date": "2026-07-22",
-              "close": 86.83
+              "date": "2026-07-23",
+              "close": 92.19
             },
             {
-              "date": "2026-07-28",
-              "close": 79.26
+              "date": "2026-07-29",
+              "close": 84.46
             },
             {
-              "date": "2026-08-03",
-              "close": 80.34
+              "date": "2026-08-04",
+              "close": 75.77
             },
             {
-              "date": "2026-08-07",
-              "close": 78.18
+              "date": "2026-08-10",
+              "close": 82.13
             },
             {
-              "date": "2026-08-13",
-              "close": 81.25
+              "date": "2026-08-14",
+              "close": 82.4
             },
             {
-              "date": "2026-08-19",
-              "close": 85.83
+              "date": "2026-08-20",
+              "close": 87.83
             },
             {
-              "date": "2026-08-25",
-              "close": 82.36
+              "date": "2026-08-26",
+              "close": 82.23
             },
             {
-              "date": "2026-08-31",
-              "close": 85.76
+              "date": "2026-09-01",
+              "close": 90.22
             }
           ],
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.333,
+            "score": 0.417,
             "label": "Positive",
-            "bullish_percent": 62.5,
-            "bearish_percent": 37.5,
+            "bullish_percent": 87.5,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.291,
+            "delta": 0.084,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": -0.0,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.217,
@@ -3764,6 +3756,14 @@
                 "bullish_percent": 62.5,
                 "bearish_percent": 37.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.417,
+                "label": "Positive",
+                "bullish_percent": 87.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
@@ -3776,53 +3776,53 @@
               "summary": "As long-term bond yields climb to new heights, a divide over what is driving the historic run-up has opened between Federal Reserve policymakers and Wall Street."
             },
             {
-              "headline": "Gold price today, Thursday, September 3, 2026: Gold moves higher on hopes that Iran war reescalation will be short-lived",
-              "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-3-2026-gold-moves-higher-on-hopes-that-iran-war-reescalation-will-be-short-lived-110444019.html",
-              "published_at": "2026-09-03T11:04:44Z",
-              "summary": "Gold futures opened at $4,436.40 per troy ounce on Thursday, September 3, 2026, up 0.5% compared to Wednesday's closing price. The price of gold moved higher this morning, trading at $4,470.70 as of 6:53 a.m. ET."
+              "headline": "US trade deficit surges to $88.6B in July",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/us-trade-deficit-surges-88-145800479.html",
+              "published_at": "2026-09-03T14:58:00Z",
+              "summary": "Market Catalyst Host Julie Hyman welcomes Washington Correspondent Ben Werschkul to the show to discuss the widening US trade deficit, which surged to $88.6 billion in July, as investors weigh the latest data's implications for the economy and trade outlook."
             },
             {
-              "headline": "US Equity Markets End Higher as Expectations Build for Fed to Keep Rates Steady",
+              "headline": "British firm defends Falklands oil extraction plans despite Milei threats",
+              "source": "PA Media: Money",
+              "url": "https://finance.yahoo.com/news/british-firm-defends-falklands-oil-114919767.html",
+              "published_at": "2026-09-04T11:49:19Z",
+              "summary": "Shares in Rockhopper fell on Friday morning after Argentina’s president threatened to sanction firms."
+            },
+            {
+              "headline": "Easing Bond Yields, Oil Prices Lift European Bourses Midday",
               "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-202659136.html",
-              "published_at": "2026-09-03T20:26:59Z",
-              "summary": "US equity indexes ended higher Thursday in a broad-based rally amid rising expectations that the Fed"
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/easing-bond-yields-oil-prices-114814346.html",
+              "published_at": "2026-09-04T11:48:14Z",
+              "summary": "European bourses tracked modestly higher midday Friday, as traders weighed mildly easing bond yields"
             },
             {
-              "headline": "TSX Closer: Index Jumps As Technology Leads Gains; Investors Eye Friday Jobs Data",
+              "headline": "Stocks mixed before US jobs data, oil dips",
+              "source": "AFP",
+              "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rally-traders-pare-024214659.html",
+              "published_at": "2026-09-04T11:28:12Z",
+              "summary": "Stock markets wavered Friday in Europe after gains for most Asian markets, with all eyes on upcoming US jobs data as investors seek clues on whether the Federal Reserve will raise interest rates. Asian markets largely tracked a Wall Street rally on Thursday, after comments from two Federal Reserve officials cast doubt on an imminent rate hike."
+            },
+            {
+              "headline": "Canadian Provincial Bonds Weather Higher Yields as Alberta Outperforms, BMO Says",
               "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-jumps-technology-202613125.html",
-              "published_at": "2026-09-03T20:26:13Z",
-              "summary": "The S&P/TSX Composite Index closed sharply higher on Thursday as steep gains in technology stocks ou"
+              "url": "https://finance.yahoo.com/markets/currencies/articles/canadian-provincial-bonds-weather-higher-112757341.html",
+              "published_at": "2026-09-04T11:27:57Z",
+              "summary": "Canadian long provincial bond returns weakened over the past month, reflecting a broad-based rise in"
             },
             {
-              "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal",
-              "source": "Reuters",
-              "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-escalation-middle-140846139.html",
-              "published_at": "2026-09-03T20:13:31Z",
-              "summary": "By Nicole Jao NEW YORK, Sept 3 (Reuters) - Oil prices were mixed on Thursday, supported after U.S. strikes on Iran and renewed Israeli threats against Tehran revived concerns about disruption to"
-            },
-            {
-              "headline": "CBS News gas and oil price tracker shows how much energy costs are rising",
-              "source": "CBS News",
-              "url": "https://finance.yahoo.com/sectors/energy/articles/cbs-news-gas-oil-price-175921302.html",
-              "published_at": "2026-09-03T19:54:20Z",
-              "summary": "As the war with Iran continues, CBS News is tracking gas and oil prices. Find out how much more it costs to fill up your tank or heat your house."
-            },
-            {
-              "headline": "Sector Update: Energy Stocks Decline Late Afternoon",
+              "headline": "Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted",
               "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html",
-              "published_at": "2026-09-03T19:53:50Z",
-              "summary": "Energy stocks were lower late Thursday afternoon, with the NYSE Energy Sector Index decreasing 0.4%"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html",
+              "published_at": "2026-09-04T11:06:19Z",
+              "summary": "Wall Street futures pointed moderately higher pre-bell Friday as traders again favored tech issues,"
             },
             {
-              "headline": "U.S. Natural Gas Futures Meet Resistance at $3",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/articles/european-ttf-gas-seen-at-80-euros-a-megawatt-hour-by-end-of-2026-2c53f93e?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T19:31:00Z",
-              "summary": "U.S. natural gas futures fell despite a weekly inventory build that came in below average at 30 Bcf and was broadly in line with market expectations."
+              "headline": "Provincial Fiscal Picture Improves in Canada, Powered by Alberta's Surplus Swing, BMO Says",
+              "source": "MT Newswires",
+              "url": "https://finance.yahoo.com/economy/policy/articles/provincial-fiscal-picture-improves-canada-105545379.html",
+              "published_at": "2026-09-04T10:55:45Z",
+              "summary": "Several provinces have now released their first-quarter fiscal updates, painting a mixed fiscal pict"
             }
           ],
           "earnings": {
@@ -3830,10 +3830,9 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 88,
+          "score": 79,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive",
             "positive news tone"
           ]
         }
@@ -3854,9 +3853,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 81530.63,
+          "price": 81262.49,
           "currency": "USD",
-          "market_cap": 1637315248128.0,
+          "market_cap": 1629510434816.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -3877,10 +3876,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 28.59,
-            "six_months": 6.85,
-            "one_year": -6.54,
-            "five_years": 62.98
+            "one_month": 28.17,
+            "six_months": 6.5,
+            "one_year": -6.85,
+            "five_years": 62.71
           },
           "chart_points": [
             {
@@ -4139,22 +4138,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.292,
-            "label": "Positive",
+            "score": 0.162,
+            "label": "Neutral",
             "bullish_percent": 62.5,
-            "bearish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.25,
+            "delta": -0.13,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.208,
-                "label": "Neutral",
-                "bullish_percent": 50.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.375,
@@ -4386,16 +4377,31 @@
                 "bullish_percent": 62.5,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.162,
+                "label": "Neutral",
+                "bullish_percent": 62.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
-              "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/article/bitcoin-tops-80000-crypto-winter-is-close-to-being-over-173224980.html",
-              "published_at": "2026-09-03T17:32:24Z",
-              "summary": "Investors are watching for signs of seasonal weakness as bitcoin enters what is typically its weakest month."
+              "headline": "Bitcoin and ethereum prices today, Friday, September 4, 2026: Bitcoin holding above $81,000 following massive ETF inflows",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-4-2026-bitcoin-holding-above-81000-following-massive-etf-inflows-113751298.html",
+              "published_at": "2026-09-04T11:37:51Z",
+              "summary": "Bitcoin opened at $81,271.92 on Friday, September 4, 2026, 5.1% higher than Thursday's opening price. As of 7:21 a.m. ET this morning, the price of bitcoin shifted to $81,240.29.  Ethereum opened at $2,507.70 today, up 4.9% from Thursday's opening price. Ethereum moved to $2,522.14 as of 7:21 a.m. ET."
+            },
+            {
+              "headline": "Bitcoin's golden cross is coming: What it could mean for investors",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/bitcoins-golden-cross-coming-could-162000351.html",
+              "published_at": "2026-09-03T16:20:00Z",
+              "summary": "Scott Melker discusses bitcoin's (BTC-USD) potential golden cross and what the bullish technical signal could mean for the cryptocurrency’s chances of entering a new bull run. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
             },
             {
               "headline": "New bull signal could send bitcoin higher",
@@ -4405,46 +4411,39 @@
               "summary": "This episode of \"The Daily Wolf with Scott Melker\" explores potential bull signals for bitcoin (BTC-USD), the UK's largest investment platform, Hargreaves Lansdown, lifting its crypto ban, and Socios and Securitize partnering to issue sports-team \"equity tokens.\" \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
             },
             {
-              "headline": "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam",
-              "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-3-2026-crypto-prices-lift-this-morning-despite-oil-costs-gaining-steam-113526770.html",
-              "published_at": "2026-09-03T11:35:26Z",
-              "summary": "Bitcoin opened at $77,310.77 on Thursday, September 3, 2026, down 0.1% compared to Wednesday's opening price. As of 7:19 a.m. ET this morning, the price of bitcoin moved up to $77,892.97. Ethereum opened at $2,391.30 today, down 1.1% from Wednesday's open. Ethereum moved up to $2,402.09 as of 7:19 a.m. ET."
-            },
-            {
-              "headline": "Bitcoin Rally Accelerates After Surprise Fed Signal",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rally-accelerates-surprise-fed-213646143.html",
-              "published_at": "2026-09-03T21:36:46Z",
-              "summary": "A sudden rate shift just changed crypto's near-term setup"
-            },
-            {
-              "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+              "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-03T21:29:21Z",
-              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+              "published_at": "2026-09-04T12:06:15Z",
+              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
             },
             {
-              "headline": "Crypto Market Today, Sept. 3: Bitcoin Reclaims $81,000 on Fed Rate Pause Signals",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-sept-3-212600012.html",
-              "published_at": "2026-09-03T21:26:00Z",
-              "summary": "On Sept. 3, 2026, Fed Governor Waller said he may support holding rates steady, boosting crypto prices."
+              "headline": "Ripple Defended Key Supports and Targets $1.50 Rally: Can it Sustain?",
+              "source": "Coinspeaker",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/ripple-defended-key-supports-targets-114524521.html",
+              "published_at": "2026-09-04T11:45:24Z",
+              "summary": "Ripple (XRP) is changing hands near $1.44 as of this writing, down roughly 1.8% on the day but still holding well above the support shelf that capped its late-August consolidation. That defended floor matters. The question now is whether XRP has enough fuel left to clear resistance and resume the ..."
             },
             {
-              "headline": "Crypto Stocks Jump After Bitcoin Rises 5%",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-jump-bitcoin-rises-212150439.html",
-              "published_at": "2026-09-03T21:21:50Z",
-              "summary": "Fed Rate-Hike Fears Fade, Igniting $80K Bitcoin and Crypto Stock Frenzy"
+              "headline": "Bitcoin Is Down 7% This Year and XRP Is Down 21%. Which Recovers First?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-down-7-xrp-down-111527549.html",
+              "published_at": "2026-09-04T11:15:27Z",
+              "summary": "Bitcoin and XRP are both clawing back losses in 2026, but one faces a much steeper climb and depends on a single Senate vote to close the gap. The coin that recovers first may surprise you."
             },
             {
-              "headline": "Coinbase, Circle, MicroStrategy stocks surge on crypto rebound",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-circle-microstrategy-stocks-surge-210600203.html",
-              "published_at": "2026-09-03T21:06:00Z",
-              "summary": "Crypto-linked stocks surge as part of the broader crypto market rally."
+              "headline": "Bitcoin News Today: Price Tests September Weakness After Rally Above $82,000",
+              "source": "Coinspeaker",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-news-today-price-tests-110811133.html",
+              "published_at": "2026-09-04T11:08:11Z",
+              "summary": "Bitcoin news today shows the price rose more than 5% on September 3 to trade briefly above $82,000, as concerns about a Federal Reserve rate hike eased and Treasury yields fell. Fundstrat head of digital assets Sean Farrell called the move important data worth respecting, while noting Bitcoin has bucked ..."
+            },
+            {
+              "headline": "Waller Cooled Rate Hike Fears and Bitcoin Cleared $81,000. Does XRP Follow?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/waller-cooled-rate-hike-fears-105158083.html",
+              "published_at": "2026-09-04T10:51:58Z",
+              "summary": "Fed Governor Waller just gave crypto traders a reason to cheer, but XRP faces a Senate vote and a rate decision landing one day apart, and only one outcome removes both obstacles holding it back from Bitcoin's gains."
             }
           ],
           "earnings": {
@@ -4452,10 +4451,10 @@
             "source": "Finnhub"
           },
           "rating": "Hold",
-          "score": 55,
+          "score": 51,
           "rating_reasons": [
             "negative one-year trend",
-            "positive news tone"
+            "mildly positive news tone"
           ]
         },
         {
@@ -4468,9 +4467,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 2509.04,
+          "price": 2525.35,
           "currency": "USD",
-          "market_cap": 306439061504.0,
+          "market_cap": 307925549056.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -4491,10 +4490,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 33.59,
-            "six_months": 11.2,
-            "one_year": -13.59,
-            "five_years": -36.33
+            "one_month": 34.46,
+            "six_months": 11.93,
+            "one_year": -13.03,
+            "five_years": -35.04
           },
           "chart_points": [
             {
@@ -4753,22 +4752,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.25,
-            "label": "Positive",
+            "score": 0.125,
+            "label": "Neutral",
             "bullish_percent": 37.5,
-            "bearish_percent": 0.0,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.208,
+            "delta": -0.125,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.375,
-                "label": "Positive",
-                "bullish_percent": 62.5,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.375,
@@ -5000,10 +4991,25 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Bitcoin and ethereum prices today, Friday, September 4, 2026: Bitcoin holding above $81,000 following massive ETF inflows",
+              "source": "Yahoo Personal Finance",
+              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-4-2026-bitcoin-holding-above-81000-following-massive-etf-inflows-113751298.html",
+              "published_at": "2026-09-04T11:37:51Z",
+              "summary": "Bitcoin opened at $81,271.92 on Friday, September 4, 2026, 5.1% higher than Thursday's opening price. As of 7:21 a.m. ET this morning, the price of bitcoin shifted to $81,240.29.  Ethereum opened at $2,507.70 today, up 4.9% from Thursday's opening price. Ethereum moved to $2,522.14 as of 7:21 a.m. ET."
+            },
             {
               "headline": "UK trading platform Hargreaves Lansdown ends its crypto holdout",
               "source": "Yahoo Finance Video",
@@ -5012,11 +5018,39 @@
               "summary": "Scott Melker discusses how one of the UK's largest investment platforms, Hargreaves Lansdown, is now allowing retail investors to trade bitcoin (BTC-USD) and ether (ETH-USD) products after regulators lifted a ban last year. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news."
             },
             {
-              "headline": "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam",
-              "source": "Yahoo Personal Finance",
-              "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-3-2026-crypto-prices-lift-this-morning-despite-oil-costs-gaining-steam-113526770.html",
-              "published_at": "2026-09-03T11:35:26Z",
-              "summary": "Bitcoin opened at $77,310.77 on Thursday, September 3, 2026, down 0.1% compared to Wednesday's opening price. As of 7:19 a.m. ET this morning, the price of bitcoin moved up to $77,892.97. Ethereum opened at $2,391.30 today, down 1.1% from Wednesday's open. Ethereum moved up to $2,402.09 as of 7:19 a.m. ET."
+              "headline": "Notional Finance Hit by $1.7 Million Exploit From Integer Overflow Bug",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/notional-finance-hit-1-7-111115473.html",
+              "published_at": "2026-09-04T11:11:15Z",
+              "summary": "An attacker drained $1.73 million from Notional Finance's legacy escrow using an integer overflow bug in V1 code."
+            },
+            {
+              "headline": "Bitcoin Price Rallies To $81K On Biggest ETF Inflows Since January, Waller Rate Signal Ahead Of August Jobs Report",
+              "source": "Stocktwits",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-rallies-81k-biggest-104721825.html",
+              "published_at": "2026-09-04T10:47:21Z",
+              "summary": "The rally in cryptocurrencies came after Fed Governor Christopher Waller said he would support holding rates steady if inflation continues to ease."
+            },
+            {
+              "headline": "OpenAI Launches GPT-6 Astra as AI Agents Put Crypto’s Most Extreme Price Calls in Spotlight",
+              "source": "CCN",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/openai-launches-gpt-6-astra-095537572.html",
+              "published_at": "2026-09-04T09:55:37Z",
+              "summary": "OpenAI says GPT-6 Astra can navigate computers, browse the web, and complete complex multistage assignments with less human involvement. Crypto trader Ansem expects more than ..."
+            },
+            {
+              "headline": "Bitcoin and Ethereum Hit Multi-Month Highs but Traders Cap 2026 Upside Bets",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-ethereum-hit-multi-month-052812793.html",
+              "published_at": "2026-09-04T05:28:12Z",
+              "summary": "Bitcoin and Ethereum jump to multi-month highs, but Polymarket traders give BTC just 32% odds of hitting $100,000 in 2026."
+            },
+            {
+              "headline": "Does Schwab’s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/does-schwab-crypto-expansion-tighter-010641284.html",
+              "published_at": "2026-09-04T01:06:41Z",
+              "summary": "In late August 2026, Charles Schwab Corporation announced that its Schwab Crypto platform will add Solana (SOL), Avalanche (AVAX), and Chainlink (LINK), expanding beyond its existing bitcoin and ethereum offering and integrating these tokens alongside traditional investments on Schwab.com, Schwab Mobile, and thinkorswim. At the same time, Schwab is tightening eligibility for complex tax-aware long-short and portfolio margin accounts, underscoring a dual focus on broadening digital asset..."
             },
             {
               "headline": "Crypto Market Today, Sept. 3: Bitcoin Reclaims $81,000 on Fed Rate Pause Signals",
@@ -5024,41 +5058,6 @@
               "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-sept-3-212600012.html",
               "published_at": "2026-09-03T21:26:00Z",
               "summary": "On Sept. 3, 2026, Fed Governor Waller said he may support holding rates steady, boosting crypto prices."
-            },
-            {
-              "headline": "Crypto Stocks Jump After Bitcoin Rises 5%",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-jump-bitcoin-rises-212150439.html",
-              "published_at": "2026-09-03T21:21:50Z",
-              "summary": "Fed Rate-Hike Fears Fade, Igniting $80K Bitcoin and Crypto Stock Frenzy"
-            },
-            {
-              "headline": "Coinbase, Circle, MicroStrategy stocks surge on crypto rebound",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-circle-microstrategy-stocks-surge-210600203.html",
-              "published_at": "2026-09-03T21:06:00Z",
-              "summary": "Crypto-linked stocks surge as part of the broader crypto market rally."
-            },
-            {
-              "headline": "Why Bitmine Immersion Technologies Soared 46.5% In August",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-bitmine-immersion-technologies-soared-195540020.html",
-              "published_at": "2026-09-03T19:55:40Z",
-              "summary": "The cryptocurrency miner is benefiting from rising prices."
-            },
-            {
-              "headline": "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks",
-              "source": "decrypt",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-rebound-ethereum-xrp-181507329.html",
-              "published_at": "2026-09-03T18:15:07Z",
-              "summary": "Ethereum funds broke a 12-day winning run and XRP snapped an 11-session streak on Wednesday, while Bitcoin ETFs bounced back with $101.15 million in one day after their worst outflow since July."
-            },
-            {
-              "headline": "Standard Chartered Launches Spot Bitcoin, Ether Trading for UAE Institutions",
-              "source": "CryptoProwl",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/standard-chartered-launches-spot-bitcoin-174300514.html",
-              "published_at": "2026-09-03T17:43:00Z",
-              "summary": "Standard Chartered ($STAN) has launched spot trading in Bitcoin (CRYPTO: $BTC) and Ether (CRYPTO: $ETH) for institu..."
             }
           ],
           "earnings": {
@@ -5066,11 +5065,11 @@
             "source": "Finnhub"
           },
           "rating": "Hold",
-          "score": 64,
+          "score": 60,
           "rating_reasons": [
             "negative one-year trend",
             "six-month momentum is supportive",
-            "positive news tone"
+            "mildly positive news tone"
           ]
         },
         {
@@ -5083,9 +5082,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 104.98,
+          "price": 104.1,
           "currency": "USD",
-          "market_cap": 61492645888.0,
+          "market_cap": 60876328960.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -5106,10 +5105,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 39.0,
-            "six_months": 26.45,
-            "one_year": -12.48,
-            "five_years": -28.38
+            "one_month": 37.83,
+            "six_months": 25.39,
+            "one_year": -13.21,
+            "five_years": -25.17
           },
           "chart_points": [
             {
@@ -5370,20 +5369,12 @@
             "available": true,
             "score": 0.167,
             "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 0.0,
+            "bullish_percent": 50.0,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.084,
+            "delta": 0.0,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.333,
-                "label": "Positive",
-                "bullish_percent": 62.5,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.167,
@@ -5615,16 +5606,52 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.167,
+                "label": "Neutral",
+                "bullish_percent": 50.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "What's the Better Buy Right Now: Robinhood or Solana?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/whats-better-buy-now-robinhood-105000799.html",
+              "published_at": "2026-09-04T10:50:00Z",
+              "summary": "With Robinhood's foray into crypto finding early success, Solana will need to fight hard to retain its position."
+            },
+            {
+              "headline": "Bitcoin Hits $82,000 and Fidelity Says It's Unsure If the Bear Market Is Over",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-hits-82-000-fidelity-043247376.html",
+              "published_at": "2026-09-04T04:32:47Z",
+              "summary": "Bitcoin touched $82,000 as Fidelity Digital Assets says the rally doesn't confirm the crypto bear market has ended."
+            },
+            {
+              "headline": "Does Schwab’s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/does-schwab-crypto-expansion-tighter-010641284.html",
+              "published_at": "2026-09-04T01:06:41Z",
+              "summary": "In late August 2026, Charles Schwab Corporation announced that its Schwab Crypto platform will add Solana (SOL), Avalanche (AVAX), and Chainlink (LINK), expanding beyond its existing bitcoin and ethereum offering and integrating these tokens alongside traditional investments on Schwab.com, Schwab Mobile, and thinkorswim. At the same time, Schwab is tightening eligibility for complex tax-aware long-short and portfolio margin accounts, underscoring a dual focus on broadening digital asset..."
+            },
             {
               "headline": "Crypto Market Today, Sept. 3: Bitcoin Reclaims $81,000 on Fed Rate Pause Signals",
               "source": "Motley Fool",
               "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-sept-3-212600012.html",
               "published_at": "2026-09-03T21:26:00Z",
               "summary": "On Sept. 3, 2026, Fed Governor Waller said he may support holding rates steady, boosting crypto prices."
+            },
+            {
+              "headline": "Financial Services Roundup: Market Talk",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-7bcb348f?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-09-03T21:03:00Z",
+              "summary": "Find insight on CoinMarketCap’s Fear and Greed index, home-sale prices and more in the latest Market Talks covering financial services."
             },
             {
               "headline": "What Is Pons? The Robinhood Chain Meme Coin Factory Token Up 18,000% Since July",
@@ -5646,34 +5673,6 @@
               "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-price-prediction-xrp-jumps-145323309.html",
               "published_at": "2026-09-03T14:53:23Z",
               "summary": "XRP slipped to $1.32 on Wednesday, even as U.S. spot XRP ETFs logged their 11th straight day of net inflows. Today, though, the trend has reversed: XRP is up more than 4% and now trading at $1.38. Could the XRP price prediction point to a $2 target this September? At ..."
-            },
-            {
-              "headline": "Mint Announces Nasdaq Share Tokenization Initiative on Ethereum and Solana",
-              "source": "InvestorsHub",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/mint-announces-nasdaq-share-tokenization-141659095.html",
-              "published_at": "2026-09-03T14:16:59Z",
-              "summary": "The binding agreement with CURRENC Capital will support the issuer-sponsored tokenization of a portion of Mint Incorporation Limited’s (NASDAQ:MIMI) existing Class A ordinary shares, although completion remains subject to regulatory requirements. Key Investor TakeawaysMint Incorporation Limited (NASDAQ:MIMI) has entered a binding consulting agreement with CURRENC Capital to pursue Nasdaq share tokenization on Ethereum and Solana."
-            },
-            {
-              "headline": "Hyperliquid's HYPE Joins Hashdex Crypto ETF as Fifth-Largest Holding",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/hyperliquids-hype-joins-hashdex-crypto-014526222.html",
-              "published_at": "2026-09-03T01:45:26Z",
-              "summary": "HYPE joins Hashdex's NCIQ crypto ETF at a 3.4% weighting, becoming its fifth-largest holding as Bitcoin's share dips."
-            },
-            {
-              "headline": "Solana Foundation president sees a 'token supercycle' reshaping finance",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-foundation-president-sees-token-222434787.html",
-              "published_at": "2026-09-02T22:24:34Z",
-              "summary": "Solana Foundation president Lily Liu argues tokenization is a structural shift, not a cycle, backed by $4.7 trillion in stablecoin volume."
-            },
-            {
-              "headline": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
-              "source": "decrypt",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/japan-remixpoint-dumps-ethereum-xrp-213105670.html",
-              "published_at": "2026-09-02T21:31:05Z",
-              "summary": "The Japanese company booked a ¥117.8 million profit after selling its ETH, SOL, XRP and DOGE, leaving roughly 1,506 BTC as its only cryptocurrency holding."
             }
           ],
           "earnings": {
@@ -5990,22 +5989,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.125,
+            "score": 0.042,
             "label": "Neutral",
-            "bullish_percent": 50.0,
-            "bearish_percent": 12.5,
+            "bullish_percent": 37.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.208,
+            "delta": -0.083,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": -0.1,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.333,
@@ -6237,6 +6228,14 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.042,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -6249,53 +6248,53 @@
               "summary": "Yahoo Finance Senior Business Reporter Ines Ferré joins Yahoo Finance Executive Editor Brian Sozzi to report on Nvidia's $12.9 billion acquisition of Hugging Face, the company's bet on open AI models, and now accounting for 8% of the S&P 500 market cap."
             },
             {
-              "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+              "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-03T21:29:21Z",
-              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+              "published_at": "2026-09-04T12:06:15Z",
+              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
             },
             {
-              "headline": "Why Is Oracle Stock Up Today?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-oracle-stock-today-212008025.html",
-              "published_at": "2026-09-03T21:20:08Z",
-              "summary": "Oracle has taken on tens of billions in debt to fund its AI data center build-out, a lower-rate outlook offers it outsize relief."
-            },
-            {
-              "headline": "Stock Market Today, Sept. 3: Campbell's Stock Slumps on Weaker Profit and Sales Miss",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-3-211757335.html",
-              "published_at": "2026-09-03T21:17:57Z",
-              "summary": "On Sept. 3, 2026, the packaged-food maker cut its dividend 36% and outlined a $500 million cost-savings plan to offset margin pressure."
-            },
-            {
-              "headline": "Stock Market Today, Sept. 3: HPE Jumps 5%, Raises Fiscal Outlook on Record AI Server Demand",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-3-211513167.html",
-              "published_at": "2026-09-03T21:15:13Z",
-              "summary": "Today, Sept. 3, 2026, the enterprise infrastructure provider posted $12.2 billion in quarterly revenue, while analysts raised price targets, signaling sustained momentum in AI infrastructure."
-            },
-            {
-              "headline": "Should Investors Ride the Silver Boom With a Physical ETF like SIVR or Through Silver Mining Stocks With SLVP?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/investors-ride-silver-boom-physical-211501175.html",
-              "published_at": "2026-09-03T21:15:01Z",
-              "summary": "SLVP delivered 108.4% returns over one year but carries higher volatility tied to equity markets. SIVR's lower expense ratio and $4.6B in assets make it the steadier commodity play."
-            },
-            {
-              "headline": "Do You Still Own The NVIDIA You Bought?",
-              "source": "Trefis",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/still-own-nvidia-bought-210648224.html",
-              "published_at": "2026-09-03T21:06:48Z",
-              "summary": "NVIDIA (NVDA) has been an easy stock to hold. The shares trade near $224, up about 32% over the past year and comfortably ahead of the S&P 500. The tape has not changed. What changed is how management describes the company, and the description it dropped is the one most holders bought into."
-            },
-            {
-              "headline": "Retired Before Nvidia Made Everyone Rich? These 3 ETFs Put the Next Wave in Your IRA Without Betting the Nest Egg",
+              "headline": "Here Are 5 ETFs That Retirees Use to Skip Stock Picking Entirely",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/retired-nvidia-made-everyone-rich-210547309.html",
-              "published_at": "2026-09-03T21:05:47Z",
-              "summary": "Sitting out the AI rally felt safe until the S&P 500 started looking like a semiconductor fund in disguise. Three ETFs can get retirees into the trade without the single-stock exposure that keeps advisors up at night."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/5-etfs-retirees-skip-stock-120036429.html",
+              "published_at": "2026-09-04T12:00:36Z",
+              "summary": "Owning two or three dividend ETFs feels like extra protection, but it can quietly leave retirees paying multiple expense ratios for a nearly identical stack of stocks. Here is how the five most popular options actually differ, and why the wrong combination costs more than most people realize."
+            },
+            {
+              "headline": "Moving Away From Megacaps? Here's How the Russell 2000 Value and S&P Mid-Cap 400 Value ETF Compare.",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/moving-away-megacaps-heres-russell-115101898.html",
+              "published_at": "2026-09-04T11:51:01Z",
+              "summary": "Russell 2000 delivered 30.9% returns in one year, but S&P Mid-Cap 400 offers lower costs and reduced volatility. Which fits your portfolio?"
+            },
+            {
+              "headline": "Is it a Prudent Move to Retain ALC Stock in Your Portfolio Now?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/prudent-move-retain-alc-stock-115100850.html",
+              "published_at": "2026-09-04T11:51:00Z",
+              "summary": "Alcon's acquisitions, partnerships and new product launches support growth, but tariffs and intense competition remain key risks."
+            },
+            {
+              "headline": "Jim Cramer says it's time to buy the Magnificent Seven again",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-time-buy-114220204.html",
+              "published_at": "2026-09-04T11:42:20Z",
+              "summary": "The \"Mad Money\" host argues that months of underperformance have made most of the group too cheap to ignore"
+            },
+            {
+              "headline": "Traders brace for US jobs data after Fed's Waller soothes bond markets",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/asian-shares-climb-ahead-us-023357590.html",
+              "published_at": "2026-09-04T11:40:13Z",
+              "summary": "By Marc Jones LONDON, Sept 4 (Reuters) - World shares tip-toed higher ahead of U.S. jobs data on Friday, while bond markets got some much-needed relief after a top Federal Reserve official cooled rate"
+            },
+            {
+              "headline": "Stock futures mixed as traders await August jobs report",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-mixed-traders-await-113747067.html",
+              "published_at": "2026-09-04T11:37:47Z",
+              "summary": "Nasdaq-100 futures led modest gains Friday morning as economists expected 53,000 jobs added last month"
             }
           ],
           "earnings": {
@@ -6303,11 +6302,10 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 79,
+          "score": 75,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive",
-            "mildly positive news tone"
+            "six-month momentum is supportive"
           ]
         },
         {
@@ -6605,22 +6603,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.167,
-            "label": "Neutral",
-            "bullish_percent": 50.0,
-            "bearish_percent": 12.5,
+            "score": 0.375,
+            "label": "Positive",
+            "bullish_percent": 87.5,
+            "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.0,
+            "delta": 0.208,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": -0.125,
-                "label": "Neutral",
-                "bullish_percent": 0.0,
-                "bearish_percent": 37.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.417,
@@ -6852,65 +6842,73 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.375,
+                "label": "Positive",
+                "bullish_percent": 87.5,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+              "headline": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady ahead of key jobs report",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-3-dow-sp-500-nasdaq-august-jobs-report-081005475.html",
+              "published_at": "2026-09-04T08:10:05Z",
+              "summary": "All eyes were on the August jobs report for clues about the health of the labor market and whether the data could tip Fed interest rate bets one way or the other."
+            },
+            {
+              "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-03T21:29:21Z",
-              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+              "published_at": "2026-09-04T12:06:15Z",
+              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
             },
             {
-              "headline": "Why Is Oracle Stock Up Today?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-oracle-stock-today-212008025.html",
-              "published_at": "2026-09-03T21:20:08Z",
-              "summary": "Oracle has taken on tens of billions in debt to fund its AI data center build-out, a lower-rate outlook offers it outsize relief."
+              "headline": "Traders brace for US jobs data after Fed's Waller soothes bond markets",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/markets/currencies/articles/asian-shares-climb-ahead-us-023357590.html",
+              "published_at": "2026-09-04T11:40:13Z",
+              "summary": "By Marc Jones LONDON, Sept 4 (Reuters) - World shares tip-toed higher ahead of U.S. jobs data on Friday, while bond markets got some much-needed relief after a top Federal Reserve official cooled rate"
             },
             {
-              "headline": "Stock Market Today, Sept. 3: Campbell's Stock Slumps on Weaker Profit and Sales Miss",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-3-211757335.html",
-              "published_at": "2026-09-03T21:17:57Z",
-              "summary": "On Sept. 3, 2026, the packaged-food maker cut its dividend 36% and outlined a $500 million cost-savings plan to offset margin pressure."
+              "headline": "Stock futures mixed as traders await August jobs report",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-mixed-traders-await-113747067.html",
+              "published_at": "2026-09-04T11:37:47Z",
+              "summary": "Nasdaq-100 futures led modest gains Friday morning as economists expected 53,000 jobs added last month"
             },
             {
-              "headline": "Stock Market Today, Sept. 3: HPE Jumps 5%, Raises Fiscal Outlook on Record AI Server Demand",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-3-211513167.html",
-              "published_at": "2026-09-03T21:15:13Z",
-              "summary": "Today, Sept. 3, 2026, the enterprise infrastructure provider posted $12.2 billion in quarterly revenue, while analysts raised price targets, signaling sustained momentum in AI infrastructure."
+              "headline": "Nasdaq, S&P 500 futures rise ahead of key jobs report",
+              "source": "Reuters",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-p-500-futures-climb-090500873.html",
+              "published_at": "2026-09-04T11:34:57Z",
+              "summary": "By Niket Nishant and Tharuniyaa Lakshmi Sept 4 (Reuters) - Futures tracking the tech-heavy Nasdaq 100 and the benchmark S&P 500 indexes rose on Friday ahead of jobs data that could test the recent"
             },
             {
-              "headline": "Yen surges on new intervention talk, US stocks rally",
-              "source": "AFP",
-              "url": "https://finance.yahoo.com/markets/currencies/articles/yen-surges-intervention-talk-us-210638963.html",
-              "published_at": "2026-09-03T21:06:38Z",
-              "summary": "The yen rallied against the dollar Thursday on fresh talk of intervention by Japan to boost its currency, while Wall Street stocks jumped on hopes the US central bank will leave interest rates unchanged.The yen jumped more two percent against the dollar in European trading hours amid renewed speculation of another intervention to prop up the sagging currency, which increases import costs for Japan."
-            },
-            {
-              "headline": "Update: US Equity Indexes Jump as Sliding Odds for Fed Policy Tightening in September Push Treasury Yields Lower",
+              "headline": "Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted",
               "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-jump-sliding-205611383.html",
-              "published_at": "2026-09-03T20:56:11Z",
-              "summary": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html",
+              "published_at": "2026-09-04T11:06:19Z",
+              "summary": "Wall Street futures pointed moderately higher pre-bell Friday as traders again favored tech issues,"
             },
             {
-              "headline": "Update: Dow Marks Best Day in More Than 4 Weeks as Rate Hike Bets Ease",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/dow-marks-best-day-more-205409556.html",
-              "published_at": "2026-09-03T20:54:09Z",
-              "summary": "(Updates with market moves at the end of the day, and other changes, if any.) The Dow Jones Indus"
-            },
-            {
-              "headline": "Why Is XRP Up Today?",
+              "headline": "If I Were in My 20s, I'd Buy This Spectacular Nasdaq-100 Index Fund and Hold It Forever",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/why-xrp-today-205404609.html",
-              "published_at": "2026-09-03T20:54:04Z",
-              "summary": "Where Bitcoin goes, altcoins follow."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/were-20s-id-buy-spectacular-100200945.html",
+              "published_at": "2026-09-04T10:02:00Z",
+              "summary": "Investors who focus on growth in their younger years could build significant wealth by the time they reach retirement."
+            },
+            {
+              "headline": "Stock Market News for Sep 4, 2026",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html",
+              "published_at": "2026-09-04T09:09:00Z",
+              "summary": "U.S. stock markets closed higher on Thursday after Treasury yields retreated globally."
             }
           ],
           "earnings": {
@@ -6918,11 +6916,11 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 79,
+          "score": 83,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is supportive",
-            "mildly positive news tone"
+            "positive news tone"
           ]
         },
         {
@@ -7220,22 +7218,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.208,
-            "label": "Neutral",
-            "bullish_percent": 50.0,
+            "score": 0.271,
+            "label": "Positive",
+            "bullish_percent": 75.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.166,
+            "delta": 0.063,
             "history": [
-              {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": -0.058,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.292,
@@ -7467,65 +7457,73 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.271,
+                "label": "Positive",
+                "bullish_percent": 75.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+              "headline": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady ahead of key jobs report",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-3-dow-sp-500-nasdaq-august-jobs-report-081005475.html",
+              "published_at": "2026-09-04T08:10:05Z",
+              "summary": "All eyes were on the August jobs report for clues about the health of the labor market and whether the data could tip Fed interest rate bets one way or the other."
+            },
+            {
+              "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-03T21:29:21Z",
-              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+              "published_at": "2026-09-04T12:06:15Z",
+              "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
             },
             {
-              "headline": "Update: US Equity Indexes Jump as Sliding Odds for Fed Policy Tightening in September Push Treasury Yields Lower",
+              "headline": "Stock futures mixed as traders await August jobs report",
+              "source": "Quartz",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-mixed-traders-await-113747067.html",
+              "published_at": "2026-09-04T11:37:47Z",
+              "summary": "Nasdaq-100 futures led modest gains Friday morning as economists expected 53,000 jobs added last month"
+            },
+            {
+              "headline": "Tech Strength Lifts Wall Street Pre-Bell; Asia Up, Europe Muted",
               "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-jump-sliding-205611383.html",
-              "published_at": "2026-09-03T20:56:11Z",
-              "summary": "(Updates with index/price moves, macroeconomic data and company/geopolitical news from the first par"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/tech-strength-lifts-wall-street-110619648.html",
+              "published_at": "2026-09-04T11:06:19Z",
+              "summary": "Wall Street futures pointed moderately higher pre-bell Friday as traders again favored tech issues,"
             },
             {
-              "headline": "Update: Dow Marks Best Day in More Than 4 Weeks as Rate Hike Bets Ease",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/dow-marks-best-day-more-205409556.html",
-              "published_at": "2026-09-03T20:54:09Z",
-              "summary": "(Updates with market moves at the end of the day, and other changes, if any.) The Dow Jones Indus"
+              "headline": "Stock Market News for Sep 4, 2026",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html",
+              "published_at": "2026-09-04T09:09:00Z",
+              "summary": "U.S. stock markets closed higher on Thursday after Treasury yields retreated globally."
             },
             {
-              "headline": "Planet Labs Earnings Top Wall Street Estimates as Military Space Business Grows",
+              "headline": "Tech Stock Rally Rolls On as Bond Yields Slide Ahead of Jobs Report",
               "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/planet-labs-earnings-stock-price-2aba59c8?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T20:43:00Z",
-              "summary": "Planet Labs reported fiscal second-quarter sales of $116.1 million Thursday afternoon. Wall Street was looking for $104.5 million."
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-090426/card/tech-stock-rally-rolls-on-as-bond-yields-slide-ahead-of-jobs-report-ARQXfO3mc7tCpE5fpL6H?siteid=yhoof2&yptr=yahoo",
+              "published_at": "2026-09-04T08:40:31Z",
+              "summary": "Stock futures were rising on Friday as bond yields retreated ahead of the August nonfarm payrolls report, which will help decide the Federal Reserve’s next move on interest rates.  Nasdaq 100 futures rose 0.5%.  Dow Jones Industrial Average futures slid 47 points, or 0.1%."
             },
             {
-              "headline": "Stock Market Today: Nasdaq Posts Back-To-Back Gains; Tesla, SpaceX Rise As Cybercab Event Nears (Live Coverage)",
-              "source": "Investor's Business Daily",
-              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-03T20:29:41Z",
-              "summary": "Stock Market Today: The Dow Jones index rises Thursday as Treasury yields fall. Nvidia stock rallies on its Hugging Face deal."
+              "headline": "The Federal Reserve's Initial September Inflation Forecast Has Arrived, and It Contains a Glaring Red Flag for Wall Street",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/economy/policy/articles/federal-reserves-initial-september-inflation-082600336.html",
+              "published_at": "2026-09-04T08:26:00Z",
+              "summary": "Although headline inflation is projected to decline, a far more important price-change measure is predicted to reaccelerate."
             },
             {
-              "headline": "US Equity Markets End Higher as Expectations Build for Fed to Keep Rates Steady",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-202659136.html",
-              "published_at": "2026-09-03T20:26:59Z",
-              "summary": "US equity indexes ended higher Thursday in a broad-based rally amid rising expectations that the Fed"
-            },
-            {
-              "headline": "Stocks Jump on Fed Optimism, But Jobs Report Could Undo It All",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-090326/card/stocks-jump-on-fed-optimism-but-jobs-report-could-undo-it-all-6zzus7xm1PpUKyHiCAyV?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-03T20:02:22Z",
-              "summary": "Dovish signals from one Federal Reserve official sent stocks surging just ahead of the August jobs report.  The Nasdaq Composite rose 1.4%.  The catalyst behind the move higher was Fed governor Christopher Waller saying he's open to holding rates steady, shifting the odds of a September hike lower."
-            },
-            {
-              "headline": "Sector Update: Energy Stocks Decline Late Afternoon",
-              "source": "MT Newswires",
-              "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195350875.html",
-              "published_at": "2026-09-03T19:53:50Z",
-              "summary": "Energy stocks were lower late Thursday afternoon, with the NYSE Energy Sector Index decreasing 0.4%"
+              "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+              "source": "Benzinga Prediction Markets",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-060440360.html",
+              "published_at": "2026-09-04T06:04:40Z",
+              "summary": "U.S. stock futures are trending slightly higher early Friday as investors brace for the critical August jobs report and monitor geopolitical developments in the Middle East. The Polymarket (CRYPTO: POL) crowd is currently leaning bullish for the Sept. 4 trading..."
             }
           ],
           "earnings": {
@@ -7533,11 +7531,11 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 79,
+          "score": 83,
           "rating_reasons": [
             "strong one-year trend",
             "six-month momentum is supportive",
-            "mildly positive news tone"
+            "positive news tone"
           ]
         }
       ]
@@ -7563,11 +7561,11 @@
           "enterprise_value": null,
           "dividend_yield": 3.65,
           "beta": null,
-          "trailing_pe": 3714.0908,
+          "trailing_pe": null,
           "forward_pe": null,
           "peg_ratio": null,
           "price_to_sales": null,
-          "price_to_book": 0.9474502,
+          "price_to_book": null,
           "profit_margin": null,
           "operating_margin": null,
           "gross_margin": null,
@@ -7851,14 +7849,6 @@
             "delta": 0.0,
             "history": [
               {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": 0.083,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
-              {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": 0.083,
                 "label": "Neutral",
@@ -8089,6 +8079,14 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.083,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -8174,13 +8172,13 @@
           "currency": "USD",
           "market_cap": null,
           "enterprise_value": null,
-          "dividend_yield": 3.96,
+          "dividend_yield": 3.97,
           "beta": null,
           "trailing_pe": null,
           "forward_pe": null,
           "peg_ratio": null,
           "price_to_sales": null,
-          "price_to_book": 0.7876543,
+          "price_to_book": null,
           "profit_margin": null,
           "operating_margin": null,
           "gross_margin": null,
@@ -8464,14 +8462,6 @@
             "delta": 0.0,
             "history": [
               {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": -0.208,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 37.5,
-                "articles_last_week": 8
-              },
-              {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": -0.208,
                 "label": "Neutral",
@@ -8697,6 +8687,14 @@
               },
               {
                 "timestamp": "2026-09-03T21:45:14.925853+00:00",
+                "score": -0.167,
+                "label": "Neutral",
+                "bullish_percent": 0.0,
+                "bearish_percent": 37.5,
+                "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
                 "score": -0.167,
                 "label": "Neutral",
                 "bullish_percent": 0.0,
@@ -9077,14 +9075,6 @@
             "delta": 0.0,
             "history": [
               {
-                "timestamp": "2026-08-21T08:00:17.742298+00:00",
-                "score": -0.05,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
-              {
                 "timestamp": "2026-08-21T13:58:30.982228+00:00",
                 "score": -0.05,
                 "label": "Neutral",
@@ -9315,6 +9305,14 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-04T12:09:45.556178+00:00",
+                "score": 0.083,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -9403,10 +9401,10 @@
       "price": 328.21,
       "currency": "USD",
       "market_cap": 4789955985408.0,
-      "enterprise_value": 4764469821440.0,
+      "enterprise_value": 4811900583936.0,
       "dividend_yield": 0.33,
-      "beta": 1.086,
-      "trailing_pe": 37.681973,
+      "beta": 1.085,
+      "trailing_pe": 37.59565,
       "forward_pe": 34.403095,
       "peg_ratio": 2.56,
       "price_to_sales": 10.260755,
@@ -9685,7 +9683,7 @@
       "valuation_history": [
         {
           "year": 2021,
-          "price": 138.02,
+          "price": 138.01,
           "pe": null,
           "price_to_sales": null,
           "eps": null,
@@ -9731,22 +9729,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": -0.188,
+        "score": 0.083,
         "label": "Neutral",
-        "bullish_percent": 12.5,
-        "bearish_percent": 50.0,
+        "bullish_percent": 25.0,
+        "bearish_percent": 0.0,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": 0.124,
+        "delta": 0.271,
         "history": [
-          {
-            "timestamp": "2026-08-21T08:00:17.742298+00:00",
-            "score": 0.042,
-            "label": "Neutral",
-            "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-08-21T13:58:30.982228+00:00",
             "score": 0.167,
@@ -9978,65 +9968,73 @@
             "bullish_percent": 12.5,
             "bearish_percent": 50.0,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-09-04T12:09:45.556178+00:00",
+            "score": 0.083,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 0.0,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "How Apple's John Ternus inherited a 'reckoning' with China",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/apples-john-ternus-inherited-reckoning-120000967.html",
-          "published_at": "2026-09-03T12:00:00Z",
-          "summary": "Strategy Risks founder and CEO, Isaac Stone Fish, sits down with Market Domination host Josh Lipton to discuss various aspects of Apple's (AAPL) overall strategy in China, India, and more."
+          "headline": "Apple's first foldable iPhone may cost $2,000",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/apples-first-foldable-iphone-may-cost-2000-110739523.html",
+          "published_at": "2026-09-04T11:07:39Z",
+          "summary": "Get ready to pay up for Apple!"
         },
         {
-          "headline": "Tim Cook Grew Apple From a $350 Billion Company Into a Multi-Trillion-Dollar Giant Over Nearly 15 Years as CEO. Can John Ternus' Product-First Approach Extend That Compounding?",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tim-cook-grew-apple-350-213500295.html",
-          "published_at": "2026-09-03T21:35:00Z",
-          "summary": "Apple is undergoing a major leadership transition, but it is important to remember that the company is product-driven."
+          "headline": "Market Chatter: Apple's Foldable iPhone Production Limited to Few Hundred Units Daily",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-apple-apos-foldable-115705069.html",
+          "published_at": "2026-09-04T11:57:05Z",
+          "summary": "Apple's (AAPL) initial production of its long-awaited foldable iPhone is limited to a few hundred un"
         },
         {
-          "headline": "Apple's Privacy Shield Now Carries a $2.7 Billion Price Tag",
-          "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/apples-privacy-shield-now-carries-213118939.html",
-          "published_at": "2026-09-03T21:31:18Z",
-          "summary": "The lawsuit attacks ATT's competitive economics--not the consumer-privacy promise Apple uses to defend it."
+          "headline": "Jim Cramer says it's time to buy the Magnificent Seven again",
+          "source": "Quartz",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-time-buy-114220204.html",
+          "published_at": "2026-09-04T11:42:20Z",
+          "summary": "The \"Mad Money\" host argues that months of underperformance have made most of the group too cheap to ignore"
         },
         {
-          "headline": "What Happens To Qualcomm Stock If The New Revenue Earns Less?",
-          "source": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/happens-qualcomm-stock-revenue-earns-204305867.html",
-          "published_at": "2026-09-03T20:43:05Z",
-          "summary": "Qualcomm (QCOM) is down 32% over the past three months, and the cause is not a mystery. The smartphone market has contracted as memory prices climbed, and Apple is exiting faster than the company had guided. Management has a credible plan to replace that revenue. The harder question is what the replacement earns."
+          "headline": "‘The soul of an innovator’: Tim Cook hands a $4.5T Apple to John Ternus. Turn $10K into your own wealth-building machine",
+          "source": "Moneywise",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/soul-innovator-tim-cook-hands-111500693.html",
+          "published_at": "2026-09-04T11:15:00Z",
+          "summary": "Cook's 15-year run delivered 2,274% gains. Here's how to start building wealth with your next dollar."
         },
         {
-          "headline": "Broadcom and Snowflake Perfectly Sum Up the AI Trade",
+          "headline": "Apple expands AI and data hiring in China, says GlobalData report",
+          "source": "Verdict",
+          "url": "https://finance.yahoo.com/technology/ai/articles/apple-expands-ai-data-hiring-110456857.html",
+          "published_at": "2026-09-04T11:04:56Z",
+          "summary": "This move reflects a broader strategy to reinforce China’s position within Apple’s global technology ecosystem."
+        },
+        {
+          "headline": "AMC Stock Jumps After Attack on ‘Inexcusable’ and ‘Vile’ Robinhood Practices",
           "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/stock-market-things-to-know-today-d343c1a0?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-09-03T20:34:00Z",
-          "summary": "Stock futures fall, Broadcom beat forecasts for AI Chip sales growth, Micron and China chip makers fight for market share."
+          "url": "https://www.barrons.com/articles/amc-stock-robinhood-attack-vile-c3cc9d42?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-09-04T10:47:00Z",
+          "summary": "AMC’s Adam Aron criticized the online trading platform for its tokenized stocks and demanded that the company stop the trading of AMC stock tokens.  The shares jumped around 10% ahead of the open and it was by far the most actively traded stock in premarket trading.  Robinhood stock fell 1.3%."
         },
         {
-          "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-mixed-outlook-182923490.html",
-          "published_at": "2026-09-03T18:29:23Z",
-          "summary": "Shares of Apple Inc. (NASDAQ:AAPL) have performed well so far this year. As of September 2, the stock has gained nearly 20% year-to-date, compared with an 11.78% rise in the broader S&P 500 Index. However, analysts remain divided on the company’s outlook. App Store Weakness Raises Concerns On September 2, Evercore ISI reiterated its Outperform […]"
+          "headline": "Update: Market Chatter: Apple Sued by BASF Over Facial Authentication Technology",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/articles/market-chatter-apple-sued-basf-100430418.html",
+          "published_at": "2026-09-04T10:04:30Z",
+          "summary": "(Updates with BASF's response in the fourth paragraph.) Apple (AAPL) has been sued by BASF in a p"
         },
         {
-          "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
-          "source": "AFP",
-          "url": "https://finance.yahoo.com/media-advertising/articles/apple-faces-2-bn-lawsuit-174755792.html",
-          "published_at": "2026-09-03T17:47:55Z",
-          "summary": "Apple faces a £2 billion ($2.7 billion) lawsuit brought by UK app developers who accused Thursday the US tech giant of giving its own advertising services an unfair advantage by imposing tougher privacy rules on third parties.The claimants argue that the system was \"designed and implemented unfairly and without proper consultation, imposing stricter requirements on third-party app developers than on its own services.\""
-        },
-        {
-          "headline": "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/stryker-launches-fda-cleared-apple-173700748.html",
-          "published_at": "2026-09-03T17:37:00Z",
-          "summary": "SYK's FDA-cleared SportSuite Vision brings Apple Vision Pro into hip arthroscopy, strengthening its digital surgery push and Sports Medicine portfolio."
+          "headline": "Warren Buffett's Successor, Greg Abel, Has 63% of Berkshire's $360 Billion Portfolio Concentrated in 5 Superstar Stocks",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-successor-greg-abel-092600596.html",
+          "published_at": "2026-09-04T09:26:00Z",
+          "summary": "Approximately $226 billion of Berkshire Hathaway's invested assets can be traced to five standout stocks."
         }
       ],
       "earnings": {
@@ -10044,7 +10042,7 @@
         "source": "Finnhub"
       },
       "rating": "Buy",
-      "score": 83,
+      "score": 87,
       "rating_reasons": [
         "solid revenue growth",
         "high net margins",
@@ -10065,10 +10063,10 @@
       "price": 510.12,
       "currency": "USD",
       "market_cap": 3787919458304.0,
-      "enterprise_value": 3741129637888.0,
-      "dividend_yield": 0.73,
-      "beta": 1.099,
-      "trailing_pe": 28.434782,
+      "enterprise_value": 3839889244160.0,
+      "dividend_yield": 0.71,
+      "beta": 1.108,
+      "trailing_pe": 28.40312,
       "forward_pe": 21.639755,
       "peg_ratio": 1.63,
       "price_to_sales": 11.414931,
@@ -10384,22 +10382,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.208,
+        "score": -0.042,
         "label": "Neutral",
-        "bullish_percent": 50.0,
-        "bearish_percent": 12.5,
+        "bullish_percent": 12.5,
+        "bearish_percent": 25.0,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": 0.208,
+        "delta": -0.25,
         "history": [
-          {
-            "timestamp": "2026-08-21T08:00:17.742298+00:00",
-            "score": 0.062,
-            "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 37.5,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-08-21T13:58:30.982228+00:00",
             "score": 0.117,
@@ -10631,65 +10621,73 @@
             "bullish_percent": 50.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-09-04T12:09:45.556178+00:00",
+            "score": -0.042,
+            "label": "Neutral",
+            "bullish_percent": 12.5,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "Microsoft Finally Reveals Azure's $29.4 Billion Core",
-          "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/microsoft-finally-reveals-azures-29-213443350.html",
-          "published_at": "2026-09-03T21:34:43Z",
-          "summary": "The disclosure exposes Azure's real scale while making future market-share changes impossible to hide behind percentages."
-        },
-        {
-          "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+          "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
           "source": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-          "published_at": "2026-09-03T21:29:21Z",
-          "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+          "published_at": "2026-09-04T12:06:15Z",
+          "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
         },
         {
-          "headline": "SpaceX Reclaims $2 Trillion Market Cap As Tech Rally, Cybercab Ties Boost Investor Confidence",
+          "headline": "Jim Cramer says it's time to buy the Magnificent Seven again",
+          "source": "Quartz",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-time-buy-114220204.html",
+          "published_at": "2026-09-04T11:42:20Z",
+          "summary": "The \"Mad Money\" host argues that months of underperformance have made most of the group too cheap to ignore"
+        },
+        {
+          "headline": "Update: Market Chatter: Nvidia Increases Equity Investments to $99 Billion",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-increases-equity-102704254.html",
+          "published_at": "2026-09-04T10:27:04Z",
+          "summary": "(Updates with Nvidia's response in the fifth paragraph.) Nvidia (NVDA) has increased its equity i"
+        },
+        {
+          "headline": "What We’ve Learned Since 9/11",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/what-weve-learned-since-9-11-2165ca1d?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-09-04T06:45:00Z",
+          "summary": "From an economic standpoint, the nation’s fiscal status has been turned upside down—from a federal budget swimming in surpluses to one deeply in deficit, despite the U.S. not being in recession or officially at war.  Since then, the world has become even more dangerous, with the Iran war, Russia’s war on Ukraine, and China’s adventures in the Pacific.  The Up & Down Wall Street written directly after the 9/11 attacks predicted a marked increase in spending for national security."
+        },
+        {
+          "headline": "3 Japanese Hidden Gems With At Least 12% Net Margins",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-japanese-hidden-gems-least-062216235.html",
+          "published_at": "2026-09-04T06:22:16Z",
+          "summary": "Japan’s government bond yields recently retreated after earlier highs, and the yen has strengthened, which keeps many global investors focused on large caps and macro headlines. That leaves plenty of room in the shadows for smaller high quality Japanese stocks with solid fundamentals and limited analyst coverage. This article highlights three such under the radar opportunities that could potentially help diversify a long term Japan focused portfolio. The stocks covered below are just a small..."
+        },
+        {
+          "headline": "Does XRAY’s Profit Recovery and Reaffirmed 2026 Outlook Shift the Dentsply Sirona Thesis?",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/does-xray-profit-recovery-reaffirmed-062029841.html",
+          "published_at": "2026-09-04T06:20:29Z",
+          "summary": "Dentsply Sirona recently reported second-quarter 2026 results showing a 4.1% year-over-year net sales decline but a return to net income, with higher margins and stronger cash generation, and also confirmed it will present at the Baird 2026 Global Healthcare Conference on September 15, 2026. The combination of improved profitability and cash flow, despite weaker revenue and a history of pressure on returns, led management to reiterate full-year 2026 guidance, highlighting a sharper focus on..."
+        },
+        {
+          "headline": "MSFT Stock Heads For Weekly Drop: CEO Satya Nadella Says Azure Customers Are Already Using OpenAI’s New Astra AI Model",
           "source": "Stocktwits",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-reclaims-2-trillion-market-211203949.html",
-          "published_at": "2026-09-03T21:12:03Z",
-          "summary": "SpaceX surpassed a $2 trillion market valuation for the first time in nearly two months, driven by strong analyst forecasts, integration with Tesla's upcoming Cybercab, and a broader surge in major technology stocks."
+          "url": "https://finance.yahoo.com/technology/ai/articles/msft-stock-heads-weekly-drop-055510102.html",
+          "published_at": "2026-09-04T05:55:10Z",
+          "summary": "Early support for Astra on Azure beefs up the cloud platform’s appeal among users."
         },
         {
-          "headline": "Amazon vs. Microsoft: 1 Key Metric Identifies the Superior Artificial Intelligence (AI) Cloud Stock",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-vs-microsoft-1-key-201300604.html",
-          "published_at": "2026-09-03T20:13:00Z",
-          "summary": "Amazon's revenue growth may be slower, but it's accelerating quickly."
-        },
-        {
-          "headline": "Snowflake Stock Is Soaring. How the Software Giant’s Earnings Silenced AI Skeptics.",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/snowflake-earnings-stock-price-44551799?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-09-03T20:08:00Z",
-          "summary": "The software firm remains on track to break even next year, CEO Sridhar Ramaswamy told Barron’s on Wednesday."
-        },
-        {
-          "headline": "Microsoft CEO Nadella Sells $43 Million of Stock",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/microsoft-stock-ceo-nadella-9107763d?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-09-03T19:33:00Z",
-          "summary": "Microsoft  CEO Satya Nadella sold over $43 million worth of company stock under a pre-arranged trading plan, marking his first sale of the year.  A Form 4 filed with the Securities and Exchange Commission shows Nadella unloaded 86,525 shares across eight separate transactions on Sept. 1 at prices ranging from $497.69 to $505.76 each.  The transactions were conducted under a 105b-1 trading plan, which is triggered when pre-determined conditions such as stock price or date are met."
-        },
-        {
-          "headline": "The Market Marked ZM Down. The Numbers Push Back",
-          "source": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-marked-zm-down-numbers-191458556.html",
-          "published_at": "2026-09-03T19:14:58Z",
-          "summary": "The video platform that defined an era now trades at a fraction of the market's price, forcing investors to decide if the markdown is a miscalculation or a final verdict."
-        },
-        {
-          "headline": "Could Dell Be the Next Magnificent Seven Stock?",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/could-dell-next-magnificent-seven-190600640.html",
-          "published_at": "2026-09-03T19:06:00Z",
-          "summary": "Dell Technologies stock is pushing new record highs following another exceptional earnings report, driven largely by the AI boom."
+          "headline": "Mark Zuckerberg Opposes Federal AI Watchdog in Call With Trump: Report",
+          "source": "Benzinga",
+          "url": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerberg-opposes-federal-ai-043718141.html",
+          "published_at": "2026-09-04T04:37:18Z",
+          "summary": "Meta Platforms Inc. (NASDAQ:META) CEO Mark Zuckerberg reportedly pushed back against a proposed national artificial-intelligence regulator during an August phone call with President Donald Trump, as the White House weighs a FINRA-style watchdog for frontier models. Zuckerberg Pushes Back On AI Watchdog According to a Politico report on Thursday, Trump called Zuckerberg during the week of Aug. 17. Zuckerberg said he opposed the proposal but did not ask Trump to change his position. Instead, he sa"
         }
       ],
       "earnings": {
@@ -10718,11 +10716,11 @@
       "price": 228.45,
       "currency": "USD",
       "market_cap": 5516382175232.0,
-      "enterprise_value": 5384672116736.0,
-      "dividend_yield": 0.45,
-      "beta": 2.215,
+      "enterprise_value": 5482036068352.0,
+      "dividend_yield": 0.44,
+      "beta": 2.217,
       "trailing_pe": 28.91772,
-      "forward_pe": 14.853116,
+      "forward_pe": 14.778659,
       "peg_ratio": 0.56,
       "price_to_sales": 18.207684,
       "price_to_book": 24.090477,
@@ -11046,22 +11044,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.083,
+        "score": 0.125,
         "label": "Neutral",
-        "bullish_percent": 37.5,
-        "bearish_percent": 25.0,
+        "bullish_percent": 50.0,
+        "bearish_percent": 12.5,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": -0.084,
+        "delta": 0.042,
         "history": [
-          {
-            "timestamp": "2026-08-21T08:00:17.742298+00:00",
-            "score": 0.0,
-            "label": "Neutral",
-            "bullish_percent": 25.0,
-            "bearish_percent": 25.0,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-08-21T13:58:30.982228+00:00",
             "score": 0.208,
@@ -11293,6 +11283,14 @@
             "bullish_percent": 37.5,
             "bearish_percent": 25.0,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-09-04T12:09:45.556178+00:00",
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 50.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
           }
         ]
       },
@@ -11305,53 +11303,53 @@
           "summary": "Tech stocks surged on Thursday as fading rate-hike worries lifted market sentiment across the board."
         },
         {
-          "headline": "AI demand is 'exceptional,' but the supply chain is not: HPE CEO",
+          "headline": "Nvidia's Jensen Huang is 'playing both sides' of AI with Hugging Face purchase",
           "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/ai-demand-exceptional-supply-chain-201052714.html",
-          "published_at": "2026-09-03T20:10:52Z",
-          "summary": "HPE (HPE) reported third quarter earnings results on Wednesday. HPE CEO Antonio Neri sits down with Yahoo Finance Executive Editor Brian Sozzi to discuss the relationship between the roaring demand for AI and the industry's extreme supply-chain constraints."
+          "url": "https://finance.yahoo.com/video/nvidias-jensen-huang-playing-both-203620881.html",
+          "published_at": "2026-09-03T20:36:20Z",
+          "summary": "Nvidia (NVDA) is buying AI platform Hugging Face for $12.9 billion in a move that could extend Nvidia's reach in the AI ecosystem beyond being just a chip supplier. Futurum CEO Daniel Newman reacts to this headline news and what the acquisition of Hugging Face represents for Nvidia's growing market share of the AI landscape."
         },
         {
-          "headline": "How Nvidia's latest deal continues to target all points of the AI trade",
+          "headline": "Broadcom's 2028 AI revenue outlook is what's really 'important'",
           "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/nvidias-latest-deal-continues-target-143717372.html",
-          "published_at": "2026-09-03T14:37:17Z",
-          "summary": "Yahoo Finance Senior Business Reporter Ines Ferré joins Yahoo Finance Executive Editor Brian Sozzi to report on Nvidia's $12.9 billion acquisition of Hugging Face, the company's bet on open AI models, and now accounting for 8% of the S&P 500 market cap."
+          "url": "https://finance.yahoo.com/video/broadcoms-2028-ai-revenue-outlook-160000306.html",
+          "published_at": "2026-09-03T16:00:00Z",
+          "summary": "Broadcom (AVGO) reported quarterly earnings on Wednesday that only modestly beat Wall Street's expectations. CFRA Research senior vice president and equity analyst, Angelo Zino, shares his thoughts on Broadcom's earnings print, highlighting what it signals about the broader semiconductor industry."
         },
         {
-          "headline": "Why Nvidia's purchase of Hugging Face is an 'important strategic move'",
+          "headline": "Are investors underappreciating Broadcom's strong performance?",
           "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/why-nvidias-purchase-hugging-face-132058312.html",
-          "published_at": "2026-09-03T13:20:58Z",
-          "summary": "Nvidia (NVDA) will be buying open-weight AI company Hugging Face for $12.9 billion. Morning Brief Host Julie Hyman is joined by Yahoo Finance Breaking Business News Reporter Jake Conley and BD8 Capital Partners, LLC CEO Barbara Doran to discuss what this means for Nvidia's standing in the AI ecosystem as it aims to become more than just a chip supplier."
+          "url": "https://finance.yahoo.com/video/investors-underappreciating-broadcoms-strong-performance-142402034.html",
+          "published_at": "2026-09-03T14:24:02Z",
+          "summary": "Yahoo Finance Executive Editor Brian Sozzi takes a second look at Broadcom's (AVGO) price performance, which is stumbling despite revenue surging 86% year over year, and why the company has more to offer than to worry about."
         },
         {
-          "headline": "Nvidia’s $5 Billion Intel Bet Was Worth $30 Billion by June. Is the Partnership Still Mispriced?",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-billion-intel-bet-213940172.html",
-          "published_at": "2026-09-03T21:39:40Z",
-          "summary": "Nvidia’s $5 billion Intel investment has produced an extraordinary paper gain, but the timeline matters. The companies announced the investment and product collaboration on September 18, 2025. Intel’s SEC filing shows that NVIDIA Corporation (NASDAQ:NVDA) actually completed the purchase on December 26, 2025, acquiring 214,776,632 Intel shares at $23.28 each for $5 billion. Nvidia’s June […]"
+          "headline": "Nvidia's $12.93 Billion Hugging Face Deal Reaches Beyond the GPU Rack",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-12-93-billion-hugging-120637039.html",
+          "published_at": "2026-09-04T12:06:37Z",
+          "summary": "The platform stays open, so Nvidia is paying for developer proximity--not guaranteed hardware lock-in."
         },
         {
-          "headline": "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab, Jobs Report In Focus",
+          "headline": "Dow Jones Futures Fall, Techs Rise After Market Rally; Tesla Cybercab, Jobs Report In Focus",
           "source": "Investor's Business Daily",
           "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-waller-tesla-cybercab-jobs-report/?src=A00220&yptr=yahoo",
-          "published_at": "2026-09-03T21:29:21Z",
-          "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. A Tesla Cybercab event and jobs report are on tap."
+          "published_at": "2026-09-04T12:06:15Z",
+          "summary": "The stock market jumped above key levels Thursday, buoyed by Snowflake and dovish Fed comments. Tesla Cybercabs are now live in Austin robotaxi app. The jobs report is on tap."
         },
         {
-          "headline": "Rosenblatt Doubles Down on Nvidia After Massive Deal",
-          "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/rosenblatt-doubles-down-nvidia-massive-212520777.html",
-          "published_at": "2026-09-03T21:25:20Z",
-          "summary": "The acquisition may be about far more than software"
+          "headline": "Is Marvell Technology a Millionaire-Maker Stock?",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-millionaire-maker-stock-115300293.html",
+          "published_at": "2026-09-04T11:53:00Z",
+          "summary": "The chipmaker has a powerful AI growth story, but it also faces fierce competition and has lofty expectations baked into its share price."
         },
         {
-          "headline": "Hilton Food Serves Up a Guidance Upgrade",
-          "source": "Moby",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-food-serves-guidance-upgrade-063349424.html",
-          "published_at": "2026-09-03T21:21:18Z",
-          "summary": "The food supplier’s shares jumped after stronger core trading, currency help and the Dalco exit outweighed seafood trouble."
+          "headline": "Breakfast News: Week in Review",
+          "source": "Motley Fool",
+          "url": "https://finance.yahoo.com/technology/ai/articles/breakfast-news-week-review-115000946.html",
+          "published_at": "2026-09-04T11:50:00Z",
+          "summary": "Nvidia's $13 billion Hugging Face deal, MongoDB's 15% drop, and more..."
         }
       ],
       "earnings": {
