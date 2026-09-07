@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:15:17.624504+00:00",
+  "generated_at": "2026-09-07T22:05:33.079893+00:00",
   "source": "Yahoo Finance via yfinance + Finnhub when configured",
   "disclaimer": "Educational snapshot only. Not financial advice.",
   "asset_groups": [
@@ -349,22 +349,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": 0.125,
+            "score": 0.042,
             "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 0.0,
+            "bullish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.125,
+            "delta": -0.083,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.083,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.083,
@@ -596,65 +588,73 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 0.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.042,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "Apple Faces Its Biggest iPhone Test in Years -- Morgan Stanley Sees $14B Foldable Opportunity",
+              "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
               "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-faces-biggest-iphone-test-174840294.html",
-              "published_at": "2026-09-07T17:48:40Z",
-              "summary": "Apple Set for Major iPhone Shake-Up as Foldable Model Targets $14B Revenue Opportunity"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html",
+              "published_at": "2026-09-07T21:58:55Z",
+              "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
             },
             {
-              "headline": "DELL Expands Consumer PC Reach: Can It Challenge HPQ & AAPL?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/dell-expands-consumer-pc-reach-165000055.html",
-              "published_at": "2026-09-07T16:50:00Z",
-              "summary": "Dell Technologies broadens its consumer PC reach with the affordable Dell 14S as PC demand improves and competition from HP and Apple intensifies."
+              "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/articles/apples-54-billion-iphone-engine-215612819.html",
+              "published_at": "2026-09-07T21:56:12Z",
+              "summary": "AI servers are absorbing premium memory capacity while Apple tries to protect hardware margins."
             },
             {
-              "headline": "The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/technology/articles/real-satellite-race-isn-t-164104767.html",
-              "published_at": "2026-09-07T16:41:04Z",
-              "summary": "The satellite race everyone is watching plays out on launchpads, but the contest that determines who profits runs through a far less visible battlefield: the radio frequencies fighting to reach the phone in your pocket."
-            },
-            {
-              "headline": "Is Adobe's Stock Heading for $300?",
+              "headline": "Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/adobes-stock-heading-300-162229587.html",
-              "published_at": "2026-09-07T16:22:29Z",
-              "summary": "The tech stock has been quietly rallying for the past few months."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/tim-cook-delivered-2-720-215500276.html",
+              "published_at": "2026-09-07T21:55:00Z",
+              "summary": "Apple is facing some pressure, but there's a lot to be excited about."
             },
             {
-              "headline": "There Are Only a Handful of Nasdaq-100 Stocks That Yield Over 3%. Here's My Top Pick to Buy Now.",
+              "headline": "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/apples-320-stock-faces-huaweis-214227363.html",
+              "published_at": "2026-09-07T21:42:27Z",
+              "summary": "Two Chinese rivals unveiled premium foldables before Wednesday's Apple event, raising the competitive stakes in its most difficult major market."
+            },
+            {
+              "headline": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-1-2-million-212521924.html",
+              "published_at": "2026-09-07T21:25:21Z",
+              "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely."
+            },
+            {
+              "headline": "Jim Cramer Wants Nvidia to Buy Back $500 Billion. Can Apple’s Playbook Work?",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-wants-nvidia-buy-203415967.html",
+              "published_at": "2026-09-07T20:34:15Z",
+              "summary": "Jim Cramer wants NVIDIA Corporation (NASDAQ:NVDA) to authorize a $500 billion buyback and purchase shares daily. His September 1 Mad Money argument points to Apple Inc. (NASDAQ:AAPL) as the model. Both businesses return substantial capital, but their cash demands complicate copying the same strategy. Nvidia’s quarterly filing shows $99.3 billion of remaining authorization at July […]"
+            },
+            {
+              "headline": "KeyBanc Delivers Stark Warning on Apple Stock Ahead of iPhone 18 Launch",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/keybanc-delivers-stark-warning-apple-191353530.html",
+              "published_at": "2026-09-07T19:13:53Z",
+              "summary": "KeyBanc Warns iPhone 18 Launch Could Hit Stock"
+            },
+            {
+              "headline": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways. Here's Why That's Not the Same as Owning Nvidia.",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/only-handful-nasdaq-100-stocks-140500834.html",
-              "published_at": "2026-09-07T14:05:00Z",
-              "summary": "For my money, Mondelez is the best bet of the Nasdaq-100's high-yield names."
-            },
-            {
-              "headline": "Is Apple Stock a Buy Now Ahead of its Product Launch Event?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-buy-now-ahead-140000662.html",
-              "published_at": "2026-09-07T14:00:00Z",
-              "summary": "Ahead of Wednesday's launch, AAPL faces a tricky mix: strong demand, rising costs, tight supply, and a premium stock valuation."
-            },
-            {
-              "headline": "The S&P 100 ETF Just Dumped Nike and Colgate for 4 AI Stocks. Here’s What That Means for Your Portfolio",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/p-100-etf-just-dumped-135256184.html",
-              "published_at": "2026-09-07T13:52:56Z",
-              "summary": "The iShares S&P 100 ETF just swapped out a toothpaste giant and a mall REIT for four AI infrastructure plays, and the move reveals something uncomfortable about what this so-called blue-chip fund has quietly become."
-            },
-            {
-              "headline": "Apple Just Made a Move Most Investors Overlooked. This Is Why I Keep Buying The Stock",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-made-move-most-135135226.html",
-              "published_at": "2026-09-07T13:51:35Z",
-              "summary": "Apple quietly broke its own product release playbook, and most investors scrolled right past the announcement without realizing what it signals for the decade ahead."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-owns-ai-exposure-185000606.html",
+              "published_at": "2026-09-07T18:50:00Z",
+              "summary": "Why doesn't Berkshire own the top AI stock?"
             }
           ],
           "earnings": {
@@ -662,7 +662,7 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 91,
+          "score": 87,
           "rating_reasons": [
             "solid revenue growth",
             "high net margins",
@@ -1002,22 +1002,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": -0.017,
+            "score": 0.042,
             "label": "Neutral",
             "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.017,
+            "delta": 0.059,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.292,
-                "label": "Positive",
-                "bullish_percent": 62.5,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.208,
@@ -1249,6 +1241,14 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.042,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -1259,6 +1259,41 @@
               "url": "https://finance.yahoo.com/video/weight-loss-just-beginning-glp-100000472.html",
               "published_at": "2026-09-07T10:00:00Z",
               "summary": "Yahoo Finance Executive Editor Brian Sozzi chats with Novo Nordisk CEO Mike Doustdar about the true timeline for how GLP-1s will impact the food and airline industries, and what the future of weight loss and preventative health looks like over the next decade."
+            },
+            {
+              "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html",
+              "published_at": "2026-09-07T21:58:55Z",
+              "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
+            },
+            {
+              "headline": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-1-2-million-212521924.html",
+              "published_at": "2026-09-07T21:25:21Z",
+              "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely."
+            },
+            {
+              "headline": "Nvidia CEO Says Human-Level AI Is Here. He Sells the Chips.",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-says-human-level-212323583.html",
+              "published_at": "2026-09-07T21:23:23Z",
+              "summary": "Huang told the G20 we were practically at AGI. Four days later he said it had arrived. Nobody can referee him."
+            },
+            {
+              "headline": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
+              "published_at": "2026-09-07T19:26:52Z",
+              "summary": "An unprecedented construction wave could reshape AI's biggest stock-market winners"
+            },
+            {
+              "headline": "Microsoft Has a $1,000 Problem With Its Next Xbox",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/articles/microsoft-1-000-problem-next-192040075.html",
+              "published_at": "2026-09-07T19:20:40Z",
+              "summary": "Microsoft is developing Project Helix as its next-generation Xbox"
             },
             {
               "headline": "IREN’s AI Pricing Is Exploding — Why the Neocloud’s $2.6 Billion Contract Base Could Scale Dramatically",
@@ -1273,41 +1308,6 @@
               "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-close-time-high-number-154550712.html",
               "published_at": "2026-09-07T15:45:50Z",
               "summary": "Microsoft sits within reach of a record high, yet one line item buried in its cash flow statement could either launch the stock through that ceiling or keep it rangebound for another year."
-            },
-            {
-              "headline": "Jabil Rises 36.2% Year to Date: Should You Buy the Stock?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html",
-              "published_at": "2026-09-07T15:20:00Z",
-              "summary": "JBL's AI infrastructure growth and diversified portfolio are fueling gains, but supply chain risks and customer concentration remain key concerns."
-            },
-            {
-              "headline": "Bernie Sanders Wants to Ban Superintelligence. What It Means for Microsoft and Amazon",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/ai/articles/bernie-sanders-wants-ban-superintelligence-145733495.html",
-              "published_at": "2026-09-07T14:57:33Z",
-              "summary": "Senator Bernie Sanders and Representative Greg Casar announced forthcoming legislation on September 3 that would permanently ban artificial superintelligence and temporarily pause advanced AI development until a federal regulator sets safety rules. The proposal would also direct the United States to pursue international agreements and establish penalties for violations. Microsoft Corporation (NASDAQ:MSFT) and Amazon.com, Inc. […]"
-            },
-            {
-              "headline": "CRWV Stock Takes a 13% Hit in 3 Months: Time to Buy, Hold or Bail Out?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/crwv-stock-takes-13-hit-144200522.html",
-              "published_at": "2026-09-07T14:42:00Z",
-              "summary": "CoreWeave's huge AI-cloud backlog fuels growth, but soaring capital spending, debt and losses raise questions about its next move."
-            },
-            {
-              "headline": "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/technology/ai/articles/amd-behind-ai-chip-shift-144057045.html",
-              "published_at": "2026-09-07T14:40:57Z",
-              "summary": "AMD and NVIDIA both posted explosive AI quarters, but they are betting on opposite visions of how the AI economy will actually be won. One of those visions fits the next phase of the buildout far better than the market currently appreciates."
-            },
-            {
-              "headline": "Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-building-trillion-dollar-141519995.html",
-              "published_at": "2026-09-07T14:15:19Z",
-              "summary": "Azure just crossed a revenue milestone that caught Wall Street off guard, and Microsoft's backlog tells a story the headline numbers barely hint at. Whether the stock can push toward $600 depends on one number that most investors are not watching closely enough."
             }
           ],
           "earnings": {
@@ -1664,22 +1664,14 @@
           ],
           "sentiment": {
             "available": true,
-            "score": -0.042,
-            "label": "Neutral",
-            "bullish_percent": 12.5,
-            "bearish_percent": 25.0,
+            "score": 0.25,
+            "label": "Positive",
+            "bullish_percent": 50.0,
+            "bearish_percent": 12.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.209,
+            "delta": 0.292,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.0,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": -0.167,
@@ -1911,65 +1903,73 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.25,
+                "label": "Positive",
+                "bullish_percent": 50.0,
+                "bearish_percent": 12.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
             {
-              "headline": "2 Safe High-Yield Energy Dividend Stocks You've Probably Never Heard Of",
+              "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html",
+              "published_at": "2026-09-07T21:58:55Z",
+              "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
+            },
+            {
+              "headline": "Nvidia Insider Makes Stunning $410 Million Stock Move",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-insider-makes-stunning-410-215800599.html",
+              "published_at": "2026-09-07T21:58:00Z",
+              "summary": "The enormous insider transaction carries one crucial piece of context"
+            },
+            {
+              "headline": "Tencent Slips 1% While Its AI-Chip Bet Attacks Nvidia's China Moat",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/tencent-slips-1-while-ai-215226124.html",
+              "published_at": "2026-09-07T21:52:26Z",
+              "summary": "Enflame's explosive growth offers strategic upside, but Tencent's own AI spending is already consuming free cash flow."
+            },
+            {
+              "headline": "Nvidia Gets a $1.47 Billion Supplier Cushion Without Spending a Dollar",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-gets-1-47-billion-215008444.html",
+              "published_at": "2026-09-07T21:50:08Z",
+              "summary": "Wistron is selling equity to fund raw materials and production surrounding Nvidia's AI systems."
+            },
+            {
+              "headline": "Applied Digital Won't Collect Most of Its Rent Until 2029. I'd Wait to Buy the Stock.",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/energy/articles/2-safe-high-yield-energy-175000575.html",
-              "published_at": "2026-09-07T17:50:00Z",
-              "summary": "Kimbell Royalty Partners and The Williams Companies deserve a lot more attention."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-wont-collect-most-214901018.html",
+              "published_at": "2026-09-07T21:49:01Z",
+              "summary": "About $36 billion of 15-year contracted rent is on the books -- but almost none of it arrives until billions more in construction gets finished."
             },
             {
-              "headline": "Jim Cramer Explains Why “Buyers Flocked in” for Dell (DELL)",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-buyers-174139489.html",
-              "published_at": "2026-09-07T17:41:39Z",
-              "summary": "During the September 2 episode of Mad Money, Jim Cramer turned his attention to Dell Technologies Inc. (NYSE:DELL), breaking down why buyers flocked to the stock following its earnings report as investors favored lower-multiple technology names. He commented: What’s going on right now is that big money managers are fleeing stocks with high price to […]"
+              "headline": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
+              "published_at": "2026-09-07T21:46:01Z",
+              "summary": "The rally rewards SoftBank's concentrated AI strategy while increasing the return demanded from its $30 billion OpenAI commitment."
             },
             {
-              "headline": "Is Micron Technology Stock Running Out of Steam?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-stock-running-steam-173231675.html",
-              "published_at": "2026-09-07T17:32:31Z",
-              "summary": "The memory stock has been struggling to get back to the highs it reached back in June."
+              "headline": "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/amd-stock-jumps-unveiling-100-213621532.html",
+              "published_at": "2026-09-07T21:36:21Z",
+              "summary": "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027"
             },
             {
-              "headline": "Verizon's Share Price Is Lower Than It Was 5 Years Ago. With Dividends Reinvested, You're Up About 24%.",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/verizons-share-price-lower-5-173201576.html",
-              "published_at": "2026-09-07T17:32:01Z",
-              "summary": "Every point of the telecom giant's five-year return came from its dividend -- and the payout is still climbing."
-            },
-            {
-              "headline": "Elon Musk Owns 28% of Tesla, a Stake Worth Nearly $350 Billion. Here's Why His Ownership Level Matters for Shareholders.",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-owns-28-tesla-170700943.html",
-              "published_at": "2026-09-07T17:07:00Z",
-              "summary": "Tesla investors know it's often \"all about Elon,\" and there are pros and cons to Musk's sizable stake in the electric vehicle giant."
-            },
-            {
-              "headline": "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
+              "headline": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/ai-moving-everyday-business-5-165250986.html",
-              "published_at": "2026-09-07T16:52:50Z",
-              "summary": "Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to keep up has created a very specific set of winners. Five companies sit at the exact bottlenecks where that buildout cannot proceed without them."
-            },
-            {
-              "headline": "Is Netflix Stock More Likely to Hit $100 or $60 by the End of 2026?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-more-likely-hit-165231379.html",
-              "published_at": "2026-09-07T16:52:31Z",
-              "summary": "The streaming stock is down 38% in the past 12 months, and its valuation may look enticing to many investors."
-            },
-            {
-              "headline": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-no-longer-just-chip-165014878.html",
-              "published_at": "2026-09-07T16:50:14Z",
-              "summary": "Jensen Huang calls it a full-stack AI factory platform, not a chip company, and that distinction is reshaping where billions in hyperscaler spending actually land across five companies fighting over the same supply-constrained foundation."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-1-2-million-212521924.html",
+              "published_at": "2026-09-07T21:25:21Z",
+              "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely."
             }
           ],
           "earnings": {
@@ -2293,16 +2293,8 @@
             "bearish_percent": 37.5,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.125,
+            "delta": 0.0,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.312,
-                "label": "Positive",
-                "bullish_percent": 62.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.208,
@@ -2534,10 +2526,25 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 37.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": -0.25,
+                "label": "Negative",
+                "bullish_percent": 12.5,
+                "bearish_percent": 37.5,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Ripple CEO blasts $11 billion gold transfer",
+              "source": "TheStreet",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/ripple-ceo-blasts-11-billion-211744440.html",
+              "published_at": "2026-09-07T21:17:44Z",
+              "summary": "Ripple CEO Brad Garlinghouse slams the global finance system for slow movement of assets like gold."
+            },
             {
               "headline": "Bitcoin Has No Label but Its Closest Rival Is Gold, BlackRock Exec Says",
               "source": "Benzinga",
@@ -2551,6 +2558,13 @@
               "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-on-rising-fed-rate-hike-expectations-6e77bf70?siteid=yhoof2&yptr=yahoo",
               "published_at": "2026-09-07T14:21:00Z",
               "summary": "Gold prices remained under pressure and futures fell as investors wait on the U.S. PPI report on Thursday and CPI data on Friday."
+            },
+            {
+              "headline": "Amazon Layoffs Continue: How to Play AMZN Stock Now in September 2026",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-layoffs-continue-play-amzn-130002261.html",
+              "published_at": "2026-09-07T13:00:02Z",
+              "summary": "Amazon is cutting jobs again as it doubles down on AI. Could its workforce reset and massive AI push fuel the next leg of growth?"
             },
             {
               "headline": "The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street",
@@ -2579,20 +2593,6 @@
               "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-decline-traders-weigh-232846552.html",
               "published_at": "2026-09-06T23:28:46Z",
               "summary": "Gold held a decline, after stronger-than-expected US payrolls data raised the prospects for an interest-rate hike as early as next week."
-            },
-            {
-              "headline": "The US Dollar Has Lost 97% of Its Value Since 1913: Is Bitcoin the Way Out?",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/us-dollar-lost-97-value-155758790.html",
-              "published_at": "2026-09-06T15:57:58Z",
-              "summary": "The US dollar lost 97% of its value since the Federal Reserve's creation in 1913. Is Bitcoin the answer? Here's the full breakdown."
-            },
-            {
-              "headline": "A Couple Diversified Into Gold. Their Adult Children Thought They'd Been Scammed.",
-              "source": "Benzinga",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/couple-diversified-gold-adult-children-150010034.html",
-              "published_at": "2026-09-06T15:00:10Z",
-              "summary": "A couple, both 60, moved $120,000 from a traditional IRA invested in stocks and mutual funds into a self-directed IRA holding physical gold and silver after deciding they wanted broader diversification in retirement. Their two adult children found out and..."
             }
           ],
           "earnings": {
@@ -2902,22 +2902,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": -0.042,
+            "score": 0.0,
             "label": "Neutral",
-            "bullish_percent": 12.5,
+            "bullish_percent": 25.0,
             "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.0,
+            "delta": 0.042,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.188,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.229,
@@ -3149,10 +3141,25 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Will Silver Take Off Before the End of 2026?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/commodities/articles/silver-off-end-2026-192404383.html",
+              "published_at": "2026-09-07T19:24:04Z",
+              "summary": "Economic and political uncertainty could lead to a surge in silver prices later this year."
+            },
             {
               "headline": "Tertiary Minerals MD: 'Really very impressive' grades as Mushima North deepens",
               "source": "Proactive",
@@ -3201,13 +3208,6 @@
               "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-september-4-2026-silver-prices-rising-ahead-of-august-jobs-report-111120686.html",
               "published_at": "2026-09-04T11:11:20Z",
               "summary": "Silver opened at $67.63 per ounce on Friday, September 4, 2026, down 0.1% from Thursday's closing price. Silver prices were steady this morning, reaching $67.45 as of 6:59 a.m. ET."
-            },
-            {
-              "headline": "Gold Holds Near $4,500 as Markets Await U.S. Employment Data",
-              "source": "InvestorsHub",
-              "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-500-085530762.html",
-              "published_at": "2026-09-04T08:55:30Z",
-              "summary": "Gold prices remained close to $4,500 an ounce on Friday after rising almost 2% in the previous session, as investors awaited U. S."
             }
           ],
           "earnings": {
@@ -3516,22 +3516,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.271,
-            "label": "Positive",
-            "bullish_percent": 50.0,
-            "bearish_percent": 12.5,
+            "score": 0.125,
+            "label": "Neutral",
+            "bullish_percent": 37.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.104,
+            "delta": -0.146,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": -0.167,
-                "label": "Neutral",
-                "bullish_percent": 12.5,
-                "bearish_percent": 37.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": -0.017,
@@ -3763,10 +3755,39 @@
                 "bullish_percent": 50.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Shell Climbs 1.3% as $97 Oil Supercharges Its $21 Billion Cash Engine",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/energy/articles/shell-climbs-1-3-97-214842303.html",
+              "published_at": "2026-09-07T21:48:42Z",
+              "summary": "Commodity upside is immediate, although conflict can simultaneously raise transportation, insurance and operating costs."
+            },
+            {
+              "headline": "Deutsche Bank Sees Stark Risk for Stock Market",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-sees-stark-risk-214719966.html",
+              "published_at": "2026-09-07T21:47:19Z",
+              "summary": "Deutsche Bank's warning exposes fragile assumption supporting today's stock market"
+            },
+            {
+              "headline": "Rosneft Ships First Crude From $157 Billion Vostok Oil Project",
+              "source": "Oilprice.com",
+              "url": "https://finance.yahoo.com/energy/articles/rosneft-ships-first-crude-157-210000440.html",
+              "published_at": "2026-09-07T21:00:00Z",
+              "summary": "The project reinforces Russia’s energy pivot toward Asia and the Arctic, with the Northern Sea Route becoming increasingly important for future exports."
+            },
             {
               "headline": "PBF Energy Rises 168% in a Year: Is This the Right Time to Buy?",
               "source": "Zacks",
@@ -3801,27 +3822,6 @@
               "url": "https://finance.yahoo.com/markets/world-indices/articles/tech-firms-rally-mixed-day-031507012.html",
               "published_at": "2026-09-07T15:52:03Z",
               "summary": "Technology firms rallied on stock markets Monday, with traders gearing up for key US inflation data this week that could lock in a September interest rate rise from the Federal Reserve.\"But investors are having to contend with the potential for an interest rate hike at the US Federal Reserve's meeting later this month.\""
-            },
-            {
-              "headline": "U.S. Gasoline Prices Hit Labor Day Record",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/business/energy-oil/u-s-gasoline-prices-hit-labor-day-record-1a789682?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-07T15:33:00Z",
-              "summary": "American drivers were paying record Labor Day prices at the pump as more expensive crude and supply disruptions in the Middle East and Russia tightened global markets and raised fuel costs."
-            },
-            {
-              "headline": "Oil Extends Gains on Middle East Attacks; U.S. Gas Prices at Record High for Labor Day",
-              "source": "The Wall Street Journal",
-              "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-escalation-in-u-s-iran-conflict-aab0d7fb?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-07T15:14:00Z",
-              "summary": "Oil prices extend earlier gains, with Brent crude marching toward $100 a barrel as fresh exchanges of strikes between the U.S. and Iran keep the geopolitical risk premium high."
-            },
-            {
-              "headline": "Innovation Engine Drives SharkNinja’s (SN) Sustainable Advantage",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/innovation-engine-drives-sharkninja-sn-150041521.html",
-              "published_at": "2026-09-07T15:00:41Z",
-              "summary": "Spheria Asset Management, an investment management company, released its Q2 2026 investor letter for “Spheria Global Opportunities Fund”. The letter can be downloaded here. In June 2026, the Fund returned +4.7%, underperforming the MSCI World Small Cap Accumulation Index’s 5.5% return. In the quarter, the fund returned 5.7% vs. 13.7% for the benchmark. Global equity […]"
             }
           ],
           "earnings": {
@@ -3829,10 +3829,10 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 79,
+          "score": 75,
           "rating_reasons": [
             "strong one-year trend",
-            "positive news tone"
+            "mildly positive news tone"
           ]
         }
       ]
@@ -3852,9 +3852,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 79176.62,
+          "price": 79179.45,
           "currency": "USD",
-          "market_cap": 1590126968832.0,
+          "market_cap": 1589003550720.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -3876,9 +3876,9 @@
           "number_of_analyst_opinions": null,
           "performance": {
             "one_month": 26.04,
-            "six_months": -0.82,
-            "one_year": -9.14,
-            "five_years": 69.14
+            "six_months": -0.81,
+            "one_year": -9.13,
+            "five_years": 69.15
           },
           "chart_points": [
             {
@@ -4137,22 +4137,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.125,
+            "score": 0.0,
             "label": "Neutral",
             "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.208,
+            "delta": -0.125,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.125,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.083,
@@ -4384,6 +4376,14 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -4396,53 +4396,53 @@
               "summary": "Bitcoin opened at $80,351.40 on Monday, September 7, 2026, 0.7% higher than Sunday's opening price. As of 9:41 a.m. ET this morning, the price of bitcoin moved back to $79,349.91. Ethereum opened at $2,514.80 today, up 1.4% from Sunday's opening price. The price of ethereum moved lower to $2,497.60 as of 9:41 a.m. ET."
             },
             {
-              "headline": "Nearly 4,000 BTC vanishes in major heist as hackers make a surprising promise",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/nearly-4-000-btc-vanishes-175109117.html",
-              "published_at": "2026-09-07T17:51:09Z",
-              "summary": "About $320 million in Bitcoin was withdrawn from the Liquid Network in a security incident, with the actors claiming to be white-hat hackers and offering to return most of the funds."
+              "headline": "Crypto Investors Rotate From Bitcoin Into Altcoins as Rate Risks Rise",
+              "source": "CryptoProwl",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-investors-rotate-bitcoin-altcoins-205900028.html",
+              "published_at": "2026-09-07T20:59:00Z",
+              "summary": "Crypto investors are moving into altcoins and away from Bitcoin (CRYPTO: $BTC) as markets prepare for a potentially..."
             },
             {
-              "headline": "Bitcoin sees fourth-highest daily transaction count in history",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-sees-fourth-highest-daily-171634569.html",
-              "published_at": "2026-09-07T17:16:34Z",
-              "summary": "Bitcoin recorded 893,391 on-chain transactions on Sunday, its fourth-largest daily count ever, even as the price slipped below $80,000."
-            },
-            {
-              "headline": "Bitcoin ETFs attract nearly $1 billion in a week",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-attract-nearly-1-163000001.html",
-              "published_at": "2026-09-07T16:30:00Z",
-              "summary": "U.S. spot crypto ETFs attracted $1.24 billion in weekly inflows, led by $986.85 million for Bitcoin ETFs."
-            },
-            {
-              "headline": "Analyst reveals 'easy' Bitcoin target of $1.3 million",
-              "source": "TheStreet",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/analyst-reveals-easy-bitcoin-target-155940731.html",
-              "published_at": "2026-09-07T15:59:40Z",
-              "summary": "Matt Hougan says his long-term Bitcoin price target is $1.3 million by 2035."
-            },
-            {
-              "headline": "Hyperliquid Strategies Soared by 94% in August. Should Investors Forget Bitcoin and Buy This Stock Instead?",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/hyperliquid-strategies-soared-94-august-155606307.html",
-              "published_at": "2026-09-07T15:56:06Z",
-              "summary": "Hyperliquid Strategies offers more upside than Bitcoin, but also more risk."
-            },
-            {
-              "headline": "Bitcoin Starts the Week Flat, But Chainlink Is Flying—Here's Why",
+              "headline": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
               "source": "decrypt",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-starts-week-flat-chainlink-154234766.html",
-              "published_at": "2026-09-07T15:42:34Z",
-              "summary": "LINK hit an eight-month high after Bottomline, a top-three SWIFT services provider moving $16 trillion a year, tapped Chainlink to connect 600-plus banks to blockchain settlement."
+              "url": "https://finance.yahoo.com/markets/crypto/articles/brazilian-banks-expand-crypto-offerings-203103977.html",
+              "published_at": "2026-09-07T20:31:03Z",
+              "summary": "Itaú, Nubank, and Banco do Brasil now sell more than a dozen tokens each to retail clients, even as none of them touch crypto with their own balance sheet."
             },
             {
-              "headline": "Solana Is Up 40% in a Month and XRP 39%. Which Rally Has More Behind It?",
+              "headline": "IREN Jumps 23% as Its AI Business Starts to Take Over the Story",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/iren-jumps-23-ai-business-192418866.html",
+              "published_at": "2026-09-07T19:24:18Z",
+              "summary": "AI cloud revenue surged 687% last year, giving investors a new reason to look at a company once known mainly for Bitcoin mining."
+            },
+            {
+              "headline": "Liquid Hackers Return $270M in Bitcoin After Swiping $320 Million",
+              "source": "decrypt",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/liquid-hackers-return-270m-bitcoin-191356562.html",
+              "published_at": "2026-09-07T19:13:56Z",
+              "summary": "Nearly 600 BTC remains outstanding after Blockstream told the actors in an on-chain message that Liquid’s bridge nodes had been patched."
+            },
+            {
+              "headline": "Bitcoin Is Stuck Under $82,000. What Does That Mean for XRP, Ethereum and Solana?",
               "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-40-month-xrp-39-151916067.html",
-              "published_at": "2026-09-07T15:19:16Z",
-              "summary": "Solana and XRP both surged about 40% in a month, but one rally carries a Senate vote that Polymarket prices at just 18% odds of success. The coin you pick before September 15 and a looming Fed decision could make a big difference."
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-stuck-under-82-000-190625606.html",
+              "published_at": "2026-09-07T19:06:25Z",
+              "summary": "Bitcoin has slammed into the same price wall twice in four months, and every time it gets rejected, XRP, Ethereum, and Solana pay the price. Two government decisions in consecutive days could finally break the deadlock or send the whole market back down hard."
+            },
+            {
+              "headline": "Bitcoin Just Survived the Yen Shock That Crushed Crypto 2 Years Ago",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-survived-yen-shock-190454113.html",
+              "published_at": "2026-09-07T19:04:54Z",
+              "summary": "Japan’s yen surged after a $99 billion intervention failed to do the job. Bitcoin held firm, breaking from the 2024 carry-trade selloff pattern."
+            },
+            {
+              "headline": "Vitalik Buterin has blunt response to AI crashing Bitcoin",
+              "source": "TheStreet",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/vitalik-buterin-blunt-response-ai-184344100.html",
+              "published_at": "2026-09-07T18:43:44Z",
+              "summary": "Ethereum co-founder Vitalik Buterin takes the opposite side of a provocative prediction of AI crashing Bitcoin."
             }
           ],
           "earnings": {
@@ -4450,10 +4450,9 @@
             "source": "Finnhub"
           },
           "rating": "Hold",
-          "score": 51,
+          "score": 47,
           "rating_reasons": [
-            "negative one-year trend",
-            "mildly positive news tone"
+            "negative one-year trend"
           ]
         },
         {
@@ -4466,9 +4465,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 2493.92,
+          "price": 2488.54,
           "currency": "USD",
-          "market_cap": 304525869056.0,
+          "market_cap": 303512715264.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -4489,10 +4488,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 33.08,
-            "six_months": 6.29,
-            "one_year": -15.01,
-            "five_years": -27.21
+            "one_month": 32.8,
+            "six_months": 6.06,
+            "one_year": -15.2,
+            "five_years": -27.37
           },
           "chart_points": [
             {
@@ -4751,22 +4750,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": 0.083,
+            "score": 0.0,
             "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 12.5,
+            "bullish_percent": 25.0,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.166,
+            "delta": -0.083,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.292,
-                "label": "Positive",
-                "bullish_percent": 50.0,
-                "bearish_percent": 0.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.333,
@@ -4998,6 +4989,14 @@
                 "bullish_percent": 37.5,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.0,
+                "label": "Neutral",
+                "bullish_percent": 25.0,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -5008,6 +5007,41 @@
               "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-7-2026-crypto-investors-on-rate-watch-140242204.html",
               "published_at": "2026-09-07T14:02:42Z",
               "summary": "Bitcoin opened at $80,351.40 on Monday, September 7, 2026, 0.7% higher than Sunday's opening price. As of 9:41 a.m. ET this morning, the price of bitcoin moved back to $79,349.91. Ethereum opened at $2,514.80 today, up 1.4% from Sunday's opening price. The price of ethereum moved lower to $2,497.60 as of 9:41 a.m. ET."
+            },
+            {
+              "headline": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
+              "source": "decrypt",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/brazilian-banks-expand-crypto-offerings-203103977.html",
+              "published_at": "2026-09-07T20:31:03Z",
+              "summary": "Itaú, Nubank, and Banco do Brasil now sell more than a dozen tokens each to retail clients, even as none of them touch crypto with their own balance sheet."
+            },
+            {
+              "headline": "Bitcoin Is Stuck Under $82,000. What Does That Mean for XRP, Ethereum and Solana?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-stuck-under-82-000-190625606.html",
+              "published_at": "2026-09-07T19:06:25Z",
+              "summary": "Bitcoin has slammed into the same price wall twice in four months, and every time it gets rejected, XRP, Ethereum, and Solana pay the price. Two government decisions in consecutive days could finally break the deadlock or send the whole market back down hard."
+            },
+            {
+              "headline": "Bitcoin Just Survived the Yen Shock That Crushed Crypto 2 Years Ago",
+              "source": "BeInCrypto",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-just-survived-yen-shock-190454113.html",
+              "published_at": "2026-09-07T19:04:54Z",
+              "summary": "Japan’s yen surged after a $99 billion intervention failed to do the job. Bitcoin held firm, breaking from the 2024 carry-trade selloff pattern."
+            },
+            {
+              "headline": "Vitalik Buterin has blunt response to AI crashing Bitcoin",
+              "source": "TheStreet",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/vitalik-buterin-blunt-response-ai-184344100.html",
+              "published_at": "2026-09-07T18:43:44Z",
+              "summary": "Ethereum co-founder Vitalik Buterin takes the opposite side of a provocative prediction of AI crashing Bitcoin."
+            },
+            {
+              "headline": "South Korea’s Hanwha Is Building a Tokenization Platform on Avalanche – and It Is Not Alone",
+              "source": "Forkast News",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/south-korea-hanwha-building-tokenization-181629788.html",
+              "published_at": "2026-09-07T18:16:29Z",
+              "summary": "The headline figure is eye-catching: South Korea’s Hanwha Investment & Securities, part of a conglomerate with roughly $200 billion in total assets, is building a tokenization platform on the Avalanche blockchain. But the number obscures the more important development. Hanwha is not building in isolation. It is one node in a coordinated institutional infrastructure build […]"
             },
             {
               "headline": "Ethereum’s EIP-8141 Would Let You Pay Gas Fees in Stablecoins Instead of ETH. Will It Actually Launch With Hegotá in 2027?",
@@ -5022,41 +5056,6 @@
               "url": "https://finance.yahoo.com/markets/crypto/articles/harmony-cites-ai-threats-proposed-161648133.html",
               "published_at": "2026-09-07T16:16:48Z",
               "summary": "The team wants to move ONE to Ethereum and enter the AI-video business, urging users to exit smart contracts before September 10."
-            },
-            {
-              "headline": "Bitcoin ETFs Took In $731 Million in a Day While XRP ETF Inflows Fell 83% in a Week. Is Money Rotating to Bitcoin?",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-took-731-million-122142681.html",
-              "published_at": "2026-09-07T12:21:42Z",
-              "summary": "Bitcoin ETFs just had their biggest single day since January while XRP and Ether funds slowed sharply, and analysts are calling it a rotation. But the price action tells a completely different story."
-            },
-            {
-              "headline": "Coldcard Hacker Moves $7.7M, Nearly Half of Third-Wave Bitcoin Haul",
-              "source": "decrypt",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/coldcard-hacker-moves-7-7m-110927608.html",
-              "published_at": "2026-09-07T11:09:27Z",
-              "summary": "The attacker built 293 separate vaults for the stolen Bitcoin and is emptying them in order of size, largest first."
-            },
-            {
-              "headline": "Will AI Crash Bitcoin 50%? Vitalik Buterin Weighs In",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/ai-crash-bitcoin-50-vitalik-105128526.html",
-              "published_at": "2026-09-07T10:51:28Z",
-              "summary": "Vitalik Buterin rejects a 50% AI-driven Bitcoin crash call and says 90% of his net worth already takes the opposite side."
-            },
-            {
-              "headline": "Bitcoin Crash? 90% of Buterin’s Net Worth Opposes AI",
-              "source": "Cryptonews",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-crash-90-buterin-net-102234862.html",
-              "published_at": "2026-09-07T10:22:34Z",
-              "summary": "Vitalik Buterin has rejected a forecast that artificial intelligence could cut Bitcoin price by more than half within two years. The Ethereum co-founder said his existing crypto holdings already place roughly 90% of his net worth on the opposite side of that view.Bitcoin is at just under $80,000 after reaching ..."
-            },
-            {
-              "headline": "Arthur Hayes Buys $2 Million in Uniswap (UNI) Over Two Days With No Catalyst in Sight",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/arthur-hayes-buys-2-million-101824761.html",
-              "published_at": "2026-09-07T10:18:24Z",
-              "summary": "Arthur Hayes UNI buying topped $2 million in two days. An Etherscan-labeled wallet holds 284,102 tokens as UNI trades near $7.18, up 2.55%."
             }
           ],
           "earnings": {
@@ -5079,9 +5078,9 @@
           "sector": null,
           "industry": null,
           "summary": null,
-          "price": 103.81,
+          "price": 103.79,
           "currency": "USD",
-          "market_cap": 60889022464.0,
+          "market_cap": 60890640384.0,
           "enterprise_value": null,
           "dividend_yield": null,
           "beta": null,
@@ -5102,10 +5101,10 @@
           "analyst_target_mean": null,
           "number_of_analyst_opinions": null,
           "performance": {
-            "one_month": 39.27,
-            "six_months": 23.45,
-            "one_year": -15.69,
-            "five_years": -40.05
+            "one_month": 39.24,
+            "six_months": 23.43,
+            "one_year": -15.7,
+            "five_years": -40.06
           },
           "chart_points": [
             {
@@ -5366,20 +5365,12 @@
             "available": true,
             "score": 0.208,
             "label": "Neutral",
-            "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
+            "bullish_percent": 37.5,
+            "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.083,
+            "delta": 0.0,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.208,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.25,
@@ -5611,10 +5602,32 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.208,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
           "latest_news": [
+            {
+              "headline": "Solana set to triple transaction capacity with new upgrade",
+              "source": "TheStreet",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/solana-set-triple-transaction-capacity-205334468.html",
+              "published_at": "2026-09-07T20:53:34Z",
+              "summary": "Solana is raising its maximum transaction size from 1,232 to 4,096 bytes this Wednesday, letting complex operations fit in a single transaction."
+            },
+            {
+              "headline": "Bitcoin Is Stuck Under $82,000. What Does That Mean for XRP, Ethereum and Solana?",
+              "source": "24/7 Wall St.",
+              "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-stuck-under-82-000-190625606.html",
+              "published_at": "2026-09-07T19:06:25Z",
+              "summary": "Bitcoin has slammed into the same price wall twice in four months, and every time it gets rejected, XRP, Ethereum, and Solana pay the price. Two government decisions in consecutive days could finally break the deadlock or send the whole market back down hard."
+            },
             {
               "headline": "Viral TikTok Meme Coin BIPOLAR Launches Tomorrow. But There’s a Trap",
               "source": "BeInCrypto",
@@ -5656,20 +5669,6 @@
               "url": "https://finance.yahoo.com/markets/crypto/articles/solana-sol-eyes-rally-120-224703639.html",
               "published_at": "2026-09-06T22:47:03Z",
               "summary": "Solana (SOL) is targeting a near-term rally toward the $120 level, as bulls successfully defended the key $100 psychological support and 200-day EMA. Bolstered by a 10-week streak of positive ETF inflows and surging on-chain app revenue, the rally seems poised to keep going."
-            },
-            {
-              "headline": "The House Leaves Washington Two Days After the CLARITY Act Vote. What That Means for XRP",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/house-leaves-washington-two-days-172741914.html",
-              "published_at": "2026-09-06T17:27:41Z",
-              "summary": "XRP surged 35% in a month betting on a bill that needs three votes to become law, and the House just left Washington before two of them."
-            },
-            {
-              "headline": "Mark Yusko Dumps 90% Of Solana, Warns Of More Pain For BTC — But Half His Wealth In Still In Bitcoin",
-              "source": "Stocktwits",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/mark-yusko-dumps-90-solana-150908290.html",
-              "published_at": "2026-09-06T15:09:08Z",
-              "summary": "Yusko said he sold 90% of his Solana holdings after getting back about 1,000 times what he put in."
             }
           ],
           "earnings": {
@@ -5986,22 +5985,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": -0.058,
-            "label": "Neutral",
-            "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
+            "score": 0.292,
+            "label": "Positive",
+            "bullish_percent": 50.0,
+            "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.016,
+            "delta": 0.35,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.125,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 12.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.188,
@@ -6233,6 +6224,14 @@
                 "bullish_percent": 25.0,
                 "bearish_percent": 12.5,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.292,
+                "label": "Positive",
+                "bullish_percent": 50.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -6245,53 +6244,53 @@
               "summary": "Two questions are set to lead the week: Will the data push the Fed toward a rate hike, and what can Oracle tell Wall Street about the state of Big Tech's AI debt load?"
             },
             {
-              "headline": "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/ibb-just-beat-p-500-162205004.html",
-              "published_at": "2026-09-07T16:22:05Z",
-              "summary": "Biotech just staged one of its sharpest reversals in years, and whether you caught it or completely missed it, the same uncomfortable question now sits in front of every portfolio: does the trade still have teeth, or did the easy money already leave?"
+              "headline": "Sandisk Soars Nearly 12% Before Joining the S&P 100",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-soars-nearly-12-joining-215620577.html",
+              "published_at": "2026-09-07T21:56:20Z",
+              "summary": "Friday's rally made Sandisk the S&P 500's top performer before its September 21 index promotion."
             },
             {
-              "headline": "Philips Expands Women's Health Ultrasound Portfolio With New Transducer",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/healthcare/articles/philips-expands-womens-health-ultrasound-162000921.html",
-              "published_at": "2026-09-07T16:20:00Z",
-              "summary": "PHG broadens women's health ultrasound portfolio with the eV14-2v, offering enhanced imaging, a lighter design and remote collaboration."
+              "headline": "S&P 500 Investors Brace for Brutal Holiday Pattern",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-investors-brace-brutal-215051560.html",
+              "published_at": "2026-09-07T21:50:51Z",
+              "summary": "Wall Street's return from holiday carries an unusually grim warning"
             },
             {
-              "headline": "Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close)",
-              "source": "24/7 Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/telecom-stock-dominated-2026-t-154015387.html",
-              "published_at": "2026-09-07T15:40:15Z",
-              "summary": "The 2026 telecom sector just produced a shocking reordering, with the stock everyone wrote off surging past both its rivals and the broader market by a margin that demands explanation."
+              "headline": "Walmart Gets $2.9 Billion Windfall, Makes Surprise Move",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-gets-2-9-billion-214920824.html",
+              "published_at": "2026-09-07T21:49:20Z",
+              "summary": "Walmart's enormous windfall is about to reach shoppers nationwide"
             },
             {
-              "headline": "Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-b-brk-b-153001871.html",
-              "published_at": "2026-09-07T15:30:01Z",
-              "summary": "Berkshire Hathaway B (BRK.B) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues."
+              "headline": "S&P 500 Adds 3 Surging Stocks in Major Shake-Up",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-adds-3-surging-214536624.html",
+              "published_at": "2026-09-07T21:45:36Z",
+              "summary": "Three market winners are about to gain a powerful catalyst"
             },
             {
-              "headline": "What's Wrong With PepsiCo Stock?",
+              "headline": "Could This Vanguard Growth ETF Be a No-Brainer Buy for Long-Term Investors?",
               "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/whats-wrong-pepsico-stock-152001096.html",
-              "published_at": "2026-09-07T15:20:01Z",
-              "summary": "The stock has drastically underperformed the market over the past five years."
+              "url": "https://finance.yahoo.com/markets/stocks/articles/could-vanguard-growth-etf-no-200131166.html",
+              "published_at": "2026-09-07T20:01:31Z",
+              "summary": "The Vanguard S&P 500 Growth ETF tracks the leading growth stocks on U.S. markets."
             },
             {
-              "headline": "Jabil Rises 36.2% Year to Date: Should You Buy the Stock?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html",
-              "published_at": "2026-09-07T15:20:00Z",
-              "summary": "JBL's AI infrastructure growth and diversified portfolio are fueling gains, but supply chain risks and customer concentration remain key concerns."
+              "headline": "Nvidia Stock: Is It Still a Good Buy at $230?",
+              "source": "Motley Fool",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-still-good-buy-192001219.html",
+              "published_at": "2026-09-07T19:20:01Z",
+              "summary": "The company is coming off yet another terrific quarterly earnings report."
             },
             {
-              "headline": "Onfolio Q2 Loss Widens Y/Y as Revenues Fall & Cash Remains Tight",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/onfolio-q2-loss-widens-y-150900330.html",
-              "published_at": "2026-09-07T15:09:00Z",
-              "summary": "ONFO's Q2 revenues fall 52% as B2B and B2C sales decline, loss widens and liquidity remains tight despite lower operating costs."
+              "headline": "Illumina and Everpure to Join S&P 500 in September Rebalancing: What it Means for Investors",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/illumina-everpure-join-p-500-191523204.html",
+              "published_at": "2026-09-07T19:15:23Z",
+              "summary": "Illumina, Inc. (NASDAQ:ILMN) and Everpure, Inc. (NYSE:P) are set to join the S&P 500 as part of the index’s quarterly rebalancing, with the changes taking effect before the market opens on September 21. Both companies will replace Builders FirstSource and The Trade Desk. Both companies are moving up from the S&P MidCap 400. The change […]"
             }
           ],
           "earnings": {
@@ -6299,10 +6298,11 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 75,
+          "score": 83,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive"
+            "six-month momentum is supportive",
+            "positive news tone"
           ]
         },
         {
@@ -6600,22 +6600,14 @@
           "valuation_history": [],
           "sentiment": {
             "available": true,
-            "score": -0.042,
+            "score": 0.125,
             "label": "Neutral",
-            "bullish_percent": 12.5,
-            "bearish_percent": 25.0,
+            "bullish_percent": 37.5,
+            "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.0,
+            "delta": 0.167,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.042,
-                "label": "Neutral",
-                "bullish_percent": 37.5,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": -0.25,
@@ -6847,6 +6839,14 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": 0.125,
+                "label": "Neutral",
+                "bullish_percent": 37.5,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -6866,46 +6866,46 @@
               "summary": "Two questions are set to lead the week: Will the data push the Fed toward a rate hike, and what can Oracle tell Wall Street about the state of Big Tech's AI debt load?"
             },
             {
+              "headline": "Is Occidental Petroleum Stock Outperforming the Nasdaq?",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/occidental-petroleum-stock-outperforming-nasdaq-144429014.html",
+              "published_at": "2026-09-07T14:44:29Z",
+              "summary": "Though Occidental Petroleum has outpaced the broader Nasdaq Composite over the past year, Wall Street analysts cautiously strongly optimistic about the stock’s prospects."
+            },
+            {
+              "headline": "Is Republic Services Stock Underperforming the Nasdaq?",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/republic-services-stock-underperforming-nasdaq-142921592.html",
+              "published_at": "2026-09-07T14:29:21Z",
+              "summary": "Republic Services has underperformed the Nasdaq over the past year, but analysts are cautiously optimistic about the stock’s prospects."
+            },
+            {
+              "headline": "Is PG&E Corporation Stock Underperforming the Nasdaq?",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/pg-e-corporation-stock-underperforming-140648567.html",
+              "published_at": "2026-09-07T14:06:48Z",
+              "summary": "PG&E Corporation has underperformed the Nasdaq Composite over the past year, and analysts remain somewhat bullish about the stock’s outlook."
+            },
+            {
+              "headline": "Is Emerson Electric Stock Outperforming the Nasdaq?",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/emerson-electric-stock-outperforming-nasdaq-124025831.html",
+              "published_at": "2026-09-07T12:40:25Z",
+              "summary": "Emerson Electric has outperformed the Nasdaq Composite over the past three months, and analysts are moderately bullish about EMR stock."
+            },
+            {
+              "headline": "Is MetLife Outperforming the Nasdaq?",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/metlife-outperforming-nasdaq-122006648.html",
+              "published_at": "2026-09-07T12:20:06Z",
+              "summary": "MetLife has outperformed the broader market over the past year, while analysts remain somewhat bullish on its future prospects."
+            },
+            {
               "headline": "The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street",
               "source": "Motley Fool",
               "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-flashing-warning-seen-102000647.html",
               "published_at": "2026-09-07T10:20:00Z",
               "summary": "The S&P 500 CAPE ratio is a useful valuation tool to determine whether the market is expensive or fairly priced."
-            },
-            {
-              "headline": "Is Welltower Stock Outperforming the Nasdaq?",
-              "source": "Barchart",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/welltower-stock-outperforming-nasdaq-085554256.html",
-              "published_at": "2026-09-07T08:55:54Z",
-              "summary": "Despite WELL’s strong outperformance relative to the Nasdaq Composite over the past year, Wall Street analysts remain very bullish on the stock’s prospects."
-            },
-            {
-              "headline": "History Says There Are $8.3 Trillion Reasons the Trump Bull Market Is on Thin Ice",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/history-says-8-3-trillion-082601757.html",
-              "published_at": "2026-09-07T08:26:01Z",
-              "summary": "Investors are piling into safe-haven assets at a historically worrisome pace."
-            },
-            {
-              "headline": "Why Is The Crypto Market Down Today?",
-              "source": "BeInCrypto",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/why-crypto-market-down-today-035710630.html",
-              "published_at": "2026-09-07T05:30:07Z",
-              "summary": "The crypto market is down 0.73% with no Monday open to settle it, and Fed hike odds are climbing nine days out."
-            },
-            {
-              "headline": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-              "source": "Investor's Business Daily",
-              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
-              "published_at": "2026-09-07T03:06:47Z",
-              "summary": "Dow Jones futures: The U.S. and Iran exchanged attacks. Nvidia, Micron, Sandisk are buys, but for how long? Apple, inflation data loom."
-            },
-            {
-              "headline": "Inflation, Apple, Adobe, Oracle, Macy’s, and More to Watch This Week",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/inflation-apple-adobe-oracle-macys-and-more-to-watch-this-week-23a2c022?siteid=yhoof2&yptr=yahoo",
-              "published_at": "2026-09-06T18:00:00Z",
-              "summary": "The consumer price index release on Friday could be the most consequential economic data release in many years. Apple will hold an event, and we’ll see earnings from Casey’s General, Krogers, Academy Sports, and others."
             }
           ],
           "earnings": {
@@ -6913,10 +6913,11 @@
             "source": "Finnhub"
           },
           "rating": "Buy",
-          "score": 75,
+          "score": 79,
           "rating_reasons": [
             "strong one-year trend",
-            "six-month momentum is supportive"
+            "six-month momentum is supportive",
+            "mildly positive news tone"
           ]
         },
         {
@@ -7220,16 +7221,8 @@
             "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.042,
+            "delta": 0.0,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": -0.208,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 37.5,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": -0.062,
@@ -7461,6 +7454,14 @@
                 "bullish_percent": 12.5,
                 "bearish_percent": 25.0,
                 "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
+                "score": -0.042,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
               }
             ]
           },
@@ -7478,6 +7479,13 @@
               "url": "https://finance.yahoo.com/markets/stocks/articles/nike-just-got-kicked-elite-180300976.html",
               "published_at": "2026-09-07T18:03:00Z",
               "summary": "The sneaker giant’s stock collapse has real consequences."
+            },
+            {
+              "headline": "Is Roper Technologies Stock Underperforming the Dow?",
+              "source": "Barchart",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/roper-technologies-stock-underperforming-dow-142218550.html",
+              "published_at": "2026-09-07T14:22:18Z",
+              "summary": "Roper Technologies has notably underperformed the Dow over the past year, but analysts are cautiously optimistic about the stock’s prospects."
             },
             {
               "headline": "Oil Higher on Hormuz Escalation, Weighing on Sentiment",
@@ -7513,13 +7521,6 @@
               "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hike-may-cards-152601199.html",
               "published_at": "2026-09-06T15:26:01Z",
               "summary": "History implores investors not to miss the forest for the trees."
-            },
-            {
-              "headline": "The Stock Market Is Doing Something for Only the 2nd Time in Nearly 156 Years, and History Says It Foreshadows Disaster for Wall Street",
-              "source": "Motley Fool",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-doing-something-only-105601675.html",
-              "published_at": "2026-09-06T10:56:01Z",
-              "summary": "Even the direst warnings on Wall Street can offer a silver lining for long-term investors."
             }
           ],
           "earnings": {
@@ -7841,16 +7842,8 @@
             "bearish_percent": 25.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": -0.041,
+            "delta": 0.0,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": 0.083,
-                "label": "Neutral",
-                "bullish_percent": 25.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": 0.083,
@@ -8077,6 +8070,14 @@
               },
               {
                 "timestamp": "2026-09-07T18:15:17.624504+00:00",
+                "score": 0.042,
+                "label": "Neutral",
+                "bullish_percent": 12.5,
+                "bearish_percent": 25.0,
+                "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
                 "score": 0.042,
                 "label": "Neutral",
                 "bullish_percent": 12.5,
@@ -8457,14 +8458,6 @@
             "delta": 0.0,
             "history": [
               {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": -0.25,
-                "label": "Negative",
-                "bullish_percent": 0.0,
-                "bearish_percent": 37.5,
-                "articles_last_week": 8
-              },
-              {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": -0.25,
                 "label": "Negative",
@@ -8690,6 +8683,14 @@
               },
               {
                 "timestamp": "2026-09-07T18:15:17.624504+00:00",
+                "score": -0.167,
+                "label": "Neutral",
+                "bullish_percent": 0.0,
+                "bearish_percent": 37.5,
+                "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
                 "score": -0.167,
                 "label": "Neutral",
                 "bullish_percent": 0.0,
@@ -9067,16 +9068,8 @@
             "bearish_percent": 0.0,
             "articles_last_week": 8,
             "source": "Yahoo Finance",
-            "delta": 0.084,
+            "delta": 0.0,
             "history": [
-              {
-                "timestamp": "2026-08-24T19:48:13.099414+00:00",
-                "score": -0.104,
-                "label": "Neutral",
-                "bullish_percent": 0.0,
-                "bearish_percent": 25.0,
-                "articles_last_week": 8
-              },
               {
                 "timestamp": "2026-08-25T08:01:28.729033+00:00",
                 "score": -0.104,
@@ -9303,6 +9296,14 @@
               },
               {
                 "timestamp": "2026-09-07T18:15:17.624504+00:00",
+                "score": 0.292,
+                "label": "Positive",
+                "bullish_percent": 50.0,
+                "bearish_percent": 0.0,
+                "articles_last_week": 8
+              },
+              {
+                "timestamp": "2026-09-07T22:05:33.079893+00:00",
                 "score": 0.292,
                 "label": "Positive",
                 "bullish_percent": 50.0,
@@ -9724,22 +9725,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": 0.125,
+        "score": 0.042,
         "label": "Neutral",
-        "bullish_percent": 37.5,
-        "bearish_percent": 0.0,
+        "bullish_percent": 12.5,
+        "bearish_percent": 25.0,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": 0.125,
+        "delta": -0.083,
         "history": [
-          {
-            "timestamp": "2026-08-24T19:48:13.099414+00:00",
-            "score": 0.083,
-            "label": "Neutral",
-            "bullish_percent": 37.5,
-            "bearish_percent": 12.5,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-08-25T08:01:28.729033+00:00",
             "score": 0.083,
@@ -9971,65 +9964,73 @@
             "bullish_percent": 37.5,
             "bearish_percent": 0.0,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-09-07T22:05:33.079893+00:00",
+            "score": 0.042,
+            "label": "Neutral",
+            "bullish_percent": 12.5,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "Apple Faces Its Biggest iPhone Test in Years -- Morgan Stanley Sees $14B Foldable Opportunity",
+          "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
           "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-faces-biggest-iphone-test-174840294.html",
-          "published_at": "2026-09-07T17:48:40Z",
-          "summary": "Apple Set for Major iPhone Shake-Up as Foldable Model Targets $14B Revenue Opportunity"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html",
+          "published_at": "2026-09-07T21:58:55Z",
+          "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
         },
         {
-          "headline": "DELL Expands Consumer PC Reach: Can It Challenge HPQ & AAPL?",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dell-expands-consumer-pc-reach-165000055.html",
-          "published_at": "2026-09-07T16:50:00Z",
-          "summary": "Dell Technologies broadens its consumer PC reach with the affordable Dell 14S as PC demand improves and competition from HP and Apple intensifies."
+          "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/articles/apples-54-billion-iphone-engine-215612819.html",
+          "published_at": "2026-09-07T21:56:12Z",
+          "summary": "AI servers are absorbing premium memory capacity while Apple tries to protect hardware margins."
         },
         {
-          "headline": "The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/technology/articles/real-satellite-race-isn-t-164104767.html",
-          "published_at": "2026-09-07T16:41:04Z",
-          "summary": "The satellite race everyone is watching plays out on launchpads, but the contest that determines who profits runs through a far less visible battlefield: the radio frequencies fighting to reach the phone in your pocket."
-        },
-        {
-          "headline": "Is Adobe's Stock Heading for $300?",
+          "headline": "Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/adobes-stock-heading-300-162229587.html",
-          "published_at": "2026-09-07T16:22:29Z",
-          "summary": "The tech stock has been quietly rallying for the past few months."
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tim-cook-delivered-2-720-215500276.html",
+          "published_at": "2026-09-07T21:55:00Z",
+          "summary": "Apple is facing some pressure, but there's a lot to be excited about."
         },
         {
-          "headline": "There Are Only a Handful of Nasdaq-100 Stocks That Yield Over 3%. Here's My Top Pick to Buy Now.",
+          "headline": "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apples-320-stock-faces-huaweis-214227363.html",
+          "published_at": "2026-09-07T21:42:27Z",
+          "summary": "Two Chinese rivals unveiled premium foldables before Wednesday's Apple event, raising the competitive stakes in its most difficult major market."
+        },
+        {
+          "headline": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-1-2-million-212521924.html",
+          "published_at": "2026-09-07T21:25:21Z",
+          "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely."
+        },
+        {
+          "headline": "Jim Cramer Wants Nvidia to Buy Back $500 Billion. Can Apple’s Playbook Work?",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-wants-nvidia-buy-203415967.html",
+          "published_at": "2026-09-07T20:34:15Z",
+          "summary": "Jim Cramer wants NVIDIA Corporation (NASDAQ:NVDA) to authorize a $500 billion buyback and purchase shares daily. His September 1 Mad Money argument points to Apple Inc. (NASDAQ:AAPL) as the model. Both businesses return substantial capital, but their cash demands complicate copying the same strategy. Nvidia’s quarterly filing shows $99.3 billion of remaining authorization at July […]"
+        },
+        {
+          "headline": "KeyBanc Delivers Stark Warning on Apple Stock Ahead of iPhone 18 Launch",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/keybanc-delivers-stark-warning-apple-191353530.html",
+          "published_at": "2026-09-07T19:13:53Z",
+          "summary": "KeyBanc Warns iPhone 18 Launch Could Hit Stock"
+        },
+        {
+          "headline": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways. Here's Why That's Not the Same as Owning Nvidia.",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/only-handful-nasdaq-100-stocks-140500834.html",
-          "published_at": "2026-09-07T14:05:00Z",
-          "summary": "For my money, Mondelez is the best bet of the Nasdaq-100's high-yield names."
-        },
-        {
-          "headline": "Is Apple Stock a Buy Now Ahead of its Product Launch Event?",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-buy-now-ahead-140000662.html",
-          "published_at": "2026-09-07T14:00:00Z",
-          "summary": "Ahead of Wednesday's launch, AAPL faces a tricky mix: strong demand, rising costs, tight supply, and a premium stock valuation."
-        },
-        {
-          "headline": "The S&P 100 ETF Just Dumped Nike and Colgate for 4 AI Stocks. Here’s What That Means for Your Portfolio",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/p-100-etf-just-dumped-135256184.html",
-          "published_at": "2026-09-07T13:52:56Z",
-          "summary": "The iShares S&P 100 ETF just swapped out a toothpaste giant and a mall REIT for four AI infrastructure plays, and the move reveals something uncomfortable about what this so-called blue-chip fund has quietly become."
-        },
-        {
-          "headline": "Apple Just Made a Move Most Investors Overlooked. This Is Why I Keep Buying The Stock",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-made-move-most-135135226.html",
-          "published_at": "2026-09-07T13:51:35Z",
-          "summary": "Apple quietly broke its own product release playbook, and most investors scrolled right past the announcement without realizing what it signals for the decade ahead."
+          "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-owns-ai-exposure-185000606.html",
+          "published_at": "2026-09-07T18:50:00Z",
+          "summary": "Why doesn't Berkshire own the top AI stock?"
         }
       ],
       "earnings": {
@@ -10037,7 +10038,7 @@
         "source": "Finnhub"
       },
       "rating": "Buy",
-      "score": 91,
+      "score": 87,
       "rating_reasons": [
         "solid revenue growth",
         "high net margins",
@@ -10377,22 +10378,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": -0.017,
+        "score": 0.042,
         "label": "Neutral",
         "bullish_percent": 25.0,
-        "bearish_percent": 12.5,
+        "bearish_percent": 25.0,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": -0.017,
+        "delta": 0.059,
         "history": [
-          {
-            "timestamp": "2026-08-24T19:48:13.099414+00:00",
-            "score": 0.292,
-            "label": "Positive",
-            "bullish_percent": 62.5,
-            "bearish_percent": 0.0,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-08-25T08:01:28.729033+00:00",
             "score": 0.208,
@@ -10624,6 +10617,14 @@
             "bullish_percent": 25.0,
             "bearish_percent": 12.5,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-09-07T22:05:33.079893+00:00",
+            "score": 0.042,
+            "label": "Neutral",
+            "bullish_percent": 25.0,
+            "bearish_percent": 25.0,
+            "articles_last_week": 8
           }
         ]
       },
@@ -10634,6 +10635,41 @@
           "url": "https://finance.yahoo.com/video/weight-loss-just-beginning-glp-100000472.html",
           "published_at": "2026-09-07T10:00:00Z",
           "summary": "Yahoo Finance Executive Editor Brian Sozzi chats with Novo Nordisk CEO Mike Doustdar about the true timeline for how GLP-1s will impact the food and airline industries, and what the future of weight loss and preventative health looks like over the next decade."
+        },
+        {
+          "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html",
+          "published_at": "2026-09-07T21:58:55Z",
+          "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
+        },
+        {
+          "headline": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+          "source": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-1-2-million-212521924.html",
+          "published_at": "2026-09-07T21:25:21Z",
+          "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely."
+        },
+        {
+          "headline": "Nvidia CEO Says Human-Level AI Is Here. He Sells the Chips.",
+          "source": "BeInCrypto",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-says-human-level-212323583.html",
+          "published_at": "2026-09-07T21:23:23Z",
+          "summary": "Huang told the G20 we were practically at AGI. Four days later he said it had arrived. Nobody can referee him."
+        },
+        {
+          "headline": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
+          "published_at": "2026-09-07T19:26:52Z",
+          "summary": "An unprecedented construction wave could reshape AI's biggest stock-market winners"
+        },
+        {
+          "headline": "Microsoft Has a $1,000 Problem With Its Next Xbox",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/articles/microsoft-1-000-problem-next-192040075.html",
+          "published_at": "2026-09-07T19:20:40Z",
+          "summary": "Microsoft is developing Project Helix as its next-generation Xbox"
         },
         {
           "headline": "IREN’s AI Pricing Is Exploding — Why the Neocloud’s $2.6 Billion Contract Base Could Scale Dramatically",
@@ -10648,41 +10684,6 @@
           "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-close-time-high-number-154550712.html",
           "published_at": "2026-09-07T15:45:50Z",
           "summary": "Microsoft sits within reach of a record high, yet one line item buried in its cash flow statement could either launch the stock through that ceiling or keep it rangebound for another year."
-        },
-        {
-          "headline": "Jabil Rises 36.2% Year to Date: Should You Buy the Stock?",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jabil-rises-36-2-date-152000660.html",
-          "published_at": "2026-09-07T15:20:00Z",
-          "summary": "JBL's AI infrastructure growth and diversified portfolio are fueling gains, but supply chain risks and customer concentration remain key concerns."
-        },
-        {
-          "headline": "Bernie Sanders Wants to Ban Superintelligence. What It Means for Microsoft and Amazon",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/bernie-sanders-wants-ban-superintelligence-145733495.html",
-          "published_at": "2026-09-07T14:57:33Z",
-          "summary": "Senator Bernie Sanders and Representative Greg Casar announced forthcoming legislation on September 3 that would permanently ban artificial superintelligence and temporarily pause advanced AI development until a federal regulator sets safety rules. The proposal would also direct the United States to pursue international agreements and establish penalties for violations. Microsoft Corporation (NASDAQ:MSFT) and Amazon.com, Inc. […]"
-        },
-        {
-          "headline": "CRWV Stock Takes a 13% Hit in 3 Months: Time to Buy, Hold or Bail Out?",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/crwv-stock-takes-13-hit-144200522.html",
-          "published_at": "2026-09-07T14:42:00Z",
-          "summary": "CoreWeave's huge AI-cloud backlog fuels growth, but soaring capital spending, debt and losses raise questions about its next move."
-        },
-        {
-          "headline": "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amd-behind-ai-chip-shift-144057045.html",
-          "published_at": "2026-09-07T14:40:57Z",
-          "summary": "AMD and NVIDIA both posted explosive AI quarters, but they are betting on opposite visions of how the AI economy will actually be won. One of those visions fits the next phase of the buildout far better than the market currently appreciates."
-        },
-        {
-          "headline": "Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-building-trillion-dollar-141519995.html",
-          "published_at": "2026-09-07T14:15:19Z",
-          "summary": "Azure just crossed a revenue milestone that caught Wall Street off guard, and Microsoft's backlog tells a story the headline numbers barely hint at. Whether the stock can push toward $600 depends on one number that most investors are not watching closely enough."
         }
       ],
       "earnings": {
@@ -11039,22 +11040,14 @@
       ],
       "sentiment": {
         "available": true,
-        "score": -0.042,
-        "label": "Neutral",
-        "bullish_percent": 12.5,
-        "bearish_percent": 25.0,
+        "score": 0.25,
+        "label": "Positive",
+        "bullish_percent": 50.0,
+        "bearish_percent": 12.5,
         "articles_last_week": 8,
         "source": "Yahoo Finance",
-        "delta": -0.209,
+        "delta": 0.292,
         "history": [
-          {
-            "timestamp": "2026-08-24T19:48:13.099414+00:00",
-            "score": 0.0,
-            "label": "Neutral",
-            "bullish_percent": 25.0,
-            "bearish_percent": 12.5,
-            "articles_last_week": 8
-          },
           {
             "timestamp": "2026-08-25T08:01:28.729033+00:00",
             "score": -0.167,
@@ -11286,65 +11279,73 @@
             "bullish_percent": 12.5,
             "bearish_percent": 25.0,
             "articles_last_week": 8
+          },
+          {
+            "timestamp": "2026-09-07T22:05:33.079893+00:00",
+            "score": 0.25,
+            "label": "Positive",
+            "bullish_percent": 50.0,
+            "bearish_percent": 12.5,
+            "articles_last_week": 8
           }
         ]
       },
       "latest_news": [
         {
-          "headline": "2 Safe High-Yield Energy Dividend Stocks You've Probably Never Heard Of",
+          "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-leads-august-rally-215855985.html",
+          "published_at": "2026-09-07T21:58:55Z",
+          "summary": "Palantir Crushes Tech Stocks in August: Salesforce Nears 40% Gain, Super Micro Jumps"
+        },
+        {
+          "headline": "Nvidia Insider Makes Stunning $410 Million Stock Move",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-insider-makes-stunning-410-215800599.html",
+          "published_at": "2026-09-07T21:58:00Z",
+          "summary": "The enormous insider transaction carries one crucial piece of context"
+        },
+        {
+          "headline": "Tencent Slips 1% While Its AI-Chip Bet Attacks Nvidia's China Moat",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/tencent-slips-1-while-ai-215226124.html",
+          "published_at": "2026-09-07T21:52:26Z",
+          "summary": "Enflame's explosive growth offers strategic upside, but Tencent's own AI spending is already consuming free cash flow."
+        },
+        {
+          "headline": "Nvidia Gets a $1.47 Billion Supplier Cushion Without Spending a Dollar",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-gets-1-47-billion-215008444.html",
+          "published_at": "2026-09-07T21:50:08Z",
+          "summary": "Wistron is selling equity to fund raw materials and production surrounding Nvidia's AI systems."
+        },
+        {
+          "headline": "Applied Digital Won't Collect Most of Its Rent Until 2029. I'd Wait to Buy the Stock.",
           "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/energy/articles/2-safe-high-yield-energy-175000575.html",
-          "published_at": "2026-09-07T17:50:00Z",
-          "summary": "Kimbell Royalty Partners and The Williams Companies deserve a lot more attention."
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-wont-collect-most-214901018.html",
+          "published_at": "2026-09-07T21:49:01Z",
+          "summary": "About $36 billion of 15-year contracted rent is on the books -- but almost none of it arrives until billions more in construction gets finished."
         },
         {
-          "headline": "Jim Cramer Explains Why “Buyers Flocked in” for Dell (DELL)",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-buyers-174139489.html",
-          "published_at": "2026-09-07T17:41:39Z",
-          "summary": "During the September 2 episode of Mad Money, Jim Cramer turned his attention to Dell Technologies Inc. (NYSE:DELL), breaking down why buyers flocked to the stock following its earnings report as investors favored lower-multiple technology names. He commented: What’s going on right now is that big money managers are fleeing stocks with high price to […]"
+          "headline": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
+          "published_at": "2026-09-07T21:46:01Z",
+          "summary": "The rally rewards SoftBank's concentrated AI strategy while increasing the return demanded from its $30 billion OpenAI commitment."
         },
         {
-          "headline": "Is Micron Technology Stock Running Out of Steam?",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-stock-running-steam-173231675.html",
-          "published_at": "2026-09-07T17:32:31Z",
-          "summary": "The memory stock has been struggling to get back to the highs it reached back in June."
+          "headline": "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amd-stock-jumps-unveiling-100-213621532.html",
+          "published_at": "2026-09-07T21:36:21Z",
+          "summary": "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027"
         },
         {
-          "headline": "Verizon's Share Price Is Lower Than It Was 5 Years Ago. With Dividends Reinvested, You're Up About 24%.",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/verizons-share-price-lower-5-173201576.html",
-          "published_at": "2026-09-07T17:32:01Z",
-          "summary": "Every point of the telecom giant's five-year return came from its dividend -- and the payout is still climbing."
-        },
-        {
-          "headline": "Elon Musk Owns 28% of Tesla, a Stake Worth Nearly $350 Billion. Here's Why His Ownership Level Matters for Shareholders.",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-owns-28-tesla-170700943.html",
-          "published_at": "2026-09-07T17:07:00Z",
-          "summary": "Tesla investors know it's often \"all about Elon,\" and there are pros and cons to Musk's sizable stake in the electric vehicle giant."
-        },
-        {
-          "headline": "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
+          "headline": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
           "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-moving-everyday-business-5-165250986.html",
-          "published_at": "2026-09-07T16:52:50Z",
-          "summary": "Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to keep up has created a very specific set of winners. Five companies sit at the exact bottlenecks where that buildout cannot proceed without them."
-        },
-        {
-          "headline": "Is Netflix Stock More Likely to Hit $100 or $60 by the End of 2026?",
-          "source": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-more-likely-hit-165231379.html",
-          "published_at": "2026-09-07T16:52:31Z",
-          "summary": "The streaming stock is down 38% in the past 12 months, and its valuation may look enticing to many investors."
-        },
-        {
-          "headline": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
-          "source": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-no-longer-just-chip-165014878.html",
-          "published_at": "2026-09-07T16:50:14Z",
-          "summary": "Jensen Huang calls it a full-stack AI factory platform, not a chip company, and that distinction is reshaping where billions in hyperscaler spending actually land across five companies fighting over the same supply-constrained foundation."
+          "url": "https://finance.yahoo.com/markets/stocks/articles/64-old-1-2-million-212521924.html",
+          "published_at": "2026-09-07T21:25:21Z",
+          "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely."
         }
       ],
       "earnings": {
